@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="utf-8"?>		<!-- POSITION EFFECTS -->
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			
+			<children>		<!-- DIVINE CHARGE VFX -->
+				<node id="Resource">        <!-- ANUBIS -->
+					<attribute id="BoundsMax" type="fvec3" value="10 10 7" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -13" />
+					<attribute id="Center" type="fvec3" value="0 0 -3" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="b7d72958-971d-4b5a-8585-115ecd935785" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Anubis_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="10" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Anubis_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Model | Mesh | Rock Explosion -->
+									<attribute id="Object" type="FixedString" value="fa83a158-7ce2-2241-2602-3186ca09d7d4" />
+								</node>
+								<node id="DependentResource">		<!-- Decal | Material | Ground Impact Effect -->
+									<attribute id="Object" type="FixedString" value="e27a06fb-ef00-9e4c-23b4-cd8b5bb75ad6" />
+								</node>
+								<node id="DependentResource">		<!-- Decal | Material | Necrotic Ground Effect -->
+									<attribute id="Object" type="FixedString" value="803f0120-5812-8d90-c78d-b7428b1675c6" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Smoke Ring -->
+									<attribute id="Object" type="FixedString" value="466f6f81-e33c-8d58-fee9-b149fa8540e8" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Smoke Spikes -->
+									<attribute id="Object" type="FixedString" value="022413d7-0e40-43f8-ba85-6aeeacb2a13a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Debris -->
+									<attribute id="Object" type="FixedString" value="79d3616d-254a-3073-c114-c6e0cc992b38" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Stones -->
+									<attribute id="Object" type="FixedString" value="5ac54f58-82b6-aa4e-0fb2-d45645e07954" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Shockwave -->
+									<attribute id="Object" type="FixedString" value="90173dfc-e31d-3943-22f7-15485b0b91bb" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Necrotic AoE Burst -->
+									<attribute id="Object" type="FixedString" value="27f4f916-9341-0e44-72f6-34f79e42848e" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Burst Effect -->
+									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Burst Effect -->
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">		<!-- Sound | Enter Event -->
+									<attribute id="Object" type="FixedString" value="094ee120-24aa-286b-c358-c631e48828b4" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- ASMODEUS -->
+					<attribute id="BoundsMax" type="fvec3" value="10 10 7" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -13" />
+					<attribute id="Center" type="fvec3" value="0 0 -3" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="1f084a85-daa2-49c0-b2a7-511b3be84ec7" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="10" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="de2d85ce-a0f4-9006-fd86-fcc78ad1a5a7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3536e346-c9eb-23e7-11d5-9aee10063ad6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d2ef50f5-51ef-c847-7477-58e4480f56e2" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a4f5e4d1-7009-0158-f374-023d15dd5450" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="90173dfc-e31d-3943-22f7-15485b0b91bb" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3fa3be48-0bc3-4d84-88d3-d26540a29e13" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="8a777077-94de-a112-fcbb-a435bcbd24de" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30a85d98-7aa8-3455-52cc-bad1534f93a7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="11a2794e-1ac7-4208-a28f-731c4fe2a597" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="db1ddbe1-ef65-006f-13c4-234ed238424f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bd8c1cba-f40d-5998-07e6-9608a41419ee" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="246797b9-a318-e3db-ddc9-3d658b54489f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7fda79bd-c13f-4d2d-949b-548dfeb1a927" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="47e4b5c4-f871-456c-acea-69d73ad5f191" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d78326cf-2a9b-28c4-e77c-54f9daefe4e0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5abaae5e-4e81-af08-213e-7c12fa1cc300" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="82581abf-21a9-ac60-968a-1d2319494dc2" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7a52d93-417d-938e-2fee-5625d10fb99a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c8128dd-4084-9d2c-8a60-6a056bc0115f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e768a166-f337-4d1f-fc5f-2c949e21415b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7f529093-83ec-ea78-2d7d-71bb5fa5d73c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="75828885-e6dd-3ac0-49af-edacfb0d421a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fcb946ba-dc50-d86f-429a-7ff822f55751" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="83212e3f-bdc3-9dd2-eee2-f0179d4bca5c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="88773ca1-0875-ef6b-5bde-df4f46f6cb98" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="daa2fed2-7cfc-4346-a38c-e585a3a6a30d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1809439e-e341-1108-d979-485f9badb6b3" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- CIRCE -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="4c41c590-981a-4aa7-912c-2a77aaa70094" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Circe_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Circe_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="022413d7-0e40-43f8-ba85-6aeeacb2a13a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="27f4f916-9341-0e44-72f6-34f79e42848e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- FREYA -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="5d60b67c-960e-46ea-b45e-5baee894f172" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Freya_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Freya_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- FUJIN -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="6d502e8b-8c32-4312-9e87-4e0591bd735b" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Fujin_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fujin_BVFX_Fujin_DivineCharge_PositionFX_01odyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Refraction -->
+                                    <attribute id="Object" type="FixedString" value="353e9c91-8f9c-b243-7039-0b262609ccef" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Aura -->
+                                    <attribute id="Object" type="FixedString" value="65b01850-98c6-0135-6e7c-78b362b0cf25" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Background -->
+                                    <attribute id="Object" type="FixedString" value="fb21ca3c-3b37-b5b8-86cd-c7feaead109d" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Circles -->
+                                    <attribute id="Object" type="FixedString" value="332f5caf-d6a6-b343-3a24-acbd3a0b5b30" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Pulse -->
+                                    <attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Distortion -->
+                                    <attribute id="Object" type="FixedString" value="7bdafec7-27dd-539a-e30b-3a3fb9311196" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | AoE Beat -->
+                                    <attribute id="Object" type="FixedString" value="1f1e674c-ccf6-1063-8e53-a1bfc98d5939" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Polar -->
+                                    <attribute id="Object" type="FixedString" value="68791d64-cecb-5475-0e53-564e65286aa7" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material -->
+                                    <attribute id="Object" type="FixedString" value="cf1c25e2-c57d-9362-a8b7-8b2c020a33bf" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh -->
+                                    <attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- GAIA -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="6.54" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Gaia_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="eb739895-0885-4a0e-a505-aa9e712581b6" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Gaia_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="6" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Gaia_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="43c7417a-d000-f06d-acc0-a48824ac7735" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="29c0aa1f-7de3-8dbd-be47-2aa7d4a88447" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="335abbed-2ce2-b6a7-f622-0ca4866790df" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="79d3616d-254a-3073-c114-c6e0cc992b38" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b5b29729-8a97-fc39-bdb2-176dcce22dbe" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="25c790de-e82f-c3bc-dfd2-a20247033e46" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="85618ce5-276a-8c24-31e3-5a146e2c0150" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="8692d57c-035c-9ea4-0d5f-4eb9880c5f82" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="07f142b5-7775-1fba-33c8-4df29c768833" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- MIMIR -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="c0d36715-251c-43c5-9c8d-c4fa0972995e" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Mimir_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Mimir_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparklies -->
+                                    <attribute id="Object" type="FixedString" value="e7b55705-01cd-edbd-7a8d-25321c31904d" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="b5dd8d98-46ef-79bb-478f-612b8f47c8ca" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Multiple Flares -->
+                                    <attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Tendrils -->
+                                    <attribute id="Object" type="FixedString" value="f2219a9d-d817-f816-342a-84a236ec2a00" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh Proxy | Tendrils -->
+                                    <attribute id="Object" type="FixedString" value="52c5db17-8a9e-8436-dc11-338301f99bb7" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Tendrils -->
+                                    <attribute id="Object" type="FixedString" value="f247fd65-cfa3-679c-15ad-ab21948aa11c" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Invisible -->
+                                    <attribute id="Object" type="FixedString" value="a3c36b9f-f82d-2fd7-168f-4b43038bd8ef" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Invisible -->
+                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="c78578f1-c704-032e-ac2d-f704b041c05f" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Glow -->
+                                    <attribute id="Object" type="FixedString" value="18066597-f0b8-287f-d768-017f05f2db45" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- MORRIGAN -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="fd0e2814-f279-4da0-b9b3-7804230015dd" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Morrigan_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- NOX -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nox_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="6d17f721-0ac3-4769-a446-99ef7c66914d" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Nox_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Nox_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- ODIN -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="6.55" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="bf206b8d-7640-431b-b0b4-ebd68195c26a" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Odin_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Odin_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="41cb0a8d-3d01-66d2-cd31-7e3ebe375501" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5ebf06a5-c3e5-715d-4fed-3d70b21281a2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- SOL -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="4dcb8549-726b-4763-859a-26b3dda52bd4" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Sol_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Sol_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- THOR -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="0772772e-e543-4cf8-888c-94e9eea229c4" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Thor_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thor_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Swirling Sparks -->
+                                    <attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+                                </node>			
+                                <node id="DependentResource">		<!-- Overlay Material | Material -->
+                                    <attribute id="Object" type="FixedString" value="10cdca0d-5fbc-1793-d1f9-ecd7b4897bab" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh -->
+                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- TRITON -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="96814a19-3933-49c7-80d3-7bf0fb173aac" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Triton_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Triton_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- YMIR -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="65fcb84a-3a92-4f03-9377-7cdb4a70543a" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Ymir_DivineCharge_PositionFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Ymir_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Aura -->
+                                    <attribute id="Object" type="FixedString" value="2a38d9a3-bedf-632f-bff5-1651b501950b" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Mist -->
+                                    <attribute id="Object" type="FixedString" value="165ee4b3-305c-66a3-3781-b3267afe0400" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Snowflakes -->
+                                    <attribute id="Object" type="FixedString" value="2df93534-6c0e-869d-a0ff-3313e9134113" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material -->
+                                    <attribute id="Object" type="FixedString" value="045b1ae1-14fa-13f9-878d-a060fd10b0b6" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh -->
+                                    <attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+                                </node>	
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- ZEUS -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineCharge_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="b7c58f97-6e82-4f12-b0ef-caed30605664" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Zeus_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Zeus_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+			<children>		<!-- DIVINE SHIFT VFX -->
+				<node id="Resource">        <!-- ANUBIS -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="ccacb526-9ffd-4b15-b0c9-36538c6f5475" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Anubis_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Anubis_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Backdrop -->
+                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+                                </node>				
+                                <node id="DependentResource">		<!-- Particle System | Material | Backdrop Light -->
+                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Swirl -->
+                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material -->
+                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh -->
+                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh Animation -->
+                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- ASMODEUS -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5"/>
+					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="16004544-c714-4305-b00d-0d16fa1b3dc4" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks - Reappear -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Ground Fire -->
+									<attribute id="Object" type="FixedString" value="8a777077-94de-a112-fcbb-a435bcbd24de" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Fire Flare -->
+									<attribute id="Object" type="FixedString" value="246797b9-a318-e3db-ddc9-3d658b54489f" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- CIRCE -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="b36b3d5e-8f68-41f6-bd96-77795121c3ed" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Circe_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Circe_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks - Reappear -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- FREYA -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="ebd04bbc-badb-4df6-bde3-8fc678c1e3f2" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Freya_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Freya_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">		<!-- Model | Mesh | Shockwave -->
+									<attribute id="Object" type="FixedString" value="94775888-01be-93a5-6428-03cb35f76705" />
+								</node>
+								<node id="DependentResource">		<!-- Model | Mesh | Splash -->
+									<attribute id="Object" type="FixedString" value="d00b4986-507f-bfb2-503d-1378e4004df3" />
+								</node>
+								<node id="DependentResource">		<!-- Model | Mesh | Splash? -->
+									<attribute id="Object" type="FixedString" value="ddbac220-cc1f-2b7d-3f66-ef2bd6e355e1" />
+								</node>
+								<node id="DependentResource">		<!-- Decal | Material | ?? -->
+									<attribute id="Object" type="FixedString" value="90a53ff0-4693-cafc-4f1d-703f620ca451" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks - Reappear -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Small Splash -->
+									<attribute id="Object" type="FixedString" value="0cc28111-25ba-73dc-3a28-048096ecf8cf" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Small Splash -->
+									<attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash -->
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Dark -->
+									<attribute id="Object" type="FixedString" value="2c43722a-0a68-81d4-76a1-729c094346e7" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 1 -->
+									<attribute id="Object" type="FixedString" value="c6fda780-caf8-aeec-f9ee-9e03d82da56b" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 2 -->
+									<attribute id="Object" type="FixedString" value="79c52dd2-7ff6-c48f-de45-56bf10dc416d" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 3 -->
+									<attribute id="Object" type="FixedString" value="8ea24cf5-224d-4704-4fa6-69b18f9c067b" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Final Leaf Burst -->
+									<attribute id="Object" type="FixedString" value="c6fda780-caf8-aeec-f9ee-9e03d82da56b" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Branches 1 -->
+									<attribute id="Object" type="FixedString" value="483a5210-cf0f-4b1e-114a-d16c7ea23567" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Branches 2 -->
+									<attribute id="Object" type="FixedString" value="c183925b-a170-49e9-74d6-ed89bb1881d1" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- FUJIN -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="9b2c1390-1126-4c35-92d5-d6400c81102a" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Fujin_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fujin_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks - Reappear -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+								<node id="DependentResource">		<!-- Overlay Material | Material | Thin Air -->
+									<attribute id="Object" type="FixedString" value="411e7182-7dfd-e032-7e1b-e12f50378937" />
+								</node>
+								<node id="DependentResource">		<!-- Overlay Material | Mesh | Thin Air -->
+									<attribute id="Object" type="FixedString" value="cd2bd0dc-e056-920b-0ad4-ba0bd437a8fd" />
+								</node>
+								<node id="DependentResource">		<!-- Overlay Material | Material | Air Prison -->
+									<attribute id="Object" type="FixedString" value="fa1c9b3b-9705-38e6-79c3-cc1970662184" />
+								</node>
+								<node id="DependentResource">		<!-- Overlay Material | Mesh | Air Prison -->
+									<attribute id="Object" type="FixedString" value="1745046d-dd1f-f1be-cdd4-274a162be2af" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- GAIA -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="10" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Gaia_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="81fe49d1-8995-4c68-864e-d1e95eeff6dd" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Gaia_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Gaia_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks - Reappear -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sphere Burst -->
+									<attribute id="Object" type="FixedString" value="6ed9bfc0-ce2f-e27c-803d-9cd217ec7dae" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Dust Burst -->
+									<attribute id="Object" type="FixedString" value="99807c2b-3a92-c604-65ec-e7148ebb34c3" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Rock Burst -->
+									<attribute id="Object" type="FixedString" value="5ac54f58-82b6-aa4e-0fb2-d45645e07954" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- MIMIR -->
+					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
+					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="096cf0ee-a08c-4aa0-bd6e-540840c80052" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Mimir_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Mimir_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Decal | Material | Ground Ripples -->
+									<attribute id="Object" type="FixedString" value="37d57802-deb2-20c9-c1a4-539fd8a6e6bb" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Light Burst 1 -->
+									<attribute id="Object" type="FixedString" value="4e9073d3-c903-9db0-76d1-169aaf33b43f" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Light Burst 2 -->
+									<attribute id="Object" type="FixedString" value="2af916b7-f20c-c1df-779c-5d70ec6eae16" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Horizontal Lens Flare -->
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Middle Lens Flares -->
+									<attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Large Spark Splash -->
+									<attribute id="Object" type="FixedString" value="36bea03e-9130-704c-ac42-986577511074" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Small Spark Splash  -->
+									<attribute id="Object" type="FixedString" value="9adeb8c2-4cb8-3f80-6e2c-c34cf842c900" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks  -->
+									<attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Middle Light  -->
+									<attribute id="Object" type="FixedString" value="317bf423-2205-46f1-6932-c1e980336040" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sphere  -->
+									<attribute id="Object" type="FixedString" value="e9d0aa12-9039-3235-a8ad-42bbbb044875" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Sphere  -->
+									<attribute id="Object" type="FixedString" value="7f529093-83ec-ea78-2d7d-71bb5fa5d73c" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks - Reappear -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- MORRIGAN -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="97dfa80e-b509-4368-9ae6-f6a80d06564a" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Morrigan_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks - Reappear -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Blood Splash -->
+									<attribute id="Object" type="FixedString" value="9ffbcedb-7417-0915-bbc1-d39a3f677288" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Blood Splash -->
+									<attribute id="Object" type="FixedString" value="e581a0a6-ba35-609b-c973-d07ee07c4d3c" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Blood Splash 2 -->
+									<attribute id="Object" type="FixedString" value="495aa743-ac5a-1f8a-af36-1574ec37aeb8" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Blood Splash 2 -->
+									<attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- NOX -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nox_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="95fbb78f-5810-42c4-87b7-fb49362caa09" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Nox_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Nox_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- ODIN -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3.7" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="80a9687a-2830-4102-ab46-986da7ffb9dd" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Odin_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Odin_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Billboard | Material | Background -->
+									<attribute id="Object" type="FixedString" value="fb21ca3c-3b37-b5b8-86cd-c7feaead109d" />
+								</node>
+								<node id="DependentResource">		<!-- Billboard | Material | Flare -->
+									<attribute id="Object" type="FixedString" value="d1b959e1-4a69-5fb9-3711-9d39bc5edce0" />
+								</node>
+								<node id="DependentResource">		<!-- Decal | Material | Red Ground Effect -->
+									<attribute id="Object" type="FixedString" value="43ace358-6149-2611-ed7a-5d9232e79c28" />
+								</node>
+								<node id="DependentResource">		<!-- Decal | Material | Dark Ground EFfect -->
+									<attribute id="Object" type="FixedString" value="31279149-c0cc-96dc-36cc-f3acb199af7a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Large Smoke 1 -->
+									<attribute id="Object" type="FixedString" value="aee0fb17-8805-c863-65fa-79cd520acccc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Large Smoke 2 -->
+									<attribute id="Object" type="FixedString" value="39f632d3-916c-a7c4-7972-d7ced1bc48cb" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Mushroom Cloud -->
+									<attribute id="Object" type="FixedString" value="191c04fe-53a4-6005-93ca-1caa329ee6c4" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Small Smoke -->
+									<attribute id="Object" type="FixedString" value="f60bc7b0-6a4b-862d-4940-ea4dafaa7317" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Red Smoke -->
+									<attribute id="Object" type="FixedString" value="4f5b525d-cdf7-1d04-2db5-d1f6e28c013b" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | ?? -->
+									<attribute id="Object" type="FixedString" value="8da58aa9-f985-f994-f2eb-b10766de73f7" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Dust -->
+									<attribute id="Object" type="FixedString" value="a99218c5-4da0-f9f8-8d00-05694b34b142" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks - Reappear -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- SOL -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="096124ff-be49-4b16-955d-79f461f3ba2a" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Sol_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Sol_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">		<!-- Billboard | Material | Background -->
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">		<!-- Billboard | Material | Refracting Ring -->
+									<attribute id="Object" type="FixedString" value="4e566c94-fe54-2476-5f5e-25f66ebfacbc" />
+								</node>
+								<node id="DependentResource">		<!-- Billboard | Material | Shine -->
+									<attribute id="Object" type="FixedString" value="ac4f0e21-c25b-751f-baed-7bff3ebe9faf" />
+								</node>
+								<node id="DependentResource">		<!-- Decal | Material | Fire -->
+									<attribute id="Object" type="FixedString" value="f2173d4a-db43-f58d-b7f0-eef97e66931a" />
+								</node>
+								<node id="DependentResource">		<!-- Decal | Material | White Circle Ground -->
+									<attribute id="Object" type="FixedString" value="39f6fbef-4b40-0bdb-e513-aff7232349a8" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Light Pillar Center -->
+									<attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Radial Burst -->
+									<attribute id="Object" type="FixedString" value="6124abea-f19b-225e-c033-01f268a4d873" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Radial Burst -->
+									<attribute id="Object" type="FixedString" value="43c7417a-d000-f06d-acc0-a48824ac7735" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Vertical Light Flashes -->
+									<attribute id="Object" type="FixedString" value="f392274d-c27c-cc6a-6645-f8ca4875f05d" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Light Cylinder -->
+									<attribute id="Object" type="FixedString" value="96b9c771-49b1-f6b3-f4ad-2ade98066132" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Ring -->
+									<attribute id="Object" type="FixedString" value="6ed9bfc0-ce2f-e27c-803d-9cd217ec7dae" />
+								</node>	
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks - Reappear -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- THOR -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="d034364a-f3c9-4266-9280-f63c7761c832" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Thor_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thor_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Billboard | Material | Backdrop -->
+									<attribute id="Object" type="FixedString" value="83fe3c2c-7557-b45f-e7c2-c988dc149799" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Smoke -->
+									<attribute id="Object" type="FixedString" value="9195f89c-1a32-1d51-a676-c8d0d090f2b2" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Dust -->
+									<attribute id="Object" type="FixedString" value="321de8cb-c65c-4171-4104-3bd9fe2bc307" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Shockwave -->
+									<attribute id="Object" type="FixedString" value="27d6becf-276a-309a-6a32-f0c8ac7ac980" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Shockwave -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | ? -->
+									<attribute id="Object" type="FixedString" value="5ec51b96-86a5-9694-fd5f-284a826633c7" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | ?? -->
+									<attribute id="Object" type="FixedString" value="b4b3fb6e-1b77-9431-a0ad-0503c7e28ac7" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- TRITON -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3.176021" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="08751ece-0b58-44cf-b08c-a39b5ffe23fe" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Triton_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Triton_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Particle System | Material | Water Splash  -->
+									<attribute id="Object" type="FixedString" value="0666ffbf-7041-02a2-61b5-a75758e59f36" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Shockwave -->
+									<attribute id="Object" type="FixedString" value="27d6becf-276a-309a-6a32-f0c8ac7ac980" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Shockwave -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- YMIR -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="ba3f0d17-af3b-4ffa-85b3-4c65b5a31e4a" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Ymir_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Ymir_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Particle System | Material | Snow Sparks -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparklings -->
+									<attribute id="Object" type="FixedString" value="2df93534-6c0e-869d-a0ff-3313e9134113" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash Impact -->
+									<attribute id="Object" type="FixedString" value="22bdf834-9c45-8876-b4e6-bb56d31fdac1" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Ground Impact - Reappear -->
+									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Shockwave -->
+									<attribute id="Object" type="FixedString" value="27d6becf-276a-309a-6a32-f0c8ac7ac980" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Shockwave -->
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- ZEUS -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineShift_PositionFX_01" />
+					<attribute id="ID" type="FixedString" value="ef62a809-defa-4737-acf4-e3d9ddf7701e" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Zeus_DivineShift_PositionFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Zeus_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Model | Mesh | Shockwave -->
+									<attribute id="Object" type="FixedString" value="5c059120-b5e0-948f-2af3-bc050f09aff9" />
+								</node>
+								<node id="DependentResource">		<!-- Model | Mesh | Refraction -->
+									<attribute id="Object" type="FixedString" value="353e9c91-8f9c-b243-7039-0b262609ccef" />
+								</node>
+								<node id="DependentResource">		<!-- Model | Mesh | Lightning Aura -->
+									<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
+								</node>
+								<node id="DependentResource">		<!-- Decal | Material | Ground Impact Effect -->
+									<attribute id="Object" type="FixedString" value="3b180a56-a994-9efc-b5e4-fec583e83af5" />
+								</node>
+								<node id="DependentResource">		<!-- Decal | Material | Ground Effect 2 -->
+									<attribute id="Object" type="FixedString" value="7cf7f084-d7b4-be12-315d-20b4172e9cae" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Mesh | Lightning Bolt -->
+									<attribute id="Object" type="FixedString" value="25d0bca9-7051-98ea-6c8c-58536917a864" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+									<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
+								</node>
+								<node id="DependentResource">		<!-- Particle System | Material | Impact Sparks -->
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">		<!-- Sound | Enter Event | Electric Shock -->
+									<attribute id="Object" type="FixedString" value="0a65a5b3-e5d3-4c5d-830b-2918a11dde0a" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

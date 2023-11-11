@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>		<!-- HIT EFFECTS -->
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>      <!-- DIVINE CHARGE -->
+				<node id="Resource">		<!-- ANUBIS -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="673579ed-9b89-41f9-85bd-d2c18f8407a4" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Anubis_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Anubis_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1f73b5e1-266d-5ca0-9aec-8c13881b8c2b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f812d39c-7d2b-e112-931a-9265f910dbc0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ab6c61b4-df3c-0e15-c111-bb676009699d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="94d960c4-c5af-3b78-0ed5-63b4d3c49475" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="783ce98e-8afb-54ac-6c6e-4c985d5f011b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="8f1497a0-86ed-325c-ac10-5783e1c2eff3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1821bf0a-2a37-3254-6ff8-65edcba14b1d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d667c67-7e15-d75a-773b-1fffe4010d55" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a8a8b331-3f32-649e-e5eb-39f6a9b1e36d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="97ae239c-85b6-cc5a-cd23-7e0753c1ed3d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="141e2639-4f00-9a6d-9364-ed6b8c922630" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">		<!-- ASMODEUS -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="90d6123b-72ae-420e-bfcf-28965a60d1ce" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6ed9bfc0-ce2f-e27c-803d-9cd217ec7dae" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6a79be0c-d48a-6284-c64c-184b5aaa8a17" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="43ace358-6149-2611-ed7a-5d9232e79c28" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="aef76157-6029-fca2-79a0-4a80102c5b99" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6f366982-6e09-66e0-8046-1cad9dc56d9f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="22bdf834-9c45-8876-b4e6-bb56d31fdac1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6c627d5c-75a0-b582-66fd-9db11df0e720" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a0998003-12c2-93ef-c686-797451ed2d9b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ca9ebf9e-60bd-79b1-b14e-3aa4c5f163b1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="889e519e-166f-85a5-fcf7-7a5049593a58" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0b81cf6c-f49d-d5bd-dfa6-10456a15d58b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4a900023-a912-44a9-b382-9c734da12e25" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">		<!-- CIRCE -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="56c449af-f7e9-4293-8ea2-7d412c7c1b50" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Circe_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Circe_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<node id="Dependencies">
+						<children>
+							<node id="DependentResource">
+								<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
+							</node>
+							<node id="DependentResource">
+								<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
+							</node>
+						</children>
+					</node>
+				</node>
+                <node id="Resource">		<!-- FREYA -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="9140774c-ceae-4d21-a32b-2637640ff575" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Freya_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Freya_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies" />
+					</children>
+				</node>
+                <node id="Resource">		<!-- FUJIN -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="beaf4cc5-ccd2-4347-a415-1a38831964b7" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Fujin_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fujin_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="13ac34f6-4524-fbea-de1f-a9352c04de6f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e596320-9d50-68ab-0bb7-8e978d539450" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c0ee5929-fe44-6966-1e55-d933620fa661" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2368fcb2-a312-b925-0580-b2e062ea5634" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c87070e9-daf3-7416-4a1a-14894e5eec2d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="15abb60f-2f09-39f9-7ac7-1c2a63322dee" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6f366982-6e09-66e0-8046-1cad9dc56d9f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a81ddf67-e243-0150-2a9a-fc184c1dff51" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fb21ca3c-3b37-b5b8-86cd-c7feaead109d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b2c001e7-33c3-af2b-2479-8bcd55bd86da" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5c059120-b5e0-948f-2af3-bc050f09aff9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">		<!-- GAIA -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_GAIA_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="c826ac43-caef-4565-9046-90d608a53eda" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_GAIA_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_GAIA_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies" />
+					</children>
+				</node>
+                <node id="Resource">		<!-- MIMIR -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="66fb7b38-793a-4ef9-b587-21401f2bfd35" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Mimir_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Mimir_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e861c0c8-a4f4-b18f-0dcb-34f1fcaa371b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b566c87e-17bf-86a0-410b-19991d808152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4974dce7-f41f-3859-90c7-019b57d03cec" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="83fe3c2c-7557-b45f-e7c2-c988dc149799" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c09783dc-9e05-790c-b1b9-75c2264eba37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="018e4e73-1ad7-d3de-9dff-19ba345fc952" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="37638786-dab7-9a34-629e-57df30c02252" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c189fd60-7f63-478a-b030-c3efb0c00e0c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30825284-907a-6261-13df-a4ab96b51660" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">		<!-- MORRIGAN -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="af855ed2-be43-4d5c-ae12-6b2a15744eff" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Morrigan_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d7e9aa98-f162-2f20-0317-d7fb5a2e1031" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="839fbdf4-76db-b68a-b4f8-ed0c8f5b1d5b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="43456042-81cf-fbae-ec64-3cacbad360b1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="84411a9e-0371-dd06-c767-a1879f53abe9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fa2f469f-e4f4-7e43-b9f5-04769182b9c4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a3c36b9f-f82d-2fd7-168f-4b43038bd8ef" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="468a116a-b0e9-42f4-1633-95a3b1d02a97" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="488ef412-bbc0-6c84-fec2-5a8ef7cd827d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="65508052-fa5a-516d-943d-39e605d8b3d7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e62c4b8c-7456-a5c7-6a43-d1e2b42df830" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">		<!-- NOX -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nox_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="dc477f28-2339-4d8d-9d32-009500fa933c" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Nox_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="13903e35-a6a3-499e-9964-cbe5f8843978" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="515c3fcd-4fe8-c5c6-dccc-36d465dc6cac" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6b1efe6c-e39c-5544-8e62-a845f713d029" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">		<!-- ODIN -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="6.55" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="3387c600-b0dc-4378-81a6-c3ff88cb920a" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Odin_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Odin_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="335abbed-2ce2-b6a7-f622-0ca4866790df" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a8a8b331-3f32-649e-e5eb-39f6a9b1e36d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f812d39c-7d2b-e112-931a-9265f910dbc0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="cd75c266-9a84-3a5a-aa9d-28bcce60de77" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4f5b525d-cdf7-1d04-2db5-d1f6e28c013b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="573e1118-ba7f-2cbe-3d9f-2558692782af" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3bf77f06-41e7-d235-fa82-ecf66493d074" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fd4ab41a-443a-8334-de24-cdf4eae68011" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">		<!-- SOL -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="e8de2738-f28e-42d8-b648-cb61820d2639" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Sol_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Sol_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fcdb1ff7-3bf6-db17-821f-eb7b9b6f964a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e27a06fb-ef00-9e4c-23b4-cd8b5bb75ad6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7bdafec7-27dd-539a-e30b-3a3fb9311196" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bd48a9dc-d9e5-7c05-a26b-bb50d7d8e998" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a874102c-cc6e-67b1-b5a2-3ccde86e0251" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7bbdf95-5516-e0ae-bdaf-a1c08a3fc8a6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="aa74a234-ccf6-a4e2-feb9-3f0c9377a6fc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="19c24792-a865-5490-9e83-c7e90e3d04fb" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7f529093-83ec-ea78-2d7d-71bb5fa5d73c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9af79004-8274-1cd1-4dc8-2e3aee687b24" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e7b55705-01cd-edbd-7a8d-25321c31904d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">		<!-- THOR -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="7" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="0ffc581d-f5db-418f-9250-6dcaa11a2b1f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Thor_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thor_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="022413d7-0e40-43f8-ba85-6aeeacb2a13a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="43c7417a-d000-f06d-acc0-a48824ac7735" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="29c0aa1f-7de3-8dbd-be47-2aa7d4a88447" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="972b996e-282d-711a-72e5-cc2f0fc6e811" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e596320-9d50-68ab-0bb7-8e978d539450" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c0ee5929-fe44-6966-1e55-d933620fa661" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="25c790de-e82f-c3bc-dfd2-a20247033e46" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="54189fc8-2658-6a01-614d-1ae5ee6fe5e8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="79d3616d-254a-3073-c114-c6e0cc992b38" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">		<!-- TRITON -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="5d65236e-2a16-4fa6-b855-aeb646e8f514" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Triton_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Triton_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a4ab6d92-b69e-3200-3b7e-0d3527b8a1b8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e74ad321-5864-92f6-f457-99d027211ee0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9208911b-00a5-0477-8208-4087fa7c6cc6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f179fd76-c396-8150-e043-41bb51796399" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">		<!-- YMIR -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="6416cc43-163f-4196-9d2c-5a58309855ed" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Ymir_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Ymir_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="165ee4b3-305c-66a3-3781-b3267afe0400" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="42d2166e-6607-da31-7635-4962ea19666b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d1b959e1-4a69-5fb9-3711-9d39bc5edce0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="be17c3a9-a58a-1f84-f760-9a9d5efe14ac" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3d5fa2b7-a18b-b6cf-48b0-8713484e64dc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f31385c9-20dc-61bb-a980-fa9739cc61c5" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">		<!-- ZEUS -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineCharge_ImpactFX_01" />
+					<attribute id="ID" type="FixedString" value="cabfb62c-c57b-4df6-b688-034fde0da562" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Zeus_DivineCharge_ImpactFX_01" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Zeus_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b2c001e7-33c3-af2b-2479-8bcd55bd86da" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fb21ca3c-3b37-b5b8-86cd-c7feaead109d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a81ddf67-e243-0150-2a9a-fc184c1dff51" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="353e9c91-8f9c-b243-7039-0b262609ccef" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0a65a5b3-e5d3-4c5d-830b-2918a11dde0a" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

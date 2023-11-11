@@ -1,0 +1,2434 @@
+<?xml version="1.0" encoding="utf-8"?>		<!-- PREPARE EFFECTS -->
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+            <children>		<!-- ENVIRONMENT VFX -->
+                <node id="Resource">		<!-- ANUBIS | Soul Storm -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Anubis_SoulStorm_01" />
+                    <attribute id="ID" type="FixedString" value="6069fdcd-6fec-4e72-935a-1f437f96a3fd" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Anubis_SoulStorm_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Anubis_SoulStorm_01.lsfx" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="UseSoundOcclusion" type="bool" value="False" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>								
+                                <node id="DependentResource">		<!-- Particle System | Material | Souls -->
+                                    <attribute id="Object" type="FixedString" value="5563996d-5b3c-450e-3933-05faffc9c2e5" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Souls -->
+                                    <attribute id="Object" type="FixedString" value="cd407342-af9f-4bd4-92b3-47c681ad1e90" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Air Fog -->
+                                    <attribute id="Object" type="FixedString" value="ad0a39f6-c2f3-45e2-b3e0-5626f32f462a" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Fog / Air Fog -->
+                                    <attribute id="Object" type="FixedString" value="e9e1d747-865b-2b8a-43b9-cea299dc550e" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- ASMODEUS | Raging Fire -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Asmodeus_RagingFire_01" />
+                    <attribute id="ID" type="FixedString" value="53c7befe-ced7-4202-9acd-c1f6ba553677" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Asmodeus_RagingFire_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Asmodeus_RagingFire_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Particle System | Material | Smoke -->
+                                    <attribute id="Object" type="FixedString" value="5d62dfd8-e3a6-a3d8-7a8d-477560caa288" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+                                    <attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Ground Fire -->
+                                    <attribute id="Object" type="FixedString" value="a0998003-12c2-93ef-c686-797451ed2d9b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- CIRCE | Arcane Vortex -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Circe_ArcaneVortex_01" />
+                    <attribute id="ID" type="FixedString" value="1ea79692-24e7-4794-a34d-f5b32cdd91f9" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Circe_ArcaneVortex_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Circe_ArcaneVortex_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Light | Baby Blue -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Impact Ball -->
+                                    <attribute id="Object" type="FixedString" value="e9271a15-5da1-d044-ee3a-cb4ee23e9513" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Lightning Air -->
+                                    <attribute id="Object" type="FixedString" value="bd835458-6cca-c0c8-c2ff-0d19a5241a0d" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Moving Lights -->
+                                    <attribute id="Object" type="FixedString" value="0cdb8dfc-60ec-5b38-3a93-a6103553a55b" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Moving Lights -->
+                                    <attribute id="Object" type="FixedString" value="0cbd02bb-a8f2-90fe-3d5d-a8055efb7218" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparkles -->
+                                    <attribute id="Object" type="FixedString" value="e7b55705-01cd-edbd-7a8d-25321c31904d" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- FREYA | Nature Burst -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Freya_NatureBurst_01" />
+                    <attribute id="ID" type="FixedString" value="b6d5b855-15aa-4ff9-9aa3-b257114056c8" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Freya_NatureBurst_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Freya_NatureBurst_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Gnarly Leaves -->
+                                    <attribute id="Object" type="FixedString" value="e8297802-1836-b34f-c7ef-ee8bc9033cfe" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Aspen Leaves -->
+                                    <attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Lillies -->
+                                    <attribute id="Object" type="FixedString" value="2b7f02df-0259-d920-b8fd-f11fa11e16be" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- FUJIN | Tornado  -->
+                    <attribute id="BoundsMax" type="fvec3" value="20 20 20" />
+                    <attribute id="BoundsMin" type="fvec3" value="-20 -20 -20" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Fujin_Tornado_01" />
+                    <attribute id="ID" type="FixedString" value="d87f4738-f2a3-49a3-8f17-a44e29bfb7fe" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Fujin_Tornado_01" />
+                    <attribute id="Radius" type="float" value="20" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Fujin_Tornado_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Particle System | Material | Debris -->
+                                    <attribute id="Object" type="FixedString" value="79d3616d-254a-3073-c114-c6e0cc992b38" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- GAIA | Floating Rocks  -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Gaia_Rocks_01" />
+                    <attribute id="ID" type="FixedString" value="530a5d44-b757-4f6c-b071-d05526356273" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Gaia_Rocks_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Gaia_Rocks_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Mesh Particles: Rocks -->
+                                    <attribute id="Object" type="FixedString" value="382d2bf5-d5ab-a1c9-959a-d330f7223a9c" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material Particles: Dust -->
+                                    <attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material Particles: Clouds -->
+                                    <attribute id="Object" type="FixedString" value="85618ce5-276a-8c24-31e3-5a146e2c0150" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- MIMIR | Psionic Sparks  -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2.5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Mimir_PsionicSparks_01" />
+                    <attribute id="ID" type="FixedString" value="139838cb-3511-4272-a738-f997be436ec4" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Mimir_PsionicSparks_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Mimir_PsionicSparks_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Material Particles: Sparks -->
+                                    <attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- MORRIGAN | Blood Rain -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Morrigan_BloodRain_01" />
+                    <attribute id="ID" type="FixedString" value="1470b6ca-9463-452c-a7d7-e0a496147c64" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Morrigan_BloodRain_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Morrigan_BloodRain_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Droplets -->
+                                    <attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Droplets -->
+                                    <attribute id="Object" type="FixedString" value="d20f38c7-7e45-901d-8e4f-216652669a9a" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Blood Smoke 1 -->
+                                    <attribute id="Object" type="FixedString" value="4484c57c-0e0d-d2cb-3378-e375604fda95" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Blood Smoke 2 -->
+                                    <attribute id="Object" type="FixedString" value="cfaf9923-9ecc-7117-870c-4fccc009d0aa" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- NOX | Bats & Darkness -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="3.1" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Nox_Darkness_01" />
+                    <attribute id="ID" type="FixedString" value="6cb150ce-0fe3-4f12-8406-19fd34ffadee" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Nox_Darkness_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Nox_Darkness_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Particles: Bats -->
+                                    <attribute id="Object" type="FixedString" value="65143f11-7982-aae7-8e2d-4d7c2cc2f115" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- ODIN | Force Waves  -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="3.56" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Odin_ForceWaves_01" />
+                    <attribute id="ID" type="FixedString" value="3a485f7a-2f4e-4f5e-90cf-176d58c2f8f8" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Odin_ForceWaves_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Odin_ForceWaves_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>				
+                                <node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Lightnings -->
+                                    <attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Screen Refraction -->
+                                    <attribute id="Object" type="FixedString" value="840e2eb8-231b-2d73-47f0-3effb61eb84d" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | BG -->
+                                    <attribute id="Object" type="FixedString" value="83fe3c2c-7557-b45f-e7c2-c988dc149799" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Vol Sphere -->
+                                    <attribute id="Object" type="FixedString" value="7f529093-83ec-ea78-2d7d-71bb5fa5d73c" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Vol Sphere -->
+                                    <attribute id="Object" type="FixedString" value="0bf8c938-b123-c868-ba0e-ae08ec12dc5a" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Faint Rings -->
+                                    <attribute id="Object" type="FixedString" value="2644aba9-92c4-54f2-64f8-92aa65c1f83a" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Light Spirals -->
+                                    <attribute id="Object" type="FixedString" value="0837c511-5037-a9e3-d9d6-c7464d470315" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Lightnings -->
+                                    <attribute id="Object" type="FixedString" value="bd835458-6cca-c0c8-c2ff-0d19a5241a0d" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparkles -->
+                                    <attribute id="Object" type="FixedString" value="e7b55705-01cd-edbd-7a8d-25321c31904d" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- SOL | Radiant Blast -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="3" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Sol_Light_01" />
+                    <attribute id="ID" type="FixedString" value="7f195599-ebac-445e-9e77-30ac9146ee48" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Sol_Light_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Sol_Light_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Decal | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="13416b34-9867-0546-a9d7-2c248e7ce290" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparks 1 -->
+                                    <attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparks 2 -->
+                                    <attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- THOR | Thunder Waves -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="Duration" type="float" value="3" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Thor_ThunderWave_01" />
+                    <attribute id="ID" type="FixedString" value="01fae595-894d-43ad-9f59-39020e154432" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Thor_ThunderWave_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Thor_ThunderWave_01.lsfx" />
+                    <attribute id="UseSoundOcclusion" type="bool" value="True" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Particle System | Material | Light Flare -->
+                                    <attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Pulsing Refraction -->
+                                    <attribute id="Object" type="FixedString" value="7bdafec7-27dd-539a-e30b-3a3fb9311196" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Ring Burst -->
+                                    <attribute id="Object" type="FixedString" value="1f1e674c-ccf6-1063-8e53-a1bfc98d5939" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Ring Pulse -->
+                                    <attribute id="Object" type="FixedString" value="332f5caf-d6a6-b343-3a24-acbd3a0b5b30" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+                                    <attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- TRITON | Rain Storm -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="1.5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Triton_RainStorm_01" />
+                    <attribute id="ID" type="FixedString" value="5225cb76-6cfe-4c94-998e-3b1558e66485" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Triton_RainStorm_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Triton_RainStorm_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Particle System | Material | Small Rain -->
+                                    <attribute id="Object" type="FixedString" value="c3dba0b9-f229-f2a4-bc83-a98b05683f08" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Rain Refraction -->
+                                    <attribute id="Object" type="FixedString" value="4636a4af-d184-9897-ece7-1fe4fcf2f7ca" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Water -->
+                                    <attribute id="Object" type="FixedString" value="b0f05efc-6b4a-b3f7-08fe-5aabb32d69a9" />
+                                </node>
+                                <node id="DependentResource">		<!-- Sound | Rolling Thunder -->
+                                    <attribute id="Object" type="FixedString" value="c3c2f72c-06cc-4d6c-9312-a52aab19d4d0" />
+                                </node>
+                                <node id="DependentResource">		<!-- Sound | Heavy Rain -->
+                                    <attribute id="Object" type="FixedString" value="2605101d-fd24-44e0-8250-85a22aab2bf9" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- YMIR | Blizzard -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Ymir_Blizzard_01" />
+                    <attribute id="ID" type="FixedString" value="5eb03f9c-89db-473a-a10c-b2d61806ee08" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Ymir_Blizzard_01" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Ymir_Blizzard_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="2df93534-6c0e-869d-a0ff-3313e9134113" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="165ee4b3-305c-66a3-3781-b3267afe0400" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- ZEUS | Lightning Storm -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Zeus_LightningStorm_01" />
+                    <attribute id="ID" type="FixedString" value="ba71d970-ff97-424e-b9db-775818b58a57" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Zeus_LightningStorm_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Zeus_LightningStorm_01.lsfx" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="UseSoundOcclusion" type="bool" value="False" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Lightning Bolt -->
+                                    <attribute id="Object" type="FixedString" value="25d0bca9-7051-98ea-6c8c-58536917a864" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+            </children>
+            <children>		<!-- ENVIRONMENT MODEL -->
+                <node id="Resource">        <!-- FREYA | Sub-Emit Flowers -->
+					<attribute id="BoundsMax" type="fvec3" value="40 40 40" />
+					<attribute id="BoundsMin" type="fvec3" value="-40 -40 -40" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Freya_SubEmit_01" />
+					<attribute id="ID" type="FixedString" value="6a161b50-76a6-48b6-aea5-064c7594b5a5" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Environment_Freya_SubEmit_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Freya_SubEmit_01.lsfx" />
+                    <attribute id="Radius" type="float" value="25" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">       <!-- Model | Plants 1 -->
+									<attribute id="Object" type="FixedString" value="01f8add6-a0a3-dde3-ada4-f6e7d65f598b" />
+								</node>
+                                <node id="DependentResource">       <!-- Model | Plants 2 -->
+									<attribute id="Object" type="FixedString" value="83426207-1645-4d1a-915a-4d209a1e7861" />
+								</node>
+                                <node id="DependentResource">       <!-- Model | Plants 3 -->
+									<attribute id="Object" type="FixedString" value="f5ebe398-7258-4986-e86b-ba99e0844809" />
+								</node>
+                                <node id="DependentResource">       <!-- Model | Plants 4 -->
+									<attribute id="Object" type="FixedString" value="740ae55b-676a-438b-bad4-d997da97ae46" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- FUJIN | Sub-Emit Tornado -->
+					<attribute id="BoundsMax" type="fvec3" value="20 20 20" />
+                    <attribute id="BoundsMin" type="fvec3" value="-20 -20 -20" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Fujin_SubEmit_01" />
+					<attribute id="ID" type="FixedString" value="6086aa05-c455-4b31-ac74-498a1bbe6ebe" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Environment_Fujin_SubEmit_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Fujin_SubEmit_01.lsfx" />
+                    <attribute id="Radius" type="float" value="20" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">       <!-- Model | Tornado -->
+									<attribute id="Object" type="FixedString" value="f4abd8da-1334-adbb-dcab-97fb49f5232d" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- THOR | Sub-Emit Sound -->
+					<attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+					<attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.540396" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Thor_SubEmit_01" />
+					<attribute id="ID" type="FixedString" value="989c0682-d377-4278-936b-0907eb0de46a" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Environment_Thor_SubEmit_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Thor_SubEmit_01.lsfx" />
+                    <attribute id="Radius" type="float" value="25" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">       <!-- Sound -->
+									<attribute id="Object" type="FixedString" value="967e9163-157e-4a84-aac3-182c21f748a1" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- TRITON | Sub-Emit Water Droplets -->
+					<attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+					<attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Triton_SubEmit_01" />
+					<attribute id="ID" type="FixedString" value="ae1dd4b3-3dcc-4267-8f81-c5738ea73223" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Environment_Triton_SubEmit_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Triton_SubEmit_01.lsfx" />
+                    <attribute id="Radius" type="float" value="25" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">       <!-- Particle System | Material | Water Ripples -->
+									<attribute id="Object" type="FixedString" value="e74ad321-5864-92f6-f457-99d027211ee0" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- ZEUS | Sub-Emit 1 Lightning Bolt Effects -->
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Zeus_SubEmit_01" />
+					<attribute id="ID" type="FixedString" value="28c039e2-0baf-42ea-b542-8515f81f1934" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Environment_Zeus_SubEmit_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Zeus_SubEmit_01.lsfx" />
+                    <attribute id="Radius" type="float" value="2" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">       <!-- Particle System | Material | Water Ripples -->
+									<attribute id="Object" type="FixedString" value="e74ad321-5864-92f6-f457-99d027211ee0" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+            </children>
+            <children>		<!-- BODY VFX -->
+                <node id="Resource">        <!-- ANUBIS -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="38b922fe-fc1c-430e-9d55-cc99c2894a22" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Anubis_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Anubis_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Backdrop -->
+                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+                                </node>		
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+                                </node>		
+                                <node id="DependentResource">		<!-- Particle System | Material | Backdrop Light -->
+                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material -->
+                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh -->
+                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh Animation -->
+                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- ASMODEUS -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="bf24b0ba-73f8-4a29-af44-51c088b77908" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Asmodeus_BodyFX_01" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Asmodeus_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- BillBoard | Material | Body Aura -->
+                                    <attribute id="Object" type="FixedString" value="d78326cf-2a9b-28c4-e77c-54f9daefe4e0" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Body Fire -->
+                                    <attribute id="Object" type="FixedString" value="ef305108-b96f-637d-e1e0-0f7ee865957e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Body Fire -->
+                                    <attribute id="Object" type="FixedString" value="56459e45-45d4-4c72-0b71-26f8b64c7a9a" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Fiery Glow -->
+                                    <attribute id="Object" type="FixedString" value="914a5279-c6f1-05e7-86e0-b690b3206b59" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Fiery Glow -->
+                                    <attribute id="Object" type="FixedString" value="6d6ec6a0-3b81-43d2-d0e2-6b8d77fdefce" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- CIRCE -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Circe_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="360c747c-4dad-469d-8327-ed30c13baa0b" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Circe_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Circe_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- FREYA -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Freya_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="a1a077f3-3a00-43f1-8c3f-f78a6a8501b5" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Freya_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Freya_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+                                    <attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Swirl -->
+                                    <attribute id="Object" type="FixedString" value="177ee666-db1b-7f9d-04fb-e2202c30c7fd" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Swirl -->
+                                    <attribute id="Object" type="FixedString" value="811220a1-2b46-b5af-73fb-02576e77d0f1" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Barkskin -->
+                                    <attribute id="Object" type="FixedString" value="ed9423d0-45aa-4a3e-b41e-25b55ef3a031" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Barkskin -->
+                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- FUJIN -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="765085c8-dd8a-4a6a-a47b-1ebdfa46a19b" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Fujin_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fujin_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Overlay Material | Material | Stone Skin -->
+                                    <attribute id="Object" type="FixedString" value="b09145fd-476a-4053-fe1a-147180fea587" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Stone Skin -->
+                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Black Overlay -->
+                                    <attribute id="Object" type="FixedString" value="d42b4a87-3039-3de1-63b9-134bf2078e6d" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Black Overlay -->
+                                    <attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="e861c0c8-a4f4-b18f-0dcb-34f1fcaa371b" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Glow -->
+                                    <attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- GAIA -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Gaia_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="9dbe7751-df80-4fc3-b4bb-0b7fcf64640a" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Gaia_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Gaia_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- MIMIR -->
+					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
+					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="63345ac9-8b98-45af-931a-3e9259262a24" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Mimir_BodyFX_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Mimir_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="ebfbf452-11ae-460a-96e5-5d1afaae10c3" />
+                                </node>
+                                <node id="DependentResource">		<!-- Decal | Material | Ground Ripple -->
+                                    <attribute id="Object" type="FixedString" value="37d57802-deb2-20c9-c1a4-539fd8a6e6bb" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Light Beam -->
+                                    <attribute id="Object" type="FixedString" value="e61cc24f-379d-7c02-766d-c2c39747f0c7" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Light Beam -->
+                                    <attribute id="Object" type="FixedString" value="891d0caa-15a7-7a26-b683-9bdaf3ecdee4" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="a82469bb-3d88-1078-6344-52f0dd8b85d9" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Glow -->
+                                    <attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- MORRIGAN -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="3f85da51-c7c1-4a83-9b5f-af61c7ed2988" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Morrigan_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Morrigan_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Billboard | Material | Polar Aura -->
+                                    <attribute id="Object" type="FixedString" value="c857d19b-25be-a746-1134-1fcf2107ac38" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Aura Backdrop -->
+                                    <attribute id="Object" type="FixedString" value="83fe3c2c-7557-b45f-e7c2-c988dc149799" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Blood Red Glow -->
+                                    <attribute id="Object" type="FixedString" value="10cdca0d-5fbc-1793-d1f9-ecd7b4897bab" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Blood Red Glow -->
+                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- NOX -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3.777335" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nox_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="58edb4b7-b8a6-441d-9094-1d98c3fc3b9b" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Nox_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Nox_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Decal | Material | Shadow Root -->
+                                    <attribute id="Object" type="FixedString" value="94b377f4-c023-2295-f208-b5f19f1bb2f1" />
+                                </node>
+                                <node id="DependentResource">		<!-- Decal | Material | ? -->
+                                    <attribute id="Object" type="FixedString" value="5cf4c565-1749-b0b6-a32b-e8c5f410b5d7" />
+                                </node>
+                                <node id="DependentResource">		<!-- Decal | Material | ?? -->
+                                    <attribute id="Object" type="FixedString" value="89c5127b-0f90-58eb-fb0b-d85b79727912" />
+                                </node>
+                                <node id="DependentResource">		<!-- Decal | Material | ??? -->
+                                    <attribute id="Object" type="FixedString" value="5f6ed912-a569-4e90-5dd0-59efc5ba98e4" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparks? -->
+                                    <attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Shadow Tendrils -->
+                                    <attribute id="Object" type="FixedString" value="7c2e26c1-2cd4-57f6-9817-d13ed1c490db" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- ODIN -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Odin_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="0cfbb97b-0220-463e-b48e-3a6a9c70ef41" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Odin_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Odin_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Model | Mesh | Refraction -->
+                                    <attribute id="Object" type="FixedString" value="353e9c91-8f9c-b243-7039-0b262609ccef" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparkles -->
+                                    <attribute id="Object" type="FixedString" value="e7b55705-01cd-edbd-7a8d-25321c31904d" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Body Lightnings -->
+                                    <attribute id="Object" type="FixedString" value="bd835458-6cca-c0c8-c2ff-0d19a5241a0d" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material -->
+                                    <attribute id="Object" type="FixedString" value="cf1c25e2-c57d-9362-a8b7-8b2c020a33bf" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh -->
+                                    <attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- SOL -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Sol_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="7ef39247-a872-4850-8786-297a242c7166" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Sol_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Sol_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Backdrop -->
+                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Glyph -->
+                                    <attribute id="Object" type="FixedString" value="e388398e-efd3-a321-a37c-b4693f513902" />
+                                </node>				
+                                <node id="DependentResource">		<!-- Particle System | Material | Backdrop Help -->
+                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- THOR -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thor_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="f8fb92f0-655a-4dfe-a662-c1a160785a19" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Thor_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thor_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Rings Aura -->
+                                    <attribute id="Object" type="FixedString" value="332f5caf-d6a6-b343-3a24-acbd3a0b5b30" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="46e2e5ed-07cc-c448-bec2-06c8b18ba571" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Glow -->
+                                    <attribute id="Object" type="FixedString" value="a40441a5-54a9-a35a-37ed-558780017b73" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- TRITON -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Triton_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="65743996-74a5-422d-ab6a-6ba282e5b9b9" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Triton_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Triton_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">       <!-- Particle System | Material | Bubbles -->
+									<attribute id="Object" type="FixedString" value="6f794bd9-c58f-2996-eb14-71fb7e611776" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- YMIR -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="b6b99301-adef-4ff5-84e6-d3eea8466464" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Ymir_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Ymir_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Light -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Aura -->
+                                    <attribute id="Object" type="FixedString" value="2a38d9a3-bedf-632f-bff5-1651b501950b" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Mist -->
+                                    <attribute id="Object" type="FixedString" value="165ee4b3-305c-66a3-3781-b3267afe0400" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Snowflakes -->
+                                    <attribute id="Object" type="FixedString" value="2df93534-6c0e-869d-a0ff-3313e9134113" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Material -->
+                                    <attribute id="Object" type="FixedString" value="045b1ae1-14fa-13f9-878d-a060fd10b0b6" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh -->
+                                    <attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+                                </node>	
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- ZEUS -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_BodyFX_01" />
+					<attribute id="ID" type="FixedString" value="d48c4bb8-cee7-43e5-be6c-dc8d9d3f08c0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Zeus_BodyFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Zeus_BodyFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">		<!-- Model | Mesh | Lightning Aura -->
+                                    <attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+                                    <attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+                                </node>	
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Shock Effect -->
+                                    <attribute id="Object" type="FixedString" value="7828bfda-4a3a-542c-9435-6a3d47688260" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material | Mesh | Shock Effect -->
+                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                                </node>	
+							</children>
+						</node>
+					</children>
+				</node>
+            </children>
+            <children>      <!-- EYES VFX -->
+                <node id="Resource">		<!-- ANUBIS Eye 01 | Glowing Sickly Green -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Anubis_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="12881ee2-30fd-447f-b515-4da95f7ffbad" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Anubis_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Anubis_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- ANUBIS Eye 02 | Glowing Sickly Green -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Anubis_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="b2c8b716-1681-49fc-8d24-ea6896d0962f" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Anubis_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Anubis_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- ASMODEUS Eye 01 | Glowing Orange -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Asmodeus_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="b8e1eaec-a76d-4463-a7be-3393250eb26e" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Asmodeus_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Asmodeus_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- ASMODEUS Eye 02 | Glowing Orange -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Asmodeus_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="313d2e32-23de-484f-8b3a-2dfa456f1eee" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Asmodeus_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Asmodeus_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- CIRCE Eye 01 | Glowing $ -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Circe_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="f0c7ec88-42ca-401d-bead-fa8ae225f6c3" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Circe_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Circe_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- CIRCE Eye 02 | Glowing $ -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Circe_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="6682e979-4ccb-4031-879a-75c1668dd787" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Circe_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Circe_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- FREYA Eye 01 | Glowing Orange -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Freya_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="f8dc235b-31da-40ad-bd6d-ddc0598ac7a4" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Freya_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Freya_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- FREYA Eye 02 | Glowing $ -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Freya_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="6081e995-9865-4e29-a892-58772250cc40" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Freya_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Freya_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- FUJIN Eye 01 | Glowing Grey -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Fujin_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="a7762bb8-b02d-4fec-89a4-7287a037c581" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Fujin_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Fujin_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- FUJIN Eye 02 | Glowing Grey -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Fujin_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="11c8da59-ebcd-4ea1-b7a8-e37ffbbfeaf3" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Fujin_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Fujin_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- GAIA Eye 01 | Glowing Brown -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Gaia_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="bb8e6465-fc3a-4656-92e4-b54ddbff63f9" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Gaia_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Gaia_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- GAIA Eye 02 | Glowing Brown -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Gaia_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="387cc5ea-bcba-4d5e-aa34-54b1a434c116" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Gaia_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Gaia_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- MIMIR Eye 01 | Glowing Pink -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Mimir_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="1cf7600d-e327-4e58-bfdf-34cf281872c9" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Mimir_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Mimir_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- MIMIR Eye 02 | Glowing Pink -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Mimir_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="4501ef15-f5bd-4a76-b680-3822125fa4a1" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Mimir_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Mimir_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- MORRIGAN Eye 01 | Glowing Red & Black Eyes -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Morrigan_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="ac259831-c112-42d5-aeba-2016fc2cf2f5" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Morrigan_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Morrigan_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- MORRIGAN Eye 02 | Glowing Red & Black Eyes -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Morrigan_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="19f66bd2-001c-4bc9-bb49-2eeb2c91fa20" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Morrigan_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Morrigan_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- NOX Eye 01 | GLowing Deep Purple -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Nox_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="be63fb10-94e4-4684-b3ae-9907c5ca16fc" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Nox_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Nox_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- NOX Eye 02 | Glowing Deep Purple -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Nox_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="ae02aa21-eed7-4cef-aa12-0c1176a49983" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Nox_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Nox_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- ODIN Eye 01 | Glowing Red -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Odin_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="15ad8586-3bd1-4fd0-b2a2-04655b44d3bb" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Odin_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Odin_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- ODIN Eye 02 | Glowing Red -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Odin_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="9f44f864-3e7e-49b9-90b9-7c0ac511ad90" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Odin_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Odin_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- SOL Eye 01 | Glowing Golden -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Sol_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="a67dcb0f-a919-416a-8a28-9ea943835052" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Sol_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Sol_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- SOL Eye 02 | Glowing Golden -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Sol_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="d464e469-cff8-481a-bb4c-8a81e400b142" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Sol_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Sol_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- THOR Eye 01 | Glowing Violet -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Thor_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="fdab18e9-456a-4391-9162-b6bca301a010" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Thor_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Thor_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- THOR Eye 02 | Glowing Violet -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Thor_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="cc673d3f-7077-4597-9954-6e69d8e10b9c" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Thor_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Thor_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- TRITON Eye 01 | Glowing Blue -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Triton_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="62dc945d-1829-42bb-a171-db6496072a7d" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Triton_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Triton_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- TRITON Eye 02 | Glowing Blue -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Triton_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="c1763a37-44eb-4c85-a6a4-0dc627521d4a" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Triton_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Triton_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- YMIR Eye 01 | Glowing White -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Ymir_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="dc0cb62c-aa8f-4ea7-ba1f-40d990f6c252" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Ymir_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Ymir_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- YMIR Eye 02 | Glowing White -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Ymir_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="2e0e9c8a-9e79-4939-9d69-f4fc8e8adce4" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Ymir_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Ymir_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- ZEUS Eye 01 | Glowing Blue & White -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Zeus_EyeFX_01" />
+                    <attribute id="ID" type="FixedString" value="590fd35e-6958-404b-b575-c81d28d4f1b2" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Zeus_EyeFX_01" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Zeus_EyeFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
+                                </node>
+                                <node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Mesh | Model -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Light 1 -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- ZEUS Eye 02 | Glowing Blue & White -->
+                    <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+                    <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Zeus_EyeFX_02" />
+                    <attribute id="ID" type="FixedString" value="150ceef4-8b2f-4221-9c65-a6f7ce1c040f" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Zeus_EyeFX_02" />
+                    <attribute id="Radius" type="float" value="1.732051" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Zeus_EyeFX_02.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+                                    <attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+                                    <attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
+                                </node>
+                                <node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+                                    <attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
+                                </node>
+                                <node id="DependentResource">		<!-- Model | Mesh | Trail -->
+                                    <attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
+                                </node>
+                                <node id="DependentResource">		<!-- Lights -->
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">		<!-- Billboard | Material | Glow -->
+                                    <attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+            </children>
+            </node>
+	</region>
+</save>

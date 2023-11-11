@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>		<!-- BEAM EFFECTS -->
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+            <children>      <!-- DIVINE CHARGE -->
+                <node id="Resource">        <!-- ANUBIS -->
+                    <attribute id="BoundsMax" type="fvec3" value="10 10 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="50e07e5f-92ec-45a3-b721-1b34d9b31478" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Anubis_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Anubis_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Billboard | Material | Background -->
+                                    <attribute id="Object" type="FixedString" value="8d4d77fe-3061-f357-66a8-75584eb1858d" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Dark Smoke -->
+                                    <attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Spiral -->
+                                    <attribute id="Object" type="FixedString" value="8d4d77fe-3061-f357-66a8-75584eb1858d" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Spiral -->
+                                    <attribute id="Object" type="FixedString" value="d1dca510-8210-0055-2d9d-eaeb8642f3d4" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Flash -->
+                                    <attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Flash End -->
+                                    <attribute id="Object" type="FixedString" value="72a19c48-148f-c5d4-2370-03d8b5866150" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Beam -->
+                                    <attribute id="Object" type="FixedString" value="f12c073f-f9e9-067d-1ecc-33308473470d" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Light Flare End -->
+                                    <attribute id="Object" type="FixedString" value="783ce98e-8afb-54ac-6c6e-4c985d5f011b" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Necrotic Burst -->
+                                    <attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Ring Burst -->
+                                    <attribute id="Object" type="FixedString" value="018e4e73-1ad7-d3de-9dff-19ba345fc952" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Ring Burst -->
+                                    <attribute id="Object" type="FixedString" value="c09783dc-9e05-790c-b1b9-75c2264eba37" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- ASMODEUS -->
+                    <attribute id="BoundsMax" type="fvec3" value="15 15 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -20" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="7.871278" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="dcbcfa7b-2cf7-48da-ac2e-effe9a1ff01d" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="3b2d0971-bc33-b4f9-a180-dce0057e511d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="e49ad263-7744-d8d8-66e9-ae683157f7e0" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="ebdbc117-f84a-6b48-d32c-2a4aa92017a7" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="2dc3d23b-7c56-b0ea-537e-f5c0e4572e79" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="c09783dc-9e05-790c-b1b9-75c2264eba37" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- CIRCE -->
+                     <attribute id="BoundsMax" type="fvec3" value="15 15 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -20" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="7.871278" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="4fafb9b4-edad-4a1f-b27f-9ca4e0e746cc" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Circe_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Circe_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="a2c28457-ae76-4cf4-e256-bb2494f8261b" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="9b5b5750-78dd-c823-a50d-c64b0c1b12c8" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="70148014-3c4e-8afa-af1e-9bc00dda86bf" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="a2c28457-ae76-4cf4-e256-bb2494f8261b" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="9b5b5750-78dd-c823-a50d-c64b0c1b12c8" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- FREYA -->
+                     <attribute id="BoundsMax" type="fvec3" value="15 15 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -20" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="7.871278" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="033e9411-9369-4926-bd40-a1aee75c0fb9" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Freya_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Freya_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="8da58aa9-f985-f994-f2eb-b10766de73f7" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="e8297802-1836-b34f-c7ef-ee8bc9033cfe" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- FUJIN -->
+                    <attribute id="BoundsMax" type="fvec3" value="10 10 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="66b837cc-0e9b-408b-9ed4-b942ee7b03c4" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Fujin_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fujin_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="7445cc37-11e5-4ee4-d8a1-4e3a3baa5ead" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="14d3af0f-1990-21e4-88d9-d1fbfdbc48e0" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="79d3616d-254a-3073-c114-c6e0cc992b38" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- GAIA -->
+                    <attribute id="BoundsMax" type="fvec3" value="3 5 3" />
+                    <attribute id="BoundsMin" type="fvec3" value="-3 -1 -3" />
+                    <attribute id="Center" type="fvec3" value="0 2 0" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Gaia_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="97275d02-78c8-4bdb-a85f-a7e6f2b209ec" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Gaia_DivineCharge_BeamFX_01" />
+                    <attribute id="Radius" type="float" value="15" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Gaia_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="c0ee5929-fe44-6966-1e55-d933620fa661" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5ac54f58-82b6-aa4e-0fb2-d45645e07954" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="52c5db17-8a9e-8436-dc11-338301f99bb7" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="36e3c941-5259-a55c-111e-f32e59b55664" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="0463d74e-2cbe-1cf8-b49e-1a1ff2869817" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- MIMIR -->
+                    <attribute id="BoundsMax" type="fvec3" value="10 10 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="15f607d6-0567-491a-a895-44505fee7a52" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Mimir_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Mimir_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="592a93f9-74a7-4efa-710f-c8f881e91693" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="18eda044-31d9-124d-ee41-38d3026e90d0" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="21547f5b-11f8-2e3f-7e00-a3206d096f91" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="633c0e6d-1083-6d34-a3f1-1563b24ad238" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="68f1ce79-3858-d978-a424-317527480bce" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="c88dc135-460a-5846-17a1-423ecd061012" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="f812d39c-7d2b-e112-931a-9265f910dbc0" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="c7ee0242-d496-9ac2-fdee-7b5b47ffa80d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="119e9535-35c2-b2ba-dae0-6d954121379c" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="7d64ea27-9c4d-5e0e-7eb3-0a72d51523ad" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- MORRIGAN -->
+                    <attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+                    <attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="6.55" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="fcf89b2f-5616-459c-b0f7-05ed2201f951" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Morrigan_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="bc8619b9-92cf-d0bc-f770-8e6775cb0220" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5f50a2ac-ddfa-daef-eac4-e34c386cb4a6" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b7affa60-34c3-a900-3e64-4ddcb6280901" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="8f1497a0-86ed-325c-ac10-5783e1c2eff3" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="7d667c67-7e15-d75a-773b-1fffe4010d55" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="72a19c48-148f-c5d4-2370-03d8b5866150" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="ab6c61b4-df3c-0e15-c111-bb676009699d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- NOX -->
+                    <attribute id="BoundsMax" type="fvec3" value="3 5 3" />
+                    <attribute id="BoundsMin" type="fvec3" value="-3 -1 -3" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="3" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Nox_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="07f6eacd-5439-444d-bd57-6093550a5dea" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Nox_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Nox_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="de913cb7-9d11-7372-67be-f711f48820d6" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b5ec0919-4a17-13da-a655-10aedd243e20" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- ODIN -->
+                    <attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+                    <attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="3" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="c28e1a9b-7988-4ae2-8796-56bb2548e0a3" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Odin_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Odin_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="1f73b5e1-266d-5ca0-9aec-8c13881b8c2b" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="f12c073f-f9e9-067d-1ecc-33308473470d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="72a19c48-148f-c5d4-2370-03d8b5866150" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="6c627d5c-75a0-b582-66fd-9db11df0e720" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- SOL -->
+                    <attribute id="BoundsMax" type="fvec3" value="3 5 3" />
+                    <attribute id="BoundsMin" type="fvec3" value="-3 -1 -3" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="33b50a22-bb7e-457d-999f-b151136af8ba" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Sol_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Sol_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="9a67df72-d98b-0e80-da5b-e528de992bf4" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="d52f6b18-1e8e-7b61-6d0f-267f513b4f52" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b7bbdf95-5516-e0ae-bdaf-a1c08a3fc8a6" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="6f366982-6e09-66e0-8046-1cad9dc56d9f" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="f60bc7b0-6a4b-862d-4940-ea4dafaa7317" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="520dc9d6-00ac-f960-bbde-b4ddf95dc21f" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5ac88639-11d3-a296-fcba-42885c5bb314" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="d1dca510-8210-0055-2d9d-eaeb8642f3d4" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="8d4d77fe-3061-f357-66a8-75584eb1858d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="64372bfd-6d50-67a3-049a-d877e58ecd3c" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="490a0867-f298-2f78-e11b-a2983e2547f5" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="7f529093-83ec-ea78-2d7d-71bb5fa5d73c" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="9af79004-8274-1cd1-4dc8-2e3aee687b24" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="46832c3d-d178-877d-a255-f746528da35e" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="bad86cdd-609e-2a68-6f1c-b12db90bb29f" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b4e94949-9448-0031-5a8a-19d1685435ab" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- THOR -->
+                    <attribute id="BoundsMax" type="fvec3" value="4 5 4" />
+                    <attribute id="BoundsMin" type="fvec3" value="-4 -1 -4" />
+                    <attribute id="Center" type="fvec3" value="0 2 0" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="2.268963" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="da2c56bf-d738-4171-82e5-f681c4b43b8c" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Thor_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thor_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">		<!-- Particle System | Material | Light Flare -->
+                                    <attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Pulsing Refraction -->
+                                    <attribute id="Object" type="FixedString" value="7bdafec7-27dd-539a-e30b-3a3fb9311196" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Ring Burst -->
+                                    <attribute id="Object" type="FixedString" value="1f1e674c-ccf6-1063-8e53-a1bfc98d5939" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Mesh | Ring Pulse -->
+                                    <attribute id="Object" type="FixedString" value="332f5caf-d6a6-b343-3a24-acbd3a0b5b30" />
+                                </node>
+                                <node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+                                    <attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- TRITON -->
+                    <attribute id="BoundsMax" type="fvec3" value="9 9 9" />
+                    <attribute id="BoundsMin" type="fvec3" value="-9 -9 -9" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="1.5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="4b3d1146-2299-441b-bdf3-021e7bcaeae5" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Triton_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Triton_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="c8a0c44e-fd23-1646-795b-6c75f816a340" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="929f78cf-857c-6baa-5151-da48095c855c" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- YMIR -->
+                     <attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+                    <attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="37bab533-2bc1-497c-a972-869c700cf536" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Ymir_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Ymir_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="78cdf3ce-a77b-ffbc-e76f-14a84a8cff00" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5d2bee24-f07e-319e-bfb1-d61fe8fb98c7" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="69a79191-cb83-16eb-8c95-38a7e55305cc" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="d1dca510-8210-0055-2d9d-eaeb8642f3d4" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="8d4d77fe-3061-f357-66a8-75584eb1858d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="72a19c48-148f-c5d4-2370-03d8b5866150" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="f12c073f-f9e9-067d-1ecc-33308473470d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="783ce98e-8afb-54ac-6c6e-4c985d5f011b" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="490a0867-f298-2f78-e11b-a2983e2547f5" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="c09783dc-9e05-790c-b1b9-75c2264eba37" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="018e4e73-1ad7-d3de-9dff-19ba345fc952" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- ZEUS -->
+                    <attribute id="BoundsMax" type="fvec3" value="3 3 10" />
+                    <attribute id="BoundsMin" type="fvec3" value="-3 -3 -10" />
+                    <attribute id="Center" type="fvec3" value="0 0 -5" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="3.11" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineCharge_BeamFX_01" />
+                    <attribute id="ID" type="FixedString" value="e8c9a975-f9fe-47dc-a79d-144b9c0e2c56" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Zeus_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Zeus_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="804a9887-15fc-ad4c-a78a-a53545e2a196" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="f51d4ea9-e053-382a-31b6-7d2458e4aab3" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="042147c1-75ac-a2bf-2f2c-bbfe055ea7cf" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="f5a7fc9e-ce58-7b41-fd0c-89f5cfe47841" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="a81ddf67-e243-0150-2a9a-fc184c1dff51" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="25d0bca9-7051-98ea-6c8c-58536917a864" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="57f47a90-18b7-4e46-ab24-9372eb56e560" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>                
+            </children>
+        </node>
+    </region>
+</save>

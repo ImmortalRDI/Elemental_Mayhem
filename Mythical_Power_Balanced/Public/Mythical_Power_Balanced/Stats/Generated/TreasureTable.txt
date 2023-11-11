@@ -1,0 +1,18 @@
+new treasuretable "GOB_DrowCommander"
+CanMerge 1
+new subtable "-1"
+object category "I_OBJ_Scroll_DivineCharge_Unlock",1,0,0,0,0,0,0,0
+
+new treasuretable "FOR_Spiders_SpiderQueen"
+new subtable "-1"
+object category "I_OBJ_Scroll_DivineShift_Unlock",1,0,0,0,0,0,0,0
+
+new treasuretable "GOB_King"
+CanMerge 1
+new subtable "-1"
+object category "I_OBJ_Scroll_DivineLeap_Unlock",1,0,0,0,0,0,0,0
+
+new treasuretable "HAG_Ethel"
+CanMerge 1
+new subtable "-1"
+object category "I_OBJ_Scroll_DivineStealth_Unlock",1,0,0,0,0,0,0,0

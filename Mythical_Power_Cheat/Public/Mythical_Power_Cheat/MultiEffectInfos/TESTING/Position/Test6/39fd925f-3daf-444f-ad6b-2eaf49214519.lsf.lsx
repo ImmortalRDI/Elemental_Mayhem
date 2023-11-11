@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="MultiEffectInfos">
+		<node id="MultiEffectInfos">
+			<attribute id="UUID" type="guid" value="39fd925f-3daf-444f-ad6b-2eaf49214519" />
+			<attribute id="Name" type="LSString" value="Test_PositionEffects6" />
+			<children>
+			</children>
+		</node>
+	</region>
+</save>

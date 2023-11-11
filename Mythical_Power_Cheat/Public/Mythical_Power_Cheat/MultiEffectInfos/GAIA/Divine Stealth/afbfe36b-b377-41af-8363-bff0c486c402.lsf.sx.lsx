@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="MultiEffectInfos">
+		<node id="MultiEffectInfos">
+			<attribute id="UUID" type="guid" value="afbfe36b-b377-41af-8363-bff0c486c402" />
+			<attribute id="Name" type="LSString" value="DivineStealth_Earth_CastEffects" />
+			<children>
+			</children>
+		</node>
+	</region>
+</save>
