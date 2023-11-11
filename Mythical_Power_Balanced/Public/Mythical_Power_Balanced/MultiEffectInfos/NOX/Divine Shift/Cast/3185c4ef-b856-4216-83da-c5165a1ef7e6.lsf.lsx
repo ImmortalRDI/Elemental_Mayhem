@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="3185c4ef-b856-4216-83da-c5165a1ef7e6" />
-			<attribute id="Name" type="LSString" value="DivineShift_Shadow_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Shadow_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Nox_DivineShift_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Nox_Target_Shift_Elemental_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="10f78221-f85e-41de-86e8-5314e7cdb327" />
 					<attribute id="EffectResourceGuid" type="guid" value="a9aa3678-1de2-4952-96a8-4b51adcb6c7c" />
 					<attribute id="DetachSource" type="bool" value="False" />

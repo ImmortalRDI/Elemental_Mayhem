@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="3bfaf203-48a5-4405-a5c7-0b3cd50af92d" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Lightning_PrepareEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Zeus_LightningStorm_01 ( Lightning Storm ) -->
+				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Lightning_LightningStorm_01 ( Lightning Storm ) -->
 					<attribute id="UUID" type="guid" value="2fd5c0f2-f023-4cc2-a8e7-b2a99a65283b" />
 					<attribute id="EffectResourceGuid" type="guid" value="ba71d970-ff97-424e-b9db-775818b58a57" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -27,7 +27,7 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Zeus_BodyFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Lightning_BodyFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="90ab13de-39e6-425a-b7c9-4695c2a740f2" />
 					<attribute id="EffectResourceGuid" type="guid" value="d48c4bb8-cee7-43e5-be6c-dc8d9d3f08c0" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -53,7 +53,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Zeus_EyeFX_01 ( Glowing Light Blue Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Lightning_EyeFX_01 ( Glowing Light Blue Eyes ) -->
 					<attribute id="UUID" type="guid" value="905ba923-0c10-443b-92bb-954eeb23bb8b" />
 					<attribute id="EffectResourceGuid" type="guid" value="590fd35e-6958-404b-b575-c81d28d4f1b2" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -82,7 +82,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Zeus_EyeFX_02 ( Glowing Light Blue Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Lightning_EyeFX_02 ( Glowing Light Blue Eyes ) -->
 					<attribute id="UUID" type="guid" value="8b9c057a-9092-45a4-b657-d04cf3b49af6" />
 					<attribute id="EffectResourceGuid" type="guid" value="150ceef4-8b2f-4221-9c65-a6f7ce1c040f" />
 					<attribute id="DetachSource" type="bool" value="False" />

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="05b2913f-815a-4d61-92d7-44e591ee1dcf" />
-			<attribute id="Name" type="LSString" value="DivineStealth_Shadow_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Stealth_Elemental_Shadow_CastEffects" />
 			<children>
 			</children>
 		</node>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="41f49c2e-0371-49ca-a596-53077b034bd0" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Cold_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- POSITION FX: VFX_Ymir_DivineCharge_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- POSITION FX: VFX_Cold_DivineCharge_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="e923ad00-a0b0-4e5b-a77b-00e4fc04185b" />
 					<attribute id="EffectResourceGuid" type="guid" value="65fcb84a-3a92-4f03-9377-7cdb4a70543a" />
 					<attribute id="DetachSource" type="bool" value="False" />

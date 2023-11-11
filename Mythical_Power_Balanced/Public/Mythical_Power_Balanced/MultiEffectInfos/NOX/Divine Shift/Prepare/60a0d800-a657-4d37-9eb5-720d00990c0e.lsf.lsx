@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="60a0d800-a657-4d37-9eb5-720d00990c0e" />
-			<attribute id="Name" type="LSString" value="DivineShift_Shadow_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Shadow_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Nox_Darkness_01 ( Bats & Darkness ) -->
 					<attribute id="UUID" type="guid" value="6a0f54a5-c2dd-485a-af3e-6f3398e9e346" />

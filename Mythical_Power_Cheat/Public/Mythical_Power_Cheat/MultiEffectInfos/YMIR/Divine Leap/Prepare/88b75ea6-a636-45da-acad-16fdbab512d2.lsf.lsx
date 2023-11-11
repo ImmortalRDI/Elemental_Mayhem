@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="88b75ea6-a636-45da-acad-16fdbab512d2" />
-			<attribute id="Name" type="LSString" value="DivineLeap_Cold_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalCold_PrepareEffects" />
 			<children>
-                <node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Ymir_Blizzard_01 (Blizzard) -->
+                <node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Cold_Blizzard_01 (Blizzard) -->
 					<attribute id="UUID" type="guid" value="fe41ec65-8ff1-4c82-afbc-d10aef0a8125" />
 					<attribute id="EffectResourceGuid" type="guid" value="5eb03f9c-89db-473a-a10c-b2d61806ee08" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -27,7 +27,7 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Ymir_BodyFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Cold_BodyFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="6f9b41e8-def0-4532-839e-ac7977950f9c" />
 					<attribute id="EffectResourceGuid" type="guid" value="b6b99301-adef-4ff5-84e6-d3eea8466464" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -53,7 +53,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Ymir_EyeFX_01 ( Glowing Snowy Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Cold_EyeFX_01 ( Glowing Snowy Eyes ) -->
 					<attribute id="UUID" type="guid" value="de551fc4-9e3e-4d6e-a37e-9f126e39b8fb" />
 					<attribute id="EffectResourceGuid" type="guid" value="dc0cb62c-aa8f-4ea7-ba1f-40d990f6c252" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -82,7 +82,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Ymir_EyeFX_02 ( Glowing Snowy Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Cold_EyeFX_02 ( Glowing Snowy Eyes ) -->
 					<attribute id="UUID" type="guid" value="71f6a6ac-f430-462e-81e1-0d7cec066a36" />
 					<attribute id="EffectResourceGuid" type="guid" value="2e0e9c8a-9e79-4939-9d69-f4fc8e8adce4" />
 					<attribute id="DetachSource" type="bool" value="False" />

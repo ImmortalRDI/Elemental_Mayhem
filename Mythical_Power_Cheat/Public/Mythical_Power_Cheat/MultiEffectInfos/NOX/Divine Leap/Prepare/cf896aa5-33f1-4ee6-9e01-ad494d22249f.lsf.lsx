@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="cf896aa5-33f1-4ee6-9e01-ad494d22249f" />
-			<attribute id="Name" type="LSString" value="DivineLeap_Shadow_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalShadow_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Nox_Darkness_01 ( Bats & Darkness ) -->
 					<attribute id="UUID" type="guid" value="6edc23f6-4c8d-400c-a99f-8fd529c8f1d4" />

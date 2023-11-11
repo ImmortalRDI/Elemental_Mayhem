@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="2c21912d-2b74-453c-bfa5-b3f87708638c" />
-			<attribute id="Name" type="LSString" value="DivineShift_Nature_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Nature_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Freya_DivineShift_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Nature_Target_Shift_Elemental_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="9cb7b059-c9ff-43cc-86e0-84ff60d9538a" />
 					<attribute id="EffectResourceGuid" type="guid" value="ebd04bbc-badb-4df6-bde3-8fc678c1e3f2" />
 					<attribute id="DetachSource" type="bool" value="False" />

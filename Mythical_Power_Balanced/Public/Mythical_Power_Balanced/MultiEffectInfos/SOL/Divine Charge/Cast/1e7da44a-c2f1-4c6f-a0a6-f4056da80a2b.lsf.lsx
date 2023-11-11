@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="1e7da44a-c2f1-4c6f-a0a6-f4056da80a2b" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Radiant_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Sol_DivineCharge_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Radiant_DivineCharge_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="4e6f74bf-01d9-42b5-b5bc-2984b91f7885" />
 					<attribute id="EffectResourceGuid" type="guid" value="2e1e53e2-bbfd-44db-bf90-bb36f9877ae6" />
 					<attribute id="DetachSource" type="bool" value="False" />

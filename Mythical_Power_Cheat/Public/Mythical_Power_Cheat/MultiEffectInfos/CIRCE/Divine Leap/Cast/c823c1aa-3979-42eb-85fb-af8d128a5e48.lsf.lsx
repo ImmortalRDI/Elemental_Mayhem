@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="c823c1aa-3979-42eb-85fb-af8d128a5e48" />
-			<attribute id="Name" type="LSString" value="DivineLeap_Arcane_CastEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalArcane_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Circe_DivineLeap_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Arcane_Projectile_Leap_ElementalCastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="4f150299-a77f-4a62-99db-872daae701ee" />
 					<attribute id="EffectResourceGuid" type="guid" value="ed0d85f3-69ba-40d5-8846-d18959f06a8f" />
 					<attribute id="DetachSource" type="bool" value="False" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="b4117969-3d4d-4ff8-9221-19e9a0490ffa" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Arcane_PrepareEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Circe_ArcaneVortex_01 ( Arcane Vortex ) -->
+				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Arcane_ArcaneVortex_01 ( Arcane Vortex ) -->
 					<attribute id="UUID" type="guid" value="5ebbd3b2-80d4-497f-9c16-5e934f97d710" />
 					<attribute id="EffectResourceGuid" type="guid" value="1ea79692-24e7-4794-a34d-f5b32cdd91f9" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -27,7 +27,7 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Circe_BodyFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Arcane_BodyFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="d82cb602-4d33-4447-af03-929b13dcf9d3" />
 					<attribute id="EffectResourceGuid" type="guid" value="360c747c-4dad-469d-8327-ed30c13baa0b" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -53,7 +53,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Circe_EyeFX_01 ( Glowing Arcane Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Arcane_EyeFX_01 ( Glowing Arcane Eyes ) -->
 					<attribute id="UUID" type="guid" value="6463b3b3-2975-49d2-851b-fc0b64b58109" />
 					<attribute id="EffectResourceGuid" type="guid" value="f0c7ec88-42ca-401d-bead-fa8ae225f6c3" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -82,7 +82,7 @@
 						</node>
 					</children>
 				</node>				
-				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Circe_EyeFX_02 ( Glowing Arcane Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Arcane_EyeFX_02 ( Glowing Arcane Eyes ) -->
 					<attribute id="UUID" type="guid" value="36d9fa59-3cc3-4004-867c-5d3801f1164b" />
 					<attribute id="EffectResourceGuid" type="guid" value="6682e979-4ccb-4031-879a-75c1668dd787" />
 					<attribute id="DetachSource" type="bool" value="False" />

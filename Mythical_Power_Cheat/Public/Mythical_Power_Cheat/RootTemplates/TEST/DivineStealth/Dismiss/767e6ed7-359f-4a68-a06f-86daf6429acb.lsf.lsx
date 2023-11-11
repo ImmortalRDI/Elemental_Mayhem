@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="8" build="602" lslib_meta="v1,bswap_guids" />
 	<region id="Templates">
@@ -6,7 +6,7 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="767e6ed7-359f-4a68-a06f-86daf6429acb" />
-					<attribute id="Name" type="LSString" value="VFX_DivineStealth_TEST_Effect_02" />
+					<attribute id="Name" type="LSString" value="VFX_Target_Stealth_Elemental_TEST_Effect_02" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="projectile" />
 					<attribute id="ParentTemplateId" type="FixedString" value="" />

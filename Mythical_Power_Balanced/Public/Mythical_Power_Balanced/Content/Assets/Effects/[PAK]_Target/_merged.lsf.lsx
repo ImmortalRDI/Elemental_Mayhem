@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>		<!-- HIT EFFECTS -->
+<?xml version="1.0" encForceg="utf-8"?>		<!-- HIT EFFECTS -->
 <save>
 	<version major="4" minor="0" revision="9" build="328" />
 	<region id="EffectBank">
 		<node id="EffectBank">
 			<children>      <!-- DIVINE CHARGE -->
-				<node id="Resource">		<!-- ANUBIS -->
+				<node id="Resource">		<!-- Necrotic -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="673579ed-9b89-41f9-85bd-d2c18f8407a4" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Anubis_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Necrotic_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Anubis_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Necrotic_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -78,21 +78,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- ASMODEUS -->
+                <node id="Resource">		<!-- Fire -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="90d6123b-72ae-420e-bfcf-28965a60d1ce" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -149,21 +149,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- CIRCE -->
+                <node id="Resource">		<!-- Arcane -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="56c449af-f7e9-4293-8ea2-7d412c7c1b50" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Circe_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Circe_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<node id="Dependencies">
 						<children>
@@ -176,41 +176,41 @@
 						</children>
 					</node>
 				</node>
-                <node id="Resource">		<!-- FREYA -->
+                <node id="Resource">		<!-- Nature -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="9140774c-ceae-4d21-a32b-2637640ff575" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Freya_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Freya_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies" />
 					</children>
 				</node>
-                <node id="Resource">		<!-- FUJIN -->
+                <node id="Resource">		<!-- Wind -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="1" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="beaf4cc5-ccd2-4347-a415-1a38831964b7" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Fujin_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fujin_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -276,41 +276,41 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- GAIA -->
+                <node id="Resource">		<!-- Wind -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_GAIA_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="c826ac43-caef-4565-9046-90d608a53eda" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_GAIA_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_GAIA_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies" />
 					</children>
 				</node>
-                <node id="Resource">		<!-- MIMIR -->
+                <node id="Resource">		<!-- Psychic -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="66fb7b38-793a-4ef9-b587-21401f2bfd35" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Mimir_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Mimir_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -361,21 +361,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- MORRIGAN -->
+                <node id="Resource">		<!-- Blood -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="af855ed2-be43-4d5c-ae12-6b2a15744eff" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Morrigan_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -464,21 +464,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- ODIN -->
+                <node id="Resource">		<!-- Force -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="6.55" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="3387c600-b0dc-4378-81a6-c3ff88cb920a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Odin_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Odin_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -526,21 +526,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- SOL -->
+                <node id="Resource">		<!-- Radiant -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="e8de2738-f28e-42d8-b648-cb61820d2639" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Sol_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Sol_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -600,21 +600,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- THOR -->
+                <node id="Resource">		<!-- Thunder -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="7" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="0ffc581d-f5db-418f-9250-6dcaa11a2b1f" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Thor_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thor_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -656,21 +656,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- TRITON -->
+                <node id="Resource">		<!-- Water -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="2.01" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="5d65236e-2a16-4fa6-b855-aeb646e8f514" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Triton_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Triton_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -691,21 +691,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- YMIR -->
+                <node id="Resource">		<!-- Cold -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="6416cc43-163f-4196-9d2c-5a58309855ed" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Ymir_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Ymir_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -750,21 +750,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- ZEUS -->
+                <node id="Resource">		<!-- Lightning -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineCharge_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_DivineCharge_ImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="cabfb62c-c57b-4df6-b688-034fde0da562" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Zeus_DivineCharge_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_DivineCharge_ImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Zeus_DivineCharge_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_DivineCharge_ImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">

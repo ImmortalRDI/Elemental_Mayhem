@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="b90e3f03-f147-4dbc-9e9c-8c184c2ea918" />
-			<attribute id="Name" type="LSString" value="DivineLeap_Earth_CastEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalEarth_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Gaia_DivineLeap_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Wind_Projectile_Leap_ElementalCastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="64740726-f3fc-408f-8ce3-83614e870713" />
 					<attribute id="EffectResourceGuid" type="guid" value="13c11664-9f0f-4003-8275-e6072061ed75" />
 					<attribute id="DetachSource" type="bool" value="False" />

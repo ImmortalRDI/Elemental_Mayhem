@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="8e2618cd-516b-4387-bf4b-4257e13098f8" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Blood_PrepareEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Morrigan_$_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Blood_$_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="e015aba2-3ae4-4d82-ab8f-73d83552a1ec" />
 					<attribute id="EffectResourceGuid" type="guid" value="1470b6ca-9463-452c-a7d7-e0a496147c64" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -27,7 +27,7 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Morrigan_BodyFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Blood_BodyFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="c12ddfaf-ffb0-4307-ae99-bb02f93a9e5d" />
 					<attribute id="EffectResourceGuid" type="guid" value="3f85da51-c7c1-4a83-9b5f-af61c7ed2988" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -53,7 +53,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Morrigan_EyeFX_01 ( Glowing Blood Red Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Blood_EyeFX_01 ( Glowing Blood Red Eyes ) -->
 					<attribute id="UUID" type="guid" value="f4daf329-3d8d-48a6-819d-ebaab283f742" />
 					<attribute id="EffectResourceGuid" type="guid" value="ac259831-c112-42d5-aeba-2016fc2cf2f5" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -82,7 +82,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Morrigan_EyeFX_02 ( Glowing Blood Red Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Blood_EyeFX_02 ( Glowing Blood Red Eyes ) -->
 					<attribute id="UUID" type="guid" value="325c9822-99c3-4c8b-bb01-fc8700c476ba" />
 					<attribute id="EffectResourceGuid" type="guid" value="19f66bd2-001c-4bc9-bb49-2eeb2c91fa20" />
 					<attribute id="DetachSource" type="bool" value="False" />

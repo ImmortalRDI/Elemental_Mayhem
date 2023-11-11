@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="1e208a25-a760-4d46-874e-9e5e20cca98a" />
-			<attribute id="Name" type="LSString" value="DivineLeap_Necrotic_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalNecrotic_PrepareEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Anubis_SoulStorm_01 ( Necrotic Soul Storm ) -->
+				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Necrotic_SoulStorm_01 ( Necrotic Soul Storm ) -->
 					<attribute id="UUID" type="guid" value="a0b22369-3a40-4a97-8ed9-909acca8937a" />
 					<attribute id="EffectResourceGuid" type="guid" value="6069fdcd-6fec-4e72-935a-1f437f96a3fd" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -27,7 +27,7 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Anubis_BodyFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Necrotic_BodyFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="5bfb53da-66e9-4882-9114-6e9b93f650d0" />
 					<attribute id="EffectResourceGuid" type="guid" value="38b922fe-fc1c-430e-9d55-cc99c2894a22" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -53,7 +53,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!--EYE 01 FX: VFX_Divine_Anubis_EyeFX_01 ( Bright Glowing Necrotic Eyes ) -->
+				<node id="EffectInfo">		<!--EYE 01 FX: VFX_Divine_Necrotic_EyeFX_01 ( Bright Glowing Necrotic Eyes ) -->
 					<attribute id="UUID" type="guid" value="f3b5860d-3b52-4d56-9fee-b9da829b0baa" />
 					<attribute id="EffectResourceGuid" type="guid" value="12881ee2-30fd-447f-b515-4da95f7ffbad" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -82,7 +82,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!--EYE 02 FX: VFX_Divine_Anubis_EyeFX_02 ( Bright Glowing Necrotic Eyes ) -->
+				<node id="EffectInfo">		<!--EYE 02 FX: VFX_Divine_Necrotic_EyeFX_02 ( Bright Glowing Necrotic Eyes ) -->
 					<attribute id="UUID" type="guid" value="8c97e9ca-dde0-4c67-b7ad-9b941111fbd0" />
 					<attribute id="EffectResourceGuid" type="guid" value="b2c8b716-1681-49fc-8d24-ea6896d0962f" />
 					<attribute id="DetachSource" type="bool" value="False" />

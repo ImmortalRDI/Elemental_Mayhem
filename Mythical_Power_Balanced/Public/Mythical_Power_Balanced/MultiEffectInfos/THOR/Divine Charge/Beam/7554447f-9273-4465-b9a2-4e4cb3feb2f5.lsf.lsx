@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="7554447f-9273-4465-b9a2-4e4cb3feb2f5" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Thunder_BeamEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BEAM FX: VFX_Thor_DivineCharge_BeamFX_01 --> 
+				<node id="EffectInfo">		<!-- BEAM FX: VFX_Thunder_DivineCharge_BeamFX_01 --> 
 					<attribute id="UUID" type="guid" value="df32d49d-6e8d-4b0b-b729-7de209f8164c" />
 					<attribute id="EffectResourceGuid" type="guid" value="da2c56bf-d738-4171-82e5-f681c4b43b8c" />
 					<attribute id="DetachSource" type="bool" value="False" />

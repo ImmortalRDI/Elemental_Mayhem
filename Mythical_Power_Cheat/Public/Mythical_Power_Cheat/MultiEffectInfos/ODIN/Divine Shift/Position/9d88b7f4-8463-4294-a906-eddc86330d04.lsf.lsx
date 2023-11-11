@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="9d88b7f4-8463-4294-a906-eddc86330d04" />
-			<attribute id="Name" type="LSString" value="DivineShift_Force_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Force_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Odin_DivineShift_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Force_Target_Shift_Elemental_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="64ea4fa2-8d53-4176-a73c-a4d92ef69fce" />
 					<attribute id="EffectResourceGuid" type="guid" value="80a9687a-2830-4102-ab46-986da7ffb9dd" />
 					<attribute id="DetachSource" type="bool" value="False" />

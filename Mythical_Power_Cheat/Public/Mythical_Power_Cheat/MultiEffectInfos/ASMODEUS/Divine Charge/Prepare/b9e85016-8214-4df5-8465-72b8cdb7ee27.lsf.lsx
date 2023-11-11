@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="b9e85016-8214-4df5-8465-72b8cdb7ee27" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Fire_PrepareEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Asmodeus_Embers_01 ( Burning Embers & Smoke ) -->
+				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Fire_Embers_01 ( Burning Embers & Smoke ) -->
 					<attribute id="UUID" type="guid" value="bb351289-0deb-4c76-b656-d74a30571877" />
 					<attribute id="EffectResourceGuid" type="guid" value="53c7befe-ced7-4202-9acd-c1f6ba553677" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -27,7 +27,7 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Asmodeus_BodyFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Fire_BodyFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="4897004b-eabd-4c6a-adf3-f20995d351b0" />
 					<attribute id="EffectResourceGuid" type="guid" value="bf24b0ba-73f8-4a29-af44-51c088b77908" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -53,7 +53,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_L_Asmodeus_EyeFX_01 ( Bright Flaming Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_L_Fire_EyeFX_01 ( Bright Flaming Eyes ) -->
 					<attribute id="UUID" type="guid" value="905ba1f9-779d-4e74-b80a-02096a5bc1a3" />
 					<attribute id="EffectResourceGuid" type="guid" value="b8e1eaec-a76d-4463-a7be-3393250eb26e" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -82,7 +82,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_R_Asmodeus_EyeFX_02 ( Bright Flaming Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_R_Fire_EyeFX_02 ( Bright Flaming Eyes ) -->
 					<attribute id="UUID" type="guid" value="480a4aed-fc37-45c5-a344-31a81f80ac2d" />
 					<attribute id="EffectResourceGuid" type="guid" value="313d2e32-23de-484f-8b3a-2dfa456f1eee" />
 					<attribute id="DetachSource" type="bool" value="False" />

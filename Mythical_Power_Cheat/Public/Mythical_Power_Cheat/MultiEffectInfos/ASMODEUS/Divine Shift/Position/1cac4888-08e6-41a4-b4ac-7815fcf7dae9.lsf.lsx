@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="1cac4888-08e6-41a4-b4ac-7815fcf7dae9" />
-			<attribute id="Name" type="LSString" value="DivineShift_Fire_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Fire_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Asmodeus_DivineShift_PositionFX_01 ( Fiery Blast ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Fire_Target_Shift_Elemental_PositionFX_01 ( Fiery Blast ) -->
 					<attribute id="UUID" type="guid" value="6434b574-6eaa-4a88-813a-ed625c339e1a" />
 					<attribute id="EffectResourceGuid" type="guid" value="16004544-c714-4305-b00d-0d16fa1b3dc4" />
 					<attribute id="DetachSource" type="bool" value="False" />

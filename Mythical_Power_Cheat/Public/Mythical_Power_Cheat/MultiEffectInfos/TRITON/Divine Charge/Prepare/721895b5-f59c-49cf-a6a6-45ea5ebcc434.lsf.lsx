@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="721895b5-f59c-49cf-a6a6-45ea5ebcc434" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Water_PrepareEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Triton_RainStorm_01 ( Rain Storm ) -->
+				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Water_RainStorm_01 ( Rain Storm ) -->
 					<attribute id="UUID" type="guid" value="4aa1bfab-4190-4e2a-925e-96470967ee8b" />
 					<attribute id="EffectResourceGuid" type="guid" value="5225cb76-6cfe-4c94-998e-3b1558e66485" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -27,7 +27,7 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Triton_BodyFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Water_BodyFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="6b853bf0-e2b9-414f-a22d-115184b815b5" />
 					<attribute id="EffectResourceGuid" type="guid" value="65743996-74a5-422d-ab6a-6ba282e5b9b9" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -53,7 +53,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Triton_EyeFX_01 ( Glowing Blue Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Water_EyeFX_01 ( Glowing Blue Eyes ) -->
 					<attribute id="UUID" type="guid" value="864ed071-3847-46ad-8350-f700a9fa78c0" />
 					<attribute id="EffectResourceGuid" type="guid" value="62dc945d-1829-42bb-a171-db6496072a7d" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -82,7 +82,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Triton_EyeFX_02 ( Glowing Blue Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Water_EyeFX_02 ( Glowing Blue Eyes ) -->
 					<attribute id="UUID" type="guid" value="f4ad5d75-ff63-4e74-a22f-c08defc532e7" />
 					<attribute id="EffectResourceGuid" type="guid" value="c1763a37-44eb-4c85-a6a4-0dc627521d4a" />
 					<attribute id="DetachSource" type="bool" value="False" />

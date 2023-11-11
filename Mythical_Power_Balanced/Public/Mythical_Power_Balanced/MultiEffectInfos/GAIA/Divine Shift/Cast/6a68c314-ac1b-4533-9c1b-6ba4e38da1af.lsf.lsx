@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="6a68c314-ac1b-4533-9c1b-6ba4e38da1af" />
-			<attribute id="Name" type="LSString" value="DivineShift_Earth_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Earth_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Gaia_DivineShift_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Wind_Target_Shift_Elemental_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="526ed4b0-3402-4410-a242-41e0638cf31e" />
 					<attribute id="EffectResourceGuid" type="guid" value="1d11618c-0904-4b05-b199-3fbc71eb4177" />
 					<attribute id="DetachSource" type="bool" value="False" />

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="7e841221-30fd-4d73-a835-f82511f89737" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Blood_BeamEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BEAM FX: VFX_Morrigan_DivineCharge_BeamFX_01 --> 
+				<node id="EffectInfo">		<!-- BEAM FX: VFX_Blood_DivineCharge_BeamFX_01 --> 
 					<attribute id="UUID" type="guid" value="d28dbb3a-a3ce-433d-8e91-75904050501d" />
 					<attribute id="EffectResourceGuid" type="guid" value="fcf89b2f-5616-459c-b0f7-05ed2201f951" />
 					<attribute id="DetachSource" type="bool" value="False" />

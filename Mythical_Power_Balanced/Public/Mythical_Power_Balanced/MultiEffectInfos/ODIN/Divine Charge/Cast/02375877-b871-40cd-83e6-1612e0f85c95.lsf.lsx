@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="02375877-b871-40cd-83e6-1612e0f85c95" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Force_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Odin_DivineCharge_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Force_DivineCharge_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="41a9f97d-2e70-4eef-8637-6422df4cc59e" />
 					<attribute id="EffectResourceGuid" type="guid" value="6737d8d4-4b12-4081-b9a6-5af625c4a174" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -32,7 +32,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Odin_DivineCharge_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Force_DivineCharge_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="9a51ee98-a7ff-4d51-a2f0-40cb8b489975" />
 					<attribute id="EffectResourceGuid" type="guid" value="9b00f5d5-b0f4-497b-8717-4b5d99d5cf01" />
 					<attribute id="DetachSource" type="bool" value="False" />

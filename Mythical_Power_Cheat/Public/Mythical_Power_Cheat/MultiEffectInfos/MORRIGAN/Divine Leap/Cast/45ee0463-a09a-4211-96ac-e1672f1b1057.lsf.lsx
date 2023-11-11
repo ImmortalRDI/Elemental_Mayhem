@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="45ee0463-a09a-4211-96ac-e1672f1b1057" />
-			<attribute id="Name" type="LSString" value="DivineLeap_Blood_CastEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalBlood_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Morrigan_DivineLeap_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Blood_Projectile_Leap_ElementalCastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="b753e60d-bea7-40bc-9432-d362aadb4fee" />
 					<attribute id="EffectResourceGuid" type="guid" value="d157a1b7-85bc-4984-bcce-342753ff6d3a" />
 					<attribute id="DetachSource" type="bool" value="False" />

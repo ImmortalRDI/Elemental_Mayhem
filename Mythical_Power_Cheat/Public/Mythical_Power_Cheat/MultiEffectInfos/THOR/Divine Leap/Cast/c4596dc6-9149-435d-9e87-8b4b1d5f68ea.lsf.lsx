@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="c4596dc6-9149-435d-9e87-8b4b1d5f68ea" />
-			<attribute id="Name" type="LSString" value="DivineLeap_Thunder_CastEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalThunder_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Thor_DivineLeap_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Thunder_Projectile_Leap_ElementalCastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="5a761251-d7fc-4d3e-ad44-613f0f376231" />
 					<attribute id="EffectResourceGuid" type="guid" value="c25cb311-442d-4fd1-9e15-d2fb4dff326f" />
 					<attribute id="DetachSource" type="bool" value="False" />

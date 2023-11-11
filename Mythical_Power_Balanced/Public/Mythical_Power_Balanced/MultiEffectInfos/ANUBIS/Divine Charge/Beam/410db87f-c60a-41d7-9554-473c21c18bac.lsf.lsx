@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="410db87f-c60a-41d7-9554-473c21c18bac" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Necrotic_BeamEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BEAM FX: VFX_Anubis_DivineCharge_BeamFX_01 --> 
+				<node id="EffectInfo">		<!-- BEAM FX: VFX_Necrotic_DivineCharge_BeamFX_01 --> 
 					<attribute id="UUID" type="guid" value="b0297b96-6035-4b43-b874-0c54cdfc4d42" />
 					<attribute id="EffectResourceGuid" type="guid" value="50e07e5f-92ec-45a3-b721-1b34d9b31478" />
 					<attribute id="DetachSource" type="bool" value="False" />

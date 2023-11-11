@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encForceg="utf-8"?>
 <save>	
 	<version major="4" minor="0" revision="9" build="326" lslib_meta="v1,bswap_guids" />
 	<region id="Dependencies">
@@ -821,7 +821,7 @@
 											<attribute id="AttributeName" type="FixedString" value="Attached Fx" />
 											<attribute id="FullName" type="FixedString" value="Particle.Appearance.Attached Fx" />
 											<attribute id="Type" type="uint8" value="10" />
-											<attribute id="Value" type="FixedString" value="VFX_Environment_Zeus_SubEmit_01" />
+											<attribute id="Value" type="FixedString" value="VFX_Environment_Lightning_SubEmit_01" />
 										</node>
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Emit Stutter" />
@@ -2916,7 +2916,7 @@
 											<attribute id="AttributeName" type="FixedString" value="Attached Fx" />
 											<attribute id="FullName" type="FixedString" value="Particle.Appearance.Attached Fx" />
 											<attribute id="Type" type="uint8" value="10" />
-											<attribute id="Value" type="FixedString" value="VFX_Environment_Zeus_SubEmit_01" />
+											<attribute id="Value" type="FixedString" value="VFX_Environment_Lightning_SubEmit_01" />
 										</node>
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Emit Stutter" />
@@ -5011,7 +5011,7 @@
 											<attribute id="AttributeName" type="FixedString" value="Attached Fx" />
 											<attribute id="FullName" type="FixedString" value="Particle.Appearance.Attached Fx" />
 											<attribute id="Type" type="uint8" value="10" />
-											<attribute id="Value" type="FixedString" value="VFX_Environment_Zeus_SubEmit_01" />
+											<attribute id="Value" type="FixedString" value="VFX_Environment_Lightning_SubEmit_01" />
 										</node>
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Emit Stutter" />

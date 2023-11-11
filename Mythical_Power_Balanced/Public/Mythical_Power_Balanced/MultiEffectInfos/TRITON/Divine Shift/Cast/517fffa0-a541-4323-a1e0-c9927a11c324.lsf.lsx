@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="517fffa0-a541-4323-a1e0-c9927a11c324" />
-			<attribute id="Name" type="LSString" value="DivineShift_Water_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Water_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Triton_DivineShift_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Water_Target_Shift_Elemental_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="13410a21-807c-4f0a-8eda-e49ddda43b7c" />
 					<attribute id="EffectResourceGuid" type="guid" value="318b9752-cd0f-4419-86be-ffaa2fcae1eb" />
 					<attribute id="DetachSource" type="bool" value="False" />

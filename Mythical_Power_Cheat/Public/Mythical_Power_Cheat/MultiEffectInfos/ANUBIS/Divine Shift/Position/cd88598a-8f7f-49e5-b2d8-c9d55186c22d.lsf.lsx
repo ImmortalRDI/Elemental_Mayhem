@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="cd88598a-8f7f-49e5-b2d8-c9d55186c22d" />
-			<attribute id="Name" type="LSString" value="DivineShift_Necrotic_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Necrotic_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Anubis_DivineShift_PositionFX_01 ( Necrotic Burst ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Necrotic_Target_Shift_Elemental_PositionFX_01 ( Necrotic Burst ) -->
 					<attribute id="UUID" type="guid" value="971ffed9-a2b8-458e-b073-7231f30b83cd" />
 					<attribute id="EffectResourceGuid" type="guid" value="ccacb526-9ffd-4b15-b0c9-36538c6f5475" />
 					<attribute id="DetachSource" type="bool" value="False" />

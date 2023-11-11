@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="e7ce2c2b-7df0-4fa4-a9dd-6a724f5cc00e" />
-			<attribute id="Name" type="LSString" value="DivineShift_Nature_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Nature_PrepareEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Freya_FallingLeaves_01 ( Falling Leaves ) -->
+				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Nature_FallingLeaves_01 ( Falling Leaves ) -->
 					<attribute id="UUID" type="guid" value="3268021c-46d3-4d13-93ed-50ea17514ab4" />
 					<attribute id="EffectResourceGuid" type="guid" value="b6d5b855-15aa-4ff9-9aa3-b257114056c8" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -27,7 +27,7 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Freya_BodyFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Nature_BodyFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="783f4bca-0f1d-4de6-8d98-5a5d484c798c" />
 					<attribute id="EffectResourceGuid" type="guid" value="a1a077f3-3a00-43f1-8c3f-f78a6a8501b5" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -53,7 +53,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Freya_EyeFX_01 ( Glowing Druid Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Nature_EyeFX_01 ( Glowing Druid Eyes ) -->
 					<attribute id="UUID" type="guid" value="c4c590da-7109-4f4a-bfce-aa08bdc3fe4a" />
 					<attribute id="EffectResourceGuid" type="guid" value="f8dc235b-31da-40ad-bd6d-ddc0598ac7a4" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -82,7 +82,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Freya_EyeFX_02 ( Glowing Druid Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Nature_EyeFX_02 ( Glowing Druid Eyes ) -->
 					<attribute id="UUID" type="guid" value="7733acbb-4f48-42d9-8256-a7fbbe6ec36b" />
 					<attribute id="EffectResourceGuid" type="guid" value="6081e995-9865-4e29-a892-58772250cc40" />
 					<attribute id="DetachSource" type="bool" value="False" />

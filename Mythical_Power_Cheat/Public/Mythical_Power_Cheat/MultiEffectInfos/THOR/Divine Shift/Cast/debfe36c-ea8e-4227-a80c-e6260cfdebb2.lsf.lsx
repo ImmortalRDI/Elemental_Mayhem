@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="debfe36c-ea8e-4227-a80c-e6260cfdebb2" />
-			<attribute id="Name" type="LSString" value="DivineShift_Thunder_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Thunder_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Thor_DivineShift_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Thunder_Target_Shift_Elemental_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="c55c1bb6-edda-4500-b40d-0c441332cbff" />
 					<attribute id="EffectResourceGuid" type="guid" value="30c31c10-01d9-4b52-acd9-e8e6ef4415d9" />
 					<attribute id="DetachSource" type="bool" value="False" />

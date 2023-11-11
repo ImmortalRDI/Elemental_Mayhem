@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="cb5f1844-6a66-4e7c-b47f-b6b4fa411180" />
-			<attribute id="Name" type="LSString" value="DivineLeap_Psychic_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalPsychic_PrepareEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Mimir_PsionicSparks_01 ( Rising & Falling Pink Sparks ) -->
+				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Psychic_PsionicSparks_01 ( Rising & Falling Pink Sparks ) -->
 					<attribute id="UUID" type="guid" value="5bc1c04b-f478-4249-be6b-df97fa052638" />
 					<attribute id="EffectResourceGuid" type="guid" value="139838cb-3511-4272-a738-f997be436ec4" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -27,7 +27,7 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Mimir_BodyFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Psychic_BodyFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="b323217e-c5e5-4ee2-957a-d2474cd8761e" />
 					<attribute id="EffectResourceGuid" type="guid" value="63345ac9-8b98-45af-931a-3e9259262a24" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -53,7 +53,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Mimir_EyeFX_01 ( Bright Glowing Pink Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Psychic_EyeFX_01 ( Bright Glowing Pink Eyes ) -->
 					<attribute id="UUID" type="guid" value="d52d6f5b-11bf-4685-9f1c-135132de459d" />
 					<attribute id="EffectResourceGuid" type="guid" value="1cf7600d-e327-4e58-bfdf-34cf281872c9" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -82,7 +82,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Mimir_EyeFX_02 ( Bright Glowing Pink Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Psychic_EyeFX_02 ( Bright Glowing Pink Eyes ) -->
 					<attribute id="UUID" type="guid" value="25dd9066-c5e5-422c-af09-bff0f236b445" />
 					<attribute id="EffectResourceGuid" type="guid" value="4501ef15-f5bd-4a76-b680-3822125fa4a1" />
 					<attribute id="DetachSource" type="bool" value="False" />

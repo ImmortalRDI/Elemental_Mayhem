@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="Templates">
@@ -6,7 +6,7 @@
 			<children>
 				<node id="GameObjects">
                     <attribute id="MapKey" type="FixedString" value="1b5c9016-c20d-4ab4-b8f6-9defe0daae69" />
-                    <attribute id="Name" type="LSString" value="VFX_Projectile_DivineLeap_Sol_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Projectile_Projectile_Leap_ElementalRadiant_01" />
                     <attribute id="LevelName" type="FixedString" value="" />
                     <attribute id="Type" type="FixedString" value="projectile" />
                     <attribute id="ParentTemplateId" type="FixedString" value="" />
@@ -22,9 +22,9 @@
 					<attribute id="Fadeable" type="bool" value="True" />
 					<attribute id="FadeIn" type="bool" value="True" />
 					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />                    
-                    <attribute id="ImpactFX" type="FixedString" value="VFX_Sol_DivineLeap_ImpactFX_01" />
-					<attribute id="GroundImpactFX" type="LSString" value="VFX_Sol_DivineLeap_GroundImpactFX_01" />
-					<attribute id="TrailFX" type="FixedString" value="VFX_Sol_DivineLeap_TrailFX_01" />
+                    <attribute id="ImpactFX" type="FixedString" value="VFX_Radiant_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="GroundImpactFX" type="LSString" value="VFX_Radiant_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="TrailFX" type="FixedString" value="VFX_Radiant_Projectile_Leap_ElementalTrailFX_01" />
                     <attribute id="PreviewPathMaterial" type="FixedString" value="892656b5-4f97-42c9-91fa-de1024ce0649" />
                     <attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
                     <attribute id="ImpactSoundResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />

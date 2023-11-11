@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>		<!-- POSITION EFFECTS -->
+<?xml version="1.0" encForceg="utf-8"?>		<!-- POSITION EFFECTS -->
 <save>
 	<version major="4" minor="0" revision="9" build="328" />
 	<region id="EffectBank">
 		<node id="EffectBank">
 			
 			<children>		<!-- DIVINE CHARGE VFX -->
-				<node id="Resource">        <!-- ANUBIS -->
+				<node id="Resource">        <!-- Necrotic -->
 					<attribute id="BoundsMax" type="fvec3" value="10 10 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -13" />
 					<attribute id="Center" type="fvec3" value="0 0 -3" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="b7d72958-971d-4b5a-8585-115ecd935785" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Anubis_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Necrotic_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="10" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Anubis_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Necrotic_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -64,21 +64,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- ASMODEUS -->
+                <node id="Resource">        <!-- Fire -->
 					<attribute id="BoundsMax" type="fvec3" value="10 10 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -13" />
 					<attribute id="Center" type="fvec3" value="0 0 -3" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="1f084a85-daa2-49c0-b2a7-511b3be84ec7" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="10" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fire_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -186,21 +186,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- CIRCE -->
+                <node id="Resource">        <!-- Arcane -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="4c41c590-981a-4aa7-912c-2a77aaa70094" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Circe_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Circe_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Arcane_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -221,21 +221,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- FREYA -->
+                <node id="Resource">        <!-- Nature -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="5d60b67c-960e-46ea-b45e-5baee894f172" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Freya_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Freya_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Nature_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -250,21 +250,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- FUJIN -->
+                <node id="Resource">        <!-- Wind -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="6d502e8b-8c32-4312-9e87-4e0591bd735b" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Fujin_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fujin_BVFX_Fujin_DivineCharge_PositionFX_01odyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Wind_BVFX_Wind_DivineCharge_PositionFX_01odyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -309,21 +309,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- GAIA -->
+                <node id="Resource">        <!-- Wind -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.54" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Gaia_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="eb739895-0885-4a0e-a505-aa9e712581b6" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Gaia_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="6" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Gaia_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Wind_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -359,21 +359,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- MIMIR -->
+                <node id="Resource">        <!-- Psychic -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="c0d36715-251c-43c5-9c8d-c4fa0972995e" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Mimir_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Mimir_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Psychic_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -415,21 +415,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- MORRIGAN -->
+                <node id="Resource">        <!-- Blood -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="fd0e2814-f279-4da0-b9b3-7804230015dd" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Morrigan_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Blood_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -473,21 +473,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- ODIN -->
+                <node id="Resource">        <!-- Force -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.55" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="bf206b8d-7640-431b-b0b4-ebd68195c26a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Odin_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Odin_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Force_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -502,21 +502,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- SOL -->
+                <node id="Resource">        <!-- Radiant -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="4dcb8549-726b-4763-859a-26b3dda52bd4" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Sol_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Sol_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Radiant_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -531,21 +531,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- THOR -->
+                <node id="Resource">        <!-- Thunder -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="0772772e-e543-4cf8-888c-94e9eea229c4" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Thor_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thor_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thunder_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -569,21 +569,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- TRITON -->
+                <node id="Resource">        <!-- Water -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="96814a19-3933-49c7-80d3-7bf0fb173aac" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Triton_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Triton_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Water_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -598,21 +598,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- YMIR -->
+                <node id="Resource">        <!-- Cold -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="65fcb84a-3a92-4f03-9377-7cdb4a70543a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Ymir_DivineCharge_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_DivineCharge_PositionFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Ymir_DivineCharge_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Cold_DivineCharge_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -639,21 +639,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- ZEUS -->
+                <node id="Resource">        <!-- Lightning -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineCharge_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_DivineCharge_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="b7c58f97-6e82-4f12-b0ef-caed30605664" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Zeus_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Zeus_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Lightning_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -670,21 +670,21 @@
 				</node>
 			</children>
 			<children>		<!-- DIVINE SHIFT VFX -->
-				<node id="Resource">        <!-- ANUBIS -->
+				<node id="Resource">        <!-- Necrotic -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="ccacb526-9ffd-4b15-b0c9-36538c6f5475" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Anubis_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Necrotic_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Anubis_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Necrotic_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -717,21 +717,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- ASMODEUS -->
+                <node id="Resource">        <!-- Fire -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5"/>
-					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="16004544-c714-4305-b00d-0d16fa1b3dc4" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fire_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -764,21 +764,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- CIRCE -->
+                <node id="Resource">        <!-- Arcane -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="b36b3d5e-8f68-41f6-bd96-77795121c3ed" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Circe_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Circe_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Arcane_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -805,21 +805,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- FREYA -->
+                <node id="Resource">        <!-- Nature -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="ebd04bbc-badb-4df6-bde3-8fc678c1e3f2" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Freya_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Freya_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Nature_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -888,21 +888,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- FUJIN -->
+                <node id="Resource">        <!-- Wind -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="9b2c1390-1126-4c35-92d5-d6400c81102a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Fujin_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fujin_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Wind_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -938,21 +938,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- GAIA -->
+                <node id="Resource">        <!-- Wind -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="10" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Gaia_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="81fe49d1-8995-4c68-864e-d1e95eeff6dd" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Gaia_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Gaia_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Wind_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -985,21 +985,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- MIMIR -->
+                <node id="Resource">        <!-- Psychic -->
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="096cf0ee-a08c-4aa0-bd6e-540840c80052" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Mimir_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Mimir_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Psychic_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1056,21 +1056,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- MORRIGAN -->
+                <node id="Resource">        <!-- Blood -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="97dfa80e-b509-4368-9ae6-f6a80d06564a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Morrigan_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Blood_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1112,15 +1112,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nox_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nox_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="95fbb78f-5810-42c4-87b7-fb49362caa09" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nox_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nox_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Nox_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Nox_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1135,21 +1135,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- ODIN -->
+                <node id="Resource">        <!-- Force -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3.7" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="80a9687a-2830-4102-ab46-986da7ffb9dd" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Odin_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Odin_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Force_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1209,21 +1209,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- SOL -->
+                <node id="Resource">        <!-- Radiant -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="096124ff-be49-4b16-955d-79f461f3ba2a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Sol_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Sol_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Radiant_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1283,21 +1283,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- THOR -->
+                <node id="Resource">        <!-- Thunder -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="d034364a-f3c9-4266-9280-f63c7761c832" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Thor_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thor_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thunder_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1342,21 +1342,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- TRITON -->
+                <node id="Resource">        <!-- Water -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3.176021" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="08751ece-0b58-44cf-b08c-a39b5ffe23fe" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Triton_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Triton_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Water_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1386,21 +1386,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- YMIR -->
+                <node id="Resource">        <!-- Cold -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="ba3f0d17-af3b-4ffa-85b3-4c65b5a31e4a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Ymir_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Ymir_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Cold_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1436,21 +1436,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- ZEUS -->
+                <node id="Resource">        <!-- Lightning -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineShift_PositionFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="ID" type="FixedString" value="ef62a809-defa-4737-acf4-e3d9ddf7701e" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Zeus_DivineShift_PositionFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_Target_Shift_Elemental_PositionFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Zeus_DivineShift_PositionFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Lightning_Target_Shift_Elemental_PositionFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">

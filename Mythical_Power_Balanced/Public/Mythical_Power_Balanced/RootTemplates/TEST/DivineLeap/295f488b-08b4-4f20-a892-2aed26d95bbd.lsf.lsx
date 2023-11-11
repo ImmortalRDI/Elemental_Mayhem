@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="Templates">
@@ -6,7 +6,7 @@
 			<children>
 				<node id="GameObjects">
                     <attribute id="MapKey" type="FixedString" value="295f488b-08b4-4f20-a892-2aed26d95bbd" />
-                    <attribute id="Name" type="LSString" value="VFX_Projectile_DivineLeap_TEST_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Projectile_Projectile_Leap_ElementalTEST_01" />
                     <attribute id="LevelName" type="FixedString" value="" />
                     <attribute id="Type" type="FixedString" value="projectile" />
                     <attribute id="ParentTemplateId" type="FixedString" value="" />

@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>		<!-- DIVINE STEALTH VFX -->
+<?xml version="1.0" encForceg="utf-8"?>		<!-- DIVINE STEALTH VFX -->
 <save>
 	<version major="4" minor="0" revision="9" build="328" />
 	<region id="EffectBank">
 		<node id="EffectBank">
-			<children>		<!-- ANUBIS -->
+			<children>		<!-- Necrotic -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="67f54e20-9471-42ee-bb01-9b65e29fd601" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Anubis_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Necrotic_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Anubis_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Necrotic_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -75,15 +75,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="c141a075-3696-4d6a-856e-fa7d88a7c0c1" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Anubis_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Necrotic_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Anubis_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Necrotic_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -108,22 +108,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- ASMODEUS -->
+			<children>		<!-- Fire -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="ed3cc060-096c-4767-a9a5-95a11e38ed86" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -198,15 +198,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="12cd0490-de0f-455c-ac3f-114a828975fe" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="20" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -273,22 +273,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- CIRCE -->
+			<children>		<!-- Arcane -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="165ced88-0c02-493a-9525-5220cad4d710" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Circe_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Circe_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="DependentResource">
@@ -323,15 +323,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="258786bf-c94f-4fc8-8056-bc4b2458172e" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Circe_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Circe_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="DependentResource">
@@ -370,22 +370,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- FREYA -->
+			<children>		<!-- Nature -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="dbd043b0-a6a3-4cda-899c-0e5ae2418cc2" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Freya_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Freya_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -421,15 +421,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="9d07ea9e-ea96-4195-8836-9073e7f1a50e" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Freya_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Freya_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -460,22 +460,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- FUJIN -->
+			<children>		<!-- Wind -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="8 8 8" />
 					<attribute id="BoundsMin" type="fvec3" value="-8 -8 -8" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="e35e2def-a323-4719-80d5-51f295472448" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Fujin_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="8" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fujin_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -529,15 +529,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="3dba7149-ac51-4c91-bcd2-7e383605ca4c" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Fujin_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fujin_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -598,22 +598,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- GAIA -->
-				<node id="Resource">		<!-- GAIA -->
+			<children>		<!-- Wind -->
+				<node id="Resource">		<!-- Wind -->
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Gaia_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="7ea5d407-9b3b-456b-94f5-7dd6a51bf55a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Gaia_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Gaia_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -667,15 +667,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 -0.5" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Gaia_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="ed9cdc6e-09c3-4be9-a5b8-1e62276777d2" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Gaia_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="7" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Gaia_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -736,22 +736,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- MIMIR -->
+			<children>		<!-- Psychic -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="8 8 8" />
 					<attribute id="BoundsMin" type="fvec3" value="-8 -8 -8" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="6503d751-7215-4281-b4a7-33adba462872" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Mimir_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="8" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Mimir_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -817,15 +817,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="7" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="4f0b643f-719c-4024-bb50-0a2a33ffcdb4" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Mimir_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="10" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Mimir_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -880,22 +880,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- MORRIGAN -->
+			<children>		<!-- Blood -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="14 14 14" />
 					<attribute id="BoundsMin" type="fvec3" value="-14 -14 -14" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="41e7f32f-c9d7-418b-b9b9-398ec2f4365c" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Morrigan_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="14" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -946,15 +946,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="209b3cea-ca61-4437-967b-2a6a30753ddf" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Morrigan_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="16" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -992,15 +992,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nox_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nox_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="8e679d3e-134a-4085-8c01-0ffbc2d6f29c" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nox_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nox_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="8" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1030,15 +1030,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nox_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nox_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="3b058ff1-2442-40f2-8d87-c0e96d6b1506" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nox_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nox_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="8" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1072,22 +1072,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- ODIN -->
+			<children>		<!-- Force -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="14 14 14" />
 					<attribute id="BoundsMin" type="fvec3" value="-14 -14 -14" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="bf3a5a1e-cf04-4c95-b04d-56f77f3e0b4f" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Odin_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="14" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Odin_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1141,15 +1141,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="7" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="66503c0c-2ba9-4985-ae32-1c8eeaf0b5de" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Odin_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="10" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Odin_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1201,22 +1201,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- SOL -->
+			<children>		<!-- Radiant -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="d6032068-62da-439c-8280-37a7edbc574c" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Sol_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="7" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Sol_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1300,15 +1300,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="b0615ffa-fff7-454f-8697-3900e979b185" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Sol_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="10" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Sol_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1366,22 +1366,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- THOR -->
+			<children>		<!-- Thunder -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="7" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="07e05d09-456d-416d-b6db-d5f46d40eee7" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Thor_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="10" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thor_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1435,15 +1435,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="3c4d2c61-db42-4244-9171-0a3aa2da49ad" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Thor_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="10" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thor_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1477,22 +1477,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- TRITON -->
+			<children>		<!-- Water -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="29155167-53e8-4b7f-b6d9-9f0f03fcb785" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Triton_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="10 " />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Triton_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1552,15 +1552,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="0f53b863-f1e9-4153-914e-ef71f7687a00" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Triton_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="8" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Triton_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1603,22 +1603,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- YMIR -->
+			<children>		<!-- Cold -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="8cdf9c57-7d04-40c2-b759-ecd802812b4f" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Ymir_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Ymir_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1660,15 +1660,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="fdea5bf4-a7e7-4780-b598-ff2ed1b967ee" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Ymir_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="7" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Ymir_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1723,22 +1723,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- ZEUS -->
+			<children>		<!-- Lightning -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="7.5 7.5 7.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-7.5 -7.5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="10" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineStealth_VanishFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="ID" type="FixedString" value="d7b693ca-e11a-4a44-acbd-9ba6629471d4" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Zeus_DivineStealth_VanishFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_Target_Stealth_Elemental_VanishFX_01" />
 					<attribute id="Radius" type="float" value="7.5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Zeus_DivineStealth_VanishFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Target_Stealth_Elemental_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1795,15 +1795,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="10" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineStealth_AppearFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="ID" type="FixedString" value="cb101eed-b3e3-4c5f-95d8-9ca04f884e50" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Zeus_DivineStealth_AppearFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_Target_Stealth_Elemental_AppearFX_01" />
 					<attribute id="Radius" type="float" value="7.5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Zeus_DivineStealth_AppearFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Target_Stealth_Elemental_AppearFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">

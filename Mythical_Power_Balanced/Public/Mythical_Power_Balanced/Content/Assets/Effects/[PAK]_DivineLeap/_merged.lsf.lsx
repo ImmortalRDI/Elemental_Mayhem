@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>		<!-- DIVINE LEAP VFX -->
+<?xml version="1.0" encForceg="utf-8"?>		<!-- DIVINE LEAP VFX -->
 <save>
 	<version major="4" minor="0" revision="9" build="328" />
 	<region id="EffectBank">
 		<node id="EffectBank">
-			<children>		<!-- ANUBIS -->
+			<children>		<!-- Necrotic -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="eb0af529-919a-497e-912c-1f6d1e964a46" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Anubis_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Necrotic_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Anubis_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Necrotic_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -72,15 +72,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.51" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="10122896-82da-4286-aa06-bf46e3621d47" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Anubis_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Necrotic_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="9" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Anubis_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Necrotic_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -122,15 +122,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.999999" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="6725bdb8-9dbe-4aaa-b6b9-9d8d73abc3e0" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Anubis_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Necrotic_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="9" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Anubis_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Necrotic_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -182,22 +182,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- ASMODEUS -->
+			<children>		<!-- Fire -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
 					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="f0e8896c-81fb-40af-acf6-1ee380568eb3" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="6" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -242,15 +242,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="30e5ddfd-4a16-474b-81d3-c46e51d1b6d1" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -307,15 +307,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="fd8a22be-4d93-44ab-814c-a4941cfbf70a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="20" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -394,22 +394,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- CIRCE -->
+			<children>		<!-- Arcane -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="7" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="ea48bb01-5413-48b9-b8e2-f4a906a20a7b" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Circe_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Circe_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="DependentResource">
@@ -447,15 +447,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="ea77bb63-ea9c-458b-83af-ed823443a05a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Circe_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Circe_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="DependentResource">
@@ -577,15 +577,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="8f8e705a-6542-4fe6-a308-b6079b75ae58" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Circe_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Circe_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -637,22 +637,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- FREYA -->
+			<children>		<!-- Nature -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="ec8584a2-cba1-42b3-938d-8ad6cd713a67" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Freya_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Freya_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -745,15 +745,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="f188bdf8-336e-465d-86a0-902051ea0715" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Freya_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Freya_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -801,37 +801,37 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="1fac4d1e-2811-492a-9de5-e9e9f39022df" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Freya_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Freya_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies" />
 					</children>
 				</node>
 			</children>
-			<children>		<!-- FUJIN -->
+			<children>		<!-- Wind -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="d778c5c2-b055-4dd2-be96-8a44656650a9" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Fujin_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fujin_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -876,15 +876,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="dd70f22d-56e1-4547-afc9-8163c66f6d35" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Fujin_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fujin_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -908,15 +908,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="c2754bf6-6c44-42c1-b7f8-b070cea9a2e7" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Fujin_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fujin_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -983,22 +983,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- GAIA -->
-				<node id="Resource">		<!-- GAIA -->
+			<children>		<!-- Wind -->
+				<node id="Resource">		<!-- Wind -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Gaia_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="6230adbf-6908-4f89-8395-0c3f38413af4" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Gaia_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Gaia_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1058,15 +1058,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 -0.5" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Gaia_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="c9462100-912a-4ab5-ab27-0f68bc6f9cd9" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Gaia_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="7" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Gaia_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1111,15 +1111,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.540044" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Gaia_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="67d18211-6ee1-44c7-8103-911feead07c4" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Gaia_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="6" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Gaia_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1159,22 +1159,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- MIMIR -->
+			<children>		<!-- Psychic -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="af132e05-4829-4c0a-bda8-c90ac3154d69" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Mimir_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Mimir_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1228,15 +1228,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="fa882dd9-5d99-4d89-9f89-d6c88347157f" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Mimir_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Mimir_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1311,15 +1311,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.540044" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="ef5feba6-e6e2-4278-9baa-74745a53a72a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Mimir_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="6" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Mimir_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1338,22 +1338,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- MORRIGAN -->
+			<children>		<!-- Blood -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="ac068b7e-0362-4450-a507-5c3148da8c93" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Morrigan_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1401,15 +1401,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="e165c849-418d-4069-81f7-3c2c440e9ef0" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Morrigan_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1454,15 +1454,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="efc338ee-5a5f-45cf-8a3b-07a480cf4b4e" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Morrigan_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1527,15 +1527,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nox_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nox_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="1d5b3256-ab3f-40f0-adc8-1bc87f101d89" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nox_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nox_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1583,15 +1583,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4.001213" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nox_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nox_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="cc98d1ac-63ec-4dd2-adb2-1e0e142cce31" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nox_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nox_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1615,15 +1615,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nox_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nox_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="bc9db5fa-ce30-4164-ad74-80bf0986abd8" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nox_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nox_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1657,22 +1657,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- ODIN -->
+			<children>		<!-- Force -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="adc0bf13-d1b6-42da-80a8-39cff58f9ed5" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Odin_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Odin_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1750,15 +1750,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.55" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="218a9364-aa79-4939-a9ea-59d5ee9003fd" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Odin_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Odin_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1779,15 +1779,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="1f9d0102-66f5-4c7a-96cb-52f5a773c486" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Odin_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Odin_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1881,22 +1881,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- SOL -->
+			<children>		<!-- Radiant -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.002337" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="8cffc846-25a9-4f5f-99bc-0ba37b4bd9f8" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Sol_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="7" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Sol_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1965,15 +1965,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.002337" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="91a8a341-8d96-4745-a25a-64276cc7993a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Sol_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Sol_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2036,15 +2036,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="300c61f8-1985-4b43-922e-599180570b1a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Sol_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="10" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Sol_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2102,22 +2102,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- THOR -->
+			<children>		<!-- Thunder -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="7" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="5a80a231-4248-413d-887b-91a32c9a3c25" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Thor_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thor_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2171,15 +2171,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="b2f9c009-596a-47e8-818a-8c4a003b791f" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Thor_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thor_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2212,15 +2212,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="adf1338a-9011-4c1a-8ca6-9f066775d8c7" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Thor_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="6" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thor_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2269,22 +2269,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- TRITON -->
+			<children>		<!-- Water -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="9 9 9" />
 					<attribute id="BoundsMin" type="fvec3" value="-9 -9 -9" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3.1" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="b722dfe3-fa2a-4b6a-8eb9-52f9e61bc3ea" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Triton_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="9 " />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Triton_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2308,15 +2308,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="d18b618e-7454-4b2e-8fd2-f5d187c0551f" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Triton_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Triton_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2364,15 +2364,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3.25" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="1772db86-7732-4e58-ae04-4edbfb038162" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Triton_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="9" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Triton_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2388,22 +2388,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- YMIR -->
+			<children>		<!-- Cold -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="d1a09a5a-ea3b-4cc4-99b0-980cb32a2204" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Ymir_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="7" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Ymir_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2472,15 +2472,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="4c5c9e2a-91d3-4fb1-b03e-e49b7c14ab82" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Ymir_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Ymir_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2528,15 +2528,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3.25" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="3ec4d022-72cf-4139-8956-a97d80dcca17" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Ymir_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="11" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Ymir_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2576,22 +2576,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- ZEUS -->
+			<children>		<!-- Lightning -->
 				<node id="Resource">		<!-- TRAIL -->
 					<attribute id="BoundsMax" type="fvec3" value="7.5 7.5 7.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-7.5 -7.5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineLeap_TrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="74573748-9702-4c66-b2a2-d0798212c0c0" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Zeus_DivineLeap_TrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_Projectile_Leap_ElementalTrailFX_01" />
 					<attribute id="Radius" type="float" value="7.5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Zeus_DivineLeap_TrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Projectile_Leap_ElementalTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2633,15 +2633,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="10" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineLeap_ImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="67cf71ee-0367-4e01-a14c-0b4ecb4c005b" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Zeus_DivineLeap_ImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_Projectile_Leap_ElementalImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Zeus_DivineLeap_ImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Projectile_Leap_ElementalImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2680,15 +2680,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="10" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineLeap_GroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="ae3701ba-85f0-4ae1-8dcd-cec026f42fc2" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Zeus_DivineLeap_GroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_Projectile_Leap_ElementalGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="10" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Zeus_DivineLeap_GroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">

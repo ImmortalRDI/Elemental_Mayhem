@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="9890f5a6-735d-4645-bd2d-5932c961e5ca" />
-			<attribute id="Name" type="LSString" value="DivineShift_Lightning_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Lightning_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Zeus_DivineShift_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Lightning_Target_Shift_Elemental_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="26865065-cd6c-4edd-ad82-a5982d04471d" />
 					<attribute id="EffectResourceGuid" type="guid" value="ef62a809-defa-4737-acf4-e3d9ddf7701e" />
 					<attribute id="DetachSource" type="bool" value="False" />

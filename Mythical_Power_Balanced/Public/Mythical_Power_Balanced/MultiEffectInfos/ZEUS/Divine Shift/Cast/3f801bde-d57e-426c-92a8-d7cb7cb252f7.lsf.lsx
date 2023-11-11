@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="3f801bde-d57e-426c-92a8-d7cb7cb252f7" />
-			<attribute id="Name" type="LSString" value="DivineShift_Lightning_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Lightning_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Zeus_DivineShift_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Lightning_Target_Shift_Elemental_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="d40d14f5-ea47-4515-93f4-993a63684764" />
 					<attribute id="EffectResourceGuid" type="guid" value="8ef8a741-461b-4f08-ba95-36009eb26456" />
 					<attribute id="DetachSource" type="bool" value="False" />

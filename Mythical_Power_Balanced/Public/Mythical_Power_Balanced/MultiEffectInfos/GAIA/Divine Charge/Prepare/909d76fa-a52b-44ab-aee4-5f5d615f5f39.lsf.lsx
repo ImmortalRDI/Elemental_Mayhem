@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="909d76fa-a52b-44ab-aee4-5f5d615f5f39" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Earth_PrepareEffects" />
 			<children>
-			<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Gaia_Rocks_01 ( Floating Rocks ) -->
+			<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Wind_Rocks_01 ( Floating Rocks ) -->
 					<attribute id="UUID" type="guid" value="a82467ae-7f0c-4af6-b051-863a762b5735" />
 					<attribute id="EffectResourceGuid" type="guid" value="530a5d44-b757-4f6c-b071-d05526356273" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -27,7 +27,7 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Gaia_BodyFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Wind_BodyFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="a621159d-3a20-4e5d-81cf-55814efb1969" />
 					<attribute id="EffectResourceGuid" type="guid" value="9dbe7751-df80-4fc3-b4bb-0b7fcf64640a" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -53,7 +53,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Gaia_EyeFX_01 ( Bright Earthy Tan Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Wind_EyeFX_01 ( Bright Earthy Tan Eyes ) -->
 					<attribute id="UUID" type="guid" value="ddd02be0-c611-4bc6-8760-c8711b368625" />
 					<attribute id="EffectResourceGuid" type="guid" value="bb8e6465-fc3a-4656-92e4-b54ddbff63f9" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -82,7 +82,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Gaia_EyeFX_02 ( Bright Earthy Tan Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Wind_EyeFX_02 ( Bright Earthy Tan Eyes ) -->
 					<attribute id="UUID" type="guid" value="1402bc9f-1357-487b-b312-39a07ee54a68" />
 					<attribute id="EffectResourceGuid" type="guid" value="387cc5ea-bcba-4d5e-aa34-54b1a434c116" />
 					<attribute id="DetachSource" type="bool" value="False" />

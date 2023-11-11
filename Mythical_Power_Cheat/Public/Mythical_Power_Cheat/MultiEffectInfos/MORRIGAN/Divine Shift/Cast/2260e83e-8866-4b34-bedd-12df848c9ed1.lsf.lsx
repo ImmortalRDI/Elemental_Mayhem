@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="2260e83e-8866-4b34-bedd-12df848c9ed1" />
-			<attribute id="Name" type="LSString" value="DivineShift_Blood_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Blood_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Morrigan_DivineShift_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Blood_Target_Shift_Elemental_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="c8674d36-f9de-4294-a71d-25ec7c6ac159" />
 					<attribute id="EffectResourceGuid" type="guid" value="8355fe9d-09ce-4685-99e3-2773e68ac3d9" />
 					<attribute id="DetachSource" type="bool" value="False" />

@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>		<!-- BEAM EFFECTS -->
+<?xml version="1.0" encForceg="utf-8"?>		<!-- BEAM EFFECTS -->
 <save>
 	<version major="4" minor="0" revision="9" build="328" />
 	<region id="EffectBank">
 		<node id="EffectBank">
             <children>      <!-- DIVINE CHARGE -->
-                <node id="Resource">        <!-- ANUBIS -->
+                <node id="Resource">        <!-- Necrotic -->
                     <attribute id="BoundsMax" type="fvec3" value="10 10 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Anubis_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Necrotic_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="50e07e5f-92ec-45a3-b721-1b34d9b31478" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Anubis_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Anubis_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Necrotic_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Necrotic_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -56,17 +56,17 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- ASMODEUS -->
+                <node id="Resource">        <!-- Fire -->
                     <attribute id="BoundsMax" type="fvec3" value="15 15 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -20" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="7.871278" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Fire_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="dcbcfa7b-2cf7-48da-ac2e-effe9a1ff01d" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Asmodeus_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Asmodeus_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Fire_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fire_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -93,17 +93,17 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- CIRCE -->
+                <node id="Resource">        <!-- Arcane -->
                      <attribute id="BoundsMax" type="fvec3" value="15 15 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -20" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="7.871278" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Circe_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Arcane_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="4fafb9b4-edad-4a1f-b27f-9ca4e0e746cc" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Circe_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Circe_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Arcane_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Arcane_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -139,17 +139,17 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- FREYA -->
+                <node id="Resource">        <!-- Nature -->
                      <attribute id="BoundsMax" type="fvec3" value="15 15 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -20" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="7.871278" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Freya_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Nature_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="033e9411-9369-4926-bd40-a1aee75c0fb9" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Freya_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Freya_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Nature_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Nature_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -167,17 +167,17 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- FUJIN -->
+                <node id="Resource">        <!-- Wind -->
                     <attribute id="BoundsMax" type="fvec3" value="10 10 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Fujin_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Wind_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="66b837cc-0e9b-408b-9ed4-b942ee7b03c4" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
 					<attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Fujin_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fujin_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Wind_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Wind_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -198,19 +198,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- GAIA -->
+                <node id="Resource">        <!-- Wind -->
                     <attribute id="BoundsMax" type="fvec3" value="3 5 3" />
                     <attribute id="BoundsMin" type="fvec3" value="-3 -1 -3" />
                     <attribute id="Center" type="fvec3" value="0 2 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Gaia_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Wind_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="97275d02-78c8-4bdb-a85f-a7e6f2b209ec" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Gaia_DivineCharge_BeamFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Wind_DivineCharge_BeamFX_01" />
                     <attribute id="Radius" type="float" value="15" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Gaia_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Wind_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -234,17 +234,17 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- MIMIR -->
+                <node id="Resource">        <!-- Psychic -->
                     <attribute id="BoundsMax" type="fvec3" value="10 10 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Mimir_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Psychic_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="15f607d6-0567-491a-a895-44505fee7a52" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Mimir_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Mimir_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Psychic_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Psychic_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -289,18 +289,18 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- MORRIGAN -->
+                <node id="Resource">        <!-- Blood -->
                     <attribute id="BoundsMax" type="fvec3" value="5 5 5" />
                     <attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="6.55" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Morrigan_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Blood_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="fcf89b2f-5616-459c-b0f7-05ed2201f951" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Morrigan_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Morrigan_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Blood_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Blood_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -371,18 +371,18 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- ODIN -->
+                <node id="Resource">        <!-- Force -->
                     <attribute id="BoundsMax" type="fvec3" value="5 5 5" />
                     <attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="3" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Odin_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Force_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="c28e1a9b-7988-4ae2-8796-56bb2548e0a3" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Odin_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Odin_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Force_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Force_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -418,18 +418,18 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- SOL -->
+                <node id="Resource">        <!-- Radiant -->
                     <attribute id="BoundsMax" type="fvec3" value="3 5 3" />
                     <attribute id="BoundsMin" type="fvec3" value="-3 -1 -3" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Sol_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Radiant_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="33b50a22-bb7e-457d-999f-b151136af8ba" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Sol_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Sol_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Radiant_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Radiant_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -501,18 +501,18 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- THOR -->
+                <node id="Resource">        <!-- Thunder -->
                     <attribute id="BoundsMax" type="fvec3" value="4 5 4" />
                     <attribute id="BoundsMin" type="fvec3" value="-4 -1 -4" />
                     <attribute id="Center" type="fvec3" value="0 2 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="2.268963" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Thor_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Thunder_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="da2c56bf-d738-4171-82e5-f681c4b43b8c" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Thor_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thor_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Thunder_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thunder_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -536,18 +536,18 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- TRITON -->
+                <node id="Resource">        <!-- Water -->
                     <attribute id="BoundsMax" type="fvec3" value="9 9 9" />
                     <attribute id="BoundsMin" type="fvec3" value="-9 -9 -9" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="1.5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Triton_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Water_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="4b3d1146-2299-441b-bdf3-021e7bcaeae5" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Triton_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Triton_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Water_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Water_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -562,18 +562,18 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- YMIR -->
+                <node id="Resource">        <!-- Cold -->
                      <attribute id="BoundsMax" type="fvec3" value="5 5 5" />
                     <attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Ymir_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Cold_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="37bab533-2bc1-497c-a972-869c700cf536" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Ymir_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Ymir_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Cold_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Cold_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -633,18 +633,18 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- ZEUS -->
+                <node id="Resource">        <!-- Lightning -->
                     <attribute id="BoundsMax" type="fvec3" value="3 3 10" />
                     <attribute id="BoundsMin" type="fvec3" value="-3 -3 -10" />
                     <attribute id="Center" type="fvec3" value="0 0 -5" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="3.11" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Zeus_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Lightning_DivineCharge_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="e8c9a975-f9fe-47dc-a79d-144b9c0e2c56" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Zeus_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Zeus_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Lightning_DivineCharge_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Lightning_DivineCharge_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">

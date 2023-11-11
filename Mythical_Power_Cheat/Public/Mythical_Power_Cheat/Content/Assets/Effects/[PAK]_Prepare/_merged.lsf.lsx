@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>		<!-- PREPARE EFFECTS -->
+<?xml version="1.0" encForceg="utf-8"?>		<!-- PREPARE EFFECTS -->
 <save>
 	<version major="4" minor="0" revision="9" build="328" />
 	<region id="EffectBank">
 		<node id="EffectBank">
             <children>		<!-- ENVIRONMENT VFX -->
-                <node id="Resource">		<!-- ANUBIS | Soul Storm -->
+                <node id="Resource">		<!-- Necrotic | Soul Storm -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Anubis_SoulStorm_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Necrotic_SoulStorm_01" />
                     <attribute id="ID" type="FixedString" value="6069fdcd-6fec-4e72-935a-1f437f96a3fd" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Anubis_SoulStorm_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Anubis_SoulStorm_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Necrotic_SoulStorm_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Necrotic_SoulStorm_01.lsfx" />
                     <attribute id="Radius" type="float" value="25" />
                     <attribute id="UseSoundOcclusion" type="bool" value="False" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
@@ -38,19 +38,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- ASMODEUS | Raging Fire -->
+                <node id="Resource">		<!-- Fire | Raging Fire -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Asmodeus_RagingFire_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Fire_RagingFire_01" />
                     <attribute id="ID" type="FixedString" value="53c7befe-ced7-4202-9acd-c1f6ba553677" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Asmodeus_RagingFire_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Fire_RagingFire_01" />
                     <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Asmodeus_RagingFire_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Fire_RagingFire_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
                     <children>
                         <node id="Dependencies">
@@ -68,19 +68,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- CIRCE | Arcane Vortex -->
+                <node id="Resource">		<!-- Arcane | Arcane Vortex -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Circe_ArcaneVortex_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Arcane_ArcaneVortex_01" />
                     <attribute id="ID" type="FixedString" value="1ea79692-24e7-4794-a34d-f5b32cdd91f9" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Circe_ArcaneVortex_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Arcane_ArcaneVortex_01" />
                     <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Circe_ArcaneVortex_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Arcane_ArcaneVortex_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
                     <children>
                         <node id="Dependencies">
@@ -107,19 +107,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- FREYA | Nature Burst -->
+                <node id="Resource">		<!-- Nature | Nature Burst -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Freya_NatureBurst_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Nature_NatureBurst_01" />
                     <attribute id="ID" type="FixedString" value="b6d5b855-15aa-4ff9-9aa3-b257114056c8" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Freya_NatureBurst_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Nature_NatureBurst_01" />
                     <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Freya_NatureBurst_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Nature_NatureBurst_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
                     <children>
                         <node id="Dependencies">
@@ -140,19 +140,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- FUJIN | Tornado  -->
+                <node id="Resource">		<!-- Wind | Tornado  -->
                     <attribute id="BoundsMax" type="fvec3" value="20 20 20" />
                     <attribute id="BoundsMin" type="fvec3" value="-20 -20 -20" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Fujin_Tornado_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Wind_Tornado_01" />
                     <attribute id="ID" type="FixedString" value="d87f4738-f2a3-49a3-8f17-a44e29bfb7fe" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Fujin_Tornado_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Wind_Tornado_01" />
                     <attribute id="Radius" type="float" value="20" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Fujin_Tornado_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Wind_Tornado_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -164,19 +164,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- GAIA | Floating Rocks  -->
+                <node id="Resource">		<!-- Wind | Floating Rocks  -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Gaia_Rocks_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Wind_Rocks_01" />
                     <attribute id="ID" type="FixedString" value="530a5d44-b757-4f6c-b071-d05526356273" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Gaia_Rocks_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Wind_Rocks_01" />
                     <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Gaia_Rocks_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Wind_Rocks_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -194,19 +194,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- MIMIR | Psionic Sparks  -->
+                <node id="Resource">		<!-- Psychic | Psionic Sparks  -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2.5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Mimir_PsionicSparks_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Psychic_PsionicSparks_01" />
                     <attribute id="ID" type="FixedString" value="139838cb-3511-4272-a738-f997be436ec4" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Mimir_PsionicSparks_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Psychic_PsionicSparks_01" />
                     <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Mimir_PsionicSparks_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Psychic_PsionicSparks_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -218,19 +218,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- MORRIGAN | Blood Rain -->
+                <node id="Resource">		<!-- Blood | Blood Rain -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Morrigan_BloodRain_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Blood_BloodRain_01" />
                     <attribute id="ID" type="FixedString" value="1470b6ca-9463-452c-a7d7-e0a496147c64" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Morrigan_BloodRain_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Blood_BloodRain_01" />
                     <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Morrigan_BloodRain_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Blood_BloodRain_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
                     <children>
                         <node id="Dependencies">
@@ -275,19 +275,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- ODIN | Force Waves  -->
+                <node id="Resource">		<!-- Force | Force Waves  -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="3.56" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Odin_ForceWaves_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Force_ForceWaves_01" />
                     <attribute id="ID" type="FixedString" value="3a485f7a-2f4e-4f5e-90cf-176d58c2f8f8" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Odin_ForceWaves_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Force_ForceWaves_01" />
                     <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Odin_ForceWaves_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Force_ForceWaves_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -326,19 +326,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- SOL | Radiant Blast -->
+                <node id="Resource">		<!-- Radiant | Radiant Blast -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="3" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Sol_Light_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Radiant_Light_01" />
                     <attribute id="ID" type="FixedString" value="7f195599-ebac-445e-9e77-30ac9146ee48" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Sol_Light_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Radiant_Light_01" />
                     <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Sol_Light_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Radiant_Light_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -356,19 +356,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- THOR | Thunder Waves -->
+                <node id="Resource">		<!-- Thunder | Thunder Waves -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="Duration" type="float" value="3" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Thor_ThunderWave_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Thunder_ThunderWave_01" />
                     <attribute id="ID" type="FixedString" value="01fae595-894d-43ad-9f59-39020e154432" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Thor_ThunderWave_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Thunder_ThunderWave_01" />
                     <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Thor_ThunderWave_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Thunder_ThunderWave_01.lsfx" />
                     <attribute id="UseSoundOcclusion" type="bool" value="True" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
                     <children>
@@ -393,19 +393,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- TRITON | Rain Storm -->
+                <node id="Resource">		<!-- Water | Rain Storm -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="1.5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Triton_RainStorm_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Water_RainStorm_01" />
                     <attribute id="ID" type="FixedString" value="5225cb76-6cfe-4c94-998e-3b1558e66485" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Triton_RainStorm_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Water_RainStorm_01" />
                     <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Triton_RainStorm_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Water_RainStorm_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -429,19 +429,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- YMIR | Blizzard -->
+                <node id="Resource">		<!-- Cold | Blizzard -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Ymir_Blizzard_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Cold_Blizzard_01" />
                     <attribute id="ID" type="FixedString" value="5eb03f9c-89db-473a-a10c-b2d61806ee08" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Ymir_Blizzard_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Cold_Blizzard_01" />
                     <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Ymir_Blizzard_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Cold_Blizzard_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
                     <children>
                         <node id="Dependencies">
@@ -456,18 +456,18 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- ZEUS | Lightning Storm -->
+                <node id="Resource">		<!-- Lightning | Lightning Storm -->
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Zeus_LightningStorm_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Lightning_LightningStorm_01" />
                     <attribute id="ID" type="FixedString" value="ba71d970-ff97-424e-b9db-775818b58a57" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Zeus_LightningStorm_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Zeus_LightningStorm_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Environment_Lightning_LightningStorm_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Lightning_LightningStorm_01.lsfx" />
                     <attribute id="Radius" type="float" value="25" />
                     <attribute id="UseSoundOcclusion" type="bool" value="False" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
@@ -483,18 +483,18 @@
                 </node>
             </children>
             <children>		<!-- ENVIRONMENT MODEL -->
-                <node id="Resource">        <!-- FREYA | Sub-Emit Flowers -->
+                <node id="Resource">        <!-- Nature | Sub-Emit Flowers -->
 					<attribute id="BoundsMax" type="fvec3" value="40 40 40" />
 					<attribute id="BoundsMin" type="fvec3" value="-40 -40 -40" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Freya_SubEmit_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Nature_SubEmit_01" />
 					<attribute id="ID" type="FixedString" value="6a161b50-76a6-48b6-aea5-064c7594b5a5" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Environment_Freya_SubEmit_01" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Freya_SubEmit_01.lsfx" />
+					<attribute id="Name" type="LSString" value="VFX_Environment_Nature_SubEmit_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Nature_SubEmit_01.lsfx" />
                     <attribute id="Radius" type="float" value="25" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
@@ -516,18 +516,18 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- FUJIN | Sub-Emit Tornado -->
+                <node id="Resource">        <!-- Wind | Sub-Emit Tornado -->
 					<attribute id="BoundsMax" type="fvec3" value="20 20 20" />
                     <attribute id="BoundsMin" type="fvec3" value="-20 -20 -20" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Fujin_SubEmit_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Wind_SubEmit_01" />
 					<attribute id="ID" type="FixedString" value="6086aa05-c455-4b31-ac74-498a1bbe6ebe" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Environment_Fujin_SubEmit_01" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Fujin_SubEmit_01.lsfx" />
+					<attribute id="Name" type="LSString" value="VFX_Environment_Wind_SubEmit_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Wind_SubEmit_01.lsfx" />
                     <attribute id="Radius" type="float" value="20" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
@@ -540,18 +540,18 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- THOR | Sub-Emit Sound -->
+                <node id="Resource">        <!-- Thunder | Sub-Emit Sound -->
 					<attribute id="BoundsMax" type="fvec3" value="25 25 25" />
 					<attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.540396" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Thor_SubEmit_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Thunder_SubEmit_01" />
 					<attribute id="ID" type="FixedString" value="989c0682-d377-4278-936b-0907eb0de46a" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Environment_Thor_SubEmit_01" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Thor_SubEmit_01.lsfx" />
+					<attribute id="Name" type="LSString" value="VFX_Environment_Thunder_SubEmit_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Thunder_SubEmit_01.lsfx" />
                     <attribute id="Radius" type="float" value="25" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
@@ -564,18 +564,18 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- TRITON | Sub-Emit Water Droplets -->
+                <node id="Resource">        <!-- Water | Sub-Emit Water Droplets -->
 					<attribute id="BoundsMax" type="fvec3" value="25 25 25" />
 					<attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Triton_SubEmit_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Water_SubEmit_01" />
 					<attribute id="ID" type="FixedString" value="ae1dd4b3-3dcc-4267-8f81-c5738ea73223" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Environment_Triton_SubEmit_01" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Triton_SubEmit_01.lsfx" />
+					<attribute id="Name" type="LSString" value="VFX_Environment_Water_SubEmit_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Water_SubEmit_01.lsfx" />
                     <attribute id="Radius" type="float" value="25" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
@@ -588,18 +588,18 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- ZEUS | Sub-Emit 1 Lightning Bolt Effects -->
+                <node id="Resource">        <!-- Lightning | Sub-Emit 1 Lightning Bolt Effects -->
 					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
 					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Zeus_SubEmit_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Environment_Lightning_SubEmit_01" />
 					<attribute id="ID" type="FixedString" value="28c039e2-0baf-42ea-b542-8515f81f1934" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Environment_Zeus_SubEmit_01" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Zeus_SubEmit_01.lsfx" />
+					<attribute id="Name" type="LSString" value="VFX_Environment_Lightning_SubEmit_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Environment_Lightning_SubEmit_01.lsfx" />
                     <attribute id="Radius" type="float" value="2" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
@@ -614,21 +614,21 @@
 				</node>
             </children>
             <children>		<!-- BODY VFX -->
-                <node id="Resource">        <!-- ANUBIS -->
+                <node id="Resource">        <!-- Necrotic -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.6" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Anubis_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="38b922fe-fc1c-430e-9d55-cc99c2894a22" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Anubis_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Necrotic_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Anubis_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Necrotic_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -658,21 +658,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- ASMODEUS -->
+                <node id="Resource">        <!-- Fire -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Asmodeus_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="bf24b0ba-73f8-4a29-af44-51c088b77908" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Asmodeus_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_BodyFX_01" />
 					<attribute id="Radius" type="float" value="2" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Asmodeus_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fire_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -699,21 +699,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- CIRCE -->
+                <node id="Resource">        <!-- Arcane -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.6" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Circe_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="360c747c-4dad-469d-8327-ed30c13baa0b" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Circe_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Circe_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Arcane_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -728,21 +728,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- FREYA -->
+                <node id="Resource">        <!-- Nature -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.6" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Freya_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="a1a077f3-3a00-43f1-8c3f-f78a6a8501b5" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Freya_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Freya_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Nature_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -766,21 +766,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- FUJIN -->
+                <node id="Resource">        <!-- Wind -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fujin_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="765085c8-dd8a-4a6a-a47b-1ebdfa46a19b" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Fujin_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Fujin_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Wind_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -807,21 +807,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- GAIA -->
+                <node id="Resource">        <!-- Wind -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Gaia_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="9dbe7751-df80-4fc3-b4bb-0b7fcf64640a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Gaia_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Gaia_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Wind_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -836,21 +836,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- MIMIR -->
+                <node id="Resource">        <!-- Psychic -->
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Mimir_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="63345ac9-8b98-45af-931a-3e9259262a24" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Mimir_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_BodyFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Mimir_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Psychic_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -877,21 +877,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- MORRIGAN -->
+                <node id="Resource">        <!-- Blood -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Morrigan_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="3f85da51-c7c1-4a83-9b5f-af61c7ed2988" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Morrigan_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Morrigan_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Blood_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -956,21 +956,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- ODIN -->
+                <node id="Resource">        <!-- Force -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Odin_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="0cfbb97b-0220-463e-b48e-3a6a9c70ef41" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Odin_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Odin_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Force_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -994,21 +994,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- SOL -->
+                <node id="Resource">        <!-- Radiant -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Sol_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="7ef39247-a872-4850-8786-297a242c7166" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Sol_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Sol_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Radiant_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1029,21 +1029,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- THOR -->
+                <node id="Resource">        <!-- Thunder -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thor_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="f8fb92f0-655a-4dfe-a662-c1a160785a19" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Thor_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thor_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Thunder_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1064,21 +1064,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- TRITON -->
+                <node id="Resource">        <!-- Water -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Triton_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="65743996-74a5-422d-ab6a-6ba282e5b9b9" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Triton_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Triton_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Water_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1090,21 +1090,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- YMIR -->
+                <node id="Resource">        <!-- Cold -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Ymir_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="b6b99301-adef-4ff5-84e6-d3eea8466464" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Ymir_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Ymir_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Cold_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1131,21 +1131,21 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- ZEUS -->
+                <node id="Resource">        <!-- Lightning -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Zeus_BodyFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_BodyFX_01" />
 					<attribute id="ID" type="FixedString" value="d48c4bb8-cee7-43e5-be6c-dc8d9d3f08c0" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Zeus_BodyFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_BodyFX_01" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Zeus_BodyFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Lightning_BodyFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1168,19 +1168,19 @@
 				</node>
             </children>
             <children>      <!-- EYES VFX -->
-                <node id="Resource">		<!-- ANUBIS Eye 01 | Glowing Sickly Green -->
+                <node id="Resource">		<!-- Necrotic Eye 01 | Glowing Sickly Green -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Anubis_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Necrotic_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="12881ee2-30fd-447f-b515-4da95f7ffbad" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Anubis_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Necrotic_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Anubis_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Necrotic_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1210,19 +1210,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- ANUBIS Eye 02 | Glowing Sickly Green -->
+                <node id="Resource">		<!-- Necrotic Eye 02 | Glowing Sickly Green -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Anubis_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Necrotic_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="b2c8b716-1681-49fc-8d24-ea6896d0962f" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Anubis_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Necrotic_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Anubis_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Necrotic_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1252,19 +1252,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- ASMODEUS Eye 01 | Glowing Orange -->
+                <node id="Resource">		<!-- Fire Eye 01 | Glowing Orange -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Asmodeus_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Fire_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="b8e1eaec-a76d-4463-a7be-3393250eb26e" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Asmodeus_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Fire_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Asmodeus_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Fire_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1294,19 +1294,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- ASMODEUS Eye 02 | Glowing Orange -->
+                <node id="Resource">		<!-- Fire Eye 02 | Glowing Orange -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Asmodeus_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Fire_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="313d2e32-23de-484f-8b3a-2dfa456f1eee" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Asmodeus_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Fire_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Asmodeus_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Fire_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1336,19 +1336,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- CIRCE Eye 01 | Glowing $ -->
+                <node id="Resource">		<!-- Arcane Eye 01 | Glowing $ -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Circe_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Arcane_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="f0c7ec88-42ca-401d-bead-fa8ae225f6c3" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Circe_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Arcane_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Circe_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Arcane_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1378,19 +1378,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- CIRCE Eye 02 | Glowing $ -->
+                <node id="Resource">		<!-- Arcane Eye 02 | Glowing $ -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Circe_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Arcane_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="6682e979-4ccb-4031-879a-75c1668dd787" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Circe_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Arcane_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Circe_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Arcane_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1420,19 +1420,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- FREYA Eye 01 | Glowing Orange -->
+                <node id="Resource">		<!-- Nature Eye 01 | Glowing Orange -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Freya_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Nature_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="f8dc235b-31da-40ad-bd6d-ddc0598ac7a4" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Freya_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Nature_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Freya_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Nature_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1462,19 +1462,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- FREYA Eye 02 | Glowing $ -->
+                <node id="Resource">		<!-- Nature Eye 02 | Glowing $ -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Freya_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Nature_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="6081e995-9865-4e29-a892-58772250cc40" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Freya_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Nature_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Freya_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Nature_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1504,19 +1504,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- FUJIN Eye 01 | Glowing Grey -->
+                <node id="Resource">		<!-- Wind Eye 01 | Glowing Grey -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Fujin_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Wind_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="a7762bb8-b02d-4fec-89a4-7287a037c581" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Fujin_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Wind_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Fujin_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Wind_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1546,19 +1546,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- FUJIN Eye 02 | Glowing Grey -->
+                <node id="Resource">		<!-- Wind Eye 02 | Glowing Grey -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Fujin_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Wind_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="11c8da59-ebcd-4ea1-b7a8-e37ffbbfeaf3" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Fujin_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Wind_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Fujin_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Wind_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1588,19 +1588,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- GAIA Eye 01 | Glowing Brown -->
+                <node id="Resource">		<!-- Wind Eye 01 | Glowing Brown -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Gaia_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Wind_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="bb8e6465-fc3a-4656-92e4-b54ddbff63f9" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Gaia_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Wind_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Gaia_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Wind_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1630,19 +1630,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- GAIA Eye 02 | Glowing Brown -->
+                <node id="Resource">		<!-- Wind Eye 02 | Glowing Brown -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Gaia_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Wind_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="387cc5ea-bcba-4d5e-aa34-54b1a434c116" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Gaia_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Wind_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Gaia_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Wind_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1672,19 +1672,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- MIMIR Eye 01 | Glowing Pink -->
+                <node id="Resource">		<!-- Psychic Eye 01 | Glowing Pink -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Mimir_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Psychic_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="1cf7600d-e327-4e58-bfdf-34cf281872c9" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Mimir_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Psychic_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Mimir_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Psychic_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1714,19 +1714,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- MIMIR Eye 02 | Glowing Pink -->
+                <node id="Resource">		<!-- Psychic Eye 02 | Glowing Pink -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Mimir_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Psychic_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="4501ef15-f5bd-4a76-b680-3822125fa4a1" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Mimir_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Psychic_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Mimir_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Psychic_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1756,19 +1756,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- MORRIGAN Eye 01 | Glowing Red & Black Eyes -->
+                <node id="Resource">		<!-- Blood Eye 01 | Glowing Red & Black Eyes -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Morrigan_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Blood_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="ac259831-c112-42d5-aeba-2016fc2cf2f5" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Morrigan_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Blood_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Morrigan_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Blood_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1798,19 +1798,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- MORRIGAN Eye 02 | Glowing Red & Black Eyes -->
+                <node id="Resource">		<!-- Blood Eye 02 | Glowing Red & Black Eyes -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Morrigan_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Blood_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="19f66bd2-001c-4bc9-bb49-2eeb2c91fa20" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Morrigan_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Blood_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Morrigan_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Blood_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1924,19 +1924,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- ODIN Eye 01 | Glowing Red -->
+                <node id="Resource">		<!-- Force Eye 01 | Glowing Red -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Odin_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Force_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="15ad8586-3bd1-4fd0-b2a2-04655b44d3bb" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Odin_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Force_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Odin_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Force_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -1966,19 +1966,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- ODIN Eye 02 | Glowing Red -->
+                <node id="Resource">		<!-- Force Eye 02 | Glowing Red -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Odin_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Force_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="9f44f864-3e7e-49b9-90b9-7c0ac511ad90" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Odin_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Force_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Odin_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Force_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -2008,19 +2008,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- SOL Eye 01 | Glowing Golden -->
+                <node id="Resource">		<!-- Radiant Eye 01 | Glowing Golden -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Sol_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Radiant_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="a67dcb0f-a919-416a-8a28-9ea943835052" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Sol_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Radiant_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Sol_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Radiant_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -2050,19 +2050,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- SOL Eye 02 | Glowing Golden -->
+                <node id="Resource">		<!-- Radiant Eye 02 | Glowing Golden -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Sol_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Radiant_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="d464e469-cff8-481a-bb4c-8a81e400b142" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Sol_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Radiant_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Sol_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Radiant_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -2092,19 +2092,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- THOR Eye 01 | Glowing Violet -->
+                <node id="Resource">		<!-- Thunder Eye 01 | Glowing Violet -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Thor_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Thunder_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="fdab18e9-456a-4391-9162-b6bca301a010" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Thor_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Thunder_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Thor_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Thunder_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -2134,19 +2134,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- THOR Eye 02 | Glowing Violet -->
+                <node id="Resource">		<!-- Thunder Eye 02 | Glowing Violet -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Thor_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Thunder_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="cc673d3f-7077-4597-9954-6e69d8e10b9c" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Thor_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Thunder_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Thor_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Thunder_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -2176,19 +2176,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- TRITON Eye 01 | Glowing Blue -->
+                <node id="Resource">		<!-- Water Eye 01 | Glowing Blue -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Triton_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Water_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="62dc945d-1829-42bb-a171-db6496072a7d" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Triton_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Water_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Triton_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Water_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -2218,19 +2218,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- TRITON Eye 02 | Glowing Blue -->
+                <node id="Resource">		<!-- Water Eye 02 | Glowing Blue -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Triton_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Water_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="c1763a37-44eb-4c85-a6a4-0dc627521d4a" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Triton_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Water_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Triton_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Water_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -2260,19 +2260,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- YMIR Eye 01 | Glowing White -->
+                <node id="Resource">		<!-- Cold Eye 01 | Glowing White -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Ymir_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Cold_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="dc0cb62c-aa8f-4ea7-ba1f-40d990f6c252" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Ymir_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Cold_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Ymir_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Cold_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -2302,19 +2302,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- YMIR Eye 02 | Glowing White -->
+                <node id="Resource">		<!-- Cold Eye 02 | Glowing White -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Ymir_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Cold_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="2e0e9c8a-9e79-4939-9d69-f4fc8e8adce4" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Ymir_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Cold_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Ymir_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Cold_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -2344,19 +2344,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- ZEUS Eye 01 | Glowing Blue & White -->
+                <node id="Resource">		<!-- Lightning Eye 01 | Glowing Blue & White -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Zeus_EyeFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Lightning_EyeFX_01" />
                     <attribute id="ID" type="FixedString" value="590fd35e-6958-404b-b575-c81d28d4f1b2" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Zeus_EyeFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Lightning_EyeFX_01" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Zeus_EyeFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Lightning_EyeFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">
@@ -2386,19 +2386,19 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">		<!-- ZEUS Eye 02 | Glowing Blue & White -->
+                <node id="Resource">		<!-- Lightning Eye 02 | Glowing Blue & White -->
                     <attribute id="BoundsMax" type="fvec3" value="1 1 1" />
                     <attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Zeus_EyeFX_02" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Divine_Lightning_EyeFX_02" />
                     <attribute id="ID" type="FixedString" value="150ceef4-8b2f-4221-9c65-a6f7ce1c040f" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Divine_Zeus_EyeFX_02" />
+                    <attribute id="Name" type="LSString" value="VFX_Divine_Lightning_EyeFX_02" />
                     <attribute id="Radius" type="float" value="1.732051" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Zeus_EyeFX_02.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Cheat/Assets/Effects/Effects_Banks/VFX_Divine_Lightning_EyeFX_02.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
                     <children>
                         <node id="Dependencies">

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="826a22cd-a93e-495d-aa03-0b599a62909e" />
-			<attribute id="Name" type="LSString" value="DivineShift_Radiant_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Radiant_PrepareEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Sol_Light_01 ( Radiant Particles ) -->
+				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Radiant_Light_01 ( Radiant Particles ) -->
 					<attribute id="UUID" type="guid" value="3acb594c-3e4a-4c46-84a8-e54d9e43a766" />
 					<attribute id="EffectResourceGuid" type="guid" value="7f195599-ebac-445e-9e77-30ac9146ee48" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -27,7 +27,7 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 				</node>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_SOL_BodyFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Radiant_BodyFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="329269ac-f5a9-424f-82ec-8bcc0c02b053" />
 					<attribute id="EffectResourceGuid" type="guid" value="7ef39247-a872-4850-8786-297a242c7166" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -53,7 +53,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Sol_EyeFX_01 ( Glowing Radiant Eyes ) -->
+				<node id="EffectInfo">		<!-- EYE 01 FX: VFX_Divine_Radiant_EyeFX_01 ( Glowing Radiant Eyes ) -->
 					<attribute id="UUID" type="guid" value="79a94cad-05ff-4fe1-9850-28c3eddd8d73" />
 					<attribute id="EffectResourceGuid" type="guid" value="a67dcb0f-a919-416a-8a28-9ea943835052" />
 					<attribute id="DetachSource" type="bool" value="False" />
@@ -82,7 +82,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Sol_EyeFX_02 ( Glowing Radiant Eyes) -->
+				<node id="EffectInfo">		<!-- EYE 02 FX: VFX_Divine_Radiant_EyeFX_02 ( Glowing Radiant Eyes) -->
 					<attribute id="UUID" type="guid" value="4ab6e4bf-2e47-4334-b8bf-78b6cef9ed6e" />
 					<attribute id="EffectResourceGuid" type="guid" value="d464e469-cff8-481a-bb4c-8a81e400b142" />
 					<attribute id="DetachSource" type="bool" value="False" />

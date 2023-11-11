@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="e8c168c0-5c10-46b0-960a-a27780ecbdba" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Arcane_TargetEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Anubis_DivineCharge_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Necrotic_DivineCharge_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="7025459e-9e7b-4d85-9fe9-10a100ad3b50" />
 					<attribute id="EffectResourceGuid" type="guid" value="56c449af-f7e9-4293-8ea2-7d412c7c1b50" />
 					<attribute id="DetachSource" type="bool" value="False" />

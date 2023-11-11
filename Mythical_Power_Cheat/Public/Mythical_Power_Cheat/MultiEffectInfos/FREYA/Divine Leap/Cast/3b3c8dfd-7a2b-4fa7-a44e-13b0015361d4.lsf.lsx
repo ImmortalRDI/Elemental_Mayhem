@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="3b3c8dfd-7a2b-4fa7-a44e-13b0015361d4" />
-			<attribute id="Name" type="LSString" value="DivineLeap_Nature_CastEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalNature_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Freya_DivineLeap_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Nature_Projectile_Leap_ElementalCastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="cd620b14-744f-4169-b601-1666b4da1f13" />
 					<attribute id="EffectResourceGuid" type="guid" value="28b2e947-700d-4212-bc3d-8ad13b9dd1de" />
 					<attribute id="DetachSource" type="bool" value="False" />

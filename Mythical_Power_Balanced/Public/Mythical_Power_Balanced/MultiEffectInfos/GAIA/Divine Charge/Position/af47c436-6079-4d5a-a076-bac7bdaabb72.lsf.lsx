@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -6,7 +6,7 @@
 			<attribute id="UUID" type="guid" value="af47c436-6079-4d5a-a076-bac7bdaabb72" />
 			<attribute id="Name" type="LSString" value="DivineCharge_Earth_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- POSITION FX: VFX_Gaia_DivineCharge_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- POSITION FX: VFX_Wind_DivineCharge_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="437a9c23-c988-4c5c-a83d-e60998a5b1df" />
 					<attribute id="EffectResourceGuid" type="guid" value="eb739895-0885-4a0e-a505-aa9e712581b6" />
 					<attribute id="DetachSource" type="bool" value="False" />

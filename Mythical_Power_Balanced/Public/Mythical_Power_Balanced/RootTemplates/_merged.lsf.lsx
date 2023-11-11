@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encForceg="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="0"/>
 	<region id="Templates">
@@ -77,10 +77,10 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="cb1a8788-a704-49a3-b9b9-18af75e2aacb" />
-					<attribute id="Name" type="LSString" value="OBJ_Scroll_DivineLeap_Unlock" />
+					<attribute id="Name" type="LSString" value="OBJ_Scroll_Projectile_Leap_ElementalUnlock" />
 					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
-					<attribute id="Stats" type="FixedString" value="DIVINELEAP_SCROLL_UNLOCK" />
+					<attribute id="Stats" type="FixedString" value="Projectile_Leap_ElementalSCROLL_UNLOCK" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="VisualTemplate" type="FixedString" value="916f78a4-779b-3e43-28eb-eefc26d9683d" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
@@ -122,7 +122,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SkillID" type="FixedString" value="DivineLeap_Unlock" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_Leap_ElementalUnlock" />
 										</node>
 									</children>
 								</node>
@@ -132,7 +132,7 @@
 										<node id="Attributes">
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SpellId" type="FixedString" value="DivineLeap_Unlock" />
+											<attribute id="SpellId" type="FixedString" value="Projectile_Leap_ElementalUnlock" />
 										</node>
 									</children>
 								</node>
@@ -145,10 +145,10 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="169b552f-35cd-44e8-9506-1b7bcdeaacb9" />
-					<attribute id="Name" type="LSString" value="OBJ_Scroll_DivineShift_Unlock" />
+					<attribute id="Name" type="LSString" value="OBJ_Scroll_Target_Shift_Elemental_Unlock" />
 					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
-					<attribute id="Stats" type="FixedString" value="DIVINESHIFT_SCROLL_UNLOCK" />
+					<attribute id="Stats" type="FixedString" value="Target_Shift_Elemental_SCROLL_UNLOCK" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="VisualTemplate" type="FixedString" value="916f78a4-779b-3e43-28eb-eefc26d9683d" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
@@ -190,7 +190,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SkillID" type="FixedString" value="DivineShift_Unlock" />
+											<attribute id="SkillID" type="FixedString" value="Target_Shift_Elemental_Unlock" />
 										</node>
 									</children>
 								</node>
@@ -200,7 +200,7 @@
 										<node id="Attributes">
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SpellId" type="FixedString" value="DivineShift_Unlock" />
+											<attribute id="SpellId" type="FixedString" value="Target_Shift_Elemental_Unlock" />
 										</node>
 									</children>
 								</node>
@@ -213,10 +213,10 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="aec01b90-9f54-41cd-a4df-6383c8f3d1e1" />
-					<attribute id="Name" type="LSString" value="OBJ_Scroll_DivineStealth_Unlock" />
+					<attribute id="Name" type="LSString" value="OBJ_Scroll_Target_Stealth_Elemental_Unlock" />
 					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
-					<attribute id="Stats" type="FixedString" value="DIVINESTEALTH_SCROLL_UNLOCK" />
+					<attribute id="Stats" type="FixedString" value="Target_Stealth_Elemental_SCROLL_UNLOCK" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="VisualTemplate" type="FixedString" value="916f78a4-779b-3e43-28eb-eefc26d9683d" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
@@ -258,7 +258,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SkillID" type="FixedString" value="DivineStealth_Unlock" />
+											<attribute id="SkillID" type="FixedString" value="Target_Stealth_Elemental_Unlock" />
 										</node>
 									</children>
 								</node>
@@ -268,7 +268,7 @@
 										<node id="Attributes">
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SpellId" type="FixedString" value="DivineStealth_Unlock" />
+											<attribute id="SpellId" type="FixedString" value="Target_Stealth_Elemental_Unlock" />
 										</node>
 									</children>
 								</node>
