@@ -398,8 +398,6 @@ data "MinAmount" ""
 data "MaxAmount" ""
 
 //      Cheat
-
-
 new entry "OBJ_Scroll_Elements_EM_Cheat_Unlock"
 type "Object"
 using "_MagicScroll"
