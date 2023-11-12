@@ -3,9 +3,7 @@
 	<version major="4" minor="0" revision="9" build="328" />
 	<region id="EffectBank">
 		<node id="EffectBank">
-			<children>		<!-- Necrotic -->
-				
-			</children>
+			
 			<children>		<!-- Fire -->
 				<node id="Resource">		<!-- VANISH -->
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />

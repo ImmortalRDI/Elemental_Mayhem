@@ -49,7 +49,7 @@
 					<attribute id="Level10" type="LSString" value="6"/>
                     <attribute id="Level11" type="LSString" value="7"/>
 					<attribute id="Level12" type="LSString" value="8"/>
-                    <attribute id="Name" type="FixedString" value="EM_Blast_Targets"/>
+                    <attribute id="Name" type="FixedString" value="EM_Bolt_Targets"/>
                     <attribute id="UUID" type="guid" value="7994a829-8100-47e3-9a3d-d00363952c55"/>
                 </node>
             </children>

@@ -7,11 +7,11 @@
 				<node id="Resource">
 					<attribute id="ID" type="FixedString" value="b6826fc6-c65b-41b1-a1d2-4be835d3948e" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="Mythical_Power_Icons" />
+					<attribute id="Name" type="LSString" value="Elemental_Mayhem_Icons" />
 					<attribute id="SRGB" type="bool" value="True" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Textures/Icons/Mythical_Power_Icons.dds" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Textures/Icons/Elemental_Mayhem_Icons.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="Mythical_Power_Icons" />
+					<attribute id="Template" type="FixedString" value="Elemental_Mayhem_Icons" />
 					<attribute id="Type" type="int64" value="0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 				</node>
