@@ -1,3 +1,16 @@
+new treasuretable "Cheat_EM_Scrolls_Chest_TT"
+CanMerge 1
+new subtable "1,1"
+object category "I_OBJ_Scroll_Elements_EM_Cheat_Unlock",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Scroll_Ultimate_EM_Cheat_Unlock",1,0,0,0,0,0,0,0
+new subtable "1,1"
+
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "2,1"
+object category "I_Cheat_EM_Scrolls_Chest",1,0,0,0,0,0,0,0
+
 new treasuretable "GOB_DrowCommander"
 CanMerge 1
 new subtable "-1"

@@ -124,7 +124,7 @@ data "TargetEffect" "00000000-0000-0000-0000-000000000000"
 data "BeamEffect" "00000000-0000-0000-0000-000000000000"
 data "DamageType" "Necrotic"
 
-new entry "Target_EM_SoulSiphon"
+new entry "Target_EM_Ultimate_Necrotic"
 type "SpellData"
 data "SpellType" "Target"
 data "Icon" ""

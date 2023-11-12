@@ -66,15 +66,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Leap_TrailFX" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Projectile_EM_Ambush_Necrotic_TrailFX" />
 					<attribute id="ID" type="FixedString" value="eb0af529-919a-497e-912c-1f6d1e964a46" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Leap_TrailFX" />
+					<attribute id="Name" type="LSString" value="VFX_Projectile_EM_Ambush_Necrotic_TrailFX" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Leap_TrailFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_Projectile_EM_Ambush_Necrotic_TrailFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -128,15 +128,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.51" />
-					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Leap_ImpactFX" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Projectile_EM_Ambush_Necrotic_ImpactFX" />
 					<attribute id="ID" type="FixedString" value="10122896-82da-4286-aa06-bf46e3621d47" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Leap_ImpactFX" />
+					<attribute id="Name" type="LSString" value="VFX_Projectile_EM_Ambush_Necrotic_ImpactFX" />
 					<attribute id="Radius" type="float" value="9" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Leap_ImpactFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_Projectile_EM_Ambush_Necrotic_ImpactFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -178,15 +178,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.999999" />
-					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Leap_GroundImpactFX" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Projectile_EM_Ambush_Necrotic_GroundImpactFX" />
 					<attribute id="ID" type="FixedString" value="6725bdb8-9dbe-4aaa-b6b9-9d8d73abc3e0" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Leap_GroundImpactFX" />
+					<attribute id="Name" type="LSString" value="VFX_Projectile_EM_Ambush_Necrotic_GroundImpactFX" />
 					<attribute id="Radius" type="float" value="9" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Leap_GroundImpactFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_Projectile_EM_Ambush_Necrotic_GroundImpactFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -547,21 +547,21 @@
 				</node>
 			</children>
 			<children>		<!-- Stealth -->
-				<node id="Resource">		<!-- Stealth -->
+				<node id="Resource">		<!-- Vanish -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_StealthFX" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Shout_EM_Stealth_Necrotic_VanishFX" />
 					<attribute id="ID" type="FixedString" value="67f54e20-9471-42ee-bb01-9b65e29fd601" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_StealthFX" />
+					<attribute id="Name" type="LSString" value="VFX_Shout_EM_Stealth_Necrotic_VanishFX" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_StealthFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_Shout_EM_Stealth_Necrotic_VanishFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -612,21 +612,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Re-Appear -->
+				<node id="Resource">		<!-- Reappear -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Stealth_DismissFX" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Shout_EM_Stealth_Dismiss_Necrotic_ReappearFX" />
 					<attribute id="ID" type="FixedString" value="c141a075-3696-4d6a-856e-fa7d88a7c0c1" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Stealth_DismissFX" />
+					<attribute id="Name" type="LSString" value="VFX_Shout_EM_Stealth_Dismiss_Necrotic_ReappearFX" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_EM_Necrotic_Stealth_DismissFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Shout_EM_Stealth_Dismiss_Necrotic_ReappearFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
