@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="3c91d32f-0695-42d7-92fe-94e6444a2b68" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Lightning_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Lightning_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- POSITION FX: VFX_Lightning_DivineCharge_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- POSITION FX: VFX_Lightning_Rush_EM_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="9099eeca-2046-4f0a-b3af-a58a0a50fb7c" />
 					<attribute id="EffectResourceGuid" type="guid" value="b7c58f97-6e82-4f12-b0ef-caed30605664" />
 					<attribute id="DetachSource" type="bool" value="False" />

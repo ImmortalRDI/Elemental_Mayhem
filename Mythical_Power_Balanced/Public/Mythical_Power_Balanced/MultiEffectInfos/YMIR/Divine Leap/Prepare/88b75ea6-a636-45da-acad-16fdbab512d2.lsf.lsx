@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="88b75ea6-a636-45da-acad-16fdbab512d2" />
-			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalCold_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_EMCold_PrepareEffects" />
 			<children>
                 <node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Cold_Blizzard_01 (Blizzard) -->
 					<attribute id="UUID" type="guid" value="fe41ec65-8ff1-4c82-afbc-d10aef0a8125" />

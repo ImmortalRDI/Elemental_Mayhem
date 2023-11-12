@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="5282e562-032c-4e79-b2ec-05838bfc4f85" />
-			<attribute id="Name" type="LSString" value="Target_Stealth_Elemental_Fire_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Stealth_EM_Fire_CastEffects" />
 			<children>
 			</children>
 		</node>

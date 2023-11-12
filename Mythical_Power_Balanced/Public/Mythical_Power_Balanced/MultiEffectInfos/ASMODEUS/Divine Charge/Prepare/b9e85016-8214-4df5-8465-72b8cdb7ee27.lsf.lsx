@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="b9e85016-8214-4df5-8465-72b8cdb7ee27" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Fire_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Fire_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Fire_Embers_01 ( Burning Embers & Smoke ) -->
 					<attribute id="UUID" type="guid" value="bb351289-0deb-4c76-b656-d74a30571877" />

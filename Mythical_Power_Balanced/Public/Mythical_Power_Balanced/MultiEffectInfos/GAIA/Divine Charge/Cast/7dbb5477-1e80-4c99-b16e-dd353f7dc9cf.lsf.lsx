@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="7dbb5477-1e80-4c99-b16e-dd353f7dc9cf" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Earth_CastEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Earth_CastEffects" />
 			<children>
 				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="c6ec23fa-de90-4926-b872-caed1aac19f3" />

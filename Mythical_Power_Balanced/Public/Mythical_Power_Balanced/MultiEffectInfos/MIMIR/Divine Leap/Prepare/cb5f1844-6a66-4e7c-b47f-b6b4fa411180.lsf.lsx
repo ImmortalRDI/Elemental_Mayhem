@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="cb5f1844-6a66-4e7c-b47f-b6b4fa411180" />
-			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalPsychic_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_EMPsychic_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Psychic_PsionicSparks_01 ( Rising & Falling Pink Sparks ) -->
 					<attribute id="UUID" type="guid" value="5bc1c04b-f478-4249-be6b-df97fa052638" />

@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="a01fa2c2-359b-4842-9541-788368031b83" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Thunder_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Thunder_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Thunder_Target_Shift_Elemental_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Thunder_Target_Shift_EM_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="de076895-3fb3-4d31-b21a-c26a7571da72" />
 					<attribute id="EffectResourceGuid" type="guid" value="d034364a-f3c9-4266-9280-f63c7761c832" />
 					<attribute id="DetachSource" type="bool" value="False" />

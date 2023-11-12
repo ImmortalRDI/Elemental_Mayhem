@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="aa54ecc7-76de-4017-9970-b3de0a89f7d4" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Water_BeamEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Water_BeamEffects" />
 			<children>
 				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="6451d43b-d7d3-4a37-b317-a39178588f78" />

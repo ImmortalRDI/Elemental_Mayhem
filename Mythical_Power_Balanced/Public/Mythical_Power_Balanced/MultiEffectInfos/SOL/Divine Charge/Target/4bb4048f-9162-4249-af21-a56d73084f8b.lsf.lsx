@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="4bb4048f-9162-4249-af21-a56d73084f8b" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Radiant_TargetEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Radiant_TargetEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Necrotic_DivineCharge_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Necrotic_Rush_EM_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="c8a06af4-4868-4ca0-b26f-4840ea1ac810" />
 					<attribute id="EffectResourceGuid" type="guid" value="e8de2738-f28e-42d8-b648-cb61820d2639" />
 					<attribute id="DetachSource" type="bool" value="False" />

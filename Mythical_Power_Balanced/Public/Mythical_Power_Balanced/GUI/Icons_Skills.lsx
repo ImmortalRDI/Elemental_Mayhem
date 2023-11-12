@@ -23,35 +23,35 @@
         <node id="root">
             <children>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Action_ElementalLeap_Icon"/> 
+                    <attribute id="MapKey" type="FixedString" value="Action_EMLeap_Icon"/> 
                     <attribute id="U1" type="float" value="0.0"/> 
                     <attribute id="U2" type="float" value="0.03125"/> 
                     <attribute id="V1" type="float" value="0.0"/> 
                     <attribute id="V2" type="float" value="0.03125"/> 
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Action_ElementalRush_Icon"/> 
+                    <attribute id="MapKey" type="FixedString" value="Action_EMRush_Icon"/> 
                     <attribute id="U1" type="float" value="0.03125"/> 
                     <attribute id="U2" type="float" value="0.0625"/> 
                     <attribute id="V1" type="float" value="0.0"/> 
                     <attribute id="V2" type="float" value="0.03125"/> 
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Action_ElementalShift_Icon"/> 
+                    <attribute id="MapKey" type="FixedString" value="Action_EMShift_Icon"/> 
                     <attribute id="U1" type="float" value="0.0625"/> 
                     <attribute id="U2" type="float" value="0.09375"/> 
                     <attribute id="V1" type="float" value="0.0"/> 
                     <attribute id="V2" type="float" value="0.03125"/> 
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Action_ElementalStealth_Icon"/> 
+                    <attribute id="MapKey" type="FixedString" value="Action_EMStealth_Icon"/> 
                     <attribute id="U1" type="float" value="0.09375"/> 
                     <attribute id="U2" type="float" value="0.125"/> 
                     <attribute id="V1" type="float" value="0.0"/> 
                     <attribute id="V2" type="float" value="0.03125"/> 
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Action_ElementalStealth_Dismiss_Icon"/> 
+                    <attribute id="MapKey" type="FixedString" value="Action_EMStealth_Dismiss_Icon"/> 
                     <attribute id="U1" type="float" value="0.125"/> 
                     <attribute id="U2" type="float" value="0.15625"/> 
                     <attribute id="V1" type="float" value="0.0"/> 

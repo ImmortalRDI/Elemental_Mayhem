@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="1c1f20cc-bb11-4109-8db7-1038927ee00c" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Wind_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Wind_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Wind_HeavyWind_01 ( Wind & Leaves ) -->
 					<attribute id="UUID" type="guid" value="ab94e372-1cf2-43cf-a4b3-ac1303ede6c2" />

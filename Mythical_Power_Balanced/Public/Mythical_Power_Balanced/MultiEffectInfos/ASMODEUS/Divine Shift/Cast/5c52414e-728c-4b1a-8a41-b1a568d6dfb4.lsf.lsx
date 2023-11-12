@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="5c52414e-728c-4b1a-8a41-b1a568d6dfb4" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Fire_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Fire_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Fire_Target_Shift_Elemental_CastFX_01 ( Fiery Blast ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Fire_Target_Shift_EM_CastFX_01 ( Fiery Blast ) -->
 					<attribute id="UUID" type="guid" value="536ad643-d575-4d97-a065-5deeb6fb1765" />
 					<attribute id="EffectResourceGuid" type="guid" value="a39fddd7-afb4-47aa-a563-ca261c0282e0" />
 					<attribute id="DetachSource" type="bool" value="False" />

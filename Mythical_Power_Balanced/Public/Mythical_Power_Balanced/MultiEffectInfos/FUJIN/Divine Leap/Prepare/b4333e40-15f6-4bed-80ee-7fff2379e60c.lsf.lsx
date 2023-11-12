@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="b4333e40-15f6-4bed-80ee-7fff2379e60c" />
-			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalWind_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_EMWind_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Wind_HeavyWind_01 ( Wind & Leaves ) -->
 					<attribute id="UUID" type="guid" value="6594bea5-0ccf-42cd-9d28-25ddb52846e5" />

@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="a1fdaac0-2b59-464d-a392-3e6f74586dc6" />
-			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalRadiant_CastEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_EMRadiant_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Radiant_Projectile_Leap_ElementalCastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Radiant_Projectile_Leap_EMCastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="607db448-efc8-424a-8f5d-7d158764e3fb" />
 					<attribute id="EffectResourceGuid" type="guid" value="899857bd-a12d-43f5-b4c0-e1dec9201480" />
 					<attribute id="DetachSource" type="bool" value="False" />

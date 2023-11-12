@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="1d9bcf58-ca54-485e-8cf8-673737c984fb" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Arcane_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Arcane_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Arcane_ArcaneVortex_01 ( Arcane Vortex ) -->
 					<attribute id="UUID" type="guid" value="34cddc40-7aee-492e-8768-ada585898165" />

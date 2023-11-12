@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="c425c0dd-1207-4527-be7a-b1546cb83eaa" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Shadow_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Shadow_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Nox_Target_Shift_Elemental_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Shadow_Target_Shift_EM_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="b898e2fa-3c6b-4884-9362-81b921ae58c8" />
 					<attribute id="EffectResourceGuid" type="guid" value="95fbb78f-5810-42c4-87b7-fb49362caa09" />
 					<attribute id="DetachSource" type="bool" value="False" />

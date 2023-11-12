@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="8e2618cd-516b-4387-bf4b-4257e13098f8" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Blood_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Blood_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Blood_$_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="e015aba2-3ae4-4d82-ab8f-73d83552a1ec" />

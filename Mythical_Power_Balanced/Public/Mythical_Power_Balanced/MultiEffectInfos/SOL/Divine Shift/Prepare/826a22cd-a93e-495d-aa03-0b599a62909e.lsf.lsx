@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="826a22cd-a93e-495d-aa03-0b599a62909e" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Radiant_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Radiant_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Radiant_Light_01 ( Radiant Particles ) -->
 					<attribute id="UUID" type="guid" value="3acb594c-3e4a-4c46-84a8-e54d9e43a766" />

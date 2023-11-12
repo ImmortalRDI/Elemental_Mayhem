@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="826d1710-9875-4603-b8eb-8459f795448b" />
-			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalLightning_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_EMLightning_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Lightning_LightningStorm_01 ( Lightning Storm ) -->
 					<attribute id="UUID" type="guid" value="a62719cc-7d5e-454f-af0b-25e700fa39bf" />

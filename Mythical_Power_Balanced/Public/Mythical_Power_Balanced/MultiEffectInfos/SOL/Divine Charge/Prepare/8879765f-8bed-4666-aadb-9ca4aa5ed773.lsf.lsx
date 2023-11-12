@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="8879765f-8bed-4666-aadb-9ca4aa5ed773" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Radiant_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Radiant_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Radiant_Light_01 ( Radiant Particles ) -->
 					<attribute id="UUID" type="guid" value="a975cfcd-9415-4269-b0e6-afff122f920f" />

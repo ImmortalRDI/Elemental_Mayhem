@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="2edadf5c-2d42-41fb-ab7c-867e548a878b" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Earth_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Earth_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Wind_Target_Shift_Elemental_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Wind_Target_Shift_EM_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="b8597a3c-6f94-4ee3-914d-7fa80da88c9e" />
 					<attribute id="EffectResourceGuid" type="guid" value="81fe49d1-8995-4c68-864e-d1e95eeff6dd" />
 					<attribute id="DetachSource" type="bool" value="False" />

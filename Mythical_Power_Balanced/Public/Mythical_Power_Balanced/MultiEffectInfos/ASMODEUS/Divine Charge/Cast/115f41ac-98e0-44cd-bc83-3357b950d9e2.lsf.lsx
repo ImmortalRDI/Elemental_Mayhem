@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="115f41ac-98e0-44cd-bc83-3357b950d9e2" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Fire_CastEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Fire_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Fire_DivineCharge_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Fire_Rush_EM_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="607f57ed-65be-4b34-96b3-3556703096fb" />
 					<attribute id="EffectResourceGuid" type="guid" value="dae53feb-3bcc-43a5-bbf7-1b13fa791f70" />
 					<attribute id="DetachSource" type="bool" value="False" />

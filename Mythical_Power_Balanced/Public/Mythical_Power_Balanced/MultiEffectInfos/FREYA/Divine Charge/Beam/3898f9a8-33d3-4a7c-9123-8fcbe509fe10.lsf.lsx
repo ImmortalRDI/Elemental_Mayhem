@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="3898f9a8-33d3-4a7c-9123-8fcbe509fe10" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Nature_BeamEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Nature_BeamEffects" />
 			<children>
 				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="7097cab8-1f97-4192-8ae8-497d2a1683ff" />

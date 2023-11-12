@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="b4117969-3d4d-4ff8-9221-19e9a0490ffa" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Arcane_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Arcane_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Arcane_ArcaneVortex_01 ( Arcane Vortex ) -->
 					<attribute id="UUID" type="guid" value="5ebbd3b2-80d4-497f-9c16-5e934f97d710" />

@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="ba29ba85-bec9-4133-b692-e1bb4abc4764" />
-			<attribute id="Name" type="LSString" value="Target_Stealth_Elemental_Lightning_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Stealth_EM_Lightning_CastEffects" />
 			<children>
 				<node id="EffectInfo">		<!--BODYFX: VFX_Spells_Cast_Damage_Lightning_WrathOfTheStorm_Impact_Root_01 (Lightning Strike From Above)-->
 					<attribute id="UUID" type="guid" value="1986cbcb-dc04-46c5-b73b-c893301b598e" />

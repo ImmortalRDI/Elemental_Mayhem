@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="d1eb55a9-17c1-4376-8363-61b1bba61c09" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Blood_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Blood_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Blood_$_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="621a8e97-4365-4f48-ab8c-cd9136b29546" />

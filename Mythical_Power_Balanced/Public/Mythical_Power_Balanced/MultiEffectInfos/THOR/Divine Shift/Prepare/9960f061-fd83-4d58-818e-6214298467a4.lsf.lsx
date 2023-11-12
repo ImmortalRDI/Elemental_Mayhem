@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="9960f061-fd83-4d58-818e-6214298467a4" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Thunder_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Thunder_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Thunder_ThunderStorm_01 ( Purple Thunder Storm ) -->
 					<attribute id="UUID" type="guid" value="9999b591-0b3f-4477-9e3d-58b3e1b45f42" />

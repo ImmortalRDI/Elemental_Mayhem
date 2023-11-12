@@ -4,69 +4,18 @@
 	<region id="EffectBank">
 		<node id="EffectBank">
             <children>      <!-- DIVINE CHARGE -->
-                <node id="Resource">        <!-- Necrotic -->
-                    <attribute id="BoundsMax" type="fvec3" value="10 10 5" />
-					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="3" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Necrotic_DivineCharge_BeamFX_01" />
-                    <attribute id="ID" type="FixedString" value="50e07e5f-92ec-45a3-b721-1b34d9b31478" />
-                    <attribute id="InterruptionMode" type="uint32" value="2" />
-                    <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Necrotic_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Necrotic_DivineCharge_BeamFX_01.lsfx" />
-                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
-                    <children>
-                        <node id="Dependencies">
-                            <children>
-                                <node id="DependentResource">		<!-- Billboard | Material | Background -->
-                                    <attribute id="Object" type="FixedString" value="8d4d77fe-3061-f357-66a8-75584eb1858d" />
-                                </node>
-                                <node id="DependentResource">		<!-- Particle System | Material | Dark Smoke -->
-                                    <attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
-                                </node>
-                                <node id="DependentResource">		<!-- Particle System | Material | Spiral -->
-                                    <attribute id="Object" type="FixedString" value="8d4d77fe-3061-f357-66a8-75584eb1858d" />
-                                </node>
-                                <node id="DependentResource">		<!-- Particle System | Mesh | Spiral -->
-                                    <attribute id="Object" type="FixedString" value="d1dca510-8210-0055-2d9d-eaeb8642f3d4" />
-                                </node>
-                                <node id="DependentResource">		<!-- Particle System | Material | Flash -->
-                                    <attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
-                                </node>
-                                <node id="DependentResource">		<!-- Particle System | Material | Flash End -->
-                                    <attribute id="Object" type="FixedString" value="72a19c48-148f-c5d4-2370-03d8b5866150" />
-                                </node>
-                                <node id="DependentResource">		<!-- Particle System | Material | Beam -->
-                                    <attribute id="Object" type="FixedString" value="f12c073f-f9e9-067d-1ecc-33308473470d" />
-                                </node>
-                                <node id="DependentResource">		<!-- Particle System | Material | Light Flare End -->
-                                    <attribute id="Object" type="FixedString" value="783ce98e-8afb-54ac-6c6e-4c985d5f011b" />
-                                </node>
-                                <node id="DependentResource">		<!-- Particle System | Mesh | Necrotic Burst -->
-                                    <attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
-                                </node>
-                                <node id="DependentResource">		<!-- Particle System | Material | Ring Burst -->
-                                    <attribute id="Object" type="FixedString" value="018e4e73-1ad7-d3de-9dff-19ba345fc952" />
-                                </node>
-                                <node id="DependentResource">		<!-- Particle System | Mesh | Ring Burst -->
-                                    <attribute id="Object" type="FixedString" value="c09783dc-9e05-790c-b1b9-75c2264eba37" />
-                                </node>
-                            </children>
-                        </node>
-                    </children>
-                </node>
+                
                 <node id="Resource">        <!-- Fire -->
                     <attribute id="BoundsMax" type="fvec3" value="15 15 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -20" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="7.871278" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Fire_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Fire_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="dcbcfa7b-2cf7-48da-ac2e-effe9a1ff01d" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Fire_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Fire_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -98,12 +47,12 @@
 					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -20" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="7.871278" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Arcane_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Arcane_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="4fafb9b4-edad-4a1f-b27f-9ca4e0e746cc" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Arcane_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Arcane_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -144,12 +93,12 @@
 					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -20" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="7.871278" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Nature_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Nature_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="033e9411-9369-4926-bd40-a1aee75c0fb9" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Nature_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Nature_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -172,12 +121,12 @@
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Wind_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Wind_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="66b837cc-0e9b-408b-9ed4-b942ee7b03c4" />
                     <attribute id="InterruptionMode" type="uint32" value="2" />
 					<attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Wind_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Wind_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -204,13 +153,13 @@
                     <attribute id="Center" type="fvec3" value="0 2 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Wind_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Wind_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="97275d02-78c8-4bdb-a85f-a7e6f2b209ec" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Wind_DivineCharge_BeamFX_01" />
+                    <attribute id="Name" type="LSString" value="VFX_Wind_Rush_EM_BeamFX_01" />
                     <attribute id="Radius" type="float" value="15" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -239,12 +188,12 @@
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Psychic_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Psychic_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="15f607d6-0567-491a-a895-44505fee7a52" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Psychic_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Psychic_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -295,12 +244,12 @@
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="6.55" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Blood_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Blood_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="fcf89b2f-5616-459c-b0f7-05ed2201f951" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Blood_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Blood_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -345,18 +294,18 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- NOX -->
+                <node id="Resource">        <!-- Shadow -->
                     <attribute id="BoundsMax" type="fvec3" value="3 5 3" />
                     <attribute id="BoundsMin" type="fvec3" value="-3 -1 -3" />
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="3" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Nox_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Shadow_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="07f6eacd-5439-444d-bd57-6093550a5dea" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Nox_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Shadow_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Shadow_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -377,12 +326,12 @@
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="3" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Force_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Force_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="c28e1a9b-7988-4ae2-8796-56bb2548e0a3" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Force_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Force_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -424,12 +373,12 @@
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Radiant_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Radiant_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="33b50a22-bb7e-457d-999f-b151136af8ba" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Radiant_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Radiant_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -507,12 +456,12 @@
                     <attribute id="Center" type="fvec3" value="0 2 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="2.268963" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Thunder_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Thunder_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="da2c56bf-d738-4171-82e5-f681c4b43b8c" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Thunder_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Thunder_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -542,12 +491,12 @@
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="1.5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Water_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Water_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="4b3d1146-2299-441b-bdf3-021e7bcaeae5" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Water_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Water_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -568,12 +517,12 @@
                     <attribute id="Center" type="fvec3" value="0 0 0" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Cold_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Cold_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="37bab533-2bc1-497c-a972-869c700cf536" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Cold_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Cold_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">
@@ -639,12 +588,12 @@
                     <attribute id="Center" type="fvec3" value="0 0 -5" />
                     <attribute id="CullingDistance" type="float" value="60" />
                     <attribute id="Duration" type="float" value="3.11" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Lightning_DivineCharge_BeamFX_01" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Lightning_Rush_EM_BeamFX_01" />
                     <attribute id="ID" type="FixedString" value="e8c9a975-f9fe-47dc-a79d-144b9c0e2c56" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Lightning_DivineCharge_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_DivineCharge_BeamFX_01.lsfx" />
+                    <attribute id="Name" type="LSString" value="VFX_Lightning_Rush_EM_BeamFX_01" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Rush_EM_BeamFX_01.lsfx" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
                     <children>
                         <node id="Dependencies">

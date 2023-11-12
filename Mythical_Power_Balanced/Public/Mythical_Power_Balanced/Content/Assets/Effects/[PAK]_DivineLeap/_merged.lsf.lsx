@@ -1,203 +1,29 @@
-<?xml version="1.0" encForceg="utf-8"?>		<!-- DIVINE LEAP VFX -->
+<?xml version="1.0" encForceg="utf-8"?>		<!-- Leap -->
 <save>
 	<version major="4" minor="0" revision="9" build="328" />
 	<region id="EffectBank">
 		<node id="EffectBank">
-			<children>		<!-- Necrotic -->
-				<node id="Resource">		<!-- TRAIL -->
-					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
-					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_Projectile_Leap_ElementalTrailFX_01" />
-					<attribute id="ID" type="FixedString" value="eb0af529-919a-497e-912c-1f6d1e964a46" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Necrotic_Projectile_Leap_ElementalTrailFX_01" />
-					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Necrotic_Projectile_Leap_ElementalTrailFX_01.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b831824c-6e34-1092-4e53-20e221649c3a" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="6f366982-6e09-66e0-8046-1cad9dc56d9f" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="22bdf834-9c45-8876-b4e6-bb56d31fdac1" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="6c627d5c-75a0-b582-66fd-9db11df0e720" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="281065f2-ed60-e24e-4e81-d2896d830e02" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="636a5f3e-e279-e95e-8113-b97d885f85b8" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="775d6d73-13ec-0172-9f93-ae43f5ae99cb" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5681422d-ed80-15cc-bbb1-677771e7e29a" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>
-								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="a8a8b331-3f32-649e-e5eb-39f6a9b1e36d" />
-                                </node>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">		<!-- IMPACT -->
-					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
-					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.51" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_Projectile_Leap_ElementalImpactFX_01" />
-					<attribute id="ID" type="FixedString" value="10122896-82da-4286-aa06-bf46e3621d47" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Necrotic_Projectile_Leap_ElementalImpactFX_01" />
-					<attribute id="Radius" type="float" value="9" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Necrotic_Projectile_Leap_ElementalImpactFX_01.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="276d17b8-da18-6e04-2304-f5e7b0ea2621" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="bf272981-98bd-04b2-f4bb-e4e5e0fa6604" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="35616aa2-cdec-342a-943c-74b0fd665ecf" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="b7affa60-34c3-a900-3e64-4ddcb6280901" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="88ab1c5e-5bcd-e4a5-7249-9c6a439a18d6" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="f51d4ea9-e053-382a-31b6-7d2458e4aab3" />
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
-					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
-					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="6.999999" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Necrotic_Projectile_Leap_ElementalGroundImpactFX_01" />
-					<attribute id="ID" type="FixedString" value="6725bdb8-9dbe-4aaa-b6b9-9d8d73abc3e0" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Necrotic_Projectile_Leap_ElementalGroundImpactFX_01" />
-					<attribute id="Radius" type="float" value="9" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Necrotic_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="f725b8e0-e32a-e0fb-db9d-bdbb0d254c36" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="83fe3c2c-7557-b45f-e7c2-c988dc149799" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="803f0120-5812-8d90-c78d-b7428b1675c6" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="74220836-4e07-6045-3c1a-12b914c1d2bd" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="5ab4200c-0c40-8779-258f-45829397e9cd" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="6809c7c7-f5a0-8ce0-ffb1-15dac6918c6f" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="b7bbdf95-5516-e0ae-bdaf-a1c08a3fc8a6" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="b7affa60-34c3-a900-3e64-4ddcb6280901" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="094ee120-24aa-286b-c358-c631e48828b4" />
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
+			<children>
+				
+				
+				
 			</children>
-			<children>		<!-- Fire -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
 					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="f0e8896c-81fb-40af-acf6-1ee380568eb3" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Fire_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="6" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -236,21 +62,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="30e5ddfd-4a16-474b-81d3-c46e51d1b6d1" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Fire_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -301,21 +127,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="20 20 20" />
 					<attribute id="BoundsMin" type="fvec3" value="-20 -20 -20" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Fire_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="fd8a22be-4d93-44ab-814c-a4941cfbf70a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Fire_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Fire_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="20" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Fire_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -394,22 +220,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Arcane -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="7" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="ea48bb01-5413-48b9-b8e2-f4a906a20a7b" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Arcane_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="DependentResource">
@@ -441,21 +267,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="ea77bb63-ea9c-458b-83af-ed823443a05a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Arcane_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="DependentResource">
@@ -571,21 +397,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="8f8e705a-6542-4fe6-a308-b6079b75ae58" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Arcane_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Arcane_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -637,123 +463,123 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Nature -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="ec8584a2-cba1-42b3-938d-8ad6cd713a67" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nature_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
 							<children>
-								<node id="DependentResource">		<!-- Light -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 								</node>
-								<node id="DependentResource">		<!-- Model | Mesh | Fluid  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="da9f85b4-4ff3-d73b-4584-c4480fc0894d" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Clouds  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="899c84df-e618-c891-5e72-ea09bbe8792e" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | ??  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="d3e7b7ea-e6a1-5d04-b390-1dbbd91f6b23" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | ??  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="7f529093-83ec-ea78-2d7d-71bb5fa5d73c" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | ???  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Small Splash  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="b62c3b5a-2db2-d609-8fe8-6947268ef5ff" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Small Splash  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Inward Shockwave  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="c1ea5d5e-ba6d-e492-5ed3-8c8d7696ab9b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Branches 1  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="483a5210-cf0f-4b1e-114a-d16c7ea23567" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Branches 2  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="c183925b-a170-49e9-74d6-ed89bb1881d1" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Branches 3  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="4c4dbaee-6eaf-d285-aeb1-a340040ba13b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 1  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="c6fda780-caf8-aeec-f9ee-9e03d82da56b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 2  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="79c52dd2-7ff6-c48f-de45-56bf10dc416d" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 3  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="8ea24cf5-224d-4704-4fa6-69b18f9c067b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Sparks  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Shockwave  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="27d6becf-276a-309a-6a32-f0c8ac7ac980" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Shockwave  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
 								</node>
-								<node id="DependentResource">		<!-- Overlay Material | Material | Invisible -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="a3c36b9f-f82d-2fd7-168f-4b43038bd8ef" />
 								</node>
-								<node id="DependentResource">		<!-- Overlay Material | Mesh | Invisible -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
 								</node>
-								<node id="DependentResource">		<!-- Overlay Material | Material | Glow -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="c78578f1-c704-032e-ac2d-f704b041c05f" />
 								</node>
-								<node id="DependentResource">		<!-- Overlay Material | Mesh | Glow -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="18066597-f0b8-287f-d768-017f05f2db45" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 3 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="8ea24cf5-224d-4704-4fa6-69b18f9c067b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Final Leaf Burst -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="c6fda780-caf8-aeec-f9ee-9e03d82da56b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Branches 1 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="483a5210-cf0f-4b1e-114a-d16c7ea23567" />
 								</node>
-								<node id="DependentResource">		<!-- Sound -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="a5eeb203-d6ee-43db-9c15-ef5f319944a3" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="f188bdf8-336e-465d-86a0-902051ea0715" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nature_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -795,43 +621,43 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Nature_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="1fac4d1e-2811-492a-9de5-e9e9f39022df" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nature_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Nature_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nature_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies" />
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Wind -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="d778c5c2-b055-4dd2-be96-8a44656650a9" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -870,53 +696,53 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="dd70f22d-56e1-4547-afc9-8163c66f6d35" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
 							<children>
-								<node id="DependentResource">		<!-- Overlay Material | Material | Thin Air -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="411e7182-7dfd-e032-7e1b-e12f50378937" />
 								</node>
-								<node id="DependentResource">		<!-- Overlay Material | Mesh | Thin Air -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="cd2bd0dc-e056-920b-0ad4-ba0bd437a8fd" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Shockwave  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="27d6becf-276a-309a-6a32-f0c8ac7ac980" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="c2754bf6-6c44-42c1-b7f8-b070cea9a2e7" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -983,22 +809,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Wind -->
-				<node id="Resource">		<!-- Wind -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="6230adbf-6908-4f89-8395-0c3f38413af4" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1052,21 +878,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
 					<attribute id="Center" type="fvec3" value="0 0 -0.5" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="c9462100-912a-4ab5-ab27-0f68bc6f9cd9" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="7" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1105,21 +931,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
 					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.540044" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Wind_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="67d18211-6ee1-44c7-8103-911feead07c4" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Wind_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="6" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Wind_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1159,22 +985,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Psychic -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="af132e05-4829-4c0a-bda8-c90ac3154d69" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Psychic_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1222,21 +1048,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="fa882dd9-5d99-4d89-9f89-d6c88347157f" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Psychic_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1305,21 +1131,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
 					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.540044" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Psychic_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="ef5feba6-e6e2-4278-9baa-74745a53a72a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Psychic_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Psychic_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="6" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Psychic_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1338,22 +1164,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Blood -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="ac068b7e-0362-4450-a507-5c3148da8c93" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Blood_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1395,21 +1221,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="e165c849-418d-4069-81f7-3c2c440e9ef0" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Blood_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1448,21 +1274,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blood_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="efc338ee-5a5f-45cf-8a3b-07a480cf4b4e" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Blood_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Blood_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Blood_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1503,13 +1329,13 @@
 								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="47f5d6b1-5a7c-efbd-f1b0-b36a92e6e6de" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Blood Splash -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="e581a0a6-ba35-609b-c973-d07ee07c4d3c" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Blood Splash 2 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="495aa743-ac5a-1f8a-af36-1574ec37aeb8" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Blood Splash 2 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
 								</node>
 								<node id="DependentResource">
@@ -1520,22 +1346,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- NOX -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nox_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Shadow_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="1d5b3256-ab3f-40f0-adc8-1bc87f101d89" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nox_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Shadow_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Shadow_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1577,21 +1403,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4.001213" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nox_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Shadow_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="cc98d1ac-63ec-4dd2-adb2-1e0e142cce31" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nox_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Shadow_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Shadow_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1609,21 +1435,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Nox_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Shadow_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="bc9db5fa-ce30-4164-ad74-80bf0986abd8" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Nox_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Shadow_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Nox_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Shadow_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1657,22 +1483,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Force -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Force_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="adc0bf13-d1b6-42da-80a8-39cff58f9ed5" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Force_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1701,40 +1527,40 @@
 								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="85618ce5-276a-8c24-31e3-5a146e2c0150" />
 								</node>
-								<node id="DependentResource">		<!-- Billboard | Material | Background -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="fb21ca3c-3b37-b5b8-86cd-c7feaead109d" />
 								</node>
-								<node id="DependentResource">		<!-- Billboard | Material | Flare -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="d1b959e1-4a69-5fb9-3711-9d39bc5edce0" />
 								</node>
-								<node id="DependentResource">		<!-- Decal | Material | Red Ground Effect -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="43ace358-6149-2611-ed7a-5d9232e79c28" />
 								</node>
-								<node id="DependentResource">		<!-- Decal | Material | Dark Ground EFfect -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="31279149-c0cc-96dc-36cc-f3acb199af7a" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Large Smoke 1 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="aee0fb17-8805-c863-65fa-79cd520acccc" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Large Smoke 2 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="39f632d3-916c-a7c4-7972-d7ced1bc48cb" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Mushroom Cloud -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="191c04fe-53a4-6005-93ca-1caa329ee6c4" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Small Smoke -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="f60bc7b0-6a4b-862d-4940-ea4dafaa7317" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Red Smoke -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="4f5b525d-cdf7-1d04-2db5-d1f6e28c013b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | ?? -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="8da58aa9-f985-f994-f2eb-b10766de73f7" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Dust -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="a99218c5-4da0-f9f8-8d00-05694b34b142" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
 								</node>
 								<node id="DependentResource">
@@ -1744,21 +1570,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.55" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Force_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="218a9364-aa79-4939-a9ea-59d5ee9003fd" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Force_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1773,21 +1599,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Force_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Force_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="1f9d0102-66f5-4c7a-96cb-52f5a773c486" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Force_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Force_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Force_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1831,49 +1657,49 @@
 								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="fd4ab41a-443a-8334-de24-cdf4eae68011" />
 								</node>
-								<node id="DependentResource">		<!-- Billboard | Material | Background -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="fb21ca3c-3b37-b5b8-86cd-c7feaead109d" />
 								</node>
-								<node id="DependentResource">		<!-- Billboard | Material | Flare -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="d1b959e1-4a69-5fb9-3711-9d39bc5edce0" />
 								</node>
-								<node id="DependentResource">		<!-- Decal | Material | Red Ground Effect -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="43ace358-6149-2611-ed7a-5d9232e79c28" />
 								</node>
-								<node id="DependentResource">		<!-- Decal | Material | Dark Ground EFfect -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="31279149-c0cc-96dc-36cc-f3acb199af7a" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Large Smoke 1 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="aee0fb17-8805-c863-65fa-79cd520acccc" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Large Smoke 2 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="39f632d3-916c-a7c4-7972-d7ced1bc48cb" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Mushroom Cloud -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="191c04fe-53a4-6005-93ca-1caa329ee6c4" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Small Smoke -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="f60bc7b0-6a4b-862d-4940-ea4dafaa7317" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | ?? -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="8da58aa9-f985-f994-f2eb-b10766de73f7" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Dust -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="a99218c5-4da0-f9f8-8d00-05694b34b142" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
 								</node>
 							</children>
@@ -1881,22 +1707,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Radiant -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.002337" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="8cffc846-25a9-4f5f-99bc-0ba37b4bd9f8" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Radiant_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="7" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1959,21 +1785,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.002337" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="91a8a341-8d96-4745-a25a-64276cc7993a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Radiant_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2030,21 +1856,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Radiant_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="300c61f8-1985-4b43-922e-599180570b1a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Radiant_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Radiant_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="10" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Radiant_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2102,22 +1928,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Thunder -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="7" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="5a80a231-4248-413d-887b-91a32c9a3c25" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Thunder_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2165,21 +1991,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="b2f9c009-596a-47e8-818a-8c4a003b791f" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Thunder_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2206,21 +2032,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
 					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Thunder_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="adf1338a-9011-4c1a-8ca6-9f066775d8c7" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Thunder_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Thunder_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="6" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Thunder_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2269,22 +2095,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Water -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="9 9 9" />
 					<attribute id="BoundsMin" type="fvec3" value="-9 -9 -9" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3.1" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Water_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="b722dfe3-fa2a-4b6a-8eb9-52f9e61bc3ea" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Water_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="9 " />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2302,21 +2128,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Water_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="d18b618e-7454-4b2e-8fd2-f5d187c0551f" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Water_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2358,21 +2184,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="9 9 9" />
 					<attribute id="BoundsMin" type="fvec3" value="-9 -9 -9" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3.25" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Water_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Water_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="1772db86-7732-4e58-ae04-4edbfb038162" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Water_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Water_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="9" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2388,22 +2214,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Cold -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="d1a09a5a-ea3b-4cc4-99b0-980cb32a2204" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Cold_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="7" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2466,21 +2292,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="4c5c9e2a-91d3-4fb1-b03e-e49b7c14ab82" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Cold_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2522,21 +2348,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="11 11 11" />
 					<attribute id="BoundsMin" type="fvec3" value="-11 -11 -11" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3.25" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cold_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="3ec4d022-72cf-4139-8956-a97d80dcca17" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Cold_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Cold_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="11" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cold_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2576,22 +2402,22 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Lightning -->
-				<node id="Resource">		<!-- TRAIL -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7.5 7.5 7.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-7.5 -7.5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="ID" type="FixedString" value="74573748-9702-4c66-b2a2-d0798212c0c0" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Lightning_Projectile_Leap_ElementalTrailFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_Projectile_Leap_EMTrailFX_01" />
 					<attribute id="Radius" type="float" value="7.5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Projectile_Leap_ElementalTrailFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2627,21 +2453,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="10" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="67cf71ee-0367-4e01-a14c-0b4ecb4c005b" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Lightning_Projectile_Leap_ElementalImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_Projectile_Leap_EMImpactFX_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Projectile_Leap_ElementalImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Projectile_Leap_EMImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -2674,21 +2500,21 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- GROUND IMPACT -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="10" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Lightning_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="ID" type="FixedString" value="ae3701ba-85f0-4ae1-8dcd-cec026f42fc2" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Lightning_Projectile_Leap_ElementalGroundImpactFX_01" />
+					<attribute id="Name" type="LSString" value="VFX_Lightning_Projectile_Leap_EMGroundImpactFX_01" />
 					<attribute id="Radius" type="float" value="10" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Projectile_Leap_ElementalGroundImpactFX_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Lightning_Projectile_Leap_EMGroundImpactFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">

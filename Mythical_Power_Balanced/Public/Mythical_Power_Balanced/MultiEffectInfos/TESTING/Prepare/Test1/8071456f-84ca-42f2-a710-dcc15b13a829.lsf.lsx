@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="8071456f-84ca-42f2-a710-dcc15b13a829" />
-			<attribute id="Name" type="LSString" value="DivineCharge_TEST_HitEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_TEST_HitEffects" />
 			<children>
 				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="f3bad23c-fe17-4a0e-b98c-7ea74314347a" />

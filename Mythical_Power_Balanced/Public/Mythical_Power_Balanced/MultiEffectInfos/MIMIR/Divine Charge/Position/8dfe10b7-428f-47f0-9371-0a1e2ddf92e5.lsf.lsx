@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="8dfe10b7-428f-47f0-9371-0a1e2ddf92e5" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Psychic_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Psychic_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- POSITION FX: VFX_Psychic_DivineCharge_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- POSITION FX: VFX_Psychic_Rush_EM_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="5b7f499f-d0ac-4159-94f5-b24f4b8e7c6e" />
 					<attribute id="EffectResourceGuid" type="guid" value="c0d36715-251c-43c5-9c8d-c4fa0972995e" />
 					<attribute id="DetachSource" type="bool" value="False" />

@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="74c9b9ab-5a89-4370-a75c-ae042bbac5b7" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Wind_BeamEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Wind_BeamEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- $ FX: VFX_Wind_DivineCharge_BeamFX_01 --> 
+				<node id="EffectInfo">		<!-- $ FX: VFX_Wind_Rush_EM_BeamFX_01 --> 
 					<attribute id="UUID" type="guid" value="1b5b7048-145c-4685-b8ae-8815611e52c9" />
 					<attribute id="EffectResourceGuid" type="guid" value="66b837cc-0e9b-408b-9ed4-b942ee7b03c4" />
 					<attribute id="DetachSource" type="bool" value="False" />

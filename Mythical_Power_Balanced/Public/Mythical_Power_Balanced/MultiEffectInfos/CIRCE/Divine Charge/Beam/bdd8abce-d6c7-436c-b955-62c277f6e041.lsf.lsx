@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="bdd8abce-d6c7-436c-b955-62c277f6e041" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Arcane_BeamEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Arcane_BeamEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BEAM FX: VFX_Arcane_DivineCharge_BeamFX_01 --> 
+				<node id="EffectInfo">		<!-- BEAM FX: VFX_Arcane_Rush_EM_BeamFX_01 --> 
 					<attribute id="UUID" type="guid" value="f3e7443d-af28-4bf4-82fc-c6f6b31d79b7" />
 					<attribute id="EffectResourceGuid" type="guid" value="4fafb9b4-edad-4a1f-b27f-9ca4e0e746cc" />
 					<attribute id="DetachSource" type="bool" value="False" />

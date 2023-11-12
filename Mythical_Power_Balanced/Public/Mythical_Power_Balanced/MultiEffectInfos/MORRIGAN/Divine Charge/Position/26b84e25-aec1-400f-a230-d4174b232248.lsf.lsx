@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="26b84e25-aec1-400f-a230-d4174b232248" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Blood_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Blood_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- POSITION FX: VFX_Blood_DivineCharge_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- POSITION FX: VFX_Blood_Rush_EM_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="50724398-c22d-45b6-b831-8d1e6428768b" />
 					<attribute id="EffectResourceGuid" type="guid" value="fd0e2814-f279-4da0-b9b3-7804230015dd" />
 					<attribute id="DetachSource" type="bool" value="False" />

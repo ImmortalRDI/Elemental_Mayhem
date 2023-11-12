@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="42892f52-f72c-4f09-adcd-0b20c9dc41e3" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Cold_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Cold_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Cold_Blizzard_01 (Blizzard)-->
 					<attribute id="UUID" type="guid" value="3625f965-b819-4246-91b7-6ab908d925f7" />

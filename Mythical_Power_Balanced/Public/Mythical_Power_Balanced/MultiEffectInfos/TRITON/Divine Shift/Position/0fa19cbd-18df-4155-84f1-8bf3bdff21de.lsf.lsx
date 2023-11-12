@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="0fa19cbd-18df-4155-84f1-8bf3bdff21de" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Water_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Water_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Water_Target_Shift_Elemental_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Water_Target_Shift_EM_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="3b354cf2-ce98-4e9a-9de9-af38e7f6d010" />
 					<attribute id="EffectResourceGuid" type="guid" value="08751ece-0b58-44cf-b08c-a39b5ffe23fe" />
 					<attribute id="DetachSource" type="bool" value="False" />

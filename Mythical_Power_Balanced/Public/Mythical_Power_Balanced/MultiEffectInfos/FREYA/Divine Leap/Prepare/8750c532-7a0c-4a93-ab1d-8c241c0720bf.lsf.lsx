@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="8750c532-7a0c-4a93-ab1d-8c241c0720bf" />
-			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalNature_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_EMNature_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Nature_FallingLeaves_01 ( Falling Leaves ) -->
 					<attribute id="UUID" type="guid" value="bbc048ff-97b8-4edf-aac2-8b8c178a0f89" />

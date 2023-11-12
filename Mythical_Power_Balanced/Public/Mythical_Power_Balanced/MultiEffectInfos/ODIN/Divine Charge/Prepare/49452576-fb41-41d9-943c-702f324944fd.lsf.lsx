@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="49452576-fb41-41d9-943c-702f324944fd" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Force_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Force_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Force_ForceWaves_01 ( Force Waves ) -->
 					<attribute id="UUID" type="guid" value="f89423d8-ab9b-45a5-aed9-ebbc75f9aa95" />

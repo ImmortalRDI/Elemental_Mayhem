@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="7ec2167b-7d0d-440f-9d99-cbc3c60e253f" />
-			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalForce_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_EMForce_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Force_ForceWaves_01 ( Force Waves ) -->
 					<attribute id="UUID" type="guid" value="f4b53fb9-604a-437d-aab8-5d016956b7d9" />

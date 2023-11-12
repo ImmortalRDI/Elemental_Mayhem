@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="2d08eed1-30b7-4515-a429-51697c6ae3c4" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Nature_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Nature_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Nature_FallingLeaves_01 ( Falling Leaves ) -->
 					<attribute id="UUID" type="guid" value="631b6371-2c78-4ff0-afeb-fc5e3fd61d98" />

@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="e7ce2c2b-7df0-4fa4-a9dd-6a724f5cc00e" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Nature_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Nature_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Nature_FallingLeaves_01 ( Falling Leaves ) -->
 					<attribute id="UUID" type="guid" value="3268021c-46d3-4d13-93ed-50ea17514ab4" />

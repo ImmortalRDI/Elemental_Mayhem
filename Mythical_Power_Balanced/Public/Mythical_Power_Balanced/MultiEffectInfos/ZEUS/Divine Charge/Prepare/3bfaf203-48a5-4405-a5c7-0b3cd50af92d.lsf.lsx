@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="3bfaf203-48a5-4405-a5c7-0b3cd50af92d" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Lightning_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Lightning_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Lightning_LightningStorm_01 ( Lightning Storm ) -->
 					<attribute id="UUID" type="guid" value="2fd5c0f2-f023-4cc2-a8e7-b2a99a65283b" />

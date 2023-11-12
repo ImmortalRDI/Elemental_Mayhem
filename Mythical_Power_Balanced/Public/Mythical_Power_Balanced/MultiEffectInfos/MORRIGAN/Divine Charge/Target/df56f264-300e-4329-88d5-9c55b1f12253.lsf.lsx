@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="df56f264-300e-4329-88d5-9c55b1f12253" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Blood_TargetEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Blood_TargetEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Necrotic_DivineCharge_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Necrotic_Rush_EM_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="ee9570cd-2d8f-4413-b39d-69ddf921b942" />
 					<attribute id="EffectResourceGuid" type="guid" value="af855ed2-be43-4d5c-ae12-6b2a15744eff" />
 					<attribute id="DetachSource" type="bool" value="False" />

@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="cdc97fcf-7a28-43cb-b6f4-aaebb0ed9085" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Shadow_CastEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Shadow_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Nox_DivineCharge_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Shadow_Rush_EM_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="6936056b-fdc0-4e6f-b81f-df43825ce1d2" />
 					<attribute id="EffectResourceGuid" type="guid" value="809a9720-3850-4839-9a96-22c08542faae" />
 					<attribute id="DetachSource" type="bool" value="False" />

@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="199ef6b8-3752-446e-ab7e-d63da0ee7c71" />
-			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalThunder_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_EMThunder_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Thunder_ThunderStorm_01 ( Purple Thunder Storm ) -->
 					<attribute id="UUID" type="guid" value="a77a57bb-c49e-4f22-bd18-bf5a152ba679" />

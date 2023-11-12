@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="3ca4b9bc-4380-4036-b594-3a1ae168cbb1" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Fire_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Fire_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Fire_Embers_01 ( Burning Embers & Smoke ) -->
 					<attribute id="UUID" type="guid" value="d1dc51ad-357d-45fa-9be3-0489b279651a" />

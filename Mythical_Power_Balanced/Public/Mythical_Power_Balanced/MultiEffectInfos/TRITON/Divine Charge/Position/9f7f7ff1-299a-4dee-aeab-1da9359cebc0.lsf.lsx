@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="9f7f7ff1-299a-4dee-aeab-1da9359cebc0" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Water_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Water_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- POSITION FX: VFX_Water_DivineCharge_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- POSITION FX: VFX_Water_Rush_EM_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="dac18567-129a-4216-850d-06127c3ed67d" />
 					<attribute id="EffectResourceGuid" type="guid" value="96814a19-3933-49c7-80d3-7bf0fb173aac" />
 					<attribute id="DetachSource" type="bool" value="False" />

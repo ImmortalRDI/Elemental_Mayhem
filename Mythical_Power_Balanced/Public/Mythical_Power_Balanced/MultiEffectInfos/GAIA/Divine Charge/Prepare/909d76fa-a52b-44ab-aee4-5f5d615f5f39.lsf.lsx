@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="909d76fa-a52b-44ab-aee4-5f5d615f5f39" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Earth_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Earth_PrepareEffects" />
 			<children>
 			<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Wind_Rocks_01 ( Floating Rocks ) -->
 					<attribute id="UUID" type="guid" value="a82467ae-7f0c-4af6-b051-863a762b5735" />

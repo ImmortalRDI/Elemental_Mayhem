@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="b5bd7eb2-9d4d-4c1d-8f3f-cafd48547d47" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Shadow_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Shadow_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- POSITION FX: VFX_Nox_DivineCharge_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- POSITION FX: VFX_Shadow_Rush_EM_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="73a4c61e-e5b1-4f16-90df-1b2b96a9d497" />
 					<attribute id="EffectResourceGuid" type="guid" value="6d17f721-0ac3-4769-a446-99ef7c66914d" />
 					<attribute id="DetachSource" type="bool" value="False" />

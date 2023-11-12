@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="27a32db2-8faa-40fb-9b27-404cfd53c0fd" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Earth_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Earth_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Wind_Rocks_01 ( Floating Rocks ) -->
 					<attribute id="UUID" type="guid" value="226190db-1095-4369-a956-7d8e01a95ab4" />

@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="721895b5-f59c-49cf-a6a6-45ea5ebcc434" />
-			<attribute id="Name" type="LSString" value="DivineCharge_Water_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Rush_EM_Water_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Water_RainStorm_01 ( Rain Storm ) -->
 					<attribute id="UUID" type="guid" value="4aa1bfab-4190-4e2a-925e-96470967ee8b" />

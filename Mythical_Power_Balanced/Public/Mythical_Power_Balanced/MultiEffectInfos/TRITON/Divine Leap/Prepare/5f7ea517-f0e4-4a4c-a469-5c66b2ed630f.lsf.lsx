@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="5f7ea517-f0e4-4a4c-a469-5c66b2ed630f" />
-			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalWater_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_EMWater_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Water_RainStorm_01 ( Rain Storm ) -->
 					<attribute id="UUID" type="guid" value="0ff9e8df-a16a-40c0-86e3-1b6e2e8fbaa2" />

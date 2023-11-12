@@ -6,7 +6,7 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="d23c4fc6-ed7f-4a27-95fd-f63912ec2e4c" />
-					<attribute id="Name" type="LSString" value="VFX_Target_Stealth_Elemental_TEST_Effect_01" />
+					<attribute id="Name" type="LSString" value="VFX_Target_Stealth_EM_TEST_Effect_01" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="projectile" />
 					<attribute id="ParentTemplateId" type="FixedString" value="" />

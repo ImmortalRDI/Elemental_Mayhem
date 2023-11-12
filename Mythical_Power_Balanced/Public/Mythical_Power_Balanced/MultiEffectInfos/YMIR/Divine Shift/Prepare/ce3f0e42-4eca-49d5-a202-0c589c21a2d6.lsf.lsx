@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="ce3f0e42-4eca-49d5-a202-0c589c21a2d6" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Cold_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Cold_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Cold_Blizzard_01 (Blizzard) -->
 					<attribute id="UUID" type="guid" value="d462118d-5829-4c87-bd61-7f10e52ba862" />

@@ -6,7 +6,7 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="bcd78425-9532-4c07-849e-053c4e36f59d" />
-					<attribute id="Name" type="LSString" value="VFX_Target_Stealth_Elemental_Radiant_Effect_01" />
+					<attribute id="Name" type="LSString" value="VFX_Target_Stealth_EM_Radiant_Effect_01" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="projectile" />
 					<attribute id="ParentTemplateId" type="FixedString" value="" />
@@ -17,7 +17,7 @@
 					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
 					<attribute id="HasGameplayValue" type="bool" value="False" />
 					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
-					<attribute id="ImpactFX" type="FixedString" value="VFX_Radiant_Target_Stealth_Elemental_VanishFX_01" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Radiant_Target_Stealth_EM_VanishFX_01" />
 					<attribute id="DestroyTrailFXOnImpact" type="bool" value="True" />
 					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
 					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />

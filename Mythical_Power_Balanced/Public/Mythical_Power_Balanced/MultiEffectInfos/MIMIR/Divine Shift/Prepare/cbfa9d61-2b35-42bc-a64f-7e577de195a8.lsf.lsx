@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="cbfa9d61-2b35-42bc-a64f-7e577de195a8" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Psychic_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Psychic_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Psychic_PsionicSparks_01 ( Rising & Falling Pink Sparks ) -->
 					<attribute id="UUID" type="guid" value="5e95e7aa-fcfa-443c-9faa-36a15841ad02" />

@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="9fe04892-3ff0-496c-8cba-e644650d2e9c" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Psychic_PositionEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Psychic_PositionEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Psychic_Target_Shift_Elemental_PositionFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Psychic_Target_Shift_EM_PositionFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="e437bd02-9ccf-449d-b012-2f3ce2a786b0" />
 					<attribute id="EffectResourceGuid" type="guid" value="096cf0ee-a08c-4aa0-bd6e-540840c80052" />
 					<attribute id="DetachSource" type="bool" value="False" />

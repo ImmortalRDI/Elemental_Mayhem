@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="cb53b5eb-2805-41ef-ab45-4266f553a32e" />
-			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalWater_CastEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_EMWater_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Water_Projectile_Leap_ElementalCastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Water_Projectile_Leap_EMCastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="c24ee263-57ef-4bc1-b3bc-b830c2df9ff0" />
 					<attribute id="EffectResourceGuid" type="guid" value="c163671e-1ab0-453b-87d0-a7af9ac48bff" />
 					<attribute id="DetachSource" type="bool" value="False" />

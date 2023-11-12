@@ -6,7 +6,7 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="5c2f09a1-5c4a-468c-95f0-3a3d80aa0032" />
-					<attribute id="Name" type="LSString" value="VFX_Target_Stealth_Elemental_Lightning_Effect_02" />
+					<attribute id="Name" type="LSString" value="VFX_Target_Stealth_EM_Lightning_Effect_02" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="projectile" />
 					<attribute id="ParentTemplateId" type="FixedString" value="" />
@@ -17,7 +17,7 @@
 					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
 					<attribute id="HasGameplayValue" type="bool" value="False" />
 					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
-					<attribute id="ImpactFX" type="FixedString" value="VFX_Lightning_Target_Stealth_Elemental_AppearFX_01" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Lightning_Target_Stealth_EM_AppearFX_01" />
 					<attribute id="GroundImpactFX" type="LSString" value="" />
 					<attribute id="DestroyTrailFXOnImpact" type="bool" value="True" />
 					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />

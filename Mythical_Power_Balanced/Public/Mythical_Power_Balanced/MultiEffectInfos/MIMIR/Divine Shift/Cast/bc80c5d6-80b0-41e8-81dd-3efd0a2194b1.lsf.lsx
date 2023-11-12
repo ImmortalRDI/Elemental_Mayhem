@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="bc80c5d6-80b0-41e8-81dd-3efd0a2194b1" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Psychic_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Psychic_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Psychic_Target_Shift_Elemental_CastFX_01 ( Explosion & Body Disappear ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Psychic_Target_Shift_EM_CastFX_01 ( Explosion & Body Disappear ) -->
 					<attribute id="UUID" type="guid" value="4a82f098-f035-4f31-a052-8d094e5ffd06" />
 					<attribute id="EffectResourceGuid" type="guid" value="5b5436aa-b6a7-4e4e-9d42-f48278520416" />
 					<attribute id="DetachSource" type="bool" value="False" />

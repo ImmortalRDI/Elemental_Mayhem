@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="2e6b2e00-5547-42ba-8d47-acf6db293ac1" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Arcane_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Arcane_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Arcane_Target_Shift_Elemental_CastFX_01 ( Arcane Burst ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Arcane_Target_Shift_EM_CastFX_01 ( Arcane Burst ) -->
 					<attribute id="UUID" type="guid" value="fc9c3104-6bd8-460a-ae9c-069705bcfc5f" />
 					<attribute id="EffectResourceGuid" type="guid" value="06e18e4d-7d91-4640-bfb8-377607e523dc" />
 					<attribute id="DetachSource" type="bool" value="False" />

@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="28fc7405-180f-43da-9cef-9411150b1bff" />
-			<attribute id="Name" type="LSString" value="Projectile_Leap_ElementalBlood_PrepareEffects" />
+			<attribute id="Name" type="LSString" value="Projectile_Leap_EMBlood_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">		<!-- Environment FX: VFX_Environment_Blood_$_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="c686d04f-638e-49a4-b183-a4f2acbaf991" />

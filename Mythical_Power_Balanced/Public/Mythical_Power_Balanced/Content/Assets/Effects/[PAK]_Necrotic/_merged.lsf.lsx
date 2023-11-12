@@ -1,0 +1,656 @@
+<?xml version="1.0" encForceg="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+            <children>      <!-- Ultimate -->
+                <node id="Resource">		<!-- Prepare: Environment -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Ultimate_EnvironmentFX" />
+                    <attribute id="ID" type="FixedString" value="6069fdcd-6fec-4e72-935a-1f437f96a3fd" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Ultimate_EnvironmentFX" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Ultimate_EnvironmentFX.lsfx" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="UseSoundOcclusion" type="bool" value="False" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>								
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5563996d-5b3c-450e-3933-05faffc9c2e5" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="cd407342-af9f-4bd4-92b3-47c681ad1e90" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="ad0a39f6-c2f3-45e2-b3e0-5626f32f462a" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="e9e1d747-865b-2b8a-43b9-cea299dc550e" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+            </children>
+            <children>      <!-- Leap -->
+                <node id="Resource">        <!-- Prepare -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Leap_Prepare_BodyFX" />
+					<attribute id="ID" type="FixedString" value="68753506-d9e2-4356-b4cf-a5fb515d24c2" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Leap_Prepare_BodyFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Leap_Prepare_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies" />
+                    </children>
+                </node>
+                <node id="Resource">        <!-- Trail -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Leap_TrailFX" />
+					<attribute id="ID" type="FixedString" value="eb0af529-919a-497e-912c-1f6d1e964a46" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Leap_TrailFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Leap_TrailFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b831824c-6e34-1092-4e53-20e221649c3a" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="6f366982-6e09-66e0-8046-1cad9dc56d9f" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="22bdf834-9c45-8876-b4e6-bb56d31fdac1" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="6c627d5c-75a0-b582-66fd-9db11df0e720" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="281065f2-ed60-e24e-4e81-d2896d830e02" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="636a5f3e-e279-e95e-8113-b97d885f85b8" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="775d6d73-13ec-0172-9f93-ae43f5ae99cb" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5681422d-ed80-15cc-bbb1-677771e7e29a" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+                                </node>
+								<node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="a8a8b331-3f32-649e-e5eb-39f6a9b1e36d" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- Impact -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.51" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Leap_ImpactFX" />
+					<attribute id="ID" type="FixedString" value="10122896-82da-4286-aa06-bf46e3621d47" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Leap_ImpactFX" />
+					<attribute id="Radius" type="float" value="9" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Leap_ImpactFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="276d17b8-da18-6e04-2304-f5e7b0ea2621" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bf272981-98bd-04b2-f4bb-e4e5e0fa6604" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35616aa2-cdec-342a-943c-74b0fd665ecf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7affa60-34c3-a900-3e64-4ddcb6280901" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="88ab1c5e-5bcd-e4a5-7249-9c6a439a18d6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f51d4ea9-e053-382a-31b6-7d2458e4aab3" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- Ground Impact -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="6.999999" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Leap_GroundImpactFX" />
+					<attribute id="ID" type="FixedString" value="6725bdb8-9dbe-4aaa-b6b9-9d8d73abc3e0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Leap_GroundImpactFX" />
+					<attribute id="Radius" type="float" value="9" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Leap_GroundImpactFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f725b8e0-e32a-e0fb-db9d-bdbb0d254c36" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="83fe3c2c-7557-b45f-e7c2-c988dc149799" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="803f0120-5812-8d90-c78d-b7428b1675c6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="74220836-4e07-6045-3c1a-12b914c1d2bd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5ab4200c-0c40-8779-258f-45829397e9cd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6809c7c7-f5a0-8ce0-ffb1-15dac6918c6f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7bbdf95-5516-e0ae-bdaf-a1c08a3fc8a6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7affa60-34c3-a900-3e64-4ddcb6280901" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="094ee120-24aa-286b-c358-c631e48828b4" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+            </children>
+            <children>      <!-- Rush -->
+                <node id="Resource">        <!-- Prepare -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Rush_Prepare_BodyFX" />
+					<attribute id="ID" type="FixedString" value="1cbd13d7-d1c7-465e-93d4-c474c8613177" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Rush_Prepare_BodyFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Rush_Prepare_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies" />
+                    </children>
+                </node>
+                <node id="Resource">        <!-- Cast -->
+					<attribute id="BoundsMax" type="fvec3" value="3 5 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -1 -3" />
+					<attribute id="Center" type="fvec3" value="0 2 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="6.999999" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Rush_CastFX" />
+					<attribute id="ID" type="FixedString" value="cf27790b-17e7-4c2d-a083-377b79d9c835" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Rush_CastFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Rush_CastFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c857d19b-25be-a746-1134-1fcf2107ac38" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1f1e674c-ccf6-1063-8e53-a1bfc98d5939" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- Beam -->
+                    <attribute id="BoundsMax" type="fvec3" value="10 10 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Rush_BeamFX" />
+                    <attribute id="ID" type="FixedString" value="50e07e5f-92ec-45a3-b721-1b34d9b31478" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Rush_BeamFX" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_EM_Necrotic_Rush_BeamFX.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="8d4d77fe-3061-f357-66a8-75584eb1858d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="8d4d77fe-3061-f357-66a8-75584eb1858d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="d1dca510-8210-0055-2d9d-eaeb8642f3d4" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="72a19c48-148f-c5d4-2370-03d8b5866150" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="f12c073f-f9e9-067d-1ecc-33308473470d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="783ce98e-8afb-54ac-6c6e-4c985d5f011b" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="018e4e73-1ad7-d3de-9dff-19ba345fc952" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="c09783dc-9e05-790c-b1b9-75c2264eba37" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- Hit -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Rush_HitFX" />
+					<attribute id="ID" type="FixedString" value="673579ed-9b89-41f9-85bd-d2c18f8407a4" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Rush_HitFX" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Rush_HitFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1f73b5e1-266d-5ca0-9aec-8c13881b8c2b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f812d39c-7d2b-e112-931a-9265f910dbc0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ab6c61b4-df3c-0e15-c111-bb676009699d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="94d960c4-c5af-3b78-0ed5-63b4d3c49475" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="783ce98e-8afb-54ac-6c6e-4c985d5f011b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="8f1497a0-86ed-325c-ac10-5783e1c2eff3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1821bf0a-2a37-3254-6ff8-65edcba14b1d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d667c67-7e15-d75a-773b-1fffe4010d55" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a8a8b331-3f32-649e-e5eb-39f6a9b1e36d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="97ae239c-85b6-cc5a-cd23-7e0753c1ed3d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="141e2639-4f00-9a6d-9364-ed6b8c922630" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+            </children>
+			<children>		<!-- Shift -->
+				<node id="Resource">		<!-- Prepare -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Shift_Prepare_BodyFX" />
+					<attribute id="ID" type="FixedString" value="113ab083-89cc-4f1e-a028-fcdb06110c2b" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Shift_Prepare_BodyFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Shift_Prepare_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies" />
+					</children>
+				</node>
+				<node id="Resource">        <!-- Cast -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Shift_Cast_BodyFX" />
+					<attribute id="ID" type="FixedString" value="0b6fa830-55af-41be-917a-814f85091734" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Shift_Cast_BodyFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Shift_Cast_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+                                </node>				
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">        <!-- Position -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Shift_PositionFX" />
+					<attribute id="ID" type="FixedString" value="ccacb526-9ffd-4b15-b0c9-36538c6f5475" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Shift_PositionFX" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_Shift_PositionFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+                                </node>				
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+			<children>		<!-- Stealth -->
+				<node id="Resource">		<!-- Stealth -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_StealthFX" />
+					<attribute id="ID" type="FixedString" value="67f54e20-9471-42ee-bb01-9b65e29fd601" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_StealthFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/Necrotic/VFX_EM_Necrotic_StealthFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b831824c-6e34-1092-4e53-20e221649c3a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6f366982-6e09-66e0-8046-1cad9dc56d9f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="22bdf834-9c45-8876-b4e6-bb56d31fdac1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6c627d5c-75a0-b582-66fd-9db11df0e720" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="281065f2-ed60-e24e-4e81-d2896d830e02" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="636a5f3e-e279-e95e-8113-b97d885f85b8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="775d6d73-13ec-0172-9f93-ae43f5ae99cb" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5681422d-ed80-15cc-bbb1-677771e7e29a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a9f3161a-cb09-4a21-8a2e-a3ea8773aa7d" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">		<!-- Re-Appear -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_EM_Necrotic_Stealth_DismissFX" />
+					<attribute id="ID" type="FixedString" value="c141a075-3696-4d6a-856e-fa7d88a7c0c1" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_EM_Necrotic_Stealth_DismissFX" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_EM_Necrotic_Stealth_DismissFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="803f0120-5812-8d90-c78d-b7428b1675c6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5681422d-ed80-15cc-bbb1-677771e7e29a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a12306a4-1d3e-0371-d37f-023af2a0b727" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

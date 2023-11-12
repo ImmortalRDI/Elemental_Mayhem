@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="a8ce0621-4c45-4245-9561-79480c80a020" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Force_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Force_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Force_Target_Shift_Elemental_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Force_Target_Shift_EM_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="2003db9a-860e-4650-8e95-599cc50b701f" />
 					<attribute id="EffectResourceGuid" type="guid" value="294ee874-9600-4158-941a-7c84b44542cc" />
 					<attribute id="DetachSource" type="bool" value="False" />

@@ -4,9 +4,9 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="201af443-0343-410a-a908-8ed41c8604f8" />
-			<attribute id="Name" type="LSString" value="Target_Shift_Elemental_Wind_CastEffects" />
+			<attribute id="Name" type="LSString" value="Target_Shift_EM_Wind_CastEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- BODY FX: VFX_Wind_Target_Shift_Elemental_CastFX_01 ( $ ) -->
+				<node id="EffectInfo">		<!-- BODY FX: VFX_Wind_Target_Shift_EM_CastFX_01 ( $ ) -->
 					<attribute id="UUID" type="guid" value="0c6d0ae8-69e1-43fc-979d-0fced1c8904a" />
 					<attribute id="EffectResourceGuid" type="guid" value="d0fdbffb-6eaf-4f59-9033-c166b6851560" />
 					<attribute id="DetachSource" type="bool" value="False" />
