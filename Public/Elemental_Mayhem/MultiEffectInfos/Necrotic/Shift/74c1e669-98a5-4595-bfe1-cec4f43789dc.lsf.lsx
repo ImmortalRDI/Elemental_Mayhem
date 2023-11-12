@@ -8,7 +8,7 @@
 			<children>
 				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="abb1afa3-f484-4992-b1bf-80ff865cec03" />
-					<attribute id="EffectResourceGuid" type="guid" value="VFX_EM_Necrotic_Shift_Prepare_BodyFX" />
+					<attribute id="EffectResourceGuid" type="guid" value="113ab083-89cc-4f1e-a028-fcdb06110c2b" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />
