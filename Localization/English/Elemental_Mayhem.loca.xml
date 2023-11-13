@@ -1,9 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <contentList>
-<!-- Scrolls -->
-	<content contentuid="1b26a9fe-09ed-43a3-8194-af64252daab3" version="1">Arcane Scroll</content>
-	<content contentuid="e3ea3733-8ea6-4d33-a17f-d8229ed85d81" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the arcane element.</content>
+<!-- Elements Scrolls -->
+	<content contentuid="hfc6a0f48g73f3g4631g8025g866ca11a6bda" version="1">Arcane Scroll</content>
+	<content contentuid="hf0f37e74gd318g41b2gaad3g078726073198" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Arcane element.</content>
+	<content contentuid="h929c8578g70e6g439bgb745g83593cac181d" version="1">Blood Scroll</content>
+	<content contentuid="h2ff2113ege372g48b0gbba5g3f21201354f6" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Blood element.</content>
+	<content contentuid="h670ad9f7g47aag4059g8621g75f317211ba1" version="1">Cold Scroll</content>
+	<content contentuid="h61941667ga229g4c6cg98adg513a893c2806" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Cold element.</content>
+	<content contentuid="h527d4e2dg3813g433aga80bgef1bdc90855b" version="1">Darkness Scroll</content>
+	<content contentuid="h69b39758g1035g429eg8a25g37884b870595" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Darkness element.</content>
+	<content contentuid="h0def77f8g9a53g4edagb787g0fb6191ff6da" version="1">Earth Scroll</content>
+	<content contentuid="hee8f4184g1fc2g4a4fg83f2g3c6ebf2e61b9" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Earth element.</content>
+	<content contentuid="h40b684d4g9d69g4a13gb596g87877b05584b" version="1">Fire Scroll</content>
+	<content contentuid="hfbfc299agada6g459ag8ad9g229a068e3481" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Fire element.</content>
+	<content contentuid="h286d5aefg8757g4fe6gae7cg99737eb6545e" version="1">Force Scroll</content>
+	<content contentuid="hadc6fcbbg1007g4347g9175gce8ef306c7c7" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Force element.</content>
+	<content contentuid="hfd480d91gb101g43a1g8b75ga69e87bd7dc1" version="1">Lightning Scroll</content>
+	<content contentuid="hbde5e9fdgf53fg439agb8b0ge962c91f0ac6" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Lightning element.</content>
+	<content contentuid="ha4834daag6207g4b2eg9fb1gc80d05fea6dc" version="1">Nature Scroll</content>
+	<content contentuid="h5db94be1ge76bg4a47g8925g3ea75efdfc53" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Nature element.</content>
+	<content contentuid="h9447fa06ge6c7g4bafg8c39g4b9b40a01985" version="1">Necrotic Scroll</content>
+	<content contentuid="h018df18bge9c7g4d0ag87ffgf7c863ad848d" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Necrotic element.</content>
+	<content contentuid="h0a61ed2eg8e6eg47d5ga208g761e107278ed" version="1">Psychic Scroll</content>
+	<content contentuid="h1fb9ee5bg1c22g4664ga0f8gee9094e7c6d0" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Psychic element.</content>
+	<content contentuid="h1fe41045g3421g4f56ga23dg33abd309204c" version="1">Radiant Scroll</content>
+	<content contentuid="h9a12a65bg6d43g4ea5g9d73ga118f6e973e7" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Radiant element.</content>
+	<content contentuid="ha2b583a7gc77ag4539g9d12g4ff99f48f755" version="1">Shadow Scroll</content>
+	<content contentuid="h6c421374g5b99g425cgb35dg99b12af983ee" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Shadow element.</content>
+	<content contentuid="h6b00b642g80f8g4ca6g8994g59f87a0cf475" version="1">Thunder Scroll</content>
+	<content contentuid="h66f65a9dg7897g432egb321g408b120d3f5a" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Thunder element.</content>
+	<content contentuid="he9761ef5gb3bdg4d52gb35egb268c13da457" version="1">Time Scroll</content>
+	<content contentuid="h14e2d883g5190g4010gaa4egf6beff0c5e72" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Time element.</content>
+	<content contentuid="h72be08a5g77f6g4e13g80c8g6ce95f13761c" version="1">Void Scroll</content>
+	<content contentuid="hedf66f2bg77b5g4793g8519g0c2f4dcf45ef" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Void element.</content>
+	<content contentuid="h82b1c5d4g6e64g41f6g8773ga7adb7350542" version="1">Water Scroll</content>
+	<content contentuid="h94c5f108gbfddg4533g859dg458d9ed3c687" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Water element.</content>
+	<content contentuid="h8ce8e431gbe75g4c0dg9ccfgca5909765f0d" version="1">Wind Scroll</content>
+	<content contentuid="h2ea3ef0eg6e9bg4e70gb49dgb9ae7dd74d30" version="1">A mysterious scroll containing the knowledge of how to cast various skills and spells empowered by the Wind element.</content>
+<!-- Ultimate Scrolls -->
+	<content contentuid="h6de9f2e8geef5g4d7ag9124gdeb0191db73f" version="1">Ultimate Arcane Scroll</content>
+	<content contentuid="hcbed70c2gf425g4f39ga7a3g8b9f43f6013b" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Arcane element.</content>
+	<content contentuid="h0c06ff31gbe3fg4ba6g9df4g1cba225e7c0b" version="1">Ultimate Blood Scroll</content>
+	<content contentuid="h5182645egb7cbg4bfdg8b21ge6a3770bef04" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Blood element.</content>
+	<content contentuid="hb7b77279ge5ceg4b48g9f05g04739ea8d1cb" version="1">Ultimate Cold Scroll</content>
+	<content contentuid="h6bcace8ega2bcg49bcga046g5c87263c17fc" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Cold element.</content>
+	<content contentuid="h66415333ge578g4fb5gabebg59905b0d7193" version="1">Ultimate Darkness Scroll</content>
+	<content contentuid="hbf0e3b68gde13g4e3fg9ca1gac2cfd6428b8" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Darkness element.</content>
+	<content contentuid="h1836eac4g8442g4e83g93efg8243cec29f15" version="1">Ultimate Earth Scroll</content>
+	<content contentuid="he07012e8g050eg47e0gb7e1g38fe2444f82c" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Earth element.</content>
+	<content contentuid="h30a497a2gea18g4e59gaa67gf21310b4b798" version="1">Ultimate Fire Scroll</content>
+	<content contentuid="ha43b13b7g59bbg4841g8112gbcb2d765a784" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Fire element.</content>
+	<content contentuid="h58900045gb6e2g463ag9106gffe07fa769e7" version="1">Ultimate Force Scroll</content>
+	<content contentuid="h7026cf54g3282g4bd6g95ddg959d7c2637a7" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Force element.</content>
+	<content contentuid="h54be9e67g2eccg457agaa5bg3c8d713fc8f6" version="1">Ultimate Lightning Scroll</content>
+	<content contentuid="he0ee7b33gebf3g450dga2b9geafd7b7fbd2c" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Lightning element.</content>
+	<content contentuid="hc5d1a0f0gadcdg411eg9b03gfd25e7532adb" version="1">Ultimate Nature Scroll</content>
+	<content contentuid="ha2cd1034g7b08g4456g9d0dg9c78a0291c15" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Nature element.</content>
+	<content contentuid="hca737d59g271fg4f1fg82dagdc73a214fb3a" version="1">Ultimate Necrotic Scroll</content>
+	<content contentuid="h22bd6d6ag082bg4eb7g801bgb83d91822148" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Necrotic element.</content>
+	<content contentuid="h32f70d10g2b04g4bb4g86f1gef6ab4748ce2" version="1">Ultimate Psychic Scroll</content>
+	<content contentuid="h61e65c7dg3820g41e9gaf62g3e59f9284299" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Psychic element.</content>
+	<content contentuid="h05697e64g72b6g4310gb109g042f3224b5ce" version="1">Ultimate Radiant Scroll</content>
+	<content contentuid="hf410a504g2efag46c8g9c9agec681894539a" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Radiant element.</content>
+	<content contentuid="hea77bce5g666cg4256ga89fg28f736d6a726" version="1">Ultimate Shadow Scroll</content>
+	<content contentuid="hee7502acg4467g4348gb5a6g38f2a641b110" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Shadow element.</content>
+	<content contentuid="hf828915egd99eg461cg863cg1a1d2e7e3c9c" version="1">Ultimate Thunder Scroll</content>
+	<content contentuid="h9316600egb79fg4972gad0cg560701c2399d" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Thunder element.</content>
+	<content contentuid="hd5402bf4g43b4g46aegb4d7geecef89a6c92" version="1">Ultimate Time Scroll</content>
+	<content contentuid="hf8f1f37cg756bg4cd9gb396gbb933a91cce8" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Time element.</content>
+	<content contentuid="h0911666dg90dag4c33g85a2ga1c35130813d" version="1">Ultimate Void Scroll</content>
+	<content contentuid="hec4fd6c3gd709g4d8aga38dg458124841ed0" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Void element.</content>
+	<content contentuid="hb9c2eb31gce20g414eg84ddg3ce739bd83fe" version="1">Ultimate Water Scroll</content>
+	<content contentuid="h908c9fe7g1c36g438fga715gbc9ebfeeb7e8" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Water element.</content>
+	<content contentuid="h3f015685g82c9g4bfag9c22g24e300ba77c2" version="1">Ultimate Wind Scroll</content>
+	<content contentuid="h467a380eg88bbg4990g8092g4cb49a80257c" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Wind element.</content>
+<!-- Cheat Scrolls -->
+	<content contentuid="h0fa1fdf2g7c87g405agab9bg4b737542b15c" version="1">Elements Cheat Scroll</content>
+	<content contentuid="h39bf5b42g8a2eg4878g9fa3g2d1b8ede4916" version="1">A mysterious scroll containing the knowledge of how to cast all of the basic spells empowered by the elements.</content>
+	<content contentuid="h415d3cafgb596g4ae2gab3cgbdfe139204c6" version="1">Ultimate Cheat Scroll</content>
+	<content contentuid="hd30a7131g89bdg4b59g8caeg74d848132cae" version="1">A mysterious scroll containing the knowledge of how to cast all of the ultimate spells empowered by the elements.</content>
 <!-- Arcane -->
-	<content contentuid="6167c40f-556d-458c-ae51-ab48f9881190" version="1">Arcane Mayhem</content>
-	<content contentuid="9ac6b0a7-e0b4-42a1-a6b4-ae8c03425a01" version="1">Wield the destructive force of the Arcane.</content>
+	<content contentuid="" version="1">Arcane Mayhem</content>
+	<content contentuid="" version="1">Wield the destructive force of the Arcane element.</content>
 </contentList>
