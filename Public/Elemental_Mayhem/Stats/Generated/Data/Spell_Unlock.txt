@@ -1,5 +1,5 @@
 //      Elements
-new entry "Arcane_EM_Unlock"
+new entry "Scroll_Arcane_EM_Unlock"
 type "SpellData"
 data "SpellType" "Shout"
 data "Cooldown" "$"

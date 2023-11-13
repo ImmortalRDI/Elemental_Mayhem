@@ -13,7 +13,7 @@
 					<attribute id="Name" type="LSString" value="OBJ_Scroll_Arcane_EM_Unlock" />
 					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
-					<attribute id="Stats" type="FixedString" value="OBJ_Scroll_Arcane_EM_Unlock" />
+					<attribute id="Stats" type="FixedString" value="ARCANE_EM_UNLOCK" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="VisualTemplate" type="FixedString" value="916f78a4-779b-3e43-28eb-eefc26d9683d" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
@@ -55,7 +55,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SkillID" type="FixedString" value="Arcane_EM_Unlock" />
+											<attribute id="SkillID" type="FixedString" value="Scroll_Arcane_EM_Unlock" />
 										</node>
 									</children>
 								</node>
@@ -65,7 +65,7 @@
 										<node id="Attributes">
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SpellId" type="FixedString" value="Arcane_EM_Unlock" />
+											<attribute id="SpellId" type="FixedString" value="Scroll_Arcane_EM_Unlock" />
 										</node>
 									</children>
 								</node>
