@@ -80,6 +80,77 @@
 	<content contentuid="h415d3cafgb596g4ae2gab3cgbdfe139204c6" version="1">Ultimate Cheat Scroll</content>
 	<content contentuid="hd30a7131g89bdg4b59g8caeg74d848132cae" version="1">A mysterious scroll containing the knowledge of how to cast all of the ultimate spells empowered by the elements.</content>
 <!-- Arcane -->
-	<content contentuid="" version="1">Arcane Mayhem</content>
-	<content contentuid="" version="1">Wield the destructive force of the Arcane element.</content>
+	<content contentuid="h26bc0896gaeaeg42c7gb9eagdaa7922202ed" version="1">Arcane Rush</content>
+	<content contentuid="h69441f68gdb0cg488fg884agbea2d0b89d59" version="1">Rush your target with the power of the Weave.</content>
+	<content contentuid="h33e651f7g15e1g4ef7ga835g0547d3486570" version="1">Arcane Leap</content>
+	<content contentuid="heec6a456gccadg4897gb609g20f7e4ddbead" version="1">Leap towards your target with the power of the Weave</content>
+	<content contentuid="hc5db681cg1b6dg4a77g99d1g847e1649f67c" version="1">Arcane Shift</content>
+	<content contentuid="h6668a9aagbaadg48dbg8bd2ga4365d52c0a5" version="1">Teleport to your target with the power of the Weave</content>
+	<content contentuid="h9a810111ge099g4634gaa41g0f10ca563324" version="1">Arcane Stealth</content>
+	<content contentuid="h509b2992g3e7bg4f46g9a01gac6f17bb34d3" version="1">Use the power of the Weave to hide and turn invisible.</content>
+	<content contentuid="h6fe85df8g1e4fg4de8g9950g36a24ad9219c" version="1">Arcane Stealth Dismiss</content>
+	<content contentuid="h38522be4ga4c3g47d1gb3c1g574caa1a645c" version="1">Use the power of the Weave to come out of hiding and cancel your invisibility.</content>
+	<content contentuid="h7ffb48f5gf488g453eg88dag947e8759e72f" version="1">Arcane Bolt</content>
+	<content contentuid="h24a455cfg781dg4dfdg9a86ge0f00284a371" version="1">Cast a bolt at your target with the power of the Weave.</content>
+<!-- Blood -->
+	<content contentuid="hd5c8ee73g20dag4573gafebg34cccc0fe318" version="1">Sanguine Rush</content>
+	<content contentuid="h94b8c29cgb5bcg4e5cg85fegefe3bb0921c4" version="1">Rush your target with the power of Blood.</content>
+	<content contentuid="h954ec49fg1b89g499fgb7a6g1f2647bd9b15" version="1">Sanguine Leap</content>
+	<content contentuid="h2c1cbec1g13a0g4c5cgabdbg3dffa737dab1" version="1">Leap towards your target with the power of Blood.</content>
+	<content contentuid="hd7afc383gb01eg4bc5gbfc9g2b923ffa83bb" version="1">Sanguine Shift</content>
+	<content contentuid="hda58b9ecgea4bg464dgbad5gbbe26061e9e0" version="1">Teleort to your target with the power of Blood.</content>
+	<content contentuid="h1202857eg9461g4ba3g89bbg44bd8ca86d8a" version="1">Sanguine Stealth</content>
+	<content contentuid="h41fb7428ge60dg41d9gb584gfc704c3509e3" version="1">Use the power of Blood to hide and turn invisible.</content>
+	<content contentuid="h32f34b08ge96ag45e5ga75ag8863f44d399e" version="1">Sanguine Stealth Dismiss</content>
+	<content contentuid="hf03242e8g37a1g4a58g8e33gd6cfc9601de1" version="1">Use the power of Blood to come out of hiding and cancel your invisibility</content>
+	<content contentuid="h82113141gd73ag4084g87b9gf1f02b33df28" version="1">Sanguine Bolt</content>
+	<content contentuid="hc1b46068g040cg4e7cg96bcg5686a78c6a19" version="1">Cast a bolt at your target with the power of Blood.</content>
+<!-- Cold -->
+	<content contentuid="hea01ed4cgb902g41abga430gdd28f05fce0c" version="1">Frigid Rush</content>
+	<content contentuid="h87eeca44g2fdcg4605gbaa3g8f7af0abc9cc" version="1">Rush your target with the power of Cold.</content>
+<!-- Darkness -->
+	<content contentuid="h9b0e802cg546bg4382ga059gb2ec30600737" version="1">Darkness Rush</content>
+	<content contentuid="ha13930d8g702cg4aa1gb8b0gee8d1b0b28de" version="1">Rush your target with the power of the Night.</content>
+<!-- Earth -->
+	<content contentuid="hed554d5aga07fg4bb2g8e6cgec654b546423" version="1">Tremor Rush</content>
+	<content contentuid="hceb5cdb1g9f06g47f4ga678gb84804393b3e" version="1">Rush your target with the power of Stone.</content>
+<!-- Fire -->
+	<content contentuid="h57d8e388g04a4g4ff7g9dc9g3f651286fc26" version="1">Inferno Rush</content>
+	<content contentuid="hd9d2890ag33aeg45e4g8091ga2310a6a5bb5" version="1">Rush your target with the power of Fire.</content>
+<!-- Force -->
+	<content contentuid="h6f7f6c75gef73g44efgb4e3g78437db733c6" version="1">Warp Rush</content>
+	<content contentuid="h74f9a3a4gbf3ag4561gb013g2f15a1b9bbdf" version="1">Rush your target with the power of Force.</content>
+<!-- Lightning -->
+	<content contentuid="hfd3ed5e3g93ecg4ac8g8a2ag1cc7470f2d92" version="1">Flash Rush</content>
+	<content contentuid="hc4ede451g4ae4g44ecgb553gf6215f19b29f" version="1">Rush your target with the power of Lightning.</content>
+<!-- Nature -->
+	<content contentuid="h1fa12562gae18g4c05g9861g7f614a90781d" version="1">Wild Rush</content>
+	<content contentuid="h266c0020g8563g4ad9gb5cdg595552760737" version="1">Rush your target with the power of Nature.</content>
+<!-- Necrotic -->
+	<content contentuid="h6bc35154g078bg44b1gb699gaa560e32eb2a" version="1">Grave Rush</content>
+	<content contentuid="h7dfe587fg536dg4819gb3f8gf8062a719fb9" version="1">Rush your target with the power of Undeath.</content>
+<!-- Psychic -->
+	<content contentuid="ha0927e2dgbf4cg4732g8940g0114e7b82705" version="1">Cerebral Rush</content>
+	<content contentuid="hb86fa9dagc9fdg4e2dgb05cgcf42de66979b" version="1">Rush your target with the power of Psionics.</content>
+<!-- Radiant -->
+	<content contentuid="h24b4c27egdbe5g4ebbg849bg534ae1cc87c0" version="1">Brilliant Rush</content>
+	<content contentuid="h5097573ag3850g451cg937cgc4cf70002d55" version="1">Rush your target with the power of Light.</content>
+<!-- Shadow -->
+	<content contentuid="h3ecf8c20g79e0g411bgbd4cg0acb297361ca" version="1">Shade Rush</content>
+	<content contentuid="h58c1acccgd633g49b2gbdf6g5403a19dee63" version="1">Rush your target with the power of the Shadows.</content>
+<!-- Thunder -->
+	<content contentuid="h739c3feagc6b9g4021g88b7g309412a9a401" version="1">Sonic Rush</content>
+	<content contentuid="hfa20b758g4003g4764g982egaf0d31fb3f26" version="1">Rush your target with the power of Sound.</content>
+<!-- Time -->
+	<content contentuid="hdae46200g7c4dg4e39gbe9bg183763410fa6" version="1">Temporal Rush</content>
+	<content contentuid="h26713d2dg28fbg42b2ga58ag310f9bf600dd" version="1">Rush your target with the power of Time.</content>
+<!-- Void -->
+	<content contentuid="h528ffa2dgc04bg4341ga6e0gc2962577f86e" version="1">Abyssal Rush</content>
+	<content contentuid="hb2cc470fgf1e0g4defg9874gc91ad9bcba77" version="1">Rush your target with the power of the Void.</content>
+<!-- Water -->
+	<content contentuid="h1f92662fgca9cg4490g8353gba384620c105" version="1">Tidal Rush</content>
+	<content contentuid="h12b39a89g3e9eg4ea6gb23egf317606b0f3d" version="1">Rush your target with the power of Water.</content>
+<!-- Wind -->
+	<content contentuid="h1cfac25cg1d11g4d97gbfc6g69c93f65a3d3" version="1">Zephyr Rush</content>
+	<content contentuid="h8902359egfb5fg43a6ga008gcf15b51eb447" version="1">Rush your target with the power of Wind.</content>
 </contentList>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="300"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Arcane_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Arcane;Pounce_EM_Arcane;Shift_EM_Arcane;Stealth_EM_Arcane;Bolt_EM_Arcane"/>
+                    <attribute id="UUID" type="guid" value="f238f6a2-f8d7-4503-ad50-66caa21091fe"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Blood_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Blood;Pounce_EM_Blood;Shift_EM_Blood;Stealth_EM_Blood;Bolt_EM_Blood"/>
+                    <attribute id="UUID" type="guid" value="755870c1-9c49-448b-b507-40c4efbe9933"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Cold_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Cold;Pounce_EM_Cold;Shift_EM_Cold;Stealth_EM_Cold;Bolt_EM_Cold"/>
+                    <attribute id="UUID" type="guid" value="6350babb-20a6-4c6d-871a-0b1ca5989124"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Darkness_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Darkness;Pounce_EM_Darkness;Shift_EM_Darkness;Stealth_EM_Darkness;Bolt_EM_Darkness"/>
+                    <attribute id="UUID" type="guid" value="cd82371a-3c77-4f94-b0a4-6c2a9142d729"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Earth_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Earth;Pounce_EM_Earth;Shift_EM_Earth;Stealth_EM_Earth;Bolt_EM_Earth"/>
+                    <attribute id="UUID" type="guid" value="2426630e-8283-4967-982a-358eebc4a0eb"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Fire_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Fire;Pounce_EM_Fire;Shift_EM_Fire;Stealth_EM_Fire;Bolt_EM_Fire"/>
+                    <attribute id="UUID" type="guid" value="b7827f64-27b7-4800-969e-940e01754412"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Force_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Force;Pounce_EM_Force;Shift_EM_Force;Stealth_EM_Force;Bolt_EM_Force"/>
+                    <attribute id="UUID" type="guid" value="0a81ad7d-5f06-4ed9-8354-aa912e0e5e06"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Lightning_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Lightning;Pounce_EM_Lightning;Shift_EM_Lightning;Stealth_EM_Lightning;Bolt_EM_Lightning"/>
+                    <attribute id="UUID" type="guid" value="445ac293-e974-493d-8f6a-54e66197e50e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Nature_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Nature;Pounce_EM_Nature;Shift_EM_Nature;Stealth_EM_Nature;Bolt_EM_Nature"/>
+                    <attribute id="UUID" type="guid" value="30245591-4796-4810-884f-951a8522cbd8"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Necrotic_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Necrotic;Pounce_EM_Necrotic;Shift_EM_Necrotic;Stealth_EM_Necrotic;Bolt_EM_Necrotic"/>
+                    <attribute id="UUID" type="guid" value="196bd7cf-ef29-4ecc-a29c-908f0e1341fc"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Psychic_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Psychic;Pounce_EM_Psychic;Shift_EM_Psychic;Stealth_EM_Psychic;Bolt_EM_Psychic"/>
+                    <attribute id="UUID" type="guid" value="9a8e990a-bbce-4c98-bb5d-f51bf07bae5c"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Radiant_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Radiant;Pounce_EM_Radiant;Shift_EM_Radiant;Stealth_EM_Radiant;Bolt_EM_Radiant"/>
+                    <attribute id="UUID" type="guid" value="90f9de7b-fae0-40ad-bdf6-7f59cff93d8f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Shadow_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Shadow;Pounce_EM_Shadow;Shift_EM_Shadow;Stealth_EM_Shadow;Bolt_EM_Shadow"/>
+                    <attribute id="UUID" type="guid" value="e8466235-2ee9-4890-aa2f-b1197e0d06d2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Thunder_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Thunder;Pounce_EM_Thunder;Shift_EM_Thunder;Stealth_EM_Thunder;Bolt_EM_Thunder"/>
+                    <attribute id="UUID" type="guid" value="fcbb1170-cbda-458d-8bea-a7cf3347c2e8"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Time_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Time;Pounce_EM_Time;Shift_EM_Time;Stealth_EM_Time;Bolt_EM_Time"/>
+                    <attribute id="UUID" type="guid" value="975c1db3-223d-4207-9da6-fa801ddd81c8"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Void_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Void;Pounce_EM_Void;Shift_EM_Void;Stealth_EM_Void;Bolt_EM_Void"/>
+                    <attribute id="UUID" type="guid" value="44b61532-fdde-4b1a-b508-53f0c2118357"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Water_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Water;Pounce_EM_Water;Shift_EM_Water;Stealth_EM_Water;Bolt_EM_Water"/>
+                    <attribute id="UUID" type="guid" value="de3dfea0-b61a-4c83-885f-b8c4e552f48f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Wind_EM_Spells"/>
+                    <attribute id="Spells" type="LSString" value="Rush_EM_Wind;Pounce_EM_Wind;Shift_EM_Wind;Stealth_EM_Wind;Bolt_EM_Wind"/>
+                    <attribute id="UUID" type="guid" value="5ce00e41-aab6-4cb4-a1e2-4e6bcd71b16c"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
