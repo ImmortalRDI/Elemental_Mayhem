@@ -6,67 +6,19 @@
             <children>
                 <node id="LevelMapSeries">
 					<attribute id="Level1" type="LSString" value="1d12"/>
-					<attribute id="Level2" type="LSString" value="2d12"/>
-                    <attribute id="Level3" type="LSString" value="3d12"/>
-					<attribute id="Level4" type="LSString" value="4d12"/>
-                    <attribute id="Level5" type="LSString" value="5d12"/>
-					<attribute id="Level6" type="LSString" value="6d12"/>
-                    <attribute id="Level7" type="LSString" value="7d12"/>
-					<attribute id="Level8" type="LSString" value="8d12"/>
-                    <attribute id="Level9" type="LSString" value="9d12"/>
-					<attribute id="Level10" type="LSString" value="10d12"/>
-                    <attribute id="Level11" type="LSString" value="11d12"/>
-					<attribute id="Level12" type="LSString" value="12d12"/>
-                    <attribute id="Name" type="FixedString" value="EM_Damage"/>
+					<attribute id="Level2" type="LSString" value="1d12"/>
+                    <attribute id="Level3" type="LSString" value="2d12"/>
+					<attribute id="Level4" type="LSString" value="2d12"/>
+                    <attribute id="Level5" type="LSString" value="3d12"/>
+					<attribute id="Level6" type="LSString" value="3d12"/>
+                    <attribute id="Level7" type="LSString" value="4d12"/>
+					<attribute id="Level8" type="LSString" value="4d12"/>
+                    <attribute id="Level9" type="LSString" value="5d12"/>
+					<attribute id="Level10" type="LSString" value="6d12"/>
+                    <attribute id="Level11" type="LSString" value="7d12"/>
+					<attribute id="Level12" type="LSString" value="8d12"/>
+                    <attribute id="Name" type="FixedString" value="Elemental_Mayhem_Bolt"/>
                     <attribute id="UUID" type="guid" value="9e4f78db-26e0-48cd-ad9e-78dd6e025a68"/>
-                </node>
-                <node id="LevelMapSeries">
-					<attribute id="Level1" type="LSString" value="1d4"/>
-					<attribute id="Level2" type="LSString" value="1d4"/>
-                    <attribute id="Level3" type="LSString" value="1d4"/>
-					<attribute id="Level4" type="LSString" value="2d4"/>
-                    <attribute id="Level5" type="LSString" value="2d4"/>
-					<attribute id="Level6" type="LSString" value="2d4"/>
-                    <attribute id="Level7" type="LSString" value="3d4"/>
-					<attribute id="Level8" type="LSString" value="3d4"/>
-                    <attribute id="Level9" type="LSString" value="3d4"/>
-					<attribute id="Level10" type="LSString" value="4d4"/>
-                    <attribute id="Level11" type="LSString" value="4d4"/>
-					<attribute id="Level12" type="LSString" value="5d4"/>
-                    <attribute id="Name" type="FixedString" value="EM_LevelBoost"/>
-                    <attribute id="UUID" type="guid" value="9e4f78db-26e0-48cd-ad9e-78dd6e025a68"/>
-                </node>
-                <node id="LevelMapSeries">
-					<attribute id="Level1" type="LSString" value="4"/>
-					<attribute id="Level2" type="LSString" value="5"/>
-                    <attribute id="Level3" type="LSString" value="6"/>
-					<attribute id="Level4" type="LSString" value="7"/>
-                    <attribute id="Level5" type="LSString" value="8"/>
-					<attribute id="Level6" type="LSString" value="9"/>
-                    <attribute id="Level7" type="LSString" value="10"/>
-					<attribute id="Level8" type="LSString" value="11"/>
-                    <attribute id="Level9" type="LSString" value="12"/>
-					<attribute id="Level10" type="LSString" value="13"/>
-                    <attribute id="Level11" type="LSString" value="14"/>
-					<attribute id="Level12" type="LSString" value="15"/>
-                    <attribute id="Name" type="FixedString" value="EM_Leap_Power"/>
-                    <attribute id="UUID" type="guid" value="7994a829-8100-47e3-9a3d-d00363952c55"/>
-                </node>
-                <node id="LevelMapSeries">
-					<attribute id="Level1" type="LSString" value="2"/>
-					<attribute id="Level2" type="LSString" value="2"/>
-                    <attribute id="Level3" type="LSString" value="3"/>
-					<attribute id="Level4" type="LSString" value="3"/>
-                    <attribute id="Level5" type="LSString" value="4"/>
-					<attribute id="Level6" type="LSString" value="4"/>
-                    <attribute id="Level7" type="LSString" value="5"/>
-					<attribute id="Level8" type="LSString" value="5"/>
-                    <attribute id="Level9" type="LSString" value="6"/>
-					<attribute id="Level10" type="LSString" value="6"/>
-                    <attribute id="Level11" type="LSString" value="7"/>
-					<attribute id="Level12" type="LSString" value="8"/>
-                    <attribute id="Name" type="FixedString" value="EM_Bolt_Targets"/>
-                    <attribute id="UUID" type="guid" value="7994a829-8100-47e3-9a3d-d00363952c55"/>
                 </node>
             </children>
         </node>

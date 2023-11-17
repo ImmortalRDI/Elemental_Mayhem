@@ -3,27 +3,27 @@
 	<version major="4" minor="0" revision="9" build="0"/>
 	<region id="Templates">
 		<node id="Templates">
-			<children>		<!-- Blast -->
+			<children>		<!-- Arcane -->
 				<node id="GameObjects">
-					<attribute id="BeamFX" type="FixedString" value="VFX_Spells_Cast_Warlock_ProjectileBeam_EldritchBlast_Beam" />
-					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
-					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="MapKey" type="FixedString" value="dee40408-84e1-4598-8b6d-4fe811d9c030" />
+					<attribute id="Name" type="LSString" value="VFX_Projectile_EM_Arcane_Bolt_Effects" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />					
 					<attribute id="CastShadow" type="bool" value="False" />
 					<attribute id="DetachBeam" type="bool" value="True" />
-					<attribute id="Flag" type="int32" value="0" />
-					<attribute id="GroundImpactFX" type="LSString" value="VFX_Spells_Cast_Warlock_ProjectileBeam_EldritchBlast_Impact_Ground" />
+					<attribute id="Flag" type="int32" value="0" />					
 					<attribute id="GroupID" type="uint32" value="0" />
 					<attribute id="HasGameplayValue" type="bool" value="False" />
-					<attribute id="ImpactFX" type="FixedString" value="VFX_Spells_Cast_Warlock_ProjectileBeam_EldritchBlast_Impact" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="BeamFX" type="FixedString" value="VFX_Spells_Cast_Warlock_ProjectileBeam_EldritchBlast_Beam_01" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Spells_Cast_Warlock_ProjectileBeam_EldritchBlast_Impact_01" />
+					<attribute id="GroundImpactFX" type="LSString" value="VFX_Spells_Cast_Warlock_ProjectileBeam_EldritchBlast_Impact_Ground_01" />
 					<attribute id="InitialSpeed" type="float" value="180" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="LifeTime" type="float" value="20" />
-					<attribute id="MapKey" type="FixedString" value="3eaf2c46-46a9-4b52-8e05-fae7dc4e548b" />
-					<attribute id="Name" type="LSString" value="VFX_Projectile_Spell_EldritchBlast" />
+					<attribute id="LifeTime" type="float" value="20" />					
 					<attribute id="ParentTemplateId" type="FixedString" value="" />
 					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="" />
-					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
 					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
 					<attribute id="Speed" type="float" value="180" />
 					<attribute id="TrajectoryType" type="uint8" value="0" />
