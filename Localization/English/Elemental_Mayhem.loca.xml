@@ -82,8 +82,12 @@
 <!-- Arcane -->
 	<content contentuid="h6ab23cb1gcd74g418dga5a7g42992b4de7fa" version="1">Arcane Core</content>
 	<content contentuid="hacb179f9gd967g4714gac27gba2336555093" version="1">The core essence of the arcane skills and spells.</content>
+	<content contentuid="h3d48ae45ga013g41fag9baeg9dd2bd003c13" version="1">Arcane Affliction</content>
+	<content contentuid="h0d938850gaefbg4ebagab65gd28620c67d67" version="1">Cut your targets ties to the Weave, leaving then unable to cast spells.</content>
 	<content contentuid="h7ffb48f5gf488g453eg88dag947e8759e72f" version="1">Arcane Bolt</content>
 	<content contentuid="h24a455cfg781dg4dfdg9a86ge0f00284a371" version="1">Cast a bolt at your target with the power of the Weave.</content>
+	<content contentuid="h67851571g5da7g4625gbd57gb7b19e22dc90" version="1">Arcane Blast</content>
+	<content contentuid="hc2c31691g7e10g4088g9592g6433b98fb156" version="1">Blast a target area with the power of the Weave.</content>
 	<content contentuid="h26bc0896gaeaeg42c7gb9eagdaa7922202ed" version="1">Arcane Rush</content>
 	<content contentuid="h69441f68gdb0cg488fg884agbea2d0b89d59" version="1">Rush your target with the power of the Weave.</content>
 	<content contentuid="h33e651f7g15e1g4ef7ga835g0547d3486570" version="1">Arcane Leap</content>
@@ -93,9 +97,14 @@
 	<content contentuid="h9a810111ge099g4634gaa41g0f10ca563324" version="1">Arcane Stealth</content>
 	<content contentuid="h509b2992g3e7bg4f46g9a01gac6f17bb34d3" version="1">Use the power of the Weave to hide and turn invisible.</content>
 	<content contentuid="h6fe85df8g1e4fg4de8g9950g36a24ad9219c" version="1">Arcane Stealth Dismiss</content>
-	<content contentuid="h38522be4ga4c3g47d1gb3c1g574caa1a645c" version="1">Use the power of the Weave to come out of hiding and cancel your invisibility.</content>
-	
+	<content contentuid="h38522be4ga4c3g47d1gb3c1g574caa1a645c" version="1">Use the power of the Weave to come out of hiding and cancel your invisibility.</content>	
 <!-- Blood -->
+	<content contentuid="h902219abg6d9eg4990g9a89gc298f1ea05af" version="1">Sanguine Core</content>
+	<content contentuid="h35798fe1g5a32g47ffgb93dgc03b91adbd31" version="1">The core essence of the blood skills and spells.</content>
+	<content contentuid="h47b10366g99fbg44e6gb8a0g463ea490eff0" version="1">Sanguine Bolt</content>
+	<content contentuid="h00846e0dg61f9g41a2ga31ega9bf003dfc25" version="1">Cast a bolt at your target with the power of Blood.</content>
+	<content contentuid="h1b992ce7ge614g4e15gb941g6ef1fa90e875" version="1">Sanguine Blast</content>
+	<content contentuid="h80b410bcgd17cg4c0dgbec3g7f849f5d94b5" version="1">Blast a target area with the power of Blood.</content>
 	<content contentuid="hd5c8ee73g20dag4573gafebg34cccc0fe318" version="1">Sanguine Rush</content>
 	<content contentuid="h94b8c29cgb5bcg4e5cg85fegefe3bb0921c4" version="1">Rush your target with the power of Blood.</content>
 	<content contentuid="h954ec49fg1b89g499fgb7a6g1f2647bd9b15" version="1">Sanguine Leap</content>
@@ -106,8 +115,6 @@
 	<content contentuid="h41fb7428ge60dg41d9gb584gfc704c3509e3" version="1">Use the power of Blood to hide and turn invisible.</content>
 	<content contentuid="h32f34b08ge96ag45e5ga75ag8863f44d399e" version="1">Sanguine Stealth Dismiss</content>
 	<content contentuid="hf03242e8g37a1g4a58g8e33gd6cfc9601de1" version="1">Use the power of Blood to come out of hiding and cancel your invisibility</content>
-	<content contentuid="h82113141gd73ag4084g87b9gf1f02b33df28" version="1">Sanguine Bolt</content>
-	<content contentuid="hc1b46068g040cg4e7cg96bcg5686a78c6a19" version="1">Cast a bolt at your target with the power of Blood.</content>
 <!-- Cold -->
 	<content contentuid="hea01ed4cgb902g41abga430gdd28f05fce0c" version="1">Frigid Rush</content>
 	<content contentuid="h87eeca44g2fdcg4605gbaa3g8f7af0abc9cc" version="1">Rush your target with the power of Cold.</content>

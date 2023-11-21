@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="312"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="bg3handle" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="bg3handle" version="1"/>
+                    <attribute id="Error" type="TranslatedString" handle="bg3handle" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ElementalEssence"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="614e967c-04d9-42be-9ce0-ac42ef66d61b"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
