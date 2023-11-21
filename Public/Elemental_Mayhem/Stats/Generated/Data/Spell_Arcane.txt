@@ -159,7 +159,7 @@ data "VerbalIntent" "Damage"
 data "SpellFlags" "IsJump;IsSpell;IsHarmful;HasHighGroundRangeExtension;IgnoreVisionBlock;Stealth;Invisible"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellJumpType" "Pounce"
-data "PrepareEffect" "f775af03-c293-4d11-8087-1f1a1e81e9c2"
+data "PrepareEffect" "ab0371fa-d56b-444d-b822-71191446371a"
 data "DamageType" "Force"
 
 new entry "Rush_EM_Arcane"

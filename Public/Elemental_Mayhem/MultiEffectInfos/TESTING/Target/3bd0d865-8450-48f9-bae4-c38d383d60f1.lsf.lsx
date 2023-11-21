@@ -4,9 +4,8 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="3bd0d865-8450-48f9-bae4-c38d383d60f1" />
-			<attribute id="Name" type="LSString" value="SpellTest_Positionffects" />
+			<attribute id="Name" type="LSString" value="SpellTest_Targetffects" />
 			<children>
-				
 				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="a1056c92-fdd8-4b8e-ac53-4fd46b56d390" />
 					<attribute id="EffectResourceGuid" type="guid" value="86c9fb18-549b-faf9-2059-89dba7ea7f27" />
