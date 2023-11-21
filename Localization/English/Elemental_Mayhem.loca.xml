@@ -79,6 +79,13 @@
 	<content contentuid="h39bf5b42g8a2eg4878g9fa3g2d1b8ede4916" version="1">A mysterious scroll containing the knowledge of how to cast all of the basic spells empowered by the elements.</content>
 	<content contentuid="h415d3cafgb596g4ae2gab3cgbdfe139204c6" version="1">Ultimate Cheat Scroll</content>
 	<content contentuid="hd30a7131g89bdg4b59g8caeg74d848132cae" version="1">A mysterious scroll containing the knowledge of how to cast all of the ultimate spells empowered by the elements.</content>
+<!-- Afflictions -->
+	<content contentuid="h38ca7cd8gf380g4323gbef9g3e74ab428b8a" version="1">Suppressing Weave</content>
+	<content contentuid="h371e4f28g6c04g4538gbc6cgc62a19f69cf8" version="1">Inflict the target with an ailment that suppresses their use of the weave, and slightly tires their bodies.</content>
+	<content contentuid="hb78f33c2g62e2g471dga70eg4f8614bb3bd9" version="1">Suppressing Weave Stage 2</content>
+	<content contentuid="h792f2cc1g16f8g4d7eg9866g6c3a899e63e0" version="1">The ailment has worsened, now also leaving the target vulnerable to force attacks.</content>
+	<content contentuid="head27049ge027g4ed2g955bg5cb6c2e79ca0" version="1">Weave Suppressed</content>
+	<content contentuid="h5d43d526g293cg438fgbc36gaed13cf6c050" version="1">The final stage of the ailment, which can be fatal. It completely cuts off the target from magic, leaving them vulnerable to all manner of magic attacks. With the weave cut off, their bodies become lethargic.</content>
 <!-- Arcane -->
 	<content contentuid="h6ab23cb1gcd74g418dga5a7g42992b4de7fa" version="1">Arcane Core</content>
 	<content contentuid="hacb179f9gd967g4714gac27gba2336555093" version="1">The core essence of the arcane skills and spells.</content>
