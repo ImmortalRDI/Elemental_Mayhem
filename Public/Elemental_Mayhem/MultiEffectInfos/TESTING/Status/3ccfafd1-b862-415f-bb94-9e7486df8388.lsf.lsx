@@ -3,14 +3,15 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="6b53280d-bcae-4cab-8365-a1b844d7a97d" />
-			<attribute id="Name" type="LSString" value="Test_CastEffects_01" />
+			<attribute id="UUID" type="guid" value="3ccfafd1-b862-415f-bb94-9e7486df8388" />
+			<attribute id="Name" type="LSString" value="SpellTest_Affliction_ApplyEffects" />
 			<children>
-				<node id="EffectInfo">		<!-- $ : $ ( $ ) -->
-					<attribute id="UUID" type="guid" value="bfd2166d-ae6c-4395-ac7e-75aecaff2ae9" />
-					<attribute id="EffectResourceGuid" type="guid" value="718dac52-dbbe-4ff9-becd-9dcbecd6a5ff" />
-					<attribute id="DetachSource" type="bool" value="True" />
-					<attribute id="DetachTarget" type="bool" value="True" />
+				
+				<node id="EffectInfo">
+					<attribute id="UUID" type="guid" value="6a977657-83ca-4351-b033-a1db1f157896" />
+					<attribute id="EffectResourceGuid" type="guid" value="a0252b55-382b-4fb3-ba08-27005db877be" />
+					<attribute id="DetachSource" type="bool" value="False" />
+					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />
 					<attribute id="UseOrientDirection" type="bool" value="False" />
 					<attribute id="UseDistance" type="bool" value="False" />
@@ -25,14 +26,11 @@
 					<attribute id="Pivot" type="FixedString" value="Target" />
 					<attribute id="DamageType" type="uint32" value="0" />
 					<attribute id="VerbalIntent" type="uint32" value="0" />
-					<attribute id="StartTextKey" type="LSString" value="Cast" />
+					<attribute id="StatTextKey" type="LSString" value="Cast" />
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
 						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="Dummy_Root" />
-						</node>
-						<node id="TargetSkeletonSlot">
-							<attribute id="Value" type="LSString" value="" />
+							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
 						</node>
 					</children>
 				</node>

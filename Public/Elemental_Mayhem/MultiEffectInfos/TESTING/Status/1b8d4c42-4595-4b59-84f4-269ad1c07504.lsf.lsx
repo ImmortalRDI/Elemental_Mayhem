@@ -3,15 +3,16 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="37333f17-8c79-4f06-bfac-d48af1b3c98f" />
-			<attribute id="Name" type="LSString" value="Test_PrepareEffects_01" />
+			<attribute id="UUID" type="guid" value="1b8d4c42-4595-4b59-84f4-269ad1c07504" />
+			<attribute id="Name" type="LSString" value="SpellTest_Stage1_StatusEffects" />
 			<children>
+				
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="e092b93f-8c7c-4248-b2d7-715113d4ce98" />
-					<attribute id="EffectResourceGuid" type="guid" value="0681bd85-73f6-40db-aa29-63e4195ceb38" />
+					<attribute id="UUID" type="guid" value="ed2f879f-59c7-459b-8ae4-7645fe03827a" />
+					<attribute id="EffectResourceGuid" type="guid" value="ded829d2-1864-47a9-8ef1-640e3264b558" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
-					<attribute id="KeepRotation" type="bool" value="False" />
+					<attribute id="KeepRotation" type="bool" value="True" />
 					<attribute id="UseOrientDirection" type="bool" value="False" />
 					<attribute id="UseDistance" type="bool" value="False" />
 					<attribute id="UseScaleOverride" type="bool" value="False" />
@@ -25,13 +26,11 @@
 					<attribute id="Pivot" type="FixedString" value="Target" />
 					<attribute id="DamageType" type="uint32" value="0" />
 					<attribute id="VerbalIntent" type="uint32" value="0" />
+					<attribute id="StatTextKey" type="LSString" value="Cast" />
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
 						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="Dummy_FX" />
-						</node>
-						<node id="TargetSkeletonSlot">
-							<attribute id="Value" type="LSString" value="" />
+							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
 						</node>
 					</children>
 				</node>

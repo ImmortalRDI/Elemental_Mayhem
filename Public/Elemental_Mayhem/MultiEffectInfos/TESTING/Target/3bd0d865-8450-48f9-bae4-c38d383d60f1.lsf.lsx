@@ -3,16 +3,17 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="685ce2aa-e39e-43d9-a035-3da547989ff1" />
-			<attribute id="Name" type="LSString" value="Test_CastEffects6" />
+			<attribute id="UUID" type="guid" value="3bd0d865-8450-48f9-bae4-c38d383d60f1" />
+			<attribute id="Name" type="LSString" value="SpellTest_Positionffects" />
 			<children>
-				<node id="EffectInfo">		<!--BODY: $ ($)-->
-					<attribute id="UUID" type="guid" value="5309bd88-1c47-4418-9114-85d506b2dc88" />
-					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
+				
+				<node id="EffectInfo">
+					<attribute id="UUID" type="guid" value="a1056c92-fdd8-4b8e-ac53-4fd46b56d390" />
+					<attribute id="EffectResourceGuid" type="guid" value="bc8056a7-90ad-4a52-a7b1-58f114c9f608" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />
-					<attribute id="UseOrientDirection" type="bool" value="True" />
+					<attribute id="UseOrientDirection" type="bool" value="False" />
 					<attribute id="UseDistance" type="bool" value="False" />
 					<attribute id="UseScaleOverride" type="bool" value="False" />
 					<attribute id="KeepScale" type="bool" value="True" />
@@ -25,10 +26,11 @@
 					<attribute id="Pivot" type="FixedString" value="Target" />
 					<attribute id="DamageType" type="uint32" value="0" />
 					<attribute id="VerbalIntent" type="uint32" value="0" />
+					<attribute id="StatTextKey" type="LSString" value="Cast" />
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
-						<node id="SourceBone">
-							<attribute id="Value" type="LSString" value="Dummy_CastFX" />
+						<node id="TargetBone">
+							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
 						</node>
 					</children>
 				</node>

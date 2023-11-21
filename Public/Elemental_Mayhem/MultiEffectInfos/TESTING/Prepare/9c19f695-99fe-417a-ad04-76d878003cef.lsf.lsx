@@ -3,16 +3,16 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="d69023aa-e04b-4c24-b247-80fa9cdf9444" />
-			<attribute id="Name" type="LSString" value="Test_CastEffects2" />
+			<attribute id="UUID" type="guid" value="9c19f695-99fe-417a-ad04-76d878003cef" />
+			<attribute id="Name" type="LSString" value="SpellTest_PrepareEffects" />
 			<children>
-				<node id="EffectInfo">		<!--BODY: $ ($)-->
-					<attribute id="UUID" type="guid" value="f22ef4b0-0047-4306-9826-4ee3c3fbc587" />
-					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
+				<node id="EffectInfo">
+					<attribute id="UUID" type="guid" value="01ba882a-0491-435e-84cb-00f7d4be7c40" />
+					<attribute id="EffectResourceGuid" type="guid" value="d9d90e59-4e33-42cd-9c6f-1d636e121fc5" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />
-					<attribute id="UseOrientDirection" type="bool" value="True" />
+					<attribute id="UseOrientDirection" type="bool" value="False" />
 					<attribute id="UseDistance" type="bool" value="False" />
 					<attribute id="UseScaleOverride" type="bool" value="False" />
 					<attribute id="KeepScale" type="bool" value="True" />
@@ -27,8 +27,8 @@
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
-						<node id="SourceBone">
-							<attribute id="Value" type="LSString" value="Dummy_CastFX" />
+						<node id="TargetBone">
+							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
 						</node>
 					</children>
 				</node>

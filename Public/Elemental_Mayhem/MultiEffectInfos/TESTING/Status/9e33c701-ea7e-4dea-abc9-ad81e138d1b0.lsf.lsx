@@ -3,17 +3,18 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="99407c52-fa23-4d2a-9ebc-696788ccca64" />
-			<attribute id="Name" type="LSString" value="Test_BeamEffects4" />
+			<attribute id="UUID" type="guid" value="9e33c701-ea7e-4dea-abc9-ad81e138d1b0" />
+			<attribute id="Name" type="LSString" value="SpellTest_Stage2_Statusffects" />
 			<children>
-				<node id="EffectInfo">		<!-- $ FX: VFX_Cinematic_Divine_Test_04 --> 
-					<attribute id="UUID" type="guid" value="eaad1835-a8e3-4cc7-b128-058812ca502d" />
-					<attribute id="EffectResourceGuid" type="guid" value="c9704518-ac74-4d0a-8c57-6b3f3dc2b5fd" />
+				
+				<node id="EffectInfo">
+					<attribute id="UUID" type="guid" value="c7b5e5b4-75bf-493a-b923-a38aebcda5fb" />
+					<attribute id="EffectResourceGuid" type="guid" value="0e6130b2-8a97-4b29-bd89-87a3ba445689" />
 					<attribute id="DetachSource" type="bool" value="False" />
-					<attribute id="DetachTarget" type="bool" value="True" />
+					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />
-					<attribute id="UseOrientDirection" type="bool" value="True" />
-					<attribute id="UseDistance" type="bool" value="True" />
+					<attribute id="UseOrientDirection" type="bool" value="False" />
+					<attribute id="UseDistance" type="bool" value="False" />
 					<attribute id="UseScaleOverride" type="bool" value="False" />
 					<attribute id="KeepScale" type="bool" value="True" />
 					<attribute id="MainHand" type="bool" value="False" />
@@ -22,22 +23,14 @@
 					<attribute id="MaxDistance" type="float" value="0" />
 					<attribute id="BindSourceTo" type="FixedString" value="SourceEntity" />
 					<attribute id="BindTargetTo" type="FixedString" value="TargetEntity" />
-					<attribute id="Pivot" type="FixedString" value="Source" />
+					<attribute id="Pivot" type="FixedString" value="Target" />
 					<attribute id="DamageType" type="uint32" value="0" />
 					<attribute id="VerbalIntent" type="uint32" value="0" />
+					<attribute id="StatTextKey" type="LSString" value="Cast" />
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
-						<node id="SourceBone">
-							<attribute id="Value" type="LSString" value="" />
-						</node>
-						<node id="SourceSkeletonSlot">
-							<attribute id="Value" type="LSString" value="" />
-						</node>
 						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="" />
-						</node>
-						<node id="TargetSkeletonSlot">
-							<attribute id="Value" type="LSString" value="" />
+							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
 						</node>
 					</children>
 				</node>

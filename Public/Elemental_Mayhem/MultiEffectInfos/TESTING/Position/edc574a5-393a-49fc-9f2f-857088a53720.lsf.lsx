@@ -3,15 +3,16 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="2936554c-c5d3-4326-86c9-f2f39787e0f6" />
-			<attribute id="Name" type="LSString" value="Test_PrepareEffects6" />
+			<attribute id="UUID" type="guid" value="edc574a5-393a-49fc-9f2f-857088a53720" />
+			<attribute id="Name" type="LSString" value="SpellTest_Positionffects" />
 			<children>
-				<node id="EffectInfo">		<!-- Cinematic EnvironmentFX: VFX_Cinematic_Divine_Test_06 -->
-					<attribute id="UUID" type="guid" value="8c7aac37-e7f3-4a80-ba7c-f476f1e02b4f" />
-					<attribute id="EffectResourceGuid" type="guid" value="3703ae8f-89b1-409c-83ff-91293567530a" />
+				
+				<node id="EffectInfo">
+					<attribute id="UUID" type="guid" value="6b6ecbe2-0111-4b03-9a47-dd410c60e98a" />
+					<attribute id="EffectResourceGuid" type="guid" value="bc8056a7-90ad-4a52-a7b1-58f114c9f608" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
-					<attribute id="KeepRotation" type="bool" value="False" />
+					<attribute id="KeepRotation" type="bool" value="True" />
 					<attribute id="UseOrientDirection" type="bool" value="False" />
 					<attribute id="UseDistance" type="bool" value="False" />
 					<attribute id="UseScaleOverride" type="bool" value="False" />
@@ -25,10 +26,11 @@
 					<attribute id="Pivot" type="FixedString" value="Target" />
 					<attribute id="DamageType" type="uint32" value="0" />
 					<attribute id="VerbalIntent" type="uint32" value="0" />
+					<attribute id="StatTextKey" type="LSString" value="Cast" />
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
 						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="Dummy_CastFX" />
+							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
 						</node>
 					</children>
 				</node>
