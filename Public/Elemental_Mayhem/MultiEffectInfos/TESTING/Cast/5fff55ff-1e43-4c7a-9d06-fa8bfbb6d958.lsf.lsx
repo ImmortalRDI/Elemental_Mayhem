@@ -8,7 +8,7 @@
 			<children>
 				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="b6aacb44-7021-48dc-9d06-fe50559fa8cd" />
-					<attribute id="EffectResourceGuid" type="guid" value="f0496c1f-4282-40c3-bc4c-b635c08c44bd" />
+					<attribute id="EffectResourceGuid" type="guid" value="718dac52-dbbe-4ff9-becd-9dcbecd6a5ff" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />

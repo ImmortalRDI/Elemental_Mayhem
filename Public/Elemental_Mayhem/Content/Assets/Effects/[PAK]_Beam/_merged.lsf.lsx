@@ -42,52 +42,7 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">        <!-- Arcane -->
-                     <attribute id="BoundsMax" type="fvec3" value="15 15 10" />
-					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -20" />
-                    <attribute id="CullingDistance" type="float" value="60" />
-                    <attribute id="Duration" type="float" value="7.871278" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Arcane_Rush_EM_BeamFX_01" />
-                    <attribute id="ID" type="FixedString" value="4fafb9b4-edad-4a1f-b27f-9ca4e0e746cc" />
-                    <attribute id="InterruptionMode" type="uint32" value="2" />
-                    <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Arcane_Rush_EM_BeamFX_01" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Rush_EM_BeamFX_01.lsfx" />
-                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
-                    <children>
-                        <node id="Dependencies">
-                            <children>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="a2c28457-ae76-4cf4-e256-bb2494f8261b" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="9b5b5750-78dd-c823-a50d-c64b0c1b12c8" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="70148014-3c4e-8afa-af1e-9bc00dda86bf" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="a2c28457-ae76-4cf4-e256-bb2494f8261b" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="9b5b5750-78dd-c823-a50d-c64b0c1b12c8" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
-                                </node>
-                            </children>
-                        </node>
-                    </children>
-                </node>
+                
                 <node id="Resource">        <!-- Nature -->
                      <attribute id="BoundsMax" type="fvec3" value="15 15 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -20" />

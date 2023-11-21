@@ -76,33 +76,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- Arcane -->
-					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
-					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
-					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
-					<attribute id="CullingDistance" type="float" value="30" />
-					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Rush_EM_ImpactFX_01" />
-					<attribute id="ID" type="FixedString" value="56c449af-f7e9-4293-8ea2-7d412c7c1b50" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Arcane_Rush_EM_ImpactFX_01" />
-					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Rush_EM_ImpactFX_01.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
-					<node id="Dependencies">
-						<children>
-							<node id="DependentResource">
-								<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
-							</node>
-							<node id="DependentResource">
-								<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
-							</node>
-						</children>
-					</node>
-				</node>
+                
                 <node id="Resource">		<!-- Nature -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />

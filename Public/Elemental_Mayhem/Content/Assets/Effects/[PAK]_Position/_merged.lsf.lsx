@@ -186,41 +186,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Arcane -->
-					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
-					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_Rush_EM_PositionFX_01" />
-					<attribute id="ID" type="FixedString" value="4c41c590-981a-4aa7-912c-2a77aaa70094" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Arcane_Rush_EM_PositionFX_01" />
-					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_Rush_EM_PositionFX_01.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="022413d7-0e40-43f8-ba85-6aeeacb2a13a" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="27f4f916-9341-0e44-72f6-34f79e42848e" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
+                
                 <node id="Resource">        <!-- Nature -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
