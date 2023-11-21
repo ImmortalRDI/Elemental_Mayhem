@@ -5,8 +5,7 @@
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="bbc0e9a6-ee00-4a06-8623-9c90e278da92" />
 			<attribute id="Name" type="LSString" value="SpellTest_StageFinal_Statusffects" />
-			<children>
-				
+			<children>				
 				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="95e82a26-6ae8-4e33-816f-e8ae0fa26f1f" />
 					<attribute id="EffectResourceGuid" type="guid" value="9da93d0c-39e2-404c-a598-b8f653472593" />

@@ -5,8 +5,7 @@
 		<node id="MultiEffectInfos">
 			<attribute id="UUID" type="guid" value="3ccfafd1-b862-415f-bb94-9e7486df8388" />
 			<attribute id="Name" type="LSString" value="SpellTest_Affliction_ApplyEffects" />
-			<children>
-				
+			<children>				
 				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="6a977657-83ca-4351-b033-a1db1f157896" />
 					<attribute id="EffectResourceGuid" type="guid" value="e698f3f0-7eb8-4c87-8dbd-59871d944580" />
