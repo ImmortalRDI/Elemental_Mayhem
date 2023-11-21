@@ -34,45 +34,7 @@
                         </node>
                     </children>
                 </node>
-                <node id="Resource">
-                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
-                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
-                    <attribute id="Center" type="fvec3" value="0 0 0" />
-                    <attribute id="CullingDistance" type="float" value="0" />
-                    <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Environment_Arcane_ArcaneVortex_01" />
-                    <attribute id="ID" type="FixedString" value="1ea79692-24e7-4794-a34d-f5b32cdd91f9" />
-                    <attribute id="InterruptionMode" type="uint32" value="0" />
-                    <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Environment_Arcane_ArcaneVortex_01" />
-                    <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Environment_Arcane_ArcaneVortex_01.lsfx" />
-                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
-                    <children>
-                        <node id="Dependencies">
-                            <children>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="e9271a15-5da1-d044-ee3a-cb4ee23e9513" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="bd835458-6cca-c0c8-c2ff-0d19a5241a0d" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="0cdb8dfc-60ec-5b38-3a93-a6103553a55b" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="0cbd02bb-a8f2-90fe-3d5d-a8055efb7218" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="e7b55705-01cd-edbd-7a8d-25321c31904d" />
-                                </node>
-                            </children>
-                        </node>
-                    </children>
-                </node>
+                
                 <node id="Resource">
                     <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
                     <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
@@ -622,35 +584,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Arcane -->
-					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
-					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="1.6" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Arcane_BodyFX_01" />
-					<attribute id="ID" type="FixedString" value="360c747c-4dad-469d-8327-ed30c13baa0b" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Arcane_BodyFX_01" />
-					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Arcane_BodyFX_01.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
+                
                 <node id="Resource">        <!-- Nature -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
