@@ -6,7 +6,7 @@ data "StatusType" "BOOST"
 data "DisplayName" "hfc6a0f48g73f3g4631g8025g866ca11a6bda;1"
 data "Description" "hf0f37e74gd318g41b2gaad3g078726073198;1"
 data "StackId" "ARCANE_EM_UNLOCK"
-data "Boosts" "UnlockSpell(Target_Arcane);DamageReduction(Force,LevelMapValue(EM_LevelBoost));IF(IsDamageTypeForce()):DamageBonus(LevelMapValue(EM_LevelBoost)/2)"
+data "Boosts" "UnlockSpell(Target_Arcane);ActionResource(Elemental_Essence,2,0);DamageReduction(Force,LevelMapValue(EM_LevelBoost));IF(IsDamageTypeForce()):DamageBonus(LevelMapValue(EM_LevelBoost)/2)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 data "StatusGroups" ""
 
