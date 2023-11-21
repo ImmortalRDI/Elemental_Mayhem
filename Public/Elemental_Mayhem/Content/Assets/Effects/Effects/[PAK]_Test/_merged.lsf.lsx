@@ -10,15 +10,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Cinematic_Divine_Test_01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Effects_Test_01" />
 					<attribute id="ID" type="FixedString" value="718dac52-dbbe-4ff9-becd-9dcbecd6a5ff" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Cinematic_Divine_Test_01" />
+					<attribute id="Name" type="LSString" value="VFX_Effects_Test_01" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cinematic_Divine_Test_01.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/VFX_Effects_Test_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
 						<node id="Dependencies" />
@@ -30,15 +30,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 -0.5" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Cinematic_Divine_Test_02" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Effects_Test_02" />
 					<attribute id="ID" type="FixedString" value="86c9fb18-549b-faf9-2059-89dba7ea7f27" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="2" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Cinematic_Divine_Test_02" />
+					<attribute id="Name" type="LSString" value="VFX_Effects_Test_02" />
 					<attribute id="Radius" type="float" value="7" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cinematic_Divine_Test_02.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/VFX_Effects_Test_02.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies" />							
@@ -50,15 +50,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Cinematic_Divine_Test_03" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Effects_Test_03" />
 					<attribute id="ID" type="FixedString" value="c9704518-ac74-4d0a-8c57-6b3f3dc2b5fd" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Cinematic_Divine_Test_03" />
+					<attribute id="Name" type="LSString" value="VFX_Effects_Test_03" />
 					<attribute id="Radius" type="float" value="6" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cinematic_Divine_Test_03.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/VFX_Effects_Test_03.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies" />
@@ -70,15 +70,15 @@
 					<attribute id="Center" type="fvec3" value="0 2 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Cinematic_Divine_Test_04" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Effects_Test_04" />
 					<attribute id="ID" type="FixedString" value="e698f3f0-7eb8-4c87-8dbd-59871d944580" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Cinematic_Divine_Test_04" />
+					<attribute id="Name" type="LSString" value="VFX_Effects_Test_04" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cinematic_Divine_Test_04.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/VFX_Effects_Test_04.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies" />
@@ -90,24 +90,18 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.15" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Cinematic_Divine_Test_05" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Effects_Test_05" />
 					<attribute id="ID" type="FixedString" value="2c097dac-d48f-4b42-abff-7870f4fc364e" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Cinematic_Divine_Test_05" />
+					<attribute id="Name" type="LSString" value="VFX_Effects_Test_05" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cinematic_Divine_Test_05.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/VFX_Effects_Test_05.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
-						<node id="Dependencies">
-							<children>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="df70cbd3-6458-f54e-5255-3afd3f707749" />
-								</node>
-							</children>
-						</node>
+						<node id="Dependencies"/>
 					</children>
 				</node>
 				<node id="Resource">		<!-- $ -->
@@ -116,16 +110,16 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Cinematic_Divine_Test_06" />
-					<attribute id="ID" type="FixedString" value="0e6130b2-8a97-4b29-bd89-87a3ba445689" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Effects_Test_06" />
+					<attribute id="ID" type="FixedString" value="9da93d0c-39e2-404c-a598-b8f653472593" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Cinematic_Divine_Test_06" />
+					<attribute id="Name" type="LSString" value="VFX_Effects_Test_06" />
 					<attribute id="Radius" type="float" value="70" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cinematic_Divine_Test_06.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/VFX_Effects_Test_06.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
-						
+						<node id="Dependencies"/>
 					</children>
 				</node>
 				<node id="Resource">		<!-- $ -->
@@ -134,15 +128,15 @@
 					<attribute id="Center" type="fvec3" value="0 2 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="6.999999" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Cinematic_Divine_Test_07" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Effects_Test_07" />
 					<attribute id="ID" type="FixedString" value="58a80784-6426-4cd0-b92c-a23095c26531" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Cinematic_Divine_Test_07" />
+					<attribute id="Name" type="LSString" value="VFX_Effects_Test_07" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cinematic_Divine_Test_07.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/VFX_Effects_Test_07.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -157,12 +151,12 @@
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Cinematic_Divine_Test_08" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Effects_Test_08" />
 					<attribute id="ID" type="FixedString" value="0681bd85-73f6-40db-aa29-63e4195ceb38" />
 					<attribute id="InterruptionMode" type="uint32" value="2" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Cinematic_Divine_Test_08" />
-					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Cinematic_Divine_Test_08.lsfx" />
+					<attribute id="Name" type="LSString" value="VFX_Effects_Test_08" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/VFX_Effects_Test_08.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">

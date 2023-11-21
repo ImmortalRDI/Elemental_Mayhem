@@ -4,13 +4,13 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Arcane Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="10cdca0d-5fbc-1793-d1f9-ecd7b4897bab" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Arcane Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
 				</node>
 			</children>
@@ -22,7 +22,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.6" />
 							<attribute id="ID" type="guid" value="f4ed2950-bb2b-41ad-acbd-72eb833f3dd0" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -60,7 +60,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sparks - Pink -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.65" />
 							<attribute id="ID" type="guid" value="474caee3-a440-4bc3-a45d-3c99ba9d59a5" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2271,7 +2271,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sparks - Violet -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.65" />
 							<attribute id="ID" type="guid" value="8d107043-6ee5-4d17-87d5-e1b2518b205e" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4482,7 +4482,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sparks - Baby Blue -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.65" />
 							<attribute id="ID" type="guid" value="a0b46c41-f246-44d8-b879-d512aaee12b1" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6693,7 +6693,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Arcane Glow -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.65" />
 							<attribute id="ID" type="guid" value="d800918a-a76b-45e3-9457-ffe72c65963f" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />

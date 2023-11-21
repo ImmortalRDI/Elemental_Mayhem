@@ -11,7 +11,7 @@
                     <attribute id="CullingDistance" type="float" value="0" />
                     <attribute id="Duration" type="float" value="5" />
                     <attribute id="EffectName" type="FixedString" value="VFX_EM_Arcane_Prepare_EnvironmentFX" />
-                    <attribute id="ID" type="FixedString" value="1ea79692-24e7-4794-a34d-f5b32cdd91f9" />
+                    <attribute id="ID" type="FixedString" value="5e7f3e82-bfe0-4f9d-aeec-163fc4497743" />
                     <attribute id="InterruptionMode" type="uint32" value="0" />
                     <attribute id="Looping" type="bool" value="True" />
                     <attribute id="Name" type="LSString" value="VFX_EM_Arcane_Prepare_EnvironmentFX" />
@@ -50,7 +50,7 @@
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="1.6" />
 					<attribute id="EffectName" type="FixedString" value="VFX_EM_Arcane_Prepare_BodyFX" />
-					<attribute id="ID" type="FixedString" value="360c747c-4dad-469d-8327-ed30c13baa0b" />
+					<attribute id="ID" type="FixedString" value="2b7a37a8-56e5-4d0a-9d05-d63e30bf3f9f" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
@@ -63,11 +63,14 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-								</node>
+                                    <attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="10cdca0d-5fbc-1793-d1f9-ecd7b4897bab" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                                </node>
 							</children>
 						</node>
 					</children>
