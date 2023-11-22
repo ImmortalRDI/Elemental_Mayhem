@@ -14,3 +14,5 @@ CREDITS
         TreasureTable Assistance & Troubleshooting
     GlitchySpace
         Various File Assistance & Troubleshooting
+    KazSuhra
+        Action Resource Help

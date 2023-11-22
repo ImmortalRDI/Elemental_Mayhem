@@ -74,12 +74,18 @@
 	<content contentuid="h908c9fe7g1c36g438fga715gbc9ebfeeb7e8" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Water element.</content>
 	<content contentuid="h3f015685g82c9g4bfag9c22g24e300ba77c2" version="1">Ultimate Wind Scroll</content>
 	<content contentuid="h467a380eg88bbg4990g8092g4cb49a80257c" version="1">A mysterious scroll containing the knowledge of how to cast an extremely powerful spell empowered by the Wind element.</content>
+<!-- Action Resource -->
+	<content contentuid="h888bfef7gc5e5g4681g856bgd5749747b0f1" version="1">Elemental Essence</content>
+	<content contentuid="h1237dde0gf1fcg4071gb315gde5ddc09d3ea" version="1">The core essence of the elements.</content>
+	<content contentuid="he9795ec7g0f2ag4385g96a2g7f9f6ca2c0a6" version="1">Without an essence, you cannot weild the elements.</content>
 <!-- Cheat Scrolls -->
 	<content contentuid="h0fa1fdf2g7c87g405agab9bg4b737542b15c" version="1">Elements Cheat Scroll</content>
 	<content contentuid="h39bf5b42g8a2eg4878g9fa3g2d1b8ede4916" version="1">A mysterious scroll containing the knowledge of how to cast all of the basic spells empowered by the elements.</content>
 	<content contentuid="h415d3cafgb596g4ae2gab3cgbdfe139204c6" version="1">Ultimate Cheat Scroll</content>
 	<content contentuid="hd30a7131g89bdg4b59g8caeg74d848132cae" version="1">A mysterious scroll containing the knowledge of how to cast all of the ultimate spells empowered by the elements.</content>
 <!-- Afflictions -->
+	<content contentuid="h26d0bb3dgd5a5g4a1egad38g8629cde5d3cb" version="1">Weave Rejection</content>
+	<content contentuid="h878eb36egadacg4d8bgacdcg99ddbc922575" version="1">Your body is being rejected by the Weave.</content>
 	<content contentuid="h38ca7cd8gf380g4323gbef9g3e74ab428b8a" version="1">Suppressing Weave</content>
 	<content contentuid="h371e4f28g6c04g4538gbc6cgc62a19f69cf8" version="1">Inflict the target with an ailment that suppresses their use of the weave, and slightly tires their bodies.</content>
 	<content contentuid="hb78f33c2g62e2g471dga70eg4f8614bb3bd9" version="1">Suppressing Weave Stage 2</content>
@@ -91,14 +97,14 @@
 	<content contentuid="hacb179f9gd967g4714gac27gba2336555093" version="1">The core essence of the arcane skills and spells.</content>
 	<content contentuid="h3d48ae45ga013g41fag9baeg9dd2bd003c13" version="1">Arcane Affliction</content>
 	<content contentuid="h0d938850gaefbg4ebagab65gd28620c67d67" version="1">Cut your targets ties to the Weave, leaving then unable to cast spells.</content>
-	<content contentuid="h7ffb48f5gf488g453eg88dag947e8759e72f" version="1">Arcane Bolt</content>
-	<content contentuid="h24a455cfg781dg4dfdg9a86ge0f00284a371" version="1">Cast a bolt at your target with the power of the Weave.</content>
 	<content contentuid="h67851571g5da7g4625gbd57gb7b19e22dc90" version="1">Arcane Blast</content>
 	<content contentuid="hc2c31691g7e10g4088g9592g6433b98fb156" version="1">Blast a target area with the power of the Weave.</content>
-	<content contentuid="h26bc0896gaeaeg42c7gb9eagdaa7922202ed" version="1">Arcane Rush</content>
-	<content contentuid="h69441f68gdb0cg488fg884agbea2d0b89d59" version="1">Rush your target with the power of the Weave.</content>
+	<content contentuid="h7ffb48f5gf488g453eg88dag947e8759e72f" version="1">Arcane Bolt</content>
+	<content contentuid="h24a455cfg781dg4dfdg9a86ge0f00284a371" version="1">Cast a bolt at your target with the power of the Weave.</content>
 	<content contentuid="h33e651f7g15e1g4ef7ga835g0547d3486570" version="1">Arcane Leap</content>
 	<content contentuid="heec6a456gccadg4897gb609g20f7e4ddbead" version="1">Leap towards your target with the power of the Weave</content>
+	<content contentuid="h26bc0896gaeaeg42c7gb9eagdaa7922202ed" version="1">Arcane Rush</content>
+	<content contentuid="h69441f68gdb0cg488fg884agbea2d0b89d59" version="1">Rush your target with the power of the Weave.</content>	
 	<content contentuid="hc5db681cg1b6dg4a77g99d1g847e1649f67c" version="1">Arcane Shift</content>
 	<content contentuid="h6668a9aagbaadg48dbg8bd2ga4365d52c0a5" version="1">Teleport to your target with the power of the Weave</content>
 	<content contentuid="h9a810111ge099g4634gaa41g0f10ca563324" version="1">Arcane Stealth</content>
