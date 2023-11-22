@@ -1,14 +1,4 @@
-//      Elements
-new entry "OBJ_Scroll_Arcane_EM_Unlock"
-type "Object"
-using "_MagicScroll"
-data "DisplayName" "hfc6a0f48g73f3g4631g8025g866ca11a6bda;1"
-data "Description" "hf0f37e74gd318g41b2gaad3g078726073198;1"
-data "RootTemplate" "ab3b3f90-5c4e-482c-9bce-18deaee9e11e"
-data "ValueLevel" "5"
-data "Rarity" "Legendary"
-data "MinAmount" ""
-data "MaxAmount" ""
+
 
 new entry "OBJ_Scroll_Blood_EM_Unlock"
 type "Object"

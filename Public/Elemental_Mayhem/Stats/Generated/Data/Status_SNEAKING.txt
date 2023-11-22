@@ -33,8 +33,6 @@ data "RemoveEvents" "OnAttack"
 data "RemoveConditions" "(not HasSpellFlag(SpellFlags.Stealth, context.Source))"
 data "StatusPropertyFlags" "DisableOverhead"
 
-
-
 new entry "EM_NATURE_SNEAK"
 type "StatusData"
 using "EM_SNEAK"

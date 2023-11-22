@@ -1,14 +1,5 @@
 
 
-new entry "ARCANE_EM_UNLOCK"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" "hfc6a0f48g73f3g4631g8025g866ca11a6bda;1"
-data "Description" "hf0f37e74gd318g41b2gaad3g078726073198;1"
-data "StackId" "ARCANE_EM_UNLOCK"
-data "Boosts" "UnlockSpell(Arcane_Spells);ActionResource(EM_Elemental_Essence,3,0);DamageReduction(Force,LevelMapValue(EM_LevelBoost));IF(IsDamageTypeForce()):DamageBonus(LevelMapValue(EM_LevelBoost))"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
-data "StatusGroups" ""
 
 new entry "BLOOD_EM_UNLOCK"
 type "StatusData"
@@ -181,15 +172,7 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "StatusGroups" ""
 
 //      Ultimate
-new entry "ARCANE_EM_ULTIMATE_UNLOCK"
-type "StatusData"
-data "StatusType" "BOOST"
-data "DisplayName" ";1"
-data "Description" ";1"
-data "StackId" "ARCANE_EM_ULTIMATE_UNLOCK"
-data "Boosts" "UnlockSpell(Arcane_EM_Container);Resistance(Force,Resistant);DamageBonus(LevelMapValue(EM_LevelBoost))"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
-data "StatusGroups" ""
+
 
 new entry "BLOOD_EM_ULTIMATE_UNLOCK"
 type "StatusData"
