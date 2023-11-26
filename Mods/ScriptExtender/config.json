@@ -1,5 +1,5 @@
 {
-    "RequiredVersion": 1,
-    "ModTable": "YOUR_MOD_NAME_HERE",
+    "RequiredVersion": 10,
+    "ModTable": "Elemental_Mayhem",
     "FeatureFlags": ["Lua"]
 }
