@@ -4,14 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "ConvertSoulSpellFiles",
+            "label": "ConvertEMFiles",
             "type": "shell",
             "command": "",
             "dependsOn": [
                 "EMLoca",
-                "ArbiterLoca",
-                "ArchonLoca",
-                "SoulSpellLSX",
+                "EMLSFX",
+                "EMLSX",
+                "",
                 "CheckStats"
             ],
             "presentation": {
@@ -19,12 +19,12 @@
             },
         },
         {
-            "label": "SoulSpellLoca",
+            "label": "EMLoca",
             "type": "shell",
-            "command": "python C:\\Modding\\BG3\\BG3ModdingTools-master\\scripts\\convert_loca.py",
+            "command": "python C:\\Users\\gmc51\\Documents\\Game Mods\\BG3\\Mod Utilities\\Scripts\\convert_loca.py",
             "args": [
-                "-f", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpell.xml",
-                "-o", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpell.loca"
+                "-f", "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English\\Elemental_Mayhem.xml",
+                "-o", "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English\\Elemental_Mayhem.loca"
             ],
             "group": "build",
             "presentation": {
@@ -33,12 +33,14 @@
             "problemMatcher": []
         },
         {
-            "label": "ArbiterLoca",
+            "label": "EMLSFX",
             "type": "shell",
-            "command": "python C:\\Modding\\BG3\\BG3ModdingTools-master\\scripts\\convert_loca.py",
+            "command": "python C:\\Users\\gmc51\\Documents\\Game Mods\\BG3\\Mod Utilities\\Scripts\\convert_lsfx.py",
             "args": [
-                "-f", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpellArbiter.xml",
-                "-o", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpellArbiter.loca"
+                "-f", "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks",
+                "-b",
+                "--ext", ".lsx",
+                "--outputext", ".lsfx"
             ],
             "group": "build",
             "presentation": {
@@ -47,25 +49,26 @@
             "problemMatcher": []
         },
         {
-            "label": "ArchonLoca",
+            "label": "EMLSX",
             "type": "shell",
-            "command": "python C:\\Modding\\BG3\\BG3ModdingTools-master\\scripts\\convert_loca.py",
+            "command": "python C:\\Users\\gmc51\\Documents\\Game Mods\\BG3\\Mod Utilities\\Scripts\\convert_lsf.py",
             "args": [
-                "-f", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpellArchon.xml",
-                "-o", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpellArchon.loca"
+                "-f", "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Content\\Assets\\Effects",
+                "-b",
+                "--ext", ".lsx",
+                "--outputext", ".lsf"
             ],
             "group": "build",
             "presentation": {
                 "reveal": "silent"
-            },
-            "problemMatcher": []
+            }
         },
         {
-            "label": "SoulSpellLSX",
+            "label": "EMLSX",
             "type": "shell",
-            "command": "python C:\\Modding\\BG3\\BG3ModdingTools-master\\scripts\\convert_lsf.py",
+            "command": "python C:\\Users\\gmc51\\Documents\\Game Mods\\BG3\\Mod Utilities\\Scripts\\convert_lsf.py",
             "args": [
-                "-f", "C:\\Modding\\BG3Mods\\FocusSoulSpell",
+                "-f", "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\MultiEffectInfos",
                 "-b",
                 "--ext", ".lsx",
                 "--outputext", ".lsf"
@@ -78,16 +81,15 @@
         {
             "label": "CheckStats",
             "type": "process",
-            "command": "C:\\Modding\\BG3\\Utils\\StatsParser\\StatParser.exe",
+            "command": "C:\\Users\\gmc51\\Documents\\Game Mods\\BG 3\\Mod Utilities\\LsLib and MultiTool\\ToolsStatParser.exe",
             "args": [
                 "--game-data-path", "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Baldurs Gate 3\\Data",
-                "--package-paths", "C:\\Users\\nodoxing\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods",
+                "--package-paths", "C:\\Users\\gmc51\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods",
                 "--dependency", "Shared",
                 "--dependency", "SharedDev",
                 "--dependency", "Gustav",
                 "--dependency", "GustavDev",
-                "--dependency", "FocusCore",
-                "--mod", "FocusSoulSpell"
+                "--mod", "Elemental_Mastery"
             ],
         }
     ]

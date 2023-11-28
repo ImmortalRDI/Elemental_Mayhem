@@ -1,0 +1,618 @@
+Public/Elemental_Mayhem/Content/Assets/Effects/[PAK]_Blood Public/Elemental_Mayhem/Content/Assets/Effects/[PAK]_Blood/_merged.lsx<?xml version="1.0" encoding="utf-8"?>     <!-- Blood -->
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+            <children>		<!-- Prepare -->
+				<node id="Resource">        <!-- Environment -->
+                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+                    <attribute id="Center" type="fvec3" value="0 0 0" />
+                    <attribute id="CullingDistance" type="float" value="0" />
+                    <attribute id="Duration" type="float" value="5" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Prepare_EM_Blood_EnvironmentFX" />
+                    <attribute id="ID" type="FixedString" value="5e7f3e82-bfe0-4f9d-aeec-163fc4497743" />
+                    <attribute id="InterruptionMode" type="uint32" value="0" />
+                    <attribute id="Looping" type="bool" value="True" />
+                    <attribute id="Name" type="LSString" value="VFX_Prepare_EM_Blood_EnvironmentFX" />
+                    <attribute id="Radius" type="float" value="25" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Prepare_EM_Blood_EnvironmentFX.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="d20f38c7-7e45-901d-8e4f-216652669a9a" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="4484c57c-0e0d-d2cb-3378-e375604fda95" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="cfaf9923-9ecc-7117-870c-4fccc009d0aa" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">        <!-- Body -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_EM_Blood_BodyFX" />
+					<attribute id="ID" type="FixedString" value="2b7a37a8-56e5-4d0a-9d05-d63e30bf3f9f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_EM_Blood_BodyFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Prepare_EM_Blood_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="c857d19b-25be-a746-1134-1fcf2107ac38" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="83fe3c2c-7557-b45f-e7c2-c988dc149799" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="10cdca0d-5fbc-1793-d1f9-ecd7b4897bab" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+            <children>      <!-- Affliction -->
+
+            </children>
+            <children>      <!-- Blast -->
+            
+            </children>
+            <children>      <!-- Bolt -->
+            
+            </children>
+            <children>      <!-- Eruption -->
+            
+            </children>
+            <children>      <!-- Imbue -->
+            
+            </children>
+            <children>      <!-- Leap -->
+				<node id="Resource">        <!-- Trail -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="7" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Leap_EM_Blood_TrailFX" />
+					<attribute id="ID" type="FixedString" value="ea48bb01-5413-48b9-b8e2-f4a906a20a7b" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Leap_EM_Blood_TrailFX" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Leap_EM_Blood_TrailFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="4484c57c-0e0d-d2cb-3378-e375604fda95" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="4fe1af68-2bf3-4c1c-e583-78df66eb9d77" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="59dc1ca3-84d9-d7b9-685a-371b943bc55c" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="ab6c61b4-df3c-0e15-c111-bb676009699d" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="7d667c67-7e15-d75a-773b-1fffe4010d55" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="d15a382a-17ea-3825-8dd1-faacfb3a2ac2" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="e62c4b8c-7456-a5c7-6a43-d1e2b42df830" />
+                        </node>
+					</children>
+				</node>
+				<node id="Resource">        <!-- Impact -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Leap_EM_Blood_ImpactFX" />
+					<attribute id="ID" type="FixedString" value="ea77bb63-ea9c-458b-83af-ed823443a05a" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Leap_EM_Blood_ImpactFX" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Leap_EM_Blood_ImpactFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="e581a0a6-ba35-609b-c973-d07ee07c4d3c" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="c1c700a1-b885-9c04-6be0-a63e82cb6fab" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="fa2f469f-e4f4-7e43-b9f5-04769182b9c4" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="65508052-fa5a-516d-943d-39e605d8b3d7" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="4fe1af68-2bf3-4c1c-e583-78df66eb9d77" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="88ab1c5e-5bcd-e4a5-7249-9c6a439a18d6" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="aa74a234-ccf6-a4e2-feb9-3f0c9377a6fc" />
+                        </node>
+					</children>
+				</node>
+				<node id="Resource">        <!-- Ground Impact -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Leap_EM_Blood_GroundImpactFX" />
+					<attribute id="ID" type="FixedString" value="8f8e705a-6542-4fe6-a308-b6079b75ae58" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Leap_EM_Blood_GroundImpactFX" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Leap_EM_Blood_GroundImpactFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="d7e9aa98-f162-2f20-0317-d7fb5a2e1031" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="839fbdf4-76db-b68a-b4f8-ed0c8f5b1d5b" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="43456042-81cf-fbae-ec64-3cacbad360b1" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="84411a9e-0371-dd06-c767-a1879f53abe9" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="fa2f469f-e4f4-7e43-b9f5-04769182b9c4" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="a3c36b9f-f82d-2fd7-168f-4b43038bd8ef" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="468a116a-b0e9-42f4-1633-95a3b1d02a97" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="488ef412-bbc0-6c84-fec2-5a8ef7cd827d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="65508052-fa5a-516d-943d-39e605d8b3d7" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="e62c4b8c-7456-a5c7-6a43-d1e2b42df830" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="47f5d6b1-5a7c-efbd-f1b0-b36a92e6e6de" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="e581a0a6-ba35-609b-c973-d07ee07c4d3c" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="495aa743-ac5a-1f8a-af36-1574ec37aeb8" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="4fad2192-01c3-475e-b773-c3b2691fdafc" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+            <children>      <!-- Rush -->
+                <node id="Resource">        <!-- Cast -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Rush_EM_Blood_CastFX" />
+					<attribute id="ID" type="FixedString" value="8aa42360-d0a6-4549-8e77-8869064830bf" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Rush_EM_Blood_CastFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Rush_EM_Blood_CastFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="4860ed23-afca-2745-f070-12da4f8bd239" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- Beam -->
+                     <attribute id="BoundsMax" type="fvec3" value="6 6 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
+                    <attribute id="CullingDistance" type="float" value="60" />
+                    <attribute id="Duration" type="float" value="3" />
+                    <attribute id="EffectName" type="FixedString" value="VFX_Rush_EM_Blood_BeamFX" />
+                    <attribute id="ID" type="FixedString" value="4fafb9b4-edad-4a1f-b27f-9ca4e0e746cc" />
+                    <attribute id="InterruptionMode" type="uint32" value="2" />
+                    <attribute id="Looping" type="bool" value="False" />
+                    <attribute id="Name" type="LSString" value="VFX_Rush_EM_Blood_BeamFX" />
+                    <attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Rush_EM_Blood_BeamFX.lsfx" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+                    <children>
+                        <node id="Dependencies">
+                            <children>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="bc8619b9-92cf-d0bc-f770-8e6775cb0220" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5f50a2ac-ddfa-daef-eac4-e34c386cb4a6" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="b7affa60-34c3-a900-3e64-4ddcb6280901" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="8f1497a0-86ed-325c-ac10-5783e1c2eff3" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="7d667c67-7e15-d75a-773b-1fffe4010d55" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="72a19c48-148f-c5d4-2370-03d8b5866150" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="ab6c61b4-df3c-0e15-c111-bb676009699d" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Resource">		<!-- Target -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Rush_EM_Blood_TargetFX" />
+					<attribute id="ID" type="FixedString" value="56c449af-f7e9-4293-8ea2-7d412c7c1b50" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Rush_EM_Blood_TargetFX" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Rush_EM_Blood_TargetFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<node id="Dependencies">
+						<children>
+							<node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="d7e9aa98-f162-2f20-0317-d7fb5a2e1031" />
+                            </node>
+                            <node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="839fbdf4-76db-b68a-b4f8-ed0c8f5b1d5b" />
+                            </node>
+                            <node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="43456042-81cf-fbae-ec64-3cacbad360b1" />
+                            </node>
+                            <node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+                            </node>
+                            <node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="84411a9e-0371-dd06-c767-a1879f53abe9" />
+                            </node>
+                            <node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="fa2f469f-e4f4-7e43-b9f5-04769182b9c4" />
+                            </node>
+                            <node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="a3c36b9f-f82d-2fd7-168f-4b43038bd8ef" />
+                            </node>
+                            <node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                            </node>
+                            <node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="468a116a-b0e9-42f4-1633-95a3b1d02a97" />
+                            </node>
+                            <node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="488ef412-bbc0-6c84-fec2-5a8ef7cd827d" />
+                            </node>
+                            <node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="65508052-fa5a-516d-943d-39e605d8b3d7" />
+                            </node>
+                            <node id="DependentResource">
+                                <attribute id="Object" type="FixedString" value="e62c4b8c-7456-a5c7-6a43-d1e2b42df830" />
+                            </node>
+						</children>
+					</node>
+				</node>
+            </children>
+            <children>      <!-- Shift -->
+                <node id="Resource">        <!-- Cast -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Shift_EM_Blood_CastFX" />
+					<attribute id="ID" type="FixedString" value="06e18e4d-7d91-4640-bfb8-377607e523dc" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Shift_EM_Blood_CastFX" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Shift_EM_Blood_CastFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="27d6becf-276a-309a-6a32-f0c8ac7ac980" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="a3c36b9f-f82d-2fd7-168f-4b43038bd8ef" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="c78578f1-c704-032e-ac2d-f704b041c05f" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="18066597-f0b8-287f-d768-017f05f2db45" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="9ffbcedb-7417-0915-bbc1-d39a3f677288" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="e581a0a6-ba35-609b-c973-d07ee07c4d3c" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="495aa743-ac5a-1f8a-af36-1574ec37aeb8" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
+                <node id="Resource">        <!-- Position -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Shift_EM_Blood_PositionFX" />
+					<attribute id="ID" type="FixedString" value="169fae26-9ce7-410c-9eda-c4757a897a11" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Shift_EM_Blood_PositionFX" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Shift_EM_Blood_PositionFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="9ffbcedb-7417-0915-bbc1-d39a3f677288" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="e581a0a6-ba35-609b-c973-d07ee07c4d3c" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="495aa743-ac5a-1f8a-af36-1574ec37aeb8" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+                                </node>	
+							</children>
+						</node>
+					</children>
+				</node>
+            </children>
+            <children>		<!-- Stealth -->
+				<node id="Resource">		<!-- Disappear -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Stealth_EM_Blood_DisappearFX" />
+					<attribute id="ID" type="FixedString" value="165ced88-0c02-493a-9525-5220cad4d710" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Stealth_EM_Blood_DisappearFX" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Stealth_EM_Blood_DisappearFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="f571d572-95a6-ec05-4275-5deb2c84a223" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="f7d0ce54-1b3b-e8ae-debc-32e891fa8fd2" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="35b5111f-9c81-9403-16b3-d68437154bed" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="b1bc927d-3b56-db90-c28f-aff926b44c02" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="c0ee5929-fe44-6966-1e55-d933620fa661" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="1ffc48de-894c-7253-e595-b6693e111712" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="7948e03b-7221-02a3-0d9d-3b0c6930c6ac" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="02d59ab1-10fc-48a1-a095-b6f158310f47" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="a800128e-2484-a85a-5029-2e29dada84b3" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="42cdfd76-2411-c426-a5b7-383d9ccea1f4" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="1d0956d2-cf14-4ca8-92e0-02e044715939" />
+                        </node>
+					</children>
+				</node>
+				<node id="Resource">		<!-- Reappear -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Stealth_EM_Blood_ReappearFX" />
+					<attribute id="ID" type="FixedString" value="258786bf-c94f-4fc8-8056-bc4b2458172e" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Stealth_EM_Blood_ReappearFX" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Blood/VFX_Stealth_EM_Blood_ReappearFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="94ffc7e9-fdea-b0bc-94da-95376904ac61" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="4fbfb8fe-b205-58a1-6ede-4ae0331103f2" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="cf2cce46-13ea-cef7-8d09-1a46f1342ba4" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="b0647704-7f12-6155-e67b-088ce8947ed8" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="f812d39c-7d2b-e112-931a-9265f910dbc0" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="b542a58f-8e05-7660-62f0-52cf1a90c972" />
+                        </node>
+                        <node id="DependentResource">
+                            <attribute id="Object" type="FixedString" value="edde12d7-a49e-462e-898c-0113e320008b" />
+                        </node>
+					</children>
+				</node>
+			</children>
+            <children>      <!-- Ultimate -->
+            
+            </children>
+		</node>
+	</region>
+</save>

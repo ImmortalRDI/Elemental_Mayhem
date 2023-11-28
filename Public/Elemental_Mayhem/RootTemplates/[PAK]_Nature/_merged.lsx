@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>      <!-- Nature -->
+<save>
+	<version major="4" minor="0" revision="9" build="0"/>
+	<region id="Templates">
+		<node id="Templates">
+			<children>     <!-- Scrolls -->
+				<node id="GameObjects">		<!-- Element -->
+					<attribute id="DisplayName" type="TranslatedString" handle="bg3handle" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="bg3handle" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="bg3uuid" />
+					<attribute id="Name" type="LSString" value="OBJ_Scroll_Nature_EM_Unlock" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
+					<attribute id="Stats" type="FixedString" value="NATURE_EM_UNLOCK" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="916f78a4-779b-3e43-28eb-eefc26d9683d" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.191031" />
+									<attribute id="Max" type="fvec3" value="0.0772219 0.1343031 0.2977137" />
+									<attribute id="Min" type="fvec3" value="-0.0772219 -0.00765489 -0.2977137" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.191031" />
+									<attribute id="Max" type="fvec3" value="0.0772219 0.1343031 0.2977137" />
+									<attribute id="Min" type="fvec3" value="-0.0772219 -0.00765489 -0.2977137" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.191031" />
+									<attribute id="Max" type="fvec3" value="0.0772219 0.1343031 0.2977137" />
+									<attribute id="Min" type="fvec3" value="-0.0772219 -0.00765489 -0.2977137" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Scroll_Spells_EM_Nature_Unlock" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="33" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SpellId" type="FixedString" value="Scroll_Spells_EM_Nature_Unlock" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">     <!-- Ultimate -->
+					<attribute id="DisplayName" type="TranslatedString" handle="bg3handle" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="bg3handle" version="1" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="bg3uuid" />
+					<attribute id="Name" type="LSString" value="OBJ_Scroll_Nature_EM_Ultimate_Unlock" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll_Nature_EM_Ultimate_Unlock" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="916f78a4-779b-3e43-28eb-eefc26d9683d" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.191031" />
+									<attribute id="Max" type="fvec3" value="0.0772219 0.1343031 0.2977137" />
+									<attribute id="Min" type="fvec3" value="-0.0772219 -0.00765489 -0.2977137" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.191031" />
+									<attribute id="Max" type="fvec3" value="0.0772219 0.1343031 0.2977137" />
+									<attribute id="Min" type="fvec3" value="-0.0772219 -0.00765489 -0.2977137" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.191031" />
+									<attribute id="Max" type="fvec3" value="0.0772219 0.1343031 0.2977137" />
+									<attribute id="Min" type="fvec3" value="-0.0772219 -0.00765489 -0.2977137" />
+									<attribute id="Radius" type="float" value="0.215493" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SkillID" type="FixedString" value="Nature_EM_Ultimate_Unlock" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="33" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Consume" type="bool" value="False" />
+											<attribute id="SpellId" type="FixedString" value="Nature_EM_Ultimate_Unlock" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+			<children>		<!-- Bolt -->
+				<node id="GameObjects">		<!-- Trajectories -->
+					<attribute id="MapKey" type="FixedString" value="bg3uuid" />
+					<attribute id="Name" type="LSString" value="VFX_Bolt_EM_Nature_MultiEffects" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />					
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="0" />					
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="BeamFX" type="FixedString" value="VFX_Bolt_EM_Nature_BeamFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Bolt_EM_Nature_ImpactFX" />
+					<attribute id="GroundImpactFX" type="LSString" value="VFX_Bolt_EM_Nature_GroundImpactFX" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />					
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758167" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+			<children>		<!-- Leap -->
+				<node id="GameObjects">		<!-- Trajectories -->
+                    <attribute id="MapKey" type="FixedString" value="bg3uuid" />
+                    <attribute id="Name" type="LSString" value="VFX_Leap_EM_Nature_MultiEffects" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="Type" type="FixedString" value="projectile" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="" />
+                    <attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+                    <attribute id="VisualTemplate" type="FixedString" value="" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+                    <attribute id="Scale" type="float" value="1" />
+                    <attribute id="LifeTime" type="float" value="1" />
+                    <attribute id="HasGameplayValue" type="bool" value="False" />
+                    <attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="TrailFX" type="FixedString" value="VFX_Leap_EM_Nature_TrailFX" />
+                    <attribute id="ImpactFX" type="FixedString" value="VFX_Leap_EM_Nature_ImpactFX" />
+					<attribute id="GroundImpactFX" type="LSString" value="VFX_Leap_EM_Nature_GroundImpactFX" />
+                    <attribute id="PreviewPathMaterial" type="FixedString" value="892656b5-4f97-42c9-91fa-de1024ce0649" />
+                    <attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+                    <attribute id="ImpactSoundResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+                    <attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="False" />
+                    <attribute id="DistanceMin_Bezier3" type="float" value="0.1" />
+					<attribute id="DistanceMax_Bezier3" type="float" value="30" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 1" />
+					<attribute id="OffsetMax_Bezier3" type="fvec2" value="0 7" />
+					<attribute id="ShiftMax_Bezier3" type="float" value="0.8" />
+					<attribute id="ShiftAMin_Bezier4" type="float" value="0" />
+					<attribute id="ShiftAMax_Bezier4" type="float" value="0" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0" />
+                    <attribute id="RotateMode" type="uint8" value="0" />
+                    <attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="35" />
+                    <attribute id="Acceleration" type="float" value="35" />
+                    <attribute id="PathMinArcDist" type="float" value="0" />
+                    <attribute id="PathMaxArcDist" type="float" value="100" />
+                    <attribute id="PathRadius" type="float" value="2" />
+                    <attribute id="MaxPathRadius" type="float" value="" />
+                    <attribute id="ProjectilePath" type="uint8" value="3" />
+                    <attribute id="TrajectoryType" type="uint8" value="0" />
+					<children>
+						<node id="Bounds" />
+                        <children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Height" type="float" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Height" type="float" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Height" type="float" value="0" />
+								</node>
+							</children>
+						<node id="GameMaster"  />
+					</children>
+				</node>
+			</children>
+			<children>		<!-- Stealth -->
+				<node id="GameObjects">		<!-- Disappear -->
+					<attribute id="MapKey" type="FixedString" value="bg3uuid" />
+					<attribute id="Name" type="LSString" value="VFX_Stealth_EM_Nature_DisappearEFfects" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Stealth_EM_Nature_DisappearFX" />
+					<attribute id="DestroyTrailFXOnImpact" type="bool" value="True" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="IgnoreRoof" type="bool" value="True" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 1" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="20" />
+					<attribute id="Acceleration" type="float" value="40" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">		<!-- Reappear -->
+					<attribute id="MapKey" type="FixedString" value="bg3uuid" />
+					<attribute id="Name" type="LSString" value="VFX_Stealth_EM_Nature_ReappearEFfects" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Stealth_EM_Nature_ReappearFX" />
+					<attribute id="DestroyTrailFXOnImpact" type="bool" value="True" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="IgnoreRoof" type="bool" value="True" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 1" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="20" />
+					<attribute id="Acceleration" type="float" value="40" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

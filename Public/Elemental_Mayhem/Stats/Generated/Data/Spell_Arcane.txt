@@ -165,9 +165,27 @@
                 data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(AFFLICTION_EM_ARCANE_SUPPRESSING_2,100,AFFLICTION_EM_ARCANE_SUPPRESSING_1.Duration+1,,,,,true)"
                 data "StatusGroups" "SG_Condition"
                 data "StatusEffect" "1b8d4c42-4595-4b59-84f4-269ad1c07504"
-                data "StatusGroups" "SG_Disease"
+                data "StatusGroups" "SG_Cursed"
 
                 new entry "AFFLICTION_EM_ARCANE_SUPPRESSING_2"
+                type "StatusData"
+                data "StatusType" "BOOST"
+                using "AFFLICTION_EM_ARCANE_SUPPRESSING_1"
+                data "Icon" "Element_Type_Arcane_Icon"
+                data "DisplayName" "hb78f33c2g62e2g471dga70eg4f8614bb3bd9;1"
+                data "Description" "h792f2cc1g16f8g4d7eg9866g6c3a899e63e0;1"
+                data "SoundStart" "$"
+                data "SoundLoop" "$"
+                data "SoundStop" "$"
+                data "Boosts" "Resistance(All,VulnerableToMagical);Resistance(Force,Vulnerable)"
+                data "Passives" "Affliction_EM_Arcane_Suppression_2;Affliction_EM_Arcane_Relief"
+                data "TickFunctors" ""
+                data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(AFFLICTION_EM_ARCANE_SUPPRESSING_3,100,AFFLICTION_EM_ARCANE_SUPPRESSING_2.Duration+1,,,,,true)"
+                data "ApplyEffect" "3ccfafd1-b862-415f-bb94-9e7486df8388"
+                data "StatusEffect" "9e33c701-ea7e-4dea-abc9-ad81e138d1b0"
+                data "StatusGroups" "SG_Cursed"
+
+                new entry "AFFLICTION_EM_ARCANE_SUPPRESSING_3"
                 type "StatusData"
                 data "StatusType" "BOOST"
                 using "AFFLICTION_EM_ARCANE_SUPPRESSING_1"
@@ -183,7 +201,7 @@
                 data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(ARCANE_SUPPRESSED,100,-1)"
                 data "ApplyEffect" "3ccfafd1-b862-415f-bb94-9e7486df8388"
                 data "StatusEffect" "9e33c701-ea7e-4dea-abc9-ad81e138d1b0"
-                data "StatusGroups" "SG_Disease"
+                data "StatusGroups" "SG_Cursed"
 
                 new entry "ARCANE_SUPPRESSED"
                 type "StatusData"
@@ -221,7 +239,7 @@
                 data "DisplayName" "$;1"
                 data "Description" "$;1"
                 data "DescriptionParams" "$"
-                data "Boosts" "StatusImmunity(AFFLICTION_EM_ARCANE_SUPPRESSING_1);StatusImmunity(AFFLICTION_EM_ARCANE_SUPPRESSING_2)"
+                data "Boosts" "StatusImmunity(AFFLICTION_EM_ARCANE_SUPPRESSING_1);StatusImmunity(AFFLICTION_EM_ARCANE_SUPPRESSING_2);StatusImmunity(AFFLICTION_EM_ARCANE_SUPPRESSING_3)"
                 data "Properties" "IgnoreResting;DisablePortraitIndicator""
                 data "StatusGroups" "SG_RemoveOnRespec"
             // Passive
@@ -256,7 +274,7 @@
                 data "Description" "$;1"
                 data "DescriptionParams" "$"
                 data "Conditions" ""
-                data "StatsFunctorContext" "OnHeal"
+                data "StatsFunctorContext" ""
                 data "Boosts" ""
                 data "StatsFunctors" "RegainHitPoints(MaxHP);ApplyStatus(AFFLICTION_EM_ARCANE_VACCINE, 100,-1)"
                 data "Properties" "Highlighted"
@@ -328,6 +346,9 @@
             data "PrepareEffect" "cb1c210a-6674-4184-a61c-fcc172b3667e"
             data "CastEffect" "8c57a806-472f-4d78-8226-0bba510103bd"
             data "DamageType" "Force"
+        
+        // Burst
+            
         // Imbue
             // Spell
                 new entry "Imbue_EM_Arcane"
