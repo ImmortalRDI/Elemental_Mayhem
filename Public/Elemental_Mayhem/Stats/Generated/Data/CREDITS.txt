@@ -16,3 +16,5 @@ CREDITS
         Various File Assistance & Troubleshooting
     KazSuhra
         Action Resource Help
+    Yoesph
+        Affliction Spell Set Up & Troubleshooting
