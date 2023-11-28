@@ -1,0 +1,94 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "ConvertSoulSpellFiles",
+            "type": "shell",
+            "command": "",
+            "dependsOn": [
+                "EMLoca",
+                "ArbiterLoca",
+                "ArchonLoca",
+                "SoulSpellLSX",
+                "CheckStats"
+            ],
+            "presentation": {
+                "reveal": "silent"
+            },
+        },
+        {
+            "label": "SoulSpellLoca",
+            "type": "shell",
+            "command": "python C:\\Modding\\BG3\\BG3ModdingTools-master\\scripts\\convert_loca.py",
+            "args": [
+                "-f", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpell.xml",
+                "-o", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpell.loca"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "ArbiterLoca",
+            "type": "shell",
+            "command": "python C:\\Modding\\BG3\\BG3ModdingTools-master\\scripts\\convert_loca.py",
+            "args": [
+                "-f", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpellArbiter.xml",
+                "-o", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpellArbiter.loca"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "ArchonLoca",
+            "type": "shell",
+            "command": "python C:\\Modding\\BG3\\BG3ModdingTools-master\\scripts\\convert_loca.py",
+            "args": [
+                "-f", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpellArchon.xml",
+                "-o", "C:\\Modding\\BG3Mods\\FocusSoulSpell\\Localization\\English\\FocusSoulSpellArchon.loca"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "SoulSpellLSX",
+            "type": "shell",
+            "command": "python C:\\Modding\\BG3\\BG3ModdingTools-master\\scripts\\convert_lsf.py",
+            "args": [
+                "-f", "C:\\Modding\\BG3Mods\\FocusSoulSpell",
+                "-b",
+                "--ext", ".lsx",
+                "--outputext", ".lsf"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            }
+        },
+        {
+            "label": "CheckStats",
+            "type": "process",
+            "command": "C:\\Modding\\BG3\\Utils\\StatsParser\\StatParser.exe",
+            "args": [
+                "--game-data-path", "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Baldurs Gate 3\\Data",
+                "--package-paths", "C:\\Users\\nodoxing\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods",
+                "--dependency", "Shared",
+                "--dependency", "SharedDev",
+                "--dependency", "Gustav",
+                "--dependency", "GustavDev",
+                "--dependency", "FocusCore",
+                "--mod", "FocusSoulSpell"
+            ],
+        }
+    ]
+}
