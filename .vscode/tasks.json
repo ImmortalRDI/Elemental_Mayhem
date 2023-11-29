@@ -9,8 +9,6 @@
             "command": "",
             "dependsOn": [
                 "EMLoca",
-                "EMLSF",
-                "EMLSFX",
                 "EMLSX",
                 "CheckStats"
             ],
