@@ -60,28 +60,7 @@
             },
             "problemMatcher": []
         },
-        {
-            "label": "EMLSFX",
-            "type": "shell",
-            "command": "python 'C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts\\convert_lsfx.py'",
-            "options": {
-                "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
-            },
-            "args": [
-                "",
-                "-d",
-                "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks",
-                "-o",
-                ".lsf",
-                "-n",
-                ".lsfx"
-            ],
-            "group": "build",
-            "presentation": {
-                "reveal": "silent"
-            },
-            "problemMatcher": []
-        },
+        
         {
             "label": "CheckStats",
             "type": "process",
