@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
 	<version major="1" minor="0" revision="0" build="0" lslib_meta="v1,bswap_guids" />
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="3db1c1a5-abc9-2a64-ec16-c8d31aeb6b24" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material 2 | Material | Base 2 -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material 2 | Mesh | Base -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
 				</node>
-				<node id="DependentResource">		<!-- Model | Mesh | Trail -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
 				</node>
-				<node id="DependentResource">		<!-- Lights -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Lens Flares -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
 				</node>
-				<node id="DependentResource">		<!-- Billboard | Material | Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
 				</node>
 			</children>
@@ -34,7 +34,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="e5208ee2-11be-496c-945f-0e7b9c5be7c4" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -72,7 +72,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Eye 02 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.6" />
 							<attribute id="ID" type="guid" value="4b2c14d3-098e-474f-9bcd-790bef2beb41" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -98,7 +98,7 @@
 											<attribute id="AttributeName" type="FixedString" value="Value" />
 											<attribute id="FullName" type="FixedString" value="Custom.Float 01.Value" />
 											<attribute id="Type" type="uint8" value="4" />
-											<attribute id="Value" type="float" value="" />
+											<attribute id="Value" type="float" value="0" />
 										</node>
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Name" />
@@ -656,7 +656,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Eye 01? -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="60b45cc4-a781-4674-a6fd-f5c61b6dd1af" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -682,7 +682,7 @@
 											<attribute id="AttributeName" type="FixedString" value="Value" />
 											<attribute id="FullName" type="FixedString" value="Custom.Float 01.Value" />
 											<attribute id="Type" type="uint8" value="4" />
-											<attribute id="Value" type="float" value="" />
+											<attribute id="Value" type="float" value="0" />
 										</node>
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Name" />
@@ -1005,7 +1005,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Trail -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.52" />
 							<attribute id="ID" type="guid" value="8241bc6f-3c16-47c5-b21d-11d84877b3ad" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -3198,7 +3198,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="63222e9c-ebf6-417d-8e4d-f75c4a9d67d2" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -3592,7 +3592,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.3" />
 							<attribute id="ID" type="guid" value="306e98b3-ec11-44f3-934b-246693106959" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -3978,7 +3978,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Dark Lens Flare -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.463138" />
 							<attribute id="ID" type="guid" value="f98691f6-6efb-465f-9082-d1f21669b34a" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -5754,7 +5754,7 @@
 											<attribute id="AttributeName" type="FixedString" value="Value" />
 											<attribute id="FullName" type="FixedString" value="Custom.Float 01.Value" />
 											<attribute id="Type" type="uint8" value="4" />
-											<attribute id="Value" type="float" value="" />
+											<attribute id="Value" type="float" value="0" />
 										</node>
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Name" />
@@ -6018,7 +6018,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Light Lens Flare -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.463138" />
 							<attribute id="ID" type="guid" value="a1093e1d-1331-4a57-8e10-95e4f06ba55e" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -7843,7 +7843,7 @@
 											<attribute id="AttributeName" type="FixedString" value="Value" />
 											<attribute id="FullName" type="FixedString" value="Custom.Float 01.Value" />
 											<attribute id="Type" type="uint8" value="4" />
-											<attribute id="Value" type="float" value="" />
+											<attribute id="Value" type="float" value="0" />
 										</node>
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Name" />
@@ -8107,7 +8107,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Billboard | Glow -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="17e06c52-94e4-4719-9973-626617f1f1ad" />
 							<attribute id="Name" type="LSString" value="Billboard" />
@@ -8619,7 +8619,7 @@
 											<attribute id="AttributeName" type="FixedString" value="Value" />
 											<attribute id="FullName" type="FixedString" value="Custom.Float 01.Value" />
 											<attribute id="Type" type="uint8" value="4" />
-											<attribute id="Value" type="float" value="" />
+											<attribute id="Value" type="float" value="0" />
 										</node>
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Name" />

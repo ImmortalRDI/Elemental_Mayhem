@@ -752,7 +752,6 @@
 											<attribute id="Type" type="uint8" value="7" />
 											<attribute id="Value" type="LSString" value="MDL WISP" />
 										</node>
-										
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Material GUID" />
 											<attribute id="FullName" type="FixedString" value="Particle.Appearance.Material GUID" />

@@ -71,7 +71,7 @@
 									</children>
 								</node>
 							</children>
-						</node>						
+						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.75" />
 							<attribute id="ID" type="guid" value="619c335f-c426-4d02-86e3-0fc7b8b9fcc6" />
@@ -10025,7 +10025,7 @@
 									</children>
 								</node>
 							</children>
-						</node>						
+						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.75" />
 							<attribute id="ID" type="guid" value="c5569f19-9fea-4b3a-b66f-1f39ab43a0f4" />
@@ -28349,7 +28349,7 @@
 									</children>
 								</node>
 							</children>
-						</node>						
+						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.75" />
 							<attribute id="ID" type="guid" value="50bce635-762e-4e4f-af72-acde64d73644" />

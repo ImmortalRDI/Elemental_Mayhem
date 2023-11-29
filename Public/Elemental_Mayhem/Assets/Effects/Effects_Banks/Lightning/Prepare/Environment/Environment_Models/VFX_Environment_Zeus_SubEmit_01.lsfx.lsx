@@ -4,13 +4,13 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Light -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="ebfbf452-11ae-460a-96e5-5d1afaae10c3" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
 				</node>
-				<node id="DependentResource">		<!-- Sound -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="d5404352-1020-4ac2-8de0-6571b31609c1" />
 				</node>
 			</children>
@@ -22,7 +22,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="c46cb14a-a787-4f12-b2c6-d0721d0e310e" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -60,7 +60,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="afa03583-d8a8-41e6-9b23-de3012570fb3" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -505,7 +505,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Camera Shake -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="a3641ee5-db19-41c4-98d1-5fab31e5ae29" />
 							<attribute id="Name" type="LSString" value="CameraShake" />
@@ -641,7 +641,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sparks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="d404551b-2420-43e7-ba6c-17abc26cc536" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2677,7 +2677,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Gravity Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="7b897d2b-19c5-4d76-aae9-2f88f04fd1f0" />
 							<attribute id="Name" type="LSString" value="GravityForce" />
@@ -2801,7 +2801,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Sound -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.7" />
 							<attribute id="ID" type="guid" value="014af9c1-a385-42d2-b2cf-e94a88441872" />
 							<attribute id="Name" type="LSString" value="Sound" />

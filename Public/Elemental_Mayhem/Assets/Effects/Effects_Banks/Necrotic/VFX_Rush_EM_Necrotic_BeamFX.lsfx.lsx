@@ -39,7 +39,7 @@
 				</node>
 			</children>
 		</node>
-	</region>b4c92036-3733-5b15-f86d-1a02855d0144
+	</region>
 	<region id="Effect">
 		<node id="Effect">
 			<attribute id="Duration" type="float" value="3" />
@@ -83,7 +83,7 @@
 									</children>
 								</node>
 							</children>
-						</node>						
+						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.5853461" />
 							<attribute id="ID" type="guid" value="0ee0b916-b908-4ab3-8ee2-dec64da043f2" />
@@ -4455,7 +4455,6 @@
 											<attribute id="Type" type="uint8" value="7" />
 											<attribute id="Value" type="LSString" value="Spiral" />
 										</node>
-										
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Material GUID" />
 											<attribute id="FullName" type="FixedString" value="Particle.Appearance.Material GUID" />
@@ -24965,7 +24964,7 @@
 											<attribute id="FullName" type="FixedString" value="Name" />
 											<attribute id="Type" type="uint8" value="7" />
 											<attribute id="Value" type="LSString" value="Ring" />
-										</node>										
+										</node>
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Material GUID" />
 											<attribute id="FullName" type="FixedString" value="Particle.Appearance.Material GUID" />

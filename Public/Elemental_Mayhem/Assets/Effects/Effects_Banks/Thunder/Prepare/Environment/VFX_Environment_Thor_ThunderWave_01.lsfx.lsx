@@ -4,19 +4,19 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particle System | Material | Light Flare -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Pulsing Refraction -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="7bdafec7-27dd-539a-e30b-3a3fb9311196" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Ring Burst -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="1f1e674c-ccf6-1063-8e53-a1bfc98d5939" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Ring Pulse -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="332f5caf-d6a6-b343-3a24-acbd3a0b5b30" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
 				</node>
 			</children>
@@ -28,7 +28,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="f07e6c75-a696-4c90-a247-33ce7fa8ec08" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -66,7 +66,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Pulsing Light Flare -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="fc203026-7a8f-4217-a8da-80b138d896b6" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2233,7 +2233,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Pulsing Refraction -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="a025ba46-6d43-4c4d-80d4-8823060bcc50" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4392,7 +4392,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Ring Burst -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="2895bb3e-a54a-42f5-b8ea-73c17b1117c7" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6530,7 +6530,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Ring Pulse -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="63599fa0-49a0-4a3b-9757-e1422a532e49" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -8627,7 +8627,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sparks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="dd827390-a048-4e05-b6a8-7a61df73afc3" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />

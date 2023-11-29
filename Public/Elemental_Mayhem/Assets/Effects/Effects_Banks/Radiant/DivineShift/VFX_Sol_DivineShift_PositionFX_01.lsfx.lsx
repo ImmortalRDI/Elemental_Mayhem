@@ -4,55 +4,55 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Light -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
-				<node id="DependentResource">		<!-- Billboard | Material | Background -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
 				</node>
-				<node id="DependentResource">		<!-- Billboard | Material | Refracting Ring -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="4e566c94-fe54-2476-5f5e-25f66ebfacbc" />
 				</node>
-				<node id="DependentResource">		<!-- Billboard | Material | Shine -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="ac4f0e21-c25b-751f-baed-7bff3ebe9faf" />
 				</node>
-				<node id="DependentResource">		<!-- Decal | Material | Fire -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="f2173d4a-db43-f58d-b7f0-eef97e66931a" />
 				</node>
-				<node id="DependentResource">		<!-- Decal | Material | White Circle Ground -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="39f6fbef-4b40-0bdb-e513-aff7232349a8" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Light Pillar Center -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Radial Burst -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="6124abea-f19b-225e-c033-01f268a4d873" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Radial Burst -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="43c7417a-d000-f06d-acc0-a48824ac7735" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Vertical Light Flashes -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="f392274d-c27c-cc6a-6645-f8ca4875f05d" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Light Cylinder -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="96b9c771-49b1-f6b3-f4ad-2ade98066132" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Ring -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="6ed9bfc0-ce2f-e27c-803d-9cd217ec7dae" />
-				</node>	
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks - Reappear -->
+				</node>
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
 				</node>
 			</children>
@@ -64,7 +64,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="dfe6247e-cb33-468d-ab80-9f44e587051e" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -102,7 +102,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.7355421" />
 							<attribute id="ID" type="guid" value="ae3ef76d-c913-44df-9425-f060d5145b09" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -494,7 +494,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Post Process | Radial Blur -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="c5053119-5c1c-4b18-afb2-a8660e84ff33" />
 							<attribute id="Name" type="LSString" value="PostProcess" />
@@ -959,7 +959,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Camera Shake -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.5" />
 							<attribute id="ID" type="guid" value="35123395-2a2f-4e85-a364-cfa2f573e204" />
 							<attribute id="Name" type="LSString" value="CameraShake" />
@@ -1053,7 +1053,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Billboard | Background 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.8343637" />
 							<attribute id="ID" type="guid" value="cb466d1b-be6d-42e2-a66a-e51ac0ab5140" />
 							<attribute id="Name" type="LSString" value="Billboard" />
@@ -1497,7 +1497,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Billboard | Background 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.9999999" />
 							<attribute id="ID" type="guid" value="36484c72-0bb0-48cb-9293-3ed48ab2fe8f" />
 							<attribute id="Name" type="LSString" value="Billboard" />
@@ -1955,7 +1955,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- BillBoard | Refraction Ring -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.4716824" />
 							<attribute id="ID" type="guid" value="7f5babad-2f36-4a4e-b03d-ce3f028f969f" />
 							<attribute id="Name" type="LSString" value="Billboard" />
@@ -2470,7 +2470,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Billboard | Shine -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="7b195329-24d6-48c0-b960-5e321f49f206" />
 							<attribute id="Name" type="LSString" value="Billboard" />
@@ -3006,7 +3006,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | Fire -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.7915629" />
 							<attribute id="ID" type="guid" value="503b6dda-da82-40de-8290-d25e9403a6e9" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -3458,7 +3458,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | White Circle Ground -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.997949" />
 							<attribute id="ID" type="guid" value="ae67e920-9a1c-4c46-a8f1-2b381e6aaae4" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -4018,7 +4018,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Light Pillar Center -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.4" />
 							<attribute id="ID" type="guid" value="e560163e-ecad-422a-b79c-23ab5300e7a7" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6231,7 +6231,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Radial burst -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.3266768" />
 							<attribute id="ID" type="guid" value="4a2351bb-0944-436a-abb5-792464575c22" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -8365,7 +8365,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Vertical Light Flashes -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.4" />
 							<attribute id="ID" type="guid" value="9d5101de-ece5-4765-b8d4-7d013353e4e2" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -10485,7 +10485,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Light Cylinder -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.7029234" />
 							<attribute id="ID" type="guid" value="d2f52a6b-9ce4-4b72-87d6-265aacd4ce2c" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -14185,7 +14185,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Ring 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.4840825" />
 							<attribute id="ID" type="guid" value="bc6a8bc3-cce3-4e50-8bce-efa16b3ea790" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -16222,7 +16222,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Ring 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.5538095" />
 							<attribute id="ID" type="guid" value="10231b09-fad4-458a-93b3-93bcc4bd5355" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -18259,7 +18259,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Ring 3 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6296888" />
 							<attribute id="ID" type="guid" value="4811fb08-3c7a-423e-8958-388dd28e7647" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -20296,7 +20296,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sparks End -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6931987" />
 							<attribute id="ID" type="guid" value="c5c73e41-b33b-4d0c-bfc7-dad62337dfc7" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -22533,7 +22533,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Flash Impact -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.5520314" />
 							<attribute id="ID" type="guid" value="f963920e-63b2-437d-8318-6a2f7959b3fa" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -24617,7 +24617,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Burst - Reappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.9401529" />
 							<attribute id="ID" type="guid" value="8c0e43dc-12e6-4695-8e56-283d8b491c4a" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -26809,7 +26809,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Ground Impact - Reappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.35" />
 							<attribute id="ID" type="guid" value="a94fb30f-0a69-4386-9909-04eb2f6c181f" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />

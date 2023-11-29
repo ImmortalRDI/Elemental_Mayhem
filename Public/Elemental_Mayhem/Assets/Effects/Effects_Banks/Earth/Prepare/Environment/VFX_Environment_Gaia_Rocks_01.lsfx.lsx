@@ -4,13 +4,13 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Mesh Particles: Rocks -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="382d2bf5-d5ab-a1c9-959a-d330f7223a9c" />
 				</node>
-				<node id="DependentResource">		<!-- Material Particles: Dust -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
 				</node>
-				<node id="DependentResource">		<!-- Material Particles: Clouds -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="85618ce5-276a-8c24-31e3-5a146e2c0150" />
 				</node>
 			</children>
@@ -22,7 +22,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="4.593195" />
 							<attribute id="ID" type="guid" value="8be3c81d-14c7-4278-880e-2a433eb52174" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -60,7 +60,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Small Rocks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="73fccbee-6abd-40dc-b3ea-089f928b18bd" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2254,7 +2254,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Medium Rocks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="73fccbee-6abd-40dc-b3ea-089f928b18bd" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4448,7 +4448,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Large Rocks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="73fccbee-6abd-40dc-b3ea-089f928b18bd" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6642,7 +6642,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Dust -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.997041" />
 							<attribute id="ID" type="guid" value="1e4c288b-7e55-46f1-a950-34d51100f833" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6715,11 +6715,11 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.65837480 0.23839760 0.07818743 1" />
+															<attribute id="Color" type="fvec4" value="0.6583748 0.2383976 0.07818743 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.65837480 0.23839760 0.07818743 1" />
+															<attribute id="Color" type="fvec4" value="0.6583748 0.2383976 0.07818743 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -8697,7 +8697,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Clouds -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.6" />
 							<attribute id="ID" type="guid" value="39501104-1040-470e-92b1-64b93d2ce2af" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -9770,11 +9770,11 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.65837480 0.23839760 0.07818743 1" />
+															<attribute id="Color" type="fvec4" value="0.6583748 0.2383976 0.07818743 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.65837480 0.23839760 0.07818743 1" />
+															<attribute id="Color" type="fvec4" value="0.6583748 0.2383976 0.07818743 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -10930,7 +10930,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Gravity Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="4.579882" />
 							<attribute id="ID" type="guid" value="da816172-dabd-438d-92c1-e3b79f10d6f2" />
 							<attribute id="Name" type="LSString" value="GravityForce" />
@@ -11054,7 +11054,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Spin Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="4.593195" />
 							<attribute id="ID" type="guid" value="e3396cf8-03e4-4455-a77e-f3f644b35316" />
 							<attribute id="Name" type="LSString" value="SpinForce" />

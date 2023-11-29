@@ -1,43 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-  <version major="4" minor="0" revision="9" build="328" />
-  <region id="Config">
-    <node id="root">
-      <children>
-        <node id="Dependencies" />
-        <node id="ModuleInfo">
-          <attribute id="Author" type="LSString" value="ImmortalRD" />
-          <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
-          <attribute id="Description" type="LSString" value="Adds over 100 new spells, skills and custom visual effects." />
-          <attribute id="Folder" type="LSString" value="Elemental_Mayhem" />
-          <attribute id="GMTemplate" type="FixedString" value="" />
-          <attribute id="LobbyLevelName" type="FixedString" value="" />
-          <attribute id="MD5" type="LSString" value="" />
-          <attribute id="MainMenuBackgroundVideo" type="FixedString" value="" />
-          <attribute id="MenuLevelName" type="FixedString" value="" />
-          <attribute id="Name" type="FixedString" value="Elemental_Mayhem" />
-          <attribute id="NumPlayers" type="uint8" value="4" />
-          <attribute id="PhotoBooth" type="FixedString" value="" />
-          <attribute id="StartupLevelName" type="FixedString" value="" />
-          <attribute id="Tags" type="LSString" value="" />
-          <attribute id="Type" type="FixedString" value="Add-on" />
-          <attribute id="UUID" type="FixedString" value="c5827e71-a358-4a7e-a5d9-c2a7dbc58f62" />
-          <attribute id="Version64" type="int64" value="72057594037927936" />
-          <children>
-            <node id="PublishVersion">
-              <attribute id="Version64" type="int64" value="72057594037927936" />
-            </node>
-            <node id="Scripts" />
-            <node id="TargetModes">
-              <children>
-                <node id="Target">
-                  <attribute id="Object" type="FixedString" value="Story" />
-                </node>
-              </children>
-            </node>
-          </children>
-        </node>
-      </children>
-    </node>
-  </region>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="root">
+		<node id="root">
+			<children>
+				<node id="Dependencies" />
+				<node id="ModuleInfo">
+					<attribute id="Author" type="LSString" value="ImmortalRD" />
+					<attribute id="CharacterCreationLevelName" type="FixedString" value="" />
+					<attribute id="Description" type="LSString" value="Adds over 100 new spells, skills and custom visual effects." />
+					<attribute id="Folder" type="LSString" value="Elemental_Mayhem" />
+					<attribute id="GMTemplate" type="FixedString" value="" />
+					<attribute id="LobbyLevelName" type="FixedString" value="" />
+					<attribute id="MD5" type="LSString" value="" />
+					<attribute id="MainMenuBackgroundVideo" type="FixedString" value="" />
+					<attribute id="MenuLevelName" type="FixedString" value="" />
+					<attribute id="Name" type="FixedString" value="Elemental_Mayhem" />
+					<attribute id="NumPlayers" type="uint8" value="4" />
+					<attribute id="PhotoBooth" type="FixedString" value="" />
+					<attribute id="StartupLevelName" type="FixedString" value="" />
+					<attribute id="Tags" type="LSString" value="" />
+					<attribute id="Type" type="FixedString" value="Add-on" />
+					<attribute id="UUID" type="FixedString" value="c5827e71-a358-4a7e-a5d9-c2a7dbc58f62" />
+					<attribute id="Version64" type="int64" value="72057594037927936" />
+					<children>
+						<node id="PublishVersion">
+							<attribute id="Version64" type="int64" value="72057594037927936" />
+						</node>
+						<node id="Scripts" />
+						<node id="TargetModes">
+							<children>
+								<node id="Target">
+									<attribute id="Object" type="FixedString" value="Story" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
 </save>

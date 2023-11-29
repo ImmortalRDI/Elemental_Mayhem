@@ -28,7 +28,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="6.999999" />
 							<attribute id="ID" type="guid" value="950732e4-0236-42ba-b5d2-d24182037cfa" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -8803,7 +8803,7 @@
 									</children>
 								</node>
 							</children>
-						</node>						
+						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="eadfdb41-6e54-462c-be7d-8249c510a38a" />

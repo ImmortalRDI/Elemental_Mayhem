@@ -4,16 +4,16 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Light -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Rings Aura -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="332f5caf-d6a6-b343-3a24-acbd3a0b5b30" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="46e2e5ed-07cc-c448-bec2-06c8b18ba571" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="a40441a5-54a9-a35a-37ed-558780017b73" />
 				</node>
 			</children>
@@ -25,7 +25,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="378fae27-5c07-45e1-acfa-042dc6d3ca6c" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -63,7 +63,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.4" />
 							<attribute id="ID" type="guid" value="e02d52c5-e7aa-49bc-9eba-e09f8577ac5f" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -461,7 +461,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Small Rings Aura -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="5fa5aab1-4cee-4aa7-aa65-0a270a8274ab" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2601,7 +2601,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Large Rings Aura -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="4f49e795-d4be-4b1d-be6c-a06f624eb95b" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4737,7 +4737,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="47c3f289-22fe-49d6-a74c-aee08a8a2c7a" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -4753,7 +4753,6 @@
 											<attribute id="Type" type="uint8" value="7" />
 											<attribute id="Value" type="LSString" value="OverlayMaterial" />
 										</node>
-										
 										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Material GUID" />
 											<attribute id="FullName" type="FixedString" value="Material GUID" />

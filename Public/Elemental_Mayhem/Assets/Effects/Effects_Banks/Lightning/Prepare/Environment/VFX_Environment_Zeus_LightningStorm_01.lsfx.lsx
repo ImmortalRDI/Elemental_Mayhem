@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<save>	
+<save>
 	<version major="4" minor="0" revision="9" build="326" lslib_meta="v1,bswap_guids" />
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Lightning Bolt -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="25d0bca9-7051-98ea-6c8c-58536917a864" />
 				</node>
 			</children>
@@ -60,7 +60,7 @@
 				<node id="Inputs" />
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="Type" type="LSString" value="BoundingSphere" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
 							<attribute id="ID" type="guid" value="d44cbad8-35ba-4f3c-8545-735d1c166599" />
@@ -103,7 +103,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Pre Roll -->
+						<node id="EffectComponent">
 							<attribute id="Type" type="LSString" value="PreRoll" />
 							<attribute id="Name" type="LSString" value="PreRoll" />
 							<attribute id="ID" type="guid" value="ed6c4714-de48-4521-bd6c-377c3653e707" />
@@ -132,7 +132,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Lightning Bolt Really Slow -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="8a7d9bab-81a1-4a25-9663-2ea52ee0b9f4" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2226,8 +2226,8 @@
 									</children>
 								</node>
 							</children>
-						</node> 
-						<node id="EffectComponent">		<!-- Particle System | Lightning Bolt Slow -->
+						</node>
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="8a7d9bab-81a1-4a25-9663-2ea52ee0b9f4" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4322,7 +4322,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Lightning Bolt Normal -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.25" />
 							<attribute id="ID" type="guid" value="8a7d9bab-81a1-4a25-9663-2ea52ee0b9f4" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6416,7 +6416,7 @@
 									</children>
 								</node>
 							</children>
-						</node>						
+						</node>
 					</children>
 				</node>
 			</children>

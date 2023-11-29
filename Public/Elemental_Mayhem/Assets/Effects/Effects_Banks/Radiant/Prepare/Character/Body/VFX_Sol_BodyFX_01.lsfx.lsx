@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
+	<version major="1" minor="0" revision="0" build="0" lslib_meta="v1,bswap_guids" />
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Light -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
-				<node id="DependentResource">		<!-- Billboard | Material | Backdrop -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Glyph -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="e388398e-efd3-a321-a37c-b4693f513902" />
-				</node>				
-				<node id="DependentResource">		<!-- Particle System | Material | Backdrop Help -->
+				</node>
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
 				</node>
 			</children>
 		</node>
 	</region>
-	<version major="1" minor="0" revision="0" build="0" lslib_meta="v1,bswap_guids" />
 	<region id="Effect">
 		<node id="Effect">
 			<attribute id="Duration" type="float" value="2" />
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="4acb62df-3f92-4e99-ae9d-32ad5b3a75bc" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -63,7 +63,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.4887235" />
 							<attribute id="ID" type="guid" value="8b672203-94c2-4e58-ac98-b051c48e2124" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -435,7 +435,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Billboard | Backdrop -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.499974" />
 							<attribute id="ID" type="guid" value="468a4836-a898-4d69-a5d2-ed6487613cb1" />
 							<attribute id="Name" type="LSString" value="Billboard" />
@@ -941,8 +941,8 @@
 									</children>
 								</node>
 							</children>
-						</node>	
-						<node id="EffectComponent">		<!-- Particle System | Glyph -->
+						</node>
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.999386" />
 							<attribute id="ID" type="guid" value="e21a709e-4bc0-41b1-9cd2-f8d3fb1b77a7" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -3421,8 +3421,8 @@
 									</children>
 								</node>
 							</children>
-						</node>											
-						<node id="EffectComponent">		<!-- Particle System | Backdrop Help -->
+						</node>
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.469068" />
 							<attribute id="ID" type="guid" value="2e9fae22-05a3-4d46-acee-bfa5812284dd" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6919,7 +6919,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Vortex Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="d4e0119a-b6e0-4309-879b-13abdcb385fc" />
 							<attribute id="Name" type="LSString" value="VortexForce" />

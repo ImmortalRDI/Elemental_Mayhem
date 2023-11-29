@@ -2381,7 +2381,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- First Half of Beam -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.2096953" />
 							<attribute id="ID" type="guid" value="53830853-7b61-47e0-8c57-4492bc0c7ec5" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4505,7 +4505,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Second Half of Beam -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.5509964" />
 							<attribute id="ID" type="guid" value="e5b78854-9e47-47fa-b154-65bdaeed19f4" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />

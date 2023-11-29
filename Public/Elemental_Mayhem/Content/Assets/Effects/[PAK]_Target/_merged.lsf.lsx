@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>		<!-- HIT EFFECTS -->
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-	<version major="4" minor="0" revision="9" build="328" />
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="EffectBank">
 		<node id="EffectBank">
-			<children>      <!-- DIVINE CHARGE -->
-				
-                <node id="Resource">		<!-- Fire -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
@@ -76,8 +75,7 @@
 						</node>
 					</children>
 				</node>
-                
-                <node id="Resource">		<!-- Nature -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -97,7 +95,7 @@
 						<node id="Dependencies" />
 					</children>
 				</node>
-                <node id="Resource">		<!-- Wind -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -177,7 +175,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- Wind -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
@@ -197,7 +195,7 @@
 						<node id="Dependencies" />
 					</children>
 				</node>
-                <node id="Resource">		<!-- Psychic -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
@@ -262,7 +260,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- Blood -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
@@ -321,7 +319,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- Shadow -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -365,7 +363,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- Force -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
@@ -427,7 +425,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- Radiant -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
@@ -501,7 +499,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- Thunder -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
@@ -557,7 +555,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- Water -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
@@ -592,7 +590,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- Cold -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
@@ -651,7 +649,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">		<!-- Lightning -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2" />

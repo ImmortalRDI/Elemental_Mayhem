@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>		<!-- Leap -->
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-	<version major="4" minor="0" revision="9" build="328" />
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="EffectBank">
 		<node id="EffectBank">
-			<children>
-				
-				
-				
-			</children>
 			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
@@ -219,9 +214,6 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
@@ -399,8 +391,6 @@
 						<node id="Dependencies" />
 					</children>
 				</node>
-			</children>
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
@@ -566,8 +556,6 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
@@ -742,8 +730,6 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
@@ -921,8 +907,6 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
@@ -1098,13 +1082,11 @@
 								</node>
 								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="4fad2192-01c3-475e-b773-c3b2691fdafc" />
-								</node>	
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
@@ -1123,7 +1105,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
-							<children>				
+							<children>
 								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="aec65f11-6861-4631-9329-bf22e7d2d2f4" />
 								</node>
@@ -1240,8 +1222,6 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
@@ -1260,7 +1240,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
-							<children>				
+							<children>
 								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="7ff890d1-5d7f-7636-465a-94991815e823" />
 								</node>
@@ -1464,8 +1444,6 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
@@ -1685,8 +1663,6 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
@@ -1852,8 +1828,6 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="9 9 9" />
 					<attribute id="BoundsMin" type="fvec3" value="-9 -9 -9" />
@@ -1867,7 +1841,7 @@
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="VFX_Water_Projectile_Leap_EMTrailFX_01" />
-					<attribute id="Radius" type="float" value="9 " />
+					<attribute id="Radius" type="float" value="9" />
 					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Projectile_Leap_EMTrailFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
@@ -1971,8 +1945,6 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
@@ -2159,8 +2131,6 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7.5 7.5 7.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-7.5 -7.5 -7.5" />

@@ -4,15 +4,15 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Decal | Material | Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="13416b34-9867-0546-a9d7-2c248e7ce290" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks 1 -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks 2 -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
-				</node>	
+				</node>
 			</children>
 		</node>
 	</region>
@@ -22,7 +22,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="afa0f7d3-70fa-44ad-b1fe-2c507f99647d" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -60,7 +60,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | Glow -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="af5854c4-5e2b-4125-8664-49d1721772c9" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -525,7 +525,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Small Sparks-->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="6" />
 							<attribute id="ID" type="guid" value="bceb4779-ddf9-4232-bcbb-469af1f0de54" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2715,7 +2715,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Medium Sparks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="6" />
 							<attribute id="ID" type="guid" value="a8d59bb9-7a2c-4f9d-b101-d7800f997900" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4893,7 +4893,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Large Sparks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="6" />
 							<attribute id="ID" type="guid" value="26b802a6-ea0b-4da1-a6b2-bbf4a722b40c" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -7071,7 +7071,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Line Sparks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6211596" />
 							<attribute id="ID" type="guid" value="24c06d17-9584-4b59-a339-96a03a541309" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -9103,7 +9103,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Gravity Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="15935657-dfba-468b-9cd6-1eb5019f0886" />
 							<attribute id="Name" type="LSString" value="GravityForce" />
@@ -9227,7 +9227,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Turbulence Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="5d16c88e-271b-4ad1-80fc-a1dbdfba4b96" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
@@ -9344,7 +9344,7 @@
 									</children>
 								</node>
 							</children>
-						</node>						
+						</node>
 					</children>
 				</node>
 				<node id="Phases">

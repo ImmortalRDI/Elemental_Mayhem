@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>		<!-- Cast -->
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-	<version major="4" minor="0" revision="9" build="328" />
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="EffectBank">
 		<node id="EffectBank">
 			<children>
-							
-				<node id="Resource">        <!-- Fire -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -43,8 +42,7 @@
 						</node>
 					</children>
 				</node>
-				
-				<node id="Resource">        <!-- Nature -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -91,7 +89,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Wind -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -123,7 +121,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Wind -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -176,7 +174,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Psychic -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
 					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -211,7 +209,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Blood -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -237,7 +235,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Shadow -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -284,7 +282,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Force CASTFX -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -325,7 +323,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Force ROOTFX -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -354,7 +352,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Radiant -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -413,7 +411,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Thunder -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -454,7 +452,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Water -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -489,7 +487,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Cold -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -548,7 +546,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Lightning -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -589,10 +587,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
-				
-				<node id="Resource">        <!-- Fire -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -612,35 +607,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				
-				<node id="Resource">        <!-- Nature -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -660,34 +654,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Wind -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -707,34 +701,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Wind -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -754,34 +748,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Psychic -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -801,34 +795,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Blood -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -848,34 +842,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Shadow -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -895,34 +889,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Force -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -942,34 +936,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Radiant -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -989,34 +983,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Thunder -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1036,34 +1030,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Water -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1083,34 +1077,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Cold -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1130,34 +1124,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Lightning -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1177,37 +1171,34 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-                                </node>				
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1982a730-a35e-d62d-6bf6-59babc1d0c81" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="252c8e20-639d-2137-4f9b-178d67133f44" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87e26b9a-9ecf-404a-f043-3516c46097e4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e54726f-0203-468f-b4c9-b7bb92eb1f6a" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
-				
-                <node id="Resource">        <!-- Fire -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1263,8 +1254,7 @@
 						</node>
 					</children>
 				</node>
-                
-                <node id="Resource">        <!-- Nature -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1353,7 +1343,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Wind -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1412,7 +1402,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Wind -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1474,7 +1464,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Psychic -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1545,7 +1535,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Blood -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1574,7 +1564,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Shadow -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1621,7 +1611,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Force -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1692,7 +1682,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Radiant -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1769,9 +1759,9 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Thunder -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
-					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4"/>
+					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.268963" />
@@ -1825,7 +1815,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Water -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1869,7 +1859,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Cold -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1922,7 +1912,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Lightning -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1981,9 +1971,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>
-                <node id="Resource">        <!-- Water | Sub-Emit Sound -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1995,19 +1983,19 @@
 					<attribute id="Looping" type="bool" value="True" />
 					<attribute id="Name" type="LSString" value="VFX_Environment_Water_SubEmit_02" />
 					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Environment_Water_SubEmit_02.lsfx" />
-                    <attribute id="Radius" type="float" value="5" />
+					<attribute id="Radius" type="float" value="5" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
 							<children>
-								<node id="DependentResource">       <!-- Particle System | Material | Water Ripples -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="e74ad321-5864-92f6-f457-99d027211ee0" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-            </children>
+			</children>
 		</node>
 	</region>
 </save>

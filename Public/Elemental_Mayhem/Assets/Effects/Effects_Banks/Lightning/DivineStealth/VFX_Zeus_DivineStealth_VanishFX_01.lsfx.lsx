@@ -47,7 +47,7 @@
 					<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
 				</node>
 			</children>
-		</node>2d09afef-dd88-4103-b8b7-12eabab1cd8b
+		</node>
 	</region>
 	<region id="Effect">
 		<node id="Effect">

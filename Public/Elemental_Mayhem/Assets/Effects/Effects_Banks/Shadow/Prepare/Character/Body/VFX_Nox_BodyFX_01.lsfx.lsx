@@ -4,25 +4,25 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Light -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
-				<node id="DependentResource">		<!-- Decal | Material | Shadow Root -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="94b377f4-c023-2295-f208-b5f19f1bb2f1" />
 				</node>
-				<node id="DependentResource">		<!-- Decal | Material | ? -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5cf4c565-1749-b0b6-a32b-e8c5f410b5d7" />
 				</node>
-				<node id="DependentResource">		<!-- Decal | Material | ?? -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="89c5127b-0f90-58eb-fb0b-d85b79727912" />
 				</node>
-				<node id="DependentResource">		<!-- Decal | Material | ??? -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5f6ed912-a569-4e90-5dd0-59efc5ba98e4" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks? -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Shadow Tendrils -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="7c2e26c1-2cd4-57f6-9817-d13ed1c490db" />
 				</node>
 			</children>
@@ -34,7 +34,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.777335" />
 							<attribute id="ID" type="guid" value="afa0f7d3-70fa-44ad-b1fe-2c507f99647d" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -72,7 +72,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light | Faint Glow-->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.679855" />
 							<attribute id="ID" type="guid" value="d4b7ae67-db52-415d-b6fb-b22fc6027f9a" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -524,7 +524,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light | Light Pulse -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.7808601" />
 							<attribute id="ID" type="guid" value="c0a0ef30-93e6-4880-b30b-45482dc7a060" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -983,7 +983,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | Shadow Root -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.681892" />
 							<attribute id="ID" type="guid" value="64606142-64d1-48af-bde0-441a9e4fe7dc" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -1531,7 +1531,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | ? -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.653837" />
 							<attribute id="ID" type="guid" value="516acbf3-deb2-4c09-a370-42b38451cf4b" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -2211,7 +2211,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | ?? -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.393224" />
 							<attribute id="ID" type="guid" value="e0522da8-3f41-4d65-8e20-c1e7a1f533bc" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -2871,7 +2871,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | ??? -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.7701634" />
 							<attribute id="ID" type="guid" value="1a19e1a2-5f17-4969-9895-a6dc2dcbe196" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -3697,7 +3697,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sparks? -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.528803" />
 							<attribute id="ID" type="guid" value="0400c251-3191-4a35-965d-d291056e26f7" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -5958,7 +5958,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Shadow Tendrils -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.777335" />
 							<attribute id="ID" type="guid" value="7bf9e314-889f-430a-98ac-9a935f866128" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />

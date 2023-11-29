@@ -4,7 +4,7 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particle System | Material | Water Ripples -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="e74ad321-5864-92f6-f457-99d027211ee0" />
 				</node>
 			</children>
@@ -16,7 +16,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="c46cb14a-a787-4f12-b2c6-d0721d0e310e" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -54,7 +54,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Water Ripples -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="accaec48-48a7-47b1-9219-27d3c121c610" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />

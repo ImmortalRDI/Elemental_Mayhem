@@ -149,151 +149,79 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Status| ApplyFX 01 -->
-					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
-					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+				<node id="Resource">		<!-- Apply -->
+					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_ApplyFX_01" />
-					<attribute id="ID" type="FixedString" value="f05239c2-7540-4713-aaac-c2af44d31841" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_EM_Arcane_ApplyFX" />
+					<attribute id="ID" type="FixedString" value="6cbbf109-0514-440c-b25a-d6195f29b716" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_ApplyFX_01" />
-					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/VFX_Status_Affliction_EM_Arcane_ApplyFX_01.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<attribute id="Name" type="LSString" value="VFX_Status_EM_Arcane_ApplyFX" />
+					<attribute id="Radius" type="float" value="6" />
+					<attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Effects/Effects_Banks/Status/VFX_Status_EM_Arcane_ApplyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
 					<children>
 						<node id="Dependencies">
 							<children>
-								
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9f055af6-a23d-c461-e57c-50448cc4fe8d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Status| ApplyFX 02 -->
-					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
-					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+				<node id="Resource">		<!-- Apply Large -->
+					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_ApplyFX_02" />
-					<attribute id="ID" type="FixedString" value="4217ff7e-425a-42b6-a4c3-2b0efb45a9cc" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_EM_Arcane_Large_ApplyFX" />
+					<attribute id="ID" type="FixedString" value="f3fbecc0-c224-4e0b-873e-a1b3216c456c" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_ApplyFX_02" />
-					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/VFX_Status_Affliction_EM_Arcane_ApplyFX_02.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<attribute id="Name" type="LSString" value="VFX_Status_EM_Arcane_Large_ApplyFX" />
+					<attribute id="Radius" type="float" value="6" />
+					<attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Effects/Effects_Banks/Status/VFX_Status_EM_Arcane_Large_ApplyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
 					<children>
 						<node id="Dependencies">
 							<children>
-								
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d1b959e1-4a69-5fb9-3711-9d39bc5edce0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e96f46e3-3998-e4b2-9dc1-18249a90c8b6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f60bc7b0-6a4b-862d-4940-ea4dafaa7317" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="54189fc8-2658-6a01-614d-1ae5ee6fe5e8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e861c0c8-a4f4-b18f-0dcb-34f1fcaa371b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Status| Stage 1 ChestFX 01 -->
-					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
-					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Stage_1_ChestFX_01" />
-					<attribute id="ID" type="FixedString" value="1e0f6e2e-b4a3-44d8-bf60-340058b76eec" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Stage_1_ChestFX_01" />
-					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/VFX_Status_Affliction_EM_Arcane_Stage_1_ChestFX_01.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">        <!-- Status| Stage 1 ChestFX 02 -->
-					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
-					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Stage_1_ChestFX_02" />
-					<attribute id="ID" type="FixedString" value="5ee5e87a-de5c-455d-9f3b-da65b90e0aba" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Stage_1_ChestFX_02" />
-					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/VFX_Status_Affliction_EM_Arcane_Stage_1_ChestFX_02.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">        <!-- Status| Stage 1 Root 01 -->
-					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
-					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Stage_1_Root_01" />
-					<attribute id="ID" type="FixedString" value="0b95ed97-5725-4cad-a2d8-f4f56bdde84f" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Stage_1_Root_01" />
-					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/VFX_Status_Affliction_EM_Arcane_Stage_1_Root_01.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">        <!-- Status| Stage 1 Root 02 -->
-					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
-					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Stage_1_Root_02" />
-					<attribute id="ID" type="FixedString" value="39ad814b-84a7-42fb-8d87-299d34e64d56" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Stage_1_Root_02" />
-					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/VFX_Status_Affliction_EM_Arcane_Stage_1_Root_02.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								
-							</children>
-						</node>
-					</children>
-				</node>
-            </children>
             <children>      <!-- Blast -->
             
             </children>

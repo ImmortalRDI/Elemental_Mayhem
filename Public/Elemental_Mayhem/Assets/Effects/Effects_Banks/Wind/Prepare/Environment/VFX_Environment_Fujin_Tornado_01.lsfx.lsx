@@ -4,7 +4,7 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particle System | Material | Debris -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="79d3616d-254a-3073-c114-c6e0cc992b38" />
 				</node>
 			</children>
@@ -16,7 +16,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="5" />
 							<attribute id="ID" type="guid" value="708b5f67-4779-4013-83f3-1967febb1e23" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -54,7 +54,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Tornado -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.088044" />
 							<attribute id="ID" type="guid" value="b9f85443-a4b7-4c49-83c8-f29c86d9462b" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2082,7 +2082,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Debris 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.664848" />
 							<attribute id="ID" type="guid" value="4a703299-f9b2-4d9a-b7f3-1dfe5635601c" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4352,7 +4352,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Vortex Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.050294" />
 							<attribute id="ID" type="guid" value="81567c86-82c4-4401-9cc8-ec8f4f6e00c6" />
 							<attribute id="Name" type="LSString" value="VortexForce" />
@@ -4476,7 +4476,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Vortex Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="6cb1320e-2889-49da-9d31-c4e0f9532d16" />
 							<attribute id="Name" type="LSString" value="VortexForce" />
@@ -4604,7 +4604,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Radial Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="7f0a3552-7dd7-4e3e-b93c-2c03d2cfb0b1" />
 							<attribute id="Name" type="LSString" value="RadialForce" />
@@ -4748,7 +4748,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Gravity Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="c9273e7d-4e61-4801-8f61-3e8092fc309b" />
 							<attribute id="Name" type="LSString" value="GravityForce" />

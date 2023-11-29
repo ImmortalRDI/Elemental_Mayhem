@@ -4,7 +4,7 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Material Particles: Sparks -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
 				</node>
 			</children>
@@ -16,7 +16,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="5" />
 							<attribute id="ID" type="guid" value="d854fb0f-cb21-477b-992d-4d8c59c95462" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -54,7 +54,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Falling Small Sparks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="12afdf72-829f-4bb1-a069-49d885d2ca4b" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -154,7 +154,7 @@
 														</node>
 														<node id="Frame">
 															<attribute id="Color" type="fvec4" value="0.6470588 0.3960785 0.6470588 1" />
-														<attribute id="Time" type="float" value="1" />
+															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
 												</node>
@@ -216,7 +216,7 @@
 													<children>
 														<node id="Frame">
 															<attribute id="Time" type="float" value="0" />
-															<attribute id="Value" type="float" value="0.30" />
+															<attribute id="Value" type="float" value="0.3" />
 														</node>
 														<node id="Frame">
 															<attribute id="Time" type="float" value="1" />
@@ -2126,7 +2126,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Falling Medium Sparks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="12afdf72-829f-4bb1-a069-49d885d2ca4b" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2288,7 +2288,7 @@
 													<children>
 														<node id="Frame">
 															<attribute id="Time" type="float" value="0" />
-															<attribute id="Value" type="float" value="0.40" />
+															<attribute id="Value" type="float" value="0.4" />
 														</node>
 														<node id="Frame">
 															<attribute id="Time" type="float" value="1" />
@@ -4198,7 +4198,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Rising Sparks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="12afdf72-829f-4bb1-a069-49d885d2ca4b" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4360,7 +4360,7 @@
 													<children>
 														<node id="Frame">
 															<attribute id="Time" type="float" value="0" />
-															<attribute id="Value" type="float" value="0.40" />
+															<attribute id="Value" type="float" value="0.4" />
 														</node>
 														<node id="Frame">
 															<attribute id="Time" type="float" value="1" />
@@ -6270,7 +6270,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Turbulence Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="5" />
 							<attribute id="ID" type="guid" value="0db6d17c-8111-4e84-9b24-e84f6a23a119" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
@@ -6388,7 +6388,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Gravity Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="5" />
 							<attribute id="ID" type="guid" value="93fb4e0e-cd89-4608-9e90-7e5de0cf7d93" />
 							<attribute id="Name" type="LSString" value="GravityForce" />

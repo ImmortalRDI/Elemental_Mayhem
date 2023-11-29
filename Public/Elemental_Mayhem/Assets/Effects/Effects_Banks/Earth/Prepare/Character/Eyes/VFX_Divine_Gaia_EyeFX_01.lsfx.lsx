@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
 	<version major="1" minor="0" revision="0" build="0" lslib_meta="v1,bswap_guids" />
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Base -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="27719714-356f-974a-f087-1de42733c954" />
 				</node>
-				<node id="DependentResource">		<!-- Material | Overlay Material 2 -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5a98bc43-85c6-30f3-58b0-9f601c93167e" />
 				</node>
-				<node id="DependentResource">		<!-- Mesh | Overlay Material 2 -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="d2b47e11-6f80-a558-c40f-9d7c66809ccc" />
 				</node>
-				<node id="DependentResource">		<!-- Mesh | Model -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="67365b1e-19f6-c7b3-f036-aa0c82302ce8" />
 				</node>
-				<node id="DependentResource">		<!-- Light 1 -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Dark Lens Flare -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
 				</node>
-				<node id="DependentResource">		<!-- Billboard | Material | Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="7fe7c4a2-c69d-5310-a7cf-c69c490c11bd" />
 				</node>
 			</children>
@@ -34,7 +34,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="21c10682-1384-461f-8bcb-4aea30a3296c" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -72,7 +72,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Eye 01 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.6" />
 							<attribute id="ID" type="guid" value="97aa1024-d20f-4be8-bfff-ed7c622efe9b" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -192,7 +192,7 @@
 											<attribute id="Type" type="uint8" value="8" />
 											<attribute id="Value" type="fvec3" value="0 0 0" />
 										</node>
-										<node id="Property">		<!-- Color -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Color" />
 											<attribute id="FullName" type="FixedString" value="Dynamic Parameters.Color" />
 											<attribute id="Type" type="uint8" value="3" />
@@ -201,11 +201,11 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -656,7 +656,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Eye 01 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="60b45cc4-a781-4674-a6fd-f5c61b6dd1af" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -841,11 +841,11 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -1005,7 +1005,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Trail -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.516762" />
 							<attribute id="ID" type="guid" value="77bae5da-fc77-444b-bf73-b628fcef420f" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -1230,1395 +1230,1395 @@
 													<attribute id="FrameType" type="uint8" value="1" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.0004962984" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.001022905" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.00157959" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.00216612" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.002782264" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.003427792" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.004102472" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.004806072" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.005538361" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.006299107" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.007088081" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.007905048" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.008749779" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.009622043" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.01052161" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.01144824" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.01240172" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.01338179" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.01438825" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.01542084" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.01647936" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.01756355" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.01867319" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.01980805" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.0209679" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.02215249" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.02336162" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.02459504" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.02585252" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.02713383" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.02843874" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.02976701" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.03111842" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.03249273" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.03388973" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.03530916" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.0367508" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.03821442" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.03969979" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.04120667" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.04273484" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.04428406" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.0458541" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.04744474" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.04905573" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.05068685" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.05233787" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.05400856" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.05569867" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.057408" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.05913629" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.06088332" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.06264886" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.06443268" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.06623454" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.06805421" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.06989148" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.0717461" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.07361782" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.07550644" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.07741172" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.07933342" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.08127132" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.08322518" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.08519478" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.08717987" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.08918023" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.09119563" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.09322584" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.09527062" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.09732974" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.09940298" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1014901" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1035909" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1057051" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1078324" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1099727" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1121258" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1142913" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1164692" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.118659" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1208606" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1230738" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1252984" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.127534" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1297805" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1320377" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1343052" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.136583" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1388707" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1411681" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1434749" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1457911" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1481163" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1504502" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1527927" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1551436" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1575025" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1598693" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1622438" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1646256" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1670146" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1694106" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1718132" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1742224" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1766378" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1790592" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1814863" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1839191" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1863571" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1888002" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1912482" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1937009" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1961579" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1986191" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2010842" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.203553" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2060253" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2085008" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2109793" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2134606" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2159444" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2184306" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2209188" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2234089" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2259006" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2283937" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2308879" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2333831" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2358789" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2383753" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2408718" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2433684" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2458647" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2483605" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2508557" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2533499" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.255843" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2583346" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2608247" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2633129" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.265799" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2682828" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2707641" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2732425" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.275718" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2781902" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.280659" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.283124" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2855851" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2880421" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.2904946" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.3985102" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.5636251" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.5955059" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.5977178" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.5999214" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6021169" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6043043" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6064838" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6086553" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.610819" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6129751" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6151234" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6172643" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6193976" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6215237" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6236424" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6257539" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6278583" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6299558" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6320462" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6341298" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6362067" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6382769" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6403404" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6423975" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6444482" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6464926" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6485307" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6505627" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6525887" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6546085" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6566226" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6586308" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6606334" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6626303" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6646217" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6666076" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6685882" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6705635" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6725335" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6744985" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6764585" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6784135" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6803637" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6823092" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6842499" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6861862" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6881179" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6900452" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6919682" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6938869" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6958016" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6977121" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.6996188" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7015214" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7034203" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7053155" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7072071" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7090952" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7109798" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7128611" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.714739" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7166138" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7184855" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7203542" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7222199" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7240829" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7259431" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7278006" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7296556" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7315081" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7333581" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7352059" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7370514" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7388948" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7407361" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7425755" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.744413" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7462487" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7480828" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7499152" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7517461" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7535755" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7554036" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7572304" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.759056" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7608806" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7627042" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7645268" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7663486" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7681697" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7699901" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7718099" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7736292" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7754483" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7772669" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7790853" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7809037" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7827219" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7845402" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7863587" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7881773" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7899963" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7918156" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7936355" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7954559" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7972769" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7990987" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8009213" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8027449" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8045694" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8063951" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8082218" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.81005" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8118793" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8137102" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8155426" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8173766" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8192123" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8210499" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8228892" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8247305" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8265739" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8284194" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8302671" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8321172" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8339697" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8358246" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8376821" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8395423" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8414052" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.843271" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8451397" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8470114" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8488862" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8507641" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8526453" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8545299" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.856418" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8583096" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8602048" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8621036" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8640063" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.865913" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8678235" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8697381" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8716568" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8735799" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8755071" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8774388" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.879375" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8813158" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8832612" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8852115" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8871664" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8891264" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8910914" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8930615" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8950368" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8970173" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.8990032" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9009945" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9029915" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.904994" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9070023" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9090163" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9110363" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9130621" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9150941" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9171322" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9191766" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9212272" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9232844" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9253479" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9274181" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9294949" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9315786" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.933669" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9357665" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9378708" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9399824" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.942101" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.944227" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9463605" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9485012" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9506496" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9528056" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9549694" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9571409" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9593203" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9615077" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9637032" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9659069" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.9681187" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -3227,7 +3227,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="63222e9c-ebf6-417d-8e4d-f75c4a9d67d2" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -3300,15 +3300,15 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.7406181" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -3621,7 +3621,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.3" />
 							<attribute id="ID" type="guid" value="306e98b3-ec11-44f3-934b-246693106959" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -3690,11 +3690,11 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -4007,7 +4007,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Dark Lens Flare -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.463138" />
 							<attribute id="ID" type="guid" value="f98691f6-6efb-465f-9082-d1f21669b34a" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4032,11 +4032,11 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -6047,7 +6047,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Light Lens Flare -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.463138" />
 							<attribute id="ID" type="guid" value="a1093e1d-1331-4a57-8e10-95e4f06ba55e" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -8136,7 +8136,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Billboard | Glow -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="17e06c52-94e4-4719-9973-626617f1f1ad" />
 							<attribute id="Name" type="LSString" value="Billboard" />
@@ -8185,15 +8185,15 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0.1978723" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -8202,11 +8202,11 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.25818290 0.05951124 0.00651209 1" />
+															<attribute id="Color" type="fvec4" value="0.2581829 0.05951124 0.00651209 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>

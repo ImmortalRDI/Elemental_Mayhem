@@ -34,7 +34,6 @@
 				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
 				</node>
-
 				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
 				</node>
@@ -113,7 +112,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="5" />
 							<attribute id="ID" type="guid" value="1bab66fc-6e98-415e-ad5e-925bcaea0a18" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />

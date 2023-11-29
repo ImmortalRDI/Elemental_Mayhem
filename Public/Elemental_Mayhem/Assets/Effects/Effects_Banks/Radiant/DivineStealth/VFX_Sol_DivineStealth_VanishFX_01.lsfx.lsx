@@ -31504,7 +31504,7 @@
 									</children>
 								</node>
 							</children>
-						</node>						
+						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.25" />
 							<attribute id="ID" type="guid" value="43e885a3-7d48-4318-a517-16db1053abbd" />

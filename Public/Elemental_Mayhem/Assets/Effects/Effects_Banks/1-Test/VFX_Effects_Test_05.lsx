@@ -2,19 +2,19 @@
 <save>
 	<version major="1" minor="0" revision="0" build="0" lslib_meta="v1,bswap_guids" />
 	<region id="Dependencies">
-		<node id="Dependencies">
-			<children>
-				
-			</children>
-		</node>
+		<node id="Dependencies" />
 	</region>
 	<region id="Effect">
 		<node id="Effect">
 			<attribute id="Duration" type="float" value="4" />
 			<children>
-				<node id="EffectComponents">
+				<node id="EffectComponents" />
+				<node id="Inputs">
 					<children>
-						
+						<node id="Input">
+							<attribute id="Name" type="FixedString" value="Target Visual" />
+							<attribute id="Type" type="uint8" value="1" />
+						</node>
 					</children>
 				</node>
 			</children>

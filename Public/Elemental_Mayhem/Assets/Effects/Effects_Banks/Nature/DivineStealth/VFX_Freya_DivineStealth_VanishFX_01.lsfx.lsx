@@ -4,22 +4,22 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 1  -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="c6fda780-caf8-aeec-f9ee-9e03d82da56b" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 2  -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="79c52dd2-7ff6-c48f-de45-56bf10dc416d" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 3  -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="8ea24cf5-224d-4704-4fa6-69b18f9c067b" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks  -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Shockwave  -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="27d6becf-276a-309a-6a32-f0c8ac7ac980" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Shockwave  -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
 				</node>
 				<node id="DependentResource">
@@ -34,7 +34,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="5" />
 							<attribute id="ID" type="guid" value="d7aef6ff-51e0-43bf-89a5-ba35ced2c9a7" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -72,7 +72,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Inward Shockwave -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.011302" />
 							<attribute id="ID" type="guid" value="fd301e8e-d0eb-4353-a72d-9903d848767e" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2183,7 +2183,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Leaves 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.116989" />
 							<attribute id="ID" type="guid" value="b56830b1-e8f6-46f7-bf2d-d99363985c58" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4223,7 +4223,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Leaves 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.116989" />
 							<attribute id="ID" type="guid" value="f9c57633-13cb-41ed-b45e-967583fed061" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6263,7 +6263,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Leaves 3 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.031607" />
 							<attribute id="ID" type="guid" value="c9795696-62a2-4835-84ea-839d35f80fe6" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -8303,7 +8303,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sparks Disappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.5" />
 							<attribute id="ID" type="guid" value="4109f172-1752-4382-9bd1-bbb35830a9dd" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -10545,8 +10545,8 @@
 									</children>
 								</node>
 							</children>
-						</node>						
-						<node id="EffectComponent">		<!-- Particle System | Shockwave -->
+						</node>
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.2118993" />
 							<attribute id="ID" type="guid" value="0d13864d-9fec-4946-ad2c-37a3c8ac0336" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -13977,7 +13977,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Spin Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.391844" />
 							<attribute id="ID" type="guid" value="6e4d29b3-3d6b-41ae-a679-47e7a0e81acc" />
 							<attribute id="Name" type="LSString" value="SpinForce" />
@@ -14109,7 +14109,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Spin Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.907065" />
 							<attribute id="ID" type="guid" value="0104f117-1854-4fc8-8c2a-a399792d4329" />
 							<attribute id="Name" type="LSString" value="SpinForce" />
@@ -14233,7 +14233,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Turbulence Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.525582" />
 							<attribute id="ID" type="guid" value="1cf23998-7955-4f61-ac2f-6ad91bc66843" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
@@ -14351,7 +14351,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Turbulence Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.799645" />
 							<attribute id="ID" type="guid" value="a5747fb4-cda5-45e3-9a73-f4692b6076d8" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
@@ -14473,7 +14473,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Gravity Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.090628" />
 							<attribute id="ID" type="guid" value="32257354-82ba-40b6-a43f-065fb7017d0b" />
 							<attribute id="Name" type="LSString" value="GravityForce" />
@@ -14597,7 +14597,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Gravity Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.676344" />
 							<attribute id="ID" type="guid" value="16b8479c-69b8-4bfb-9849-3ccb51e2d42b" />
 							<attribute id="Name" type="LSString" value="GravityForce" />

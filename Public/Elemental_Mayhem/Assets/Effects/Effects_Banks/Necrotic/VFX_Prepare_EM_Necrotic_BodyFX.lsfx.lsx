@@ -9,10 +9,10 @@
 				</node>
 				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
-				</node>		
+				</node>
 				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
-				</node>		
+				</node>
 				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
 				</node>

@@ -4,19 +4,19 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particle System | Material | Small Rain -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="c3dba0b9-f229-f2a4-bc83-a98b05683f08" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Rain Refraction -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="4636a4af-d184-9897-ece7-1fe4fcf2f7ca" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Water -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="b0f05efc-6b4a-b3f7-08fe-5aabb32d69a9" />
 				</node>
-				<node id="DependentResource">		<!-- Sound | Rolling Thunder -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="c3c2f72c-06cc-4d6c-9312-a52aab19d4d0" />
 				</node>
-				<node id="DependentResource">		<!-- Sound | Heavy Rain -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="2605101d-fd24-44e0-8250-85a22aab2bf9" />
 				</node>
 			</children>
@@ -28,7 +28,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="e9f1ecb6-4815-44e7-98b3-0cdcc26c5572" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -66,7 +66,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Small Rain -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.75" />
 							<attribute id="ID" type="guid" value="7e495d75-4035-4c1b-832f-34027bd04533" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2108,7 +2108,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Rain Lines -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.75" />
 							<attribute id="ID" type="guid" value="c5bf82eb-a2f4-4ef2-a289-056f6f64eeab" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4158,7 +4158,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Rain Refraction -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.75" />
 							<attribute id="ID" type="guid" value="9ed45dc4-a9e1-4456-a7b2-4070b53b8f15" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6204,7 +6204,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Rain Refraction -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.75" />
 							<attribute id="ID" type="guid" value="be4a7a5f-2054-462e-a2a8-b4e50f20c405" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -8250,7 +8250,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Water -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="74cfca79-58a1-4329-b77e-ac03c12952bb" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -10314,7 +10314,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Sound -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="014af9c1-a385-42d2-b2cf-e94a88441872" />
 							<attribute id="Name" type="LSString" value="Sound" />
@@ -10364,7 +10364,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Sound -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="014af9c1-a385-42d2-b2cf-e94a88441872" />
 							<attribute id="Name" type="LSString" value="Sound" />
@@ -10386,13 +10386,13 @@
 											<attribute id="Type" type="uint8" value="1" />
 											<attribute id="Value" type="int32" value="0" />
 										</node>
-										<node id="Property"><!-- 5a6afb6f-c1b7-451d-840f-f8976256b969 -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Enter Event" />
 											<attribute id="FullName" type="FixedString" value="Enter Event" />
 											<attribute id="Type" type="uint8" value="10" />
 											<attribute id="Value" type="FixedString" value="2605101d-fd24-44e0-8250-85a22aab2bf9" />
 										</node>
-										<node id="Property"><!--  -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Resume Event" />
 											<attribute id="FullName" type="FixedString" value="Resume Event" />
 											<attribute id="Type" type="uint8" value="10" />
@@ -10461,5 +10461,5 @@
 				</node>
 			</children>
 		</node>
-	</region>	
+	</region>
 </save>

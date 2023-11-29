@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>		<!-- DIVINE STEALTH VFX -->
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-	<version major="4" minor="0" revision="9" build="328" />
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="EffectBank">
 		<node id="EffectBank">
-			
-			<children>		<!-- Fire -->
-				<node id="Resource">		<!-- VANISH -->
+			<children>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -88,7 +87,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="20 20 20" />
 					<attribute id="BoundsMin" type="fvec3" value="-20 -20 -20" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -168,10 +167,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			
-			<children>		<!-- Nature -->
-				<node id="Resource">		<!-- VANISH -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -190,22 +186,22 @@
 					<children>
 						<node id="Dependencies">
 							<children>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 1  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="c6fda780-caf8-aeec-f9ee-9e03d82da56b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 2  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="79c52dd2-7ff6-c48f-de45-56bf10dc416d" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 3  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="8ea24cf5-224d-4704-4fa6-69b18f9c067b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Sparks  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Material | Shockwave  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="27d6becf-276a-309a-6a32-f0c8ac7ac980" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Shockwave  -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
 								</node>
 								<node id="DependentResource">
@@ -215,7 +211,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -234,34 +230,32 @@
 					<children>
 						<node id="Dependencies">
 							<children>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 1 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="c6fda780-caf8-aeec-f9ee-9e03d82da56b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 2 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="79c52dd2-7ff6-c48f-de45-56bf10dc416d" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Leaves 3 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="8ea24cf5-224d-4704-4fa6-69b18f9c067b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Final Leaf Burst -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="c6fda780-caf8-aeec-f9ee-9e03d82da56b" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Branches 1 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="483a5210-cf0f-4b1e-114a-d16c7ea23567" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Branches 2 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="c183925b-a170-49e9-74d6-ed89bb1881d1" />
 								</node>
-								<node id="DependentResource">		<!-- Particle System | Mesh | Branches 2 -->
+								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="09a73ebb-bef2-4f59-a8c9-91e9efbec04b" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>		<!-- Wind -->
-				<node id="Resource">		<!-- VANISH -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="8 8 8" />
 					<attribute id="BoundsMin" type="fvec3" value="-8 -8 -8" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -323,7 +317,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -397,9 +391,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>		<!-- Wind -->
-				<node id="Resource">		<!-- Wind -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -461,7 +453,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
 					<attribute id="Center" type="fvec3" value="0 0 -0.5" />
@@ -535,9 +527,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>		<!-- Psychic -->
-				<node id="Resource">		<!-- VANISH -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="8 8 8" />
 					<attribute id="BoundsMin" type="fvec3" value="-8 -8 -8" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -611,7 +601,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -679,9 +669,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>		<!-- Blood -->
-				<node id="Resource">		<!-- VANISH -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="14 14 14" />
 					<attribute id="BoundsMin" type="fvec3" value="-14 -14 -14" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -740,7 +728,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="16 16 16" />
 					<attribute id="BoundsMin" type="fvec3" value="-16 -16 -16" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -784,9 +772,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>		<!-- Shadow -->
-				<node id="Resource">		<!-- VANISH -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="8 8 8" />
 					<attribute id="BoundsMin" type="fvec3" value="-8 -8 -8" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -804,7 +790,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
-							<children>				
+							<children>
 								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="d2a8f03f-2d1b-9722-556a-17c2b8b0b7ea" />
 								</node>
@@ -824,7 +810,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="8 8 8" />
 					<attribute id="BoundsMin" type="fvec3" value="-8 -8 -8" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -871,9 +857,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>		<!-- Force -->
-				<node id="Resource">		<!-- VANISH -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="14 14 14" />
 					<attribute id="BoundsMin" type="fvec3" value="-14 -14 -14" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -891,7 +875,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
-							<children>				
+							<children>
 								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 								</node>
@@ -935,7 +919,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1000,9 +984,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>		<!-- Radiant -->
-				<node id="Resource">		<!-- VANISH -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1094,7 +1076,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1165,9 +1147,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>		<!-- Thunder -->
-				<node id="Resource">		<!-- VANISH -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1229,7 +1209,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1276,9 +1256,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>		<!-- Water -->
-				<node id="Resource">		<!-- VANISH -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
 					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1291,7 +1269,7 @@
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="VFX_Water_Target_Stealth_EM_VanishFX_01" />
-					<attribute id="Radius" type="float" value="10 " />
+					<attribute id="Radius" type="float" value="10" />
 					<attribute id="SourceFile" type="LSString" value="Public/Mythical_Power_Balanced/Assets/Effects/Effects_Banks/VFX_Water_Target_Stealth_EM_VanishFX_01.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
@@ -1346,7 +1324,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="8 8 8" />
 					<attribute id="BoundsMin" type="fvec3" value="-8 -8 -8" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1402,9 +1380,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>		<!-- Cold -->
-				<node id="Resource">		<!-- VANISH -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
 					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1454,7 +1430,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
 					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1522,9 +1498,7 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>		<!-- Lightning -->
-				<node id="Resource">		<!-- VANISH -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7.5 7.5 7.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-7.5 -7.5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1589,7 +1563,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- APPEAR -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="7.5 7.5 7.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-7.5 -7.5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />

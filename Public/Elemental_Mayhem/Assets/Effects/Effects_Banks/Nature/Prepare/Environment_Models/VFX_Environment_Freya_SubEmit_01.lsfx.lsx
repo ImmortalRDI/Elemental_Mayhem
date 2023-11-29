@@ -4,16 +4,16 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Model | Mesh | Plants 1 -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="0a4f646f-dc2d-2b2f-f6ec-ebe300b9a465" />
 				</node>
-				<node id="DependentResource">		<!-- Model | Mesh | Plants 2 -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="83426207-1645-4d1a-915a-4d209a1e7861" />
 				</node>
-				<node id="DependentResource">		<!-- Model | Mesh | Plants 3 -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="f5ebe398-7258-4986-e86b-ba99e0844809" />
 				</node>
-				<node id="DependentResource">		<!-- Model | Mesh | Plants 4 -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="740ae55b-676a-438b-bad4-d997da97ae46" />
 				</node>
 			</children>
@@ -25,7 +25,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="0fe02bff-92a5-4dfd-a30a-9313e328842f" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -63,7 +63,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Plants 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="a42f96b4-9410-473f-88be-e7c5fa945982" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -941,7 +941,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Plants 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="f76e5af5-0b26-4563-aa20-4724d4a69811" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -1819,7 +1819,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Plants 3 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="c3930924-272e-447c-9eba-5289328f6a10" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -2697,7 +2697,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Plants 4 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="9dc318a2-fe10-471a-bfa2-e0bc5c874f05" />
 							<attribute id="Name" type="LSString" value="Model" />

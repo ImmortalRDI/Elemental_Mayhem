@@ -24,4 +24,64 @@
     "files.associations": {
         "*.txt": "bg3txt"
     }
+},
+{
+    "workbench.settings.applyToAllProfiles": [
+        "terminal.integrated.wordSeparators",
+        "markdown.extension.toc.orderedList"
+    ],
+    "editor.wordSeparators": "`~!@#$%^&*=+[{]}\\()|;:'\",<>/?.",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.wordWrap": "on",
+    "workbench.editor.tabSizing": "fixed",
+    "php.validate.executablePath": "",
+    "editor.largeFileOptimizations": false,
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "explorer.confirmDragAndDrop": false,
+    "auto-close-tag.fullMode": true,
+    "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+    "auto-close-tag.disableOnLanguage": [],
+    "closeTag.ignoreTags": "",
+    "explorer.autoReveal": false,
+    "breadcrumbs.enabled": false,
+    "search.collapseResults": "alwaysCollapse",
+    "interactiveWindow.collapseCellInputCode": "always",
+    "python.autoComplete.extraPaths": [],
+    "editor.suggest.selectionMode": "whenTriggerCharacter",
+    "outline.collapseItems": "alwaysCollapse",
+    "emmet.extensionsPath": [
+        "(?<=type=\"fvec4\" value=\")[\\d\\. ]+"
+    ],
+    "workbench.colorTheme": "Activate UMBRA protocol",
+    "notebook.find.scope": {
+        "markupSource": true,
+        "markupPreview": true,
+        "codeSource": true,
+        "codeOutput": true
+    },
+    "explorer.confirmDelete": false,
+    "python.analysis.extraPaths": [],
+    "editor.inlineSuggest.enabled": false,
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.wordBasedSuggestionsMode": "currentDocument",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.foldingImportsByDefault": true,
+    "editor.showFoldingControls": "always",
+    "editor.unfoldOnClickAfterEndOfLine": true,
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.tableFormatter.enabled": false,
+    "markdown.extension.toc.omittedFromToc": {},
+    "markdown.extension.toc.orderedList": true,
+    "markdown.extension.toc.unorderedList.marker": "*",
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "ConvertEMFiles",
+                "isAsync": true,
+                "cmd": "echo 'I CONVERTED!'"
+            }
+        ]
+    },
 }

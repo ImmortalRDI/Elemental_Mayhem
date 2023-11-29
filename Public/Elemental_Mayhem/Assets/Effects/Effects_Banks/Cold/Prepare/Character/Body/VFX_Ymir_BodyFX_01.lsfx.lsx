@@ -4,24 +4,24 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Light -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
-				<node id="DependentResource">		<!-- Billboard | Aura -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="2a38d9a3-bedf-632f-bff5-1651b501950b" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Mist -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="165ee4b3-305c-66a3-3781-b3267afe0400" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Snowflakes -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="2df93534-6c0e-869d-a0ff-3313e9134113" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="045b1ae1-14fa-13f9-878d-a060fd10b0b6" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
-				</node>				
+				</node>
 			</children>
 		</node>
 	</region>
@@ -31,7 +31,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="10" />
 							<attribute id="ID" type="guid" value="3bd543d8-01eb-4103-b63f-6480bc077983" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -69,7 +69,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="bf0db6ed-0889-4362-a918-b8b31b5a4342" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -507,7 +507,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Billboard | Aura -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="2b9400a5-c124-4d8c-a23d-2ea60ccc4f15" />
 							<attribute id="Name" type="LSString" value="Billboard" />
@@ -925,8 +925,8 @@
 									</children>
 								</node>
 							</children>
-						</node>						
-						<node id="EffectComponent">		<!-- Particle System | Mist -->
+						</node>
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="9bdf66ab-736e-473b-af13-25a9a44865ba" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -3124,7 +3124,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Snowflakes -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.59987" />
 							<attribute id="ID" type="guid" value="52a271fc-3280-4eaf-9a5a-83410dc91e66" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -5262,7 +5262,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="c80815f5-df1c-44f6-a2e2-56870d655543" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />

@@ -4,40 +4,40 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Light -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
-				<node id="DependentResource">		<!-- Model | Mesh | Refraction -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="353e9c91-8f9c-b243-7039-0b262609ccef" />
 				</node>
-				<node id="DependentResource">		<!-- Billboard | Material | Aura -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="65b01850-98c6-0135-6e7c-78b362b0cf25" />
 				</node>
-				<node id="DependentResource">		<!-- Billboard | Material | Background -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="fb21ca3c-3b37-b5b8-86cd-c7feaead109d" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Circles -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="332f5caf-d6a6-b343-3a24-acbd3a0b5b30" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Pulse -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Distortion -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="7bdafec7-27dd-539a-e30b-3a3fb9311196" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Lens Flare -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | AoE Beat -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="1f1e674c-ccf6-1063-8e53-a1bfc98d5939" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Polar -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="68791d64-cecb-5475-0e53-564e65286aa7" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="cf1c25e2-c57d-9362-a8b7-8b2c020a33bf" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
 				</node>
 			</children>
@@ -49,7 +49,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="cd0cbb58-6380-4141-bdc5-e8d650b13784" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -87,7 +87,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="47162b68-d614-4b0b-b46d-be27cc213806" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -481,7 +481,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Camera Shake -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.45" />
 							<attribute id="ID" type="guid" value="9861fedc-1f97-4f42-8894-3ad35fad9aea" />
 							<attribute id="Name" type="LSString" value="CameraShake" />
@@ -548,7 +548,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Refraction -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.175962" />
 							<attribute id="ID" type="guid" value="4876ec01-90cd-4f71-96d8-330933988217" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -667,11 +667,11 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -1216,7 +1216,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Billboard | Aura -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="8345aa19-4061-470f-a0b7-60c1e1f61258" />
 							<attribute id="Name" type="LSString" value="Billboard" />
@@ -1635,7 +1635,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Billboard | Background -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="8bf2a874-6417-46d4-bf2c-5e2a540dc559" />
 							<attribute id="Name" type="LSString" value="Billboard" />
@@ -1831,11 +1831,11 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -2054,7 +2054,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Small Circles -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="6950c70d-9ceb-4a03-9fbc-7921780663e6" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2079,15 +2079,15 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="0.5" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -4194,7 +4194,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Large Circles 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="3113e317-624d-4824-a09c-5a4aca516a86" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -5317,15 +5317,15 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="0.25" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -6330,7 +6330,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Large Circles 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.1" />
 							<attribute id="ID" type="guid" value="8903545b-72ac-4a86-b9dd-ff4efd32b96d" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -7476,15 +7476,15 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="0.5" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -8489,7 +8489,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Pulse -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="6e1f548f-3198-4cad-8756-a44c87a05610" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -10629,7 +10629,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Distortion -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6" />
 							<attribute id="ID" type="guid" value="a9a91f1e-8e1c-4391-a775-c319de8893e0" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -12787,8 +12787,8 @@
 									</children>
 								</node>
 							</children>
-						</node>											
-						<node id="EffectComponent">		<!-- Particle System | Horizontal Lens Flare -->
+						</node>
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.09999999" />
 							<attribute id="ID" type="guid" value="2450b00b-c5d6-4f7c-b5fb-c76a2d637335" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -14854,7 +14854,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Large AoE Beat -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.1" />
 							<attribute id="ID" type="guid" value="c69a5ac6-d52c-4ef9-8091-931e41dcdd9e" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -17013,7 +17013,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Bright Polar -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6797248" />
 							<attribute id="ID" type="guid" value="ec6734e9-7937-4a90-bdfb-c348aca194e8" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -20569,7 +20569,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="ac2dfd3d-d79b-4858-875a-04739aaca8f7" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -20689,19 +20689,19 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="0.1" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="0.65" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.26225070 0.26225070 0.26225070 1" />
+															<attribute id="Color" type="fvec4" value="0.2622507 0.2622507 0.2622507 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>

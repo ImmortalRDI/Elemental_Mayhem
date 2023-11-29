@@ -4,19 +4,19 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Swirl -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="177ee666-db1b-7f9d-04fb-e2202c30c7fd" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Swirl -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="811220a1-2b46-b5af-73fb-02576e77d0f1" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Barkskin -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="ed9423d0-45aa-4a3e-b41e-25b55ef3a031" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Barkskin -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
 				</node>
 			</children>
@@ -28,7 +28,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.6" />
 							<attribute id="ID" type="guid" value="2804818f-c22d-415c-81bd-103a393ab949" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -66,7 +66,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sparks -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.601315" />
 							<attribute id="ID" type="guid" value="b11f3330-29b5-4f93-bd1e-a7dcf985f81f" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2339,7 +2339,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Swirl -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="cbb98a03-24f4-4193-8312-fae6ee3a43e6" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4769,7 +4769,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Barkskin -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.65" />
 							<attribute id="ID" type="guid" value="56c8efae-bed2-4399-a069-97184f2372d9" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />

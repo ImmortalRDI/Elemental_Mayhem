@@ -3,7 +3,7 @@
 	<version major="1" minor="0" revision="0" build="0" lslib_meta="v1,bswap_guids" />
 	<region id="Dependencies">
 		<node id="Dependencies">
-			<children>				
+			<children>
 				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="aec65f11-6861-4631-9329-bf22e7d2d2f4" />
 				</node>
@@ -46,7 +46,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						 <node id="EffectComponent">
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="8328efad-793c-4dec-ab8c-add51424a936" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />

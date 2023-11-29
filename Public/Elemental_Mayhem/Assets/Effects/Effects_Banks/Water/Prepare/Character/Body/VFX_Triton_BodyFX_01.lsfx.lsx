@@ -4,7 +4,7 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particle System | Material | Bubbles -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="6f794bd9-c58f-2996-eb14-71fb7e611776" />
 				</node>
 			</children>
@@ -16,7 +16,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="378fae27-5c07-45e1-acfa-042dc6d3ca6c" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -54,7 +54,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Bubbles -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="f9428e43-76a0-4ccd-9f2d-e420e06afe4e" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2108,7 +2108,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Turbulance Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="9a71a9a5-24f6-44b4-a640-e699de2c7fbc" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />

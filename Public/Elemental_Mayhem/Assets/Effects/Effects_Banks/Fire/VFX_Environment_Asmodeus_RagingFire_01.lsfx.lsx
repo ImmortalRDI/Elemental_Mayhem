@@ -4,13 +4,13 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particle System | Material | Smoke -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5d62dfd8-e3a6-a3d8-7a8d-477560caa288" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Ground Fire -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="a0998003-12c2-93ef-c686-797451ed2d9b" />
 				</node>
 			</children>
@@ -22,7 +22,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="5" />
 							<attribute id="ID" type="guid" value="52c54866-e024-4fa9-9c4a-9e506eff978d" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -60,7 +60,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Smoke -->
+						<node id="EffectComponent">
 							<attribute id="Type" type="LSString" value="ParticleSystem" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="ID" type="guid" value="64d3a569-e4a4-4c20-85da-e19975ebe5e2" />
@@ -3922,7 +3922,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sphere Sparks -->
+						<node id="EffectComponent">
 							<attribute id="Type" type="LSString" value="ParticleSystem" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="ID" type="guid" value="e5f32d3c-4d62-46d9-9b1d-22e0906c222a" />
@@ -9578,7 +9578,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Line Sparks -->
+						<node id="EffectComponent">
 							<attribute id="Type" type="LSString" value="ParticleSystem" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="ID" type="guid" value="b22326fc-de53-4ab8-80f8-141a52fb9bb2" />
@@ -14604,7 +14604,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Ground Fire -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.2" />
 							<attribute id="ID" type="guid" value="873b89e2-7937-4834-9978-71e05b2d66dc" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -16715,7 +16715,6 @@
 								</node>
 							</children>
 						</node>
-						
 					</children>
 				</node>
 				<node id="Phases">

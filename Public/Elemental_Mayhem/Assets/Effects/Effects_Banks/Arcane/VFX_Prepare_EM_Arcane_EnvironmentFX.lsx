@@ -85,7 +85,7 @@
 											<attribute id="Type" type="uint8" value="7" />
 											<attribute id="Value" type="LSString" value="Light" />
 										</node>
-										<node id="Property">		
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Intensity" />
 											<attribute id="FullName" type="FixedString" value="Appearance.Intensity" />
 											<attribute id="Type" type="uint8" value="6" />
@@ -313,7 +313,7 @@
 															<attribute id="Time" type="float" value="0.65" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.1651322 0.81484661 1 1" />
+															<attribute id="Color" type="fvec4" value="0.1651322 0.8148466 1 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>

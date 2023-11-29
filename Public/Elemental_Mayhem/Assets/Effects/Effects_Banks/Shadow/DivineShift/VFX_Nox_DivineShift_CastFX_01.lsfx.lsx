@@ -4,28 +4,28 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Decal | Material | Black Smoke -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="d2a8f03f-2d1b-9722-556a-17c2b8b0b7ea" />
 				</node>
-				<node id="DependentResource">		<!-- Decal | Material | Black Smoke Root -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5c8c264d-95d6-6198-5c13-79aabf14521a" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Bats -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="65143f11-7982-aae7-8e2d-4d7c2cc2f115" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Black Smoke Ripple -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="b7affa60-34c3-a900-3e64-4ddcb6280901" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Invisible -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="a3c36b9f-f82d-2fd7-168f-4b43038bd8ef" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Invisible -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="c78578f1-c704-032e-ac2d-f704b041c05f" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="18066597-f0b8-287f-d768-017f05f2db45" />
 				</node>
 			</children>
@@ -37,7 +37,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="21b23b06-5ed8-49bd-bff3-d022cd0641f7" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -75,7 +75,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | Black Smoke -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="4976e271-e7a6-4c1f-bf15-bfb9cfc7cb61" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -622,7 +622,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | Black Smoke Root -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="89f8c537-f615-4d5a-b69c-90d6dcc0d3e2" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -1221,7 +1221,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Large Bats -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.4" />
 							<attribute id="ID" type="guid" value="06142be5-d78d-4723-ad68-35a060e37cd3" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -3285,7 +3285,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Large Bats -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.4" />
 							<attribute id="ID" type="guid" value="cd417f58-3142-4d71-8d5f-f9cf6a3d9d8f" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -5349,7 +5349,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Black Smoke Root Ripples -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.8" />
 							<attribute id="ID" type="guid" value="f2a20d7c-7533-482d-a24f-244def926439" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -7931,7 +7931,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Black Smoke Ripples -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="ef0c56c2-cde5-4e74-b335-c2ac15c93c94" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -10351,7 +10351,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Glow Fade Out -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.35" />
 							<attribute id="ID" type="guid" value="d30089c5-f85d-435e-8b92-870c6a923404" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -10691,7 +10691,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Glow Fade In -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2" />
 							<attribute id="ID" type="guid" value="db2a867f-aac2-44ec-a8cb-ec68cec8bd03" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -11051,7 +11051,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Disappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.7489629" />
 							<attribute id="ID" type="guid" value="cc83e31b-e97e-4ab9-8eba-b1a20056e1df" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -11131,11 +11131,11 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.19461780 0.00030353 0.00030353 1" />
+															<attribute id="Color" type="fvec4" value="0.1946178 0.00030353 0.00030353 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.19461780 0.00030353 0.00030353 1" />
+															<attribute id="Color" type="fvec4" value="0.1946178 0.00030353 0.00030353 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -11383,7 +11383,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Reappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.040838" />
 							<attribute id="ID" type="guid" value="0357662d-a3cb-454f-b0de-56ac62bffeae" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -11463,11 +11463,11 @@
 													<attribute id="FrameType" type="uint8" value="0" />
 													<children>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.19461780 0.00030353 0.00030353 1" />
+															<attribute id="Color" type="fvec4" value="0.1946178 0.00030353 0.00030353 1" />
 															<attribute id="Time" type="float" value="0" />
 														</node>
 														<node id="Frame">
-															<attribute id="Color" type="fvec4" value="0.19461780 0.00030353 0.00030353 1" />
+															<attribute id="Color" type="fvec4" value="0.1946178 0.00030353 0.00030353 1" />
 															<attribute id="Time" type="float" value="1" />
 														</node>
 													</children>
@@ -11715,7 +11715,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Vortex Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.050294" />
 							<attribute id="ID" type="guid" value="e3857e74-7729-4960-9b04-bb307289c505" />
 							<attribute id="Name" type="LSString" value="VortexForce" />
@@ -11839,7 +11839,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Vortex Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="62b05633-5bcb-40ea-99ec-9bc0a1d32206" />
 							<attribute id="Name" type="LSString" value="VortexForce" />
@@ -11967,7 +11967,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Radial Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="ebbb5720-c241-4611-be80-417810c30b07" />
 							<attribute id="Name" type="LSString" value="RadialForce" />
@@ -12111,7 +12111,6 @@
 								</node>
 							</children>
 						</node>
-						
 					</children>
 				</node>
 				<node id="Inputs">

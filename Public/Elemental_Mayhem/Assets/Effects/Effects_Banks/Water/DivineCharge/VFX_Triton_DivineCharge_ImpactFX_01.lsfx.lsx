@@ -16,7 +16,7 @@
 				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="f179fd76-c396-8150-e043-41bb51796399" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Water Splash  -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="0666ffbf-7041-02a2-61b5-a75758e59f36" />
 				</node>
 			</children>
@@ -10498,7 +10498,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Water Splash -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="842ae987-9dda-4ec2-8b8a-26863f8e8321" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />

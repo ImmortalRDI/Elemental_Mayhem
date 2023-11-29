@@ -4,13 +4,13 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Thin Air -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="411e7182-7dfd-e032-7e1b-e12f50378937" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Thin Air -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="cd2bd0dc-e056-920b-0ad4-ba0bd437a8fd" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Shockwave  -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="27d6becf-276a-309a-6a32-f0c8ac7ac980" />
 				</node>
 			</children>
@@ -60,7 +60,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Shockwave -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.2118993" />
 							<attribute id="ID" type="guid" value="0a0a57eb-4bb1-4f29-96ad-92de91fe9896" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -3491,7 +3491,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Thin Air -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.65" />
 							<attribute id="ID" type="guid" value="b2f65fc4-388e-4ac4-9d7f-4a9e0fcf04e6" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />

@@ -4,10 +4,10 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particles: Bats -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="65143f11-7982-aae7-8e2d-4d7c2cc2f115" />
 				</node>
-				<node id="DependentResource">		<!-- Particles: Fog -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="ad0a39f6-c2f3-45e2-b3e0-5626f32f462a" />
 				</node>
 			</children>
@@ -19,7 +19,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="6" />
 							<attribute id="ID" type="guid" value="a7296c9e-a832-434d-83df-7c267f89f34d" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -57,7 +57,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Small Bats -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.664848" />
 							<attribute id="ID" type="guid" value="8fbff5f2-60e6-465a-9f7c-c8cfbfe5569b" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2121,7 +2121,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Medium Bats -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.664848" />
 							<attribute id="ID" type="guid" value="8fbff5f2-60e6-465a-9f7c-c8cfbfe5569b" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4185,7 +4185,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Large Bats -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.664848" />
 							<attribute id="ID" type="guid" value="8fbff5f2-60e6-465a-9f7c-c8cfbfe5569b" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6249,7 +6249,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Fog 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.75" />
 							<attribute id="ID" type="guid" value="e65929c1-4c63-426e-b450-14683d11eeb2" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -8387,7 +8387,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Fog 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.75" />
 							<attribute id="ID" type="guid" value="15929446-49bf-4d82-8580-18d65f4db3f7" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -10525,7 +10525,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Air Fog -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.001374" />
 							<attribute id="ID" type="guid" value="fd8c7111-5e60-4610-8a01-23182248318f" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -12678,7 +12678,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Post Processing | Screen Darken -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.5" />
 							<attribute id="ID" type="guid" value="6e327baf-999c-4171-bb01-b07b21e4d246" />
 							<attribute id="Name" type="LSString" value="PostProcess" />
@@ -13159,7 +13159,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Post Processing | Color Grading -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.5" />
 							<attribute id="ID" type="guid" value="d8fb652d-3aa4-4a28-a0c7-d125a89b7023" />
 							<attribute id="Name" type="LSString" value="PostProcess" />
@@ -13682,7 +13682,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Post processing | Chromatic Abberation -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.5" />
 							<attribute id="ID" type="guid" value="498271ca-ad48-4f89-881f-fc3eecca5fe9" />
 							<attribute id="Name" type="LSString" value="PostProcess" />
@@ -14469,7 +14469,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.5" />
 							<attribute id="ID" type="guid" value="6f8a4023-1032-4e50-9133-2f6ab06bb00c" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -14970,7 +14970,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Vortex Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.050294" />
 							<attribute id="ID" type="guid" value="c4e8ce42-d864-4371-bd10-67700f15fda1" />
 							<attribute id="Name" type="LSString" value="VortexForce" />
@@ -15094,7 +15094,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Vortex Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="84a850ed-adf3-4cd2-b162-77fd0d03ed32" />
 							<attribute id="Name" type="LSString" value="VortexForce" />
@@ -15222,7 +15222,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Radial Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="9dccf950-a1e7-409b-a525-f63b890b329f" />
 							<attribute id="Name" type="LSString" value="RadialForce" />
@@ -15366,7 +15366,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Gravity Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="d9107162-ebb8-4925-b512-7b15713e6c6b" />
 							<attribute id="Name" type="LSString" value="GravityForce" />
@@ -15494,7 +15494,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Sound | Complete -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.655801" />
 							<attribute id="ID" type="guid" value="065a1dcf-deb9-4a24-bfd0-3aae37f1e11d" />
 							<attribute id="Name" type="LSString" value="Sound" />
@@ -15516,7 +15516,7 @@
 											<attribute id="Type" type="uint8" value="1" />
 											<attribute id="Value" type="int32" value="0" />
 										</node>
-										<node id="Property">		<!-- Action_Prepare_OneWithShadows -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Enter Event" />
 											<attribute id="FullName" type="FixedString" value="Enter Event" />
 											<attribute id="Type" type="uint8" value="10" />
@@ -15528,7 +15528,7 @@
 											<attribute id="Type" type="uint8" value="10" />
 											<attribute id="Value" type="FixedString" value="" />
 										</node>
-										<node id="Property">		<!-- Action_Cast_Rogue_InfiltrationExpertise -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Leave Event" />
 											<attribute id="FullName" type="FixedString" value="Leave Event" />
 											<attribute id="Type" type="uint8" value="10" />

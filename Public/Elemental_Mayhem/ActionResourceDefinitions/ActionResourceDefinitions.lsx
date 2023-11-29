@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-    <version major="4" minor="0" revision="9" build="312"/>
-    <region id="ActionResourceDefinitions">
-        <node id="root">
-            <children>
-                <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h1237dde0gf1fcg4071gb315gde5ddc09d3ea" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h888bfef7gc5e5g4681g856bgd5749747b0f1" version="1"/>
-                    <attribute id="Error" type="TranslatedString" handle="he9795ec7g0f2ag4385g96a2g7f9f6ca2c0a6" version="1"/>
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="EM_Elemental_Essence"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
-                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
-                    <attribute id="UUID" type="guid" value="79fca6e6-3587-4c96-90de-0e717a9b443c"/>
-                </node>
-            </children>
-        </node>
-    </region>
+	<version major="4" minor="0" revision="9" build="312" lslib_meta="v1,bswap_guids" />
+	<region id="root">
+		<node id="root">
+			<children>
+				<node id="ActionResourceDefinition">
+					<attribute id="Description" type="TranslatedString" handle="h1237dde0gf1fcg4071gb315gde5ddc09d3ea" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h888bfef7gc5e5g4681g856bgd5749747b0f1" version="1" />
+					<attribute id="Error" type="TranslatedString" handle="he9795ec7g0f2ag4385g96a2g7f9f6ca2c0a6" version="1" />
+					<attribute id="MaxLevel" type="uint32" value="0" />
+					<attribute id="Name" type="FixedString" value="EM_Elemental_Essence" />
+					<attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+					<attribute id="ShowOnActionResourcePanel" type="bool" value="True" />
+					<attribute id="UUID" type="guid" value="79fca6e6-3587-4c96-90de-0e717a9b443c" />
+				</node>
+			</children>
+		</node>
+	</region>
 </save>

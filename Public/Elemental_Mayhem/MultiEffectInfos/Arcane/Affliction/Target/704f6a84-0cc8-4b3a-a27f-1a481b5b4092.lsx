@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
@@ -32,7 +32,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="EffectInfo">
+				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="2b010394-7a6e-4f88-ab9e-20910beca517" />
 					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
 					<attribute id="DetachSource" type="bool" value="False" />

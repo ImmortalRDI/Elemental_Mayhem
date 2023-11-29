@@ -20715,7 +20715,6 @@
 								</node>
 							</children>
 						</node>
-						
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.00264" />
 							<attribute id="ID" type="guid" value="9a3adba7-ca4a-47a4-9449-cbda18001c6c" />

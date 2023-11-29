@@ -4,7 +4,7 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Model | Mesh | Tornado -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="f4abd8da-1334-adbb-dcab-97fb49f5232d" />
 				</node>
 			</children>
@@ -16,7 +16,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="5" />
 							<attribute id="ID" type="guid" value="0d4c7d26-2b6d-43f4-b1ba-329c85c5fda3" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -54,7 +54,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Tornado 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.096781" />
 							<attribute id="ID" type="guid" value="14ecc30a-3c32-467b-a005-21d9b2bc81f4" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -688,7 +688,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Tornado 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.09915" />
 							<attribute id="ID" type="guid" value="420e0112-f9da-4846-a376-1ea751e7f94f" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -1322,7 +1322,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Tornado 3 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.096826" />
 							<attribute id="ID" type="guid" value="6883bef8-563c-4727-bb34-fc3bdaa43023" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -1956,7 +1956,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Tornado 4 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.09915" />
 							<attribute id="ID" type="guid" value="97e0724b-700f-4848-8218-fec18c72f58e" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -2590,7 +2590,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Tornado 5 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.09915" />
 							<attribute id="ID" type="guid" value="44d828c4-0c56-4bdf-8d56-ace77d1cbdb5" />
 							<attribute id="Name" type="LSString" value="Model" />

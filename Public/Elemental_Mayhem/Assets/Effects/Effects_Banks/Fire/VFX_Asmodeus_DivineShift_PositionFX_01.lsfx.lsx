@@ -4,25 +4,25 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks - Reappear -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Flash - Reappear -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Ground Impact - Reappear -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Burst - Reappear -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5a784815-3c6b-1125-089a-61d43b33b206" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Burst - Reappear -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Ground Fire -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="8a777077-94de-a112-fcbb-a435bcbd24de" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Fire Flare -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="246797b9-a318-e3db-ddc9-3d658b54489f" />
 				</node>
 			</children>
@@ -34,7 +34,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.5" />
 							<attribute id="ID" type="guid" value="9f524c52-3e7a-4b8e-997e-81e746fe3045" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -72,7 +72,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sparks End -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.6931987" />
 							<attribute id="ID" type="guid" value="b3827d60-9b8b-4932-b01c-b070644271ed" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2309,7 +2309,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Flash Impact -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.5520314" />
 							<attribute id="ID" type="guid" value="a023f9c4-317d-4670-b908-adc9d698bad2" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4393,7 +4393,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Ground Impact - Reappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.9401529" />
 							<attribute id="ID" type="guid" value="c3ff84b5-3742-4ef7-8a73-ecc52b50b411" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6585,7 +6585,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Burst - Reappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="afaa8126-d12e-457b-be45-e7a30fe64a75" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -8779,7 +8779,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Ground Fire -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.437396" />
 							<attribute id="ID" type="guid" value="ad37962b-24f3-4787-8282-61abca6cff63" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -10890,7 +10890,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Fire Flare -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.21202" />
 							<attribute id="ID" type="guid" value="1c7ad1f0-4df6-491b-8c63-8328a8f56195" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />

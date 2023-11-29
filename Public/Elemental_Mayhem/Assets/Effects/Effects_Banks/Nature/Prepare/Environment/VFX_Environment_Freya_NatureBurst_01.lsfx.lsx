@@ -4,16 +4,16 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Light -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Gnarly Leaves -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="e8297802-1836-b34f-c7ef-ee8bc9033cfe" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Aspen Leaves -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Lillies -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="2b7f02df-0259-d920-b8fd-f11fa11e16be" />
 				</node>
 			</children>
@@ -25,7 +25,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="5" />
 							<attribute id="ID" type="guid" value="808e9d56-b87d-4dd4-8906-5e96250ee1c1" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -63,7 +63,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="5" />
 							<attribute id="ID" type="guid" value="02936c26-c569-4fe1-9ecc-a1a7e2a9c926" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -435,7 +435,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Falling Gnarly Leaves -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.65" />
 							<attribute id="ID" type="guid" value="7751b251-bde6-4941-922e-29da8d63bac4" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -2479,7 +2479,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Falling Aspen Leaves -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.65" />
 							<attribute id="ID" type="guid" value="0435c099-47eb-449e-a1a7-aa3d55290ff0" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -4523,7 +4523,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Falling Lillies -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.65" />
 							<attribute id="ID" type="guid" value="35325904-d69c-452d-bc04-dbe99979b8a9" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -6567,7 +6567,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Plants 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.65" />
 							<attribute id="ID" type="guid" value="66413dc2-4794-402b-85a3-b872d85acd67" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />

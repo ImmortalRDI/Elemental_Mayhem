@@ -15375,7 +15375,7 @@
 							<attribute id="EndTime" type="float" value="0.927425" />
 							<attribute id="ID" type="guid" value="7a7428bd-2f1f-470e-9280-3d09102406cb" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
-							<attribute id="StartTime" type="float" value="" />
+							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="3" />
 							<attribute id="Type" type="LSString" value="ParticleSystem" />
 							<children>
@@ -17521,7 +17521,7 @@
 							<attribute id="EndTime" type="float" value="0.113025" />
 							<attribute id="ID" type="guid" value="1a318d6f-b357-4d4d-8084-ae2737b2d8f8" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
-							<attribute id="StartTime" type="float" value="" />
+							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="3" />
 							<attribute id="Type" type="LSString" value="ParticleSystem" />
 							<children>
@@ -19573,7 +19573,7 @@
 							<attribute id="EndTime" type="float" value="0.549996" />
 							<attribute id="ID" type="guid" value="18fd29b8-51de-4c18-81c7-49b4f27f6e0d" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
-							<attribute id="StartTime" type="float" value="" />
+							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="3" />
 							<attribute id="Type" type="LSString" value="ParticleSystem" />
 							<children>

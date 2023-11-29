@@ -62,7 +62,7 @@
 									</children>
 								</node>
 							</children>
-						</node>						
+						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="ff485e01-654c-4eab-b94e-dbbe3d9ee4f0" />

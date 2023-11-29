@@ -4,22 +4,22 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Light -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
-				<node id="DependentResource">		<!-- BillBoard | Material | Body Aura -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="d78326cf-2a9b-28c4-e77c-54f9daefe4e0" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Body Fire -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="ef305108-b96f-637d-e1e0-0f7ee865957e" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Body Fire -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="56459e45-45d4-4c72-0b71-26f8b64c7a9a" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Fiery Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="914a5279-c6f1-05e7-86e0-b690b3206b59" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Fiery Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="6d6ec6a0-3b81-43d2-d0e2-6b8d77fdefce" />
 				</node>
 			</children>
@@ -31,7 +31,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="29816cbf-e748-4a2c-8146-0cd331a87e3b" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -69,7 +69,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.65" />
 							<attribute id="ID" type="guid" value="0362723f-cce5-40a2-bdd9-21c9f9eda305" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -570,7 +570,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Billboard | Body Aura -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.65" />
 							<attribute id="ID" type="guid" value="6a18d314-e931-4907-a279-985736599b06" />
 							<attribute id="Name" type="LSString" value="Billboard" />
@@ -1093,7 +1093,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Body Fire -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="d4e5f69a-ab49-4740-8a2c-d3a4e2cda0c9" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -1655,7 +1655,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Fiery Glow -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="f15b9b8e-f65d-4ec4-baa0-097540e46b66" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />

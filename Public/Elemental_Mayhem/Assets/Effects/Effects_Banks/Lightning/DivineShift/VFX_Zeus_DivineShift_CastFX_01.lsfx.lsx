@@ -4,40 +4,40 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Model | Mesh | Shockwave -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5c059120-b5e0-948f-2af3-bc050f09aff9" />
 				</node>
-				<node id="DependentResource">		<!-- Model | Mesh | Refraction -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="353e9c91-8f9c-b243-7039-0b262609ccef" />
 				</node>
-				<node id="DependentResource">		<!-- Model | Mesh | Lightning Aura -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
 				</node>
-				<node id="DependentResource">		<!-- Decal | Material | Ground Impact Effect -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="3b180a56-a994-9efc-b5e4-fec583e83af5" />
 				</node>
-				<node id="DependentResource">		<!-- Decal | Material | Ground Effect 2 -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="7cf7f084-d7b4-be12-315d-20b4172e9cae" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Lightning Bolt -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="25d0bca9-7051-98ea-6c8c-58536917a864" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Impact Sparks -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
 				</node>
-				<node id="DependentResource">		<!-- Sound | Enter Event | Electric Shock -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="0a65a5b3-e5d3-4c5d-830b-2918a11dde0a" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Glow - Fade -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="c78578f1-c704-032e-ac2d-f704b041c05f" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Glow - Fade -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Invisible - Disappear -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
 				</node>
 			</children>
@@ -49,7 +49,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.5" />
 							<attribute id="ID" type="guid" value="77de26a4-6fe5-4cf2-a05c-99dd6e58d417" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -87,7 +87,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Shockwave -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.7" />
 							<attribute id="ID" type="guid" value="ecb183e9-bb54-47a0-a95b-c527142ca781" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -795,7 +795,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Refraction -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.297322" />
 							<attribute id="ID" type="guid" value="6b7ed58a-70dd-4b90-9f0f-5e5367649314" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -1453,7 +1453,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Lightning Aura 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.9088069" />
 							<attribute id="ID" type="guid" value="3f28054f-b1df-4ffd-8d89-e08293943519" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -2091,7 +2091,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model Lightning Aura 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.407352" />
 							<attribute id="ID" type="guid" value="feaa3f8a-b009-49e5-bc6b-84ba50f7f20d" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -2729,7 +2729,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Lightning Aura 3 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.694307" />
 							<attribute id="ID" type="guid" value="708e169b-3075-4125-8f76-7cc68d59f0f5" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -3367,7 +3367,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Model | Lightning Aura 4 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.4102614" />
 							<attribute id="ID" type="guid" value="c26c1c85-1f20-4e13-987c-aa722c122f18" />
 							<attribute id="Name" type="LSString" value="Model" />
@@ -4005,7 +4005,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | Ground Impact Effect -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.5" />
 							<attribute id="ID" type="guid" value="34b2ab66-9fa2-4842-8fbc-171fd4c9536b" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -4438,7 +4438,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | Ground Effect 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.75563" />
 							<attribute id="ID" type="guid" value="79ed0500-2236-4381-a775-029910a02387" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -5000,7 +5000,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | Ground Effect 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.873273" />
 							<attribute id="ID" type="guid" value="91d0d8d1-c3b5-4b2d-be0d-328897cad3f2" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -5615,7 +5615,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Decal | Ground Effect 3 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.302856" />
 							<attribute id="ID" type="guid" value="82f8b3e3-2d93-4f21-ba71-23292847ff56" />
 							<attribute id="Name" type="LSString" value="Decal" />
@@ -6176,7 +6176,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Lightning Bolt -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.5" />
 							<attribute id="ID" type="guid" value="0a68b67d-42ba-4e53-bffe-bfe17d4a07d3" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -8289,8 +8289,8 @@
 									</children>
 								</node>
 							</children>
-						</node>						
-						<node id="EffectComponent">		<!-- Particle System | Sparks -->
+						</node>
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.089591" />
 							<attribute id="ID" type="guid" value="f7927a40-6561-4db2-9a16-984627449755" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -10418,7 +10418,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Impact Sparks 1 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.5" />
 							<attribute id="ID" type="guid" value="00722f7f-78f9-4a5d-9b72-f596d1f7ce0b" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -12486,7 +12486,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Impact Sparks 2 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.648334" />
 							<attribute id="ID" type="guid" value="65b54803-43f3-4afc-a8d1-d37ad276f6e5" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -14554,7 +14554,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Impact Sparks 3 -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.796668" />
 							<attribute id="ID" type="guid" value="db56ec97-ab86-49ec-97e0-cb506aefc59f" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -16622,7 +16622,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Glow Fade Out -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.35" />
 							<attribute id="ID" type="guid" value="8e30a28a-53fd-4c27-b70a-e0e75943006d" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -16962,7 +16962,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Glow Fade In -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.268963" />
 							<attribute id="ID" type="guid" value="9f85133f-7bce-43ad-8bda-9637a343ea72" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -17322,7 +17322,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Disappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.7489629" />
 							<attribute id="ID" type="guid" value="370066b5-7243-4099-830f-0799705fa205" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -17654,7 +17654,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Reappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.040838" />
 							<attribute id="ID" type="guid" value="16f73a74-6cd6-4947-85ae-929d16dbc85a" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -17986,7 +17986,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Gravity Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3" />
 							<attribute id="ID" type="guid" value="fba4ff5d-5248-4db1-9fd4-bab82a18187c" />
 							<attribute id="Name" type="LSString" value="GravityForce" />
@@ -18110,7 +18110,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Sound -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="ae250845-743d-4193-90a9-581f9391208e" />
 							<attribute id="Name" type="LSString" value="Sound" />

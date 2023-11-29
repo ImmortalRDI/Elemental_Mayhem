@@ -4,40 +4,40 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Light -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Thin Air -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="411e7182-7dfd-e032-7e1b-e12f50378937" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Thin Air -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="cd2bd0dc-e056-920b-0ad4-ba0bd437a8fd" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Air Prison -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="fa1c9b3b-9705-38e6-79c3-cc1970662184" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Air Prison -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="1745046d-dd1f-f1be-cdd4-274a162be2af" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Sparks  -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Material | Shockwave  -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="27d6becf-276a-309a-6a32-f0c8ac7ac980" />
 				</node>
-				<node id="DependentResource">		<!-- Particle System | Mesh | Shockwave  -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="68c23e99-adec-436b-83b6-cc4305fd3d16" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Invisible -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="a3c36b9f-f82d-2fd7-168f-4b43038bd8ef" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Invisible -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Material | Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="c78578f1-c704-032e-ac2d-f704b041c05f" />
 				</node>
-				<node id="DependentResource">		<!-- Overlay Material | Mesh | Glow -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="18066597-f0b8-287f-d768-017f05f2db45" />
 				</node>
 			</children>
@@ -49,7 +49,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.5" />
 							<attribute id="ID" type="guid" value="7a105368-c0bf-4f52-82fd-b9750f895433" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -87,7 +87,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Light -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.6" />
 							<attribute id="ID" type="guid" value="a24dcbf3-d3dd-4d23-9fee-acf48e4c773e" />
 							<attribute id="Name" type="LSString" value="Light" />
@@ -97,13 +97,13 @@
 							<children>
 								<node id="Properties">
 									<children>
-										<node id="Property">		<!-- Name -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Name" />
 											<attribute id="FullName" type="FixedString" value="Name" />
 											<attribute id="Type" type="uint8" value="7" />
 											<attribute id="Value" type="LSString" value="Light" />
 										</node>
-										<node id="Property">		<!-- Intensity -->		
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Intensity" />
 											<attribute id="FullName" type="FixedString" value="Appearance.Intensity" />
 											<attribute id="Type" type="uint8" value="6" />
@@ -290,7 +290,7 @@
 												</node>
 											</children>
 										</node>
-										<node id="Property">		<!-- Radius -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Radius" />
 											<attribute id="FullName" type="FixedString" value="Appearance.Radius" />
 											<attribute id="Type" type="uint8" value="6" />
@@ -310,7 +310,7 @@
 												</node>
 											</children>
 										</node>
-										<node id="Property">		<!-- Color -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Color" />
 											<attribute id="FullName" type="FixedString" value="Appearance.Color" />
 											<attribute id="Type" type="uint8" value="3" />
@@ -338,7 +338,7 @@
 												</node>
 											</children>
 										</node>
-										<node id="Property">		<!-- Keyframed Position -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Keyframed Position" />
 											<attribute id="FullName" type="FixedString" value="Behavior.Position" />
 											<attribute id="Type" type="uint8" value="6" />
@@ -384,37 +384,37 @@
 												</node>
 											</children>
 										</node>
-										<node id="Property">		<!-- Position | Offset -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Position" />
 											<attribute id="FullName" type="FixedString" value="Offset" />
 											<attribute id="Type" type="uint8" value="8" />
 											<attribute id="Value" type="fvec3" value="0 0 0" />
 										</node>
-										<node id="Property">		<!-- Bounding Volume | True/False -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Bounding Volume" />
 											<attribute id="FullName" type="FixedString" value="BoundingSphere" />
 											<attribute id="Type" type="uint8" value="0" />
 											<attribute id="Value" type="bool" value="True" />
 										</node>
-										<node id="Property">		<!-- Animate Manually | True/False -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Animate Manually" />
 											<attribute id="FullName" type="FixedString" value="Behavior.Animate Manually" />
 											<attribute id="Type" type="uint8" value="0" />
 											<attribute id="Value" type="bool" value="True" />
 										</node>
-										<node id="Property">		<!-- Coordinate Space -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Coordinate Space" />
 											<attribute id="FullName" type="FixedString" value="Coordinate Space" />
 											<attribute id="Type" type="uint8" value="1" />
 											<attribute id="Value" type="int32" value="1" />
 										</node>
-										<node id="Property">		<!-- GUID -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Light GUID" />
 											<attribute id="FullName" type="FixedString" value="Appearance.Light UUID" />
 											<attribute id="Type" type="uint8" value="10" />
 											<attribute id="Value" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 										</node>
-										<node id="Property">		<!-- RPM -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="RPM" />
 											<attribute id="FullName" type="FixedString" value="Behavior.Rotation" />
 											<attribute id="Type" type="uint8" value="6" />
@@ -460,37 +460,37 @@
 												</node>
 											</children>
 										</node>
-										<node id="Property">		<!-- Ignore Parent Rotation | True/False -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Ignore Parent Rotation" />
 											<attribute id="FullName" type="FixedString" value="Ignore Parent Rotation" />
 											<attribute id="Type" type="uint8" value="0" />
 											<attribute id="Value" type="bool" value="True" />
 										</node>
-										<node id="Property">		<!-- Modulate Light Template Radius | True/False -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Modulate Light Template Radius" />
 											<attribute id="FullName" type="FixedString" value="Appearance.Modulate Light Template Radius" />
 											<attribute id="Type" type="uint8" value="0" />
 											<attribute id="Value" type="bool" value="True" />
 										</node>
-										<node id="Property">		<!-- Override Light Template Color | True/False -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Override Light Template Color" />
 											<attribute id="FullName" type="FixedString" value="Appearance.Override Light Template Color" />
 											<attribute id="Type" type="uint8" value="0" />
 											<attribute id="Value" type="bool" value="True" />
 										</node>
-										<node id="Property">		<!-- Override Light Template Flicker Speed | True/False -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Override Light Template Flicker Speed" />
 											<attribute id="FullName" type="FixedString" value="Behavior.Override Light Template Flicker Speed" />
 											<attribute id="Type" type="uint8" value="0" />
 											<attribute id="Value" type="bool" value="False" />
 										</node>
-										<node id="Property">		<!-- Snap To Ground | True/False -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Snap To Ground" />
 											<attribute id="FullName" type="FixedString" value="Behavior.Snap To Ground" />
 											<attribute id="Type" type="uint8" value="0" />
 											<attribute id="Value" type="bool" value="False" />
 										</node>
-										<node id="Property">		<!-- Flicker Amount -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Flicker Amount" />
 											<attribute id="FullName" type="FixedString" value="Appearance.Flicker Amount" />
 											<attribute id="Type" type="uint8" value="6" />
@@ -510,7 +510,7 @@
 												</node>
 											</children>
 										</node>
-										<node id="Property">		<!-- Flicker Speed -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Flicker Speed" />
 											<attribute id="FullName" type="FixedString" value="Behavior.Flicker Speed" />
 											<attribute id="Type" type="uint8" value="6" />
@@ -530,7 +530,7 @@
 												</node>
 											</children>
 										</node>
-										<node id="Property">		<!-- Initial Rotation -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Initial Rotation" />
 											<attribute id="FullName" type="FixedString" value="Behavior.Initial Rotation" />
 											<attribute id="Type" type="uint8" value="6" />
@@ -576,7 +576,7 @@
 												</node>
 											</children>
 										</node>
-										<node id="Property">		<!-- Rotation/Life -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Rotation/Life" />
 											<attribute id="FullName" type="FixedString" value="Behavior.Rotation / Life" />
 											<attribute id="Type" type="uint8" value="6" />
@@ -622,19 +622,19 @@
 												</node>
 											</children>
 										</node>
-										<node id="Property">		<!-- Bounding Box | True/False -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="" />
 											<attribute id="FullName" type="FixedString" value="BoundingBox" />
 											<attribute id="Type" type="uint8" value="0" />
 											<attribute id="Value" type="bool" value="True" />
 										</node>
-										<node id="Property">		<!-- Behavior Top -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Top" />
 											<attribute id="FullName" type="FixedString" value="Behavior.Top" />
 											<attribute id="Type" type="uint8" value="4" />
 											<attribute id="Value" type="float" value="5" />
 										</node>
-										<node id="Property">		<!-- Behavior Bottom -->
+										<node id="Property">
 											<attribute id="AttributeName" type="FixedString" value="Bottom" />
 											<attribute id="FullName" type="FixedString" value="Behavior.Bottom" />
 											<attribute id="Type" type="uint8" value="4" />
@@ -644,7 +644,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Post Process | Darken Environment -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="4" />
 							<attribute id="ID" type="guid" value="321d0e8a-3dc3-437b-bc0d-896adb043293" />
 							<attribute id="Name" type="LSString" value="PostProcess" />
@@ -1002,7 +1002,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Thin Air -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.65" />
 							<attribute id="ID" type="guid" value="7fbece53-711d-4e4f-8665-23be6f4730a6" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -3069,7 +3069,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Air Prison -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.65" />
 							<attribute id="ID" type="guid" value="1c848097-ee1b-4ec3-bfaa-b96c0e8b6637" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -5113,7 +5113,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Radial Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1" />
 							<attribute id="ID" type="guid" value="4c48274f-5ff0-418b-9f7b-26101a8a892f" />
 							<attribute id="Name" type="LSString" value="RadialForce" />
@@ -5257,7 +5257,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Sparks Disappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.5" />
 							<attribute id="ID" type="guid" value="3ac04c40-d6b6-49c0-80c3-9fea6e5ff4b9" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -7500,7 +7500,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Particle System | Shockwave -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.2118993" />
 							<attribute id="ID" type="guid" value="f90f2612-ba0b-46eb-bf3e-6115c79b6f3e" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
@@ -10931,7 +10931,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Glow Fade Out -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.35" />
 							<attribute id="ID" type="guid" value="e9cae6c7-f8c1-4de0-a2d5-7a8d83114846" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -11271,7 +11271,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Glow Fade In -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.268963" />
 							<attribute id="ID" type="guid" value="c74da549-c881-409f-a566-30e40899af8f" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -11631,7 +11631,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Disappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.7489629" />
 							<attribute id="ID" type="guid" value="6b5324de-2371-4c65-8ac1-327023746ba2" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -11963,7 +11963,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Overlay Material | Reappear -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.040838" />
 							<attribute id="ID" type="guid" value="3770673c-6c7f-436c-a730-8b3146fcb4ea" />
 							<attribute id="Name" type="LSString" value="OverlayMaterial" />
@@ -12295,7 +12295,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Spin Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.391844" />
 							<attribute id="ID" type="guid" value="fb36569e-9678-4ec6-9aeb-04cc8022ddb0" />
 							<attribute id="Name" type="LSString" value="SpinForce" />
@@ -12427,7 +12427,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Spin Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.907065" />
 							<attribute id="ID" type="guid" value="23da62c7-df11-4e03-81f7-ca71b2e631b7" />
 							<attribute id="Name" type="LSString" value="SpinForce" />
@@ -12551,7 +12551,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Turbulence Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.525582" />
 							<attribute id="ID" type="guid" value="a5cbd0c0-bb2e-4a2d-a091-5d960834381e" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
@@ -12669,7 +12669,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Turbulence Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.799645" />
 							<attribute id="ID" type="guid" value="83b7b371-e8ac-41dd-b920-3600f5d72dc1" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
@@ -12791,7 +12791,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Gravity Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="2.090628" />
 							<attribute id="ID" type="guid" value="a89d6053-2d64-43f7-90e6-b508ff9cc671" />
 							<attribute id="Name" type="LSString" value="GravityForce" />
@@ -12915,7 +12915,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Gravity Force -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="3.676344" />
 							<attribute id="ID" type="guid" value="13cfc9b2-3f98-4bc8-bd6b-99f573b5d983" />
 							<attribute id="Name" type="LSString" value="GravityForce" />
@@ -13048,7 +13048,7 @@
 							<attribute id="Type" type="uint8" value="1" />
 						</node>
 					</children>
-				</node>				
+				</node>
 			</children>
 		</node>
 	</region>

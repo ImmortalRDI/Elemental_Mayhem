@@ -4,7 +4,7 @@
 	<region id="Dependencies">
 		<node id="Dependencies">
 			<children>
-				<node id="DependentResource">		<!-- Sound -->
+				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="967e9163-157e-4a84-aac3-182c21f748a1" />
 				</node>
 			</children>
@@ -16,7 +16,7 @@
 			<children>
 				<node id="EffectComponents">
 					<children>
-						<node id="EffectComponent">		<!-- Bounding Sphere -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.540396" />
 							<attribute id="ID" type="guid" value="860ea408-1fe5-4fbe-a41a-f7963ba2ff22" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
@@ -54,7 +54,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="EffectComponent">		<!-- Sound -->
+						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.540396" />
 							<attribute id="ID" type="guid" value="014af9c1-a385-42d2-b2cf-e94a88441872" />
 							<attribute id="Name" type="LSString" value="Sound" />
