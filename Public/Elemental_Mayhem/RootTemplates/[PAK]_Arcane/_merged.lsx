@@ -143,6 +143,19 @@
 					</children>
 				</node>
 			</children>
+			<children>		<!-- Blast -->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d65ab317-d258-46cd-9a4c-31e3b3e15e6c" />
+					<attribute id="Name" type="LSString" value="Helper_Spell_Burst_EM_Arcane" />
+					<attribute id="Description" type="TranslatedString" handle="$" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="$" version="2" />
+					<attribute id="LevelName" type="FixedString" value="" />					
+					<attribute id="ParentTemplateId" type="FixedString" value="06f96d65-0ee5-4ed5-a30a-92a3bfe3f708" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="be7c3454-5643-9f97-8f81-fafff958e23f" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725658" />
+				</node>			
+			</children>
 			<children>		<!-- Bolt -->
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="dee40408-84e1-4598-8b6d-4fe811d9c030" />

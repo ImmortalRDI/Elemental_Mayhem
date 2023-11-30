@@ -3,40 +3,8 @@
 	<version major="4" minor="0" revision="9" build="328" />
 	<region id="EffectBank">
 		<node id="EffectBank">
-            <children>      <!-- Affliction -->
-				<node id="Resource">        <!-- Prepare | BodyFX -->
-					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
-					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="1.6" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Affliction_EM_Arcane_BodyFX" />
-					<attribute id="ID" type="FixedString" value="2b7a37a8-56e5-4d0a-9d05-d63e30bf3f9f" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Prepare_Affliction_EM_Arcane_BodyFX" />
-					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Prepare_Affliction_EM_Arcane_BodyFX.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="10cdca0d-5fbc-1793-d1f9-ecd7b4897bab" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
-                                </node>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">		<!-- Prepare | R. HandFX -->
+            <children>      <!-- Affliction -->				
+				<node id="Resource">		<!-- Prepare | R. Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
 					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -58,7 +26,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Prepare | L. HandFX -->
+				<node id="Resource">		<!-- Prepare | L. Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -126,7 +94,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Cast | R. HandFX -->
+				<node id="Resource">        <!-- Cast | R. Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -150,7 +118,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Cast | L. HandFX -->
+				<node id="Resource">        <!-- Cast | L. Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -247,7 +215,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Stage 1 ChestFX -->
+				<node id="Resource">		<!-- Stage 1 | Chest -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -270,7 +238,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Stage 1 ChestFX Large -->
+				<node id="Resource">		<!-- Stage 1 | Chest Large -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -293,7 +261,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Stage 1 RootFX -->
+				<node id="Resource">		<!-- Stage 1 | Root -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -316,7 +284,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Stage 1 RootFX Large -->
+				<node id="Resource">		<!-- Stage 1 | Root Large -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -339,7 +307,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Stage 2 RootFX -->
+				<node id="Resource">		<!-- Stage 2 | Root -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -362,7 +330,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Stage 2 RootFX Large -->
+				<node id="Resource">		<!-- Stage 2 | Root Large -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -385,7 +353,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Stage 3 RootFX -->
+				<node id="Resource">		<!-- Stage 3 | Root -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -408,7 +376,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Stage 3 RootFX Large -->
+				<node id="Resource">		<!-- Stage 3 | Root Large -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -431,7 +399,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Stage 3 ChestFX -->
+				<node id="Resource">		<!-- Stage 3 | Chest -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -454,7 +422,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Stage 3 ChestFX Large -->
+				<node id="Resource">		<!-- Stage 3 | Chest Large -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -477,19 +445,40 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Final Stage BodyFX -->
+				<node id="Resource">		<!-- Final Stage Body -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Stage_Final_BodyFX" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Affliction_EM_Arcane_Stage_Final_BodyFX" />
 					<attribute id="ID" type="FixedString" value="c7789b83-2494-5103-f892-14e77bb06faf" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
 					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Stage_Final_BodyFX" />
 					<attribute id="Radius" type="float" value="5.196152" />
 					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Status_Affliction_EM_Arcane_Stage_Final_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">		<!-- Target | Body -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Target_Affliction_EM_Arcane_BodyFX" />
+					<attribute id="ID" type="FixedString" value="8a55a537-137a-4f6a-8c85-ff51f64b1009" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Target_Affliction_EM_Arcane_BodyFX" />
+					<attribute id="Radius" type="float" value="5.196152" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Target_Affliction_EM_Arcane_BodyFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
 					<children>
 						<node id="Dependencies">
@@ -505,7 +494,7 @@
             <children>      <!-- Bolt -->
             
             </children>
-			<children>		<!-- Eruption -->
+			<children>		<!-- Burst -->
 			
 			</children>
             <children>      <!-- Imbue -->
@@ -754,7 +743,7 @@
 					</children>
 				</node>
 			</children>
-            <children>      <!-- Rush -->
+            <children>      <!-- Rush 1 -->
                 <node id="Resource">        <!-- Cast -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
@@ -860,21 +849,23 @@
 						</children>
 					</node>
 				</node>
+            </children>
+			<children>		<!-- Rush 2 -->				
                 <node id="Resource">        <!-- Position -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Rush_EM_Arcane_PositionFX" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Rush2_EM_Arcane_PositionFX" />
 					<attribute id="ID" type="FixedString" value="4c41c590-981a-4aa7-912c-2a77aaa70094" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Rush_EM_Arcane_PositionFX" />
+					<attribute id="Name" type="LSString" value="VFX_Rush2_EM_Arcane_PositionFX" />
 					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Rush/VFX_Rush_EM_Arcane_PositionFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Rush/VFX_Rush2_EM_Arcane_PositionFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -895,7 +886,7 @@
 						</node>
 					</children>
 				</node>
-            </children>
+			</children>
             <children>      <!-- Shift -->
                 <node id="Resource">        <!-- Cast -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
@@ -1123,6 +1114,38 @@
                         </node>
                     </children>
                 </node>
+				<node id="Resource">        <!-- Prepare | BodyFX -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Ultimate_EM_Arcane_BodyFX" />
+					<attribute id="ID" type="FixedString" value="2b7a37a8-56e5-4d0a-9d05-d63e30bf3f9f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Ultimate_EM_Arcane_BodyFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Prepare_Ultimate_EM_Arcane_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="10cdca0d-5fbc-1793-d1f9-ecd7b4897bab" />
+                                </node>
+                                <node id="DependentResource">
+                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+                                </node>
+							</children>
+						</node>
+					</children>
+				</node>
             </children>
 		</node>
 	</region>
