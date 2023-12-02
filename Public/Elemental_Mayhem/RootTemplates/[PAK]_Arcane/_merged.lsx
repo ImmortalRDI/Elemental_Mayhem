@@ -219,6 +219,7 @@
 						<node id="GameMaster" />
 					</children>
 				</node>
+			</children>
 			<children>		<!-- Leap -->
 				<node id="GameObjects">
                     <attribute id="MapKey" type="FixedString" value="a67f194d-2ce9-4c96-955d-61a88d7179dd" />

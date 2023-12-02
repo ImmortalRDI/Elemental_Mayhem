@@ -43,18 +43,29 @@
     "editor.foldingImportsByDefault": true,
     "editor.showFoldingControls": "always",
     "editor.unfoldOnClickAfterEndOfLine": true,
-    "markdown.extension.preview.autoShowPreviewToSide": true,
-    "markdown.extension.tableFormatter.enabled": false,
-    "markdown.extension.toc.omittedFromToc": {},
-    "markdown.extension.toc.orderedList": true,
-    "markdown.extension.toc.unorderedList.marker": "*",
-    "emeraldwalk.runonsave": {
-        "commands": [
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
             {
-                "match": "ConvertEMFiles",
-                "isAsync": true,
-                "cmd": "echo 'I CONVERTED!'"
+                "scope": "keyword.control.bg3txt",
+                "settings": {
+                    "foreground": "#C586C0"
+                }
+            },
+            {
+                "scope": "keyword.operator.bg3txt",
+                "settings": {
+                    "foreground": "#ffa200"
+                }
+            },
+            {
+                "scope": "string.first-column.bg3txt",
+                "settings": {
+                    "foreground": "#9CDCFE"
+                }
             }
         ]
+    },
+    "files.associations": {
+        "*.txt": "bg3txt"
     },
 }

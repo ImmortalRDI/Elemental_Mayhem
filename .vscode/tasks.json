@@ -8,8 +8,17 @@
             "type": "shell",
             "command": "",
             "dependsOn": [
+                "MEIRename",
+                "LSFDelete",
+                "LSFXFiller",
+                "DeleteLSFX",
                 "EMLoca",
-                "EMLSX",
+                "EMLSX1",
+                "EMLSX2",
+                "EMLSX3",
+                "EMLSX4",
+                "MEIRelocate",
+                "LSFXRename",
                 "CheckStats"
             ],
             "presentation": {
@@ -18,66 +27,267 @@
             "problemMatcher": []
         },
         {
-            
+                "label": "MEIRename",
+                "type": "shell",
+                "command": "python",
+                "args": [
+                    "mt_rename_mei.py",
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\MultiEffectInfos",
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "presentation": {
+                    "reveal": "always",
+                    "panel": "new"
+                },
+                "options": {
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                },
+                "problemMatcher": [],
+        },
+        {
+                "label": "LSFXFiller",
+                "type": "shell",
+                "command": "python",
+                "args": [
+                    "mt_lsfx_filler.py",
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks"  // Use VS Code input variable for directory path
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "presentation": {
+                    "reveal": "always",
+                    "panel": "new"
+                },
+                "options": {
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                },
+                "problemMatcher": [],
+        },
+        {
+                "label": "LSFDelete",
+                "type": "shell",
+                "command": "python",
+                "args": [
+                    "mt_delete_lsf.py",
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public"
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "presentation": {
+                    "reveal": "always",
+                    "panel": "new"
+                },                
+                "options": {
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                },
+                "problemMatcher": []
+        },
+        {
+                "label": "DeleteLSFX",
+                "type": "shell",
+                "command": "python",
+                "dependsOn":["LSFDelete"],
+                "args": [
+                    "mt_delete_lsfx.py",
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks"
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "presentation": {
+                    "reveal": "always",
+                    "panel": "new"
+                },                
+                "options": {
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                },
+                "problemMatcher": []
+        },
+        {
                 "label": "EMLoca",
                 "type": "shell",
-                "command": "python 'C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts\\convert_loca.py'",
+                "command": "python ",
+                "options":{
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts\\"
+                },
                 "args": [
+                    "convert_loca.py",
                     "-f",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English\\Elemental_Mayhem.xml",
-                    "-o",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English\\Elemental_Mayhem.loca"
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English",
+                    "-b",
+                    "--ext",
+                    ".xml",
+                    "--outputext",
+                    ".loca"
+
                 ],
                 "group": "build",
                 "presentation": {
                     "reveal": "silent"
                 },
                 "problemMatcher": []
-            
         },
         {
-            "label": "EMLSX",
-            "type": "shell",
-            "command": "python",
-            "options": {
-                "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
-            },
-            "args": [
-                "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts\\convert_lsf.py",
-                "-f",
-                "\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem",
-                "-b",
-                "--ext",
-                ".lsf",
-                "--outputext",
-                ".lsfx"
-            ],
-            "group": "build",
-            "presentation": {
-                "reveal": "silent"
-            },
-            "problemMatcher": []
+                "label": "EMLSX1",
+                "type": "shell",
+                "command": "python",
+                "options": {
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                },
+                "args": [
+                    "convert_lsf.py",
+                    "-f",
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Content",
+                    "-b",
+                    "--ext",
+                    ".lsx",
+                    "--outputext",
+                    ".lsf"
+                ],
+                "group": "build",
+                "presentation": {
+                    "reveal": "silent"
+                },
+                "problemMatcher": []
         },
-        
         {
-            "label": "CheckStats",
-            "type": "process",
-            "command": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\LsLib-&-MultiTool\\Tools\\StatParser.exe",
-            "args": [
-                "--game-data-path",
-                "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Baldurs Gate 3\\Data",
-                "--package-paths",
-                "C:\\Users\\gmc51\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods",
-                "--dependency",
-                "Shared",
-                "--dependency",
-                "SharedDev",
-                "--dependency",
-                "Gustav",
-                "--dependency",
-                "GustavDev",
-                "--mod",
-                "Elemental_Mayhem"
+                "label": "EMLSX2",
+                "type": "shell",
+                "command": "python",
+                "dependsOn":["EMLSX1"],
+                "options": {
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                },
+                "args": [
+                    "convert_lsf.py",
+                    "-f",
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\RootTemplates",
+                    "-b",
+                    "--ext",
+                    ".lsx",
+                    "--outputext",
+                    ".lsf"
+                ],
+                "group": "build",
+                "presentation": {
+                    "reveal": "silent"
+                },
+                "problemMatcher": []
+        },
+        {
+                "label": "EMLSX3",
+                "type": "shell",
+                "command": "python",
+                "dependsOn":["EMLSX1","EMLSX2"],
+                "options": {
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                },
+                "args": [
+                    "convert_lsf.py",
+                    "-f",
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\MultiEffectInfos",
+                    "-b",
+                    "--ext",
+                    ".lsx",
+                    "--outputext",
+                    ".lsf"
+                ],
+                "group": "build",
+                "presentation": {
+                    "reveal": "silent"
+                },
+                "problemMatcher": []
+        },
+        {
+                "label": "EMLSX4",
+                "type": "shell",
+                "command": "python",
+                "dependsOn":["EMLSX1","EMLSX2","EMLSX3"],
+                "options": {
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                },
+                "args": [
+                    "convert_lsf.py",
+                    "-f",
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks",
+                    "-b",
+                    "--ext",
+                    ".lsx",
+                    "--outputext",
+                    ".lsf"
+                ],
+                "group": "build",
+                "presentation": {
+                    "reveal": "silent"
+                },
+                "problemMatcher": []
+        },
+        {
+                "label": "MEIRelocate",
+                "dependsOn": ["EMLSX1","EMLSX2","EMLSX3","EMLSX4"],
+                "options": {
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                },
+                "type": "shell",
+                "command": "python ht_move_files.py",
+                "args": [
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\MultiEffectInfos",
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\MultiEffectInfos"  // Replace this with your destination folder path
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                }
+        },
+        {
+                "label": "LSFXRename",
+                "type": "shell",
+                "command": "python",
+                "dependsOn":["EMLSX1","EMLSX2","EMLSX3","EMLSX4"],
+                "args": [
+                    "ht_rename_lsfx.py",
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks"
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "presentation": {
+                    "reveal": "always",
+                    "panel": "new"
+                },
+                "options": {
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                },
+                "problemMatcher": []
+        },
+        {
+                "label": "CheckStats",
+                "type": "process",
+                "command": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\LsLib-&-MultiTool\\Tools\\StatParser.exe",
+                "args": [
+                    "--game-data-path",
+                    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Baldurs Gate 3\\Data",
+                    "--package-paths",
+                    "C:\\Users\\gmc51\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods",
+                    "--dependency",
+                    "Shared",
+                    "--dependency",
+                    "SharedDev",
+                    "--dependency",
+                    "Gustav",
+                    "--dependency",
+                    "GustavDev",
+                    "--mod",
+                    "Elemental_Mayhem"
             ]
         }
     ]
