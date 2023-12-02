@@ -8,10 +8,9 @@
             "type": "shell",
             "command": "",
             "dependsOn": [
-                "MEIRename",
-                "LSFDelete",
+                "MEIRename",                
                 "LSFXFiller",
-                "DeleteLSFX",
+                "LSFDelete",
                 "EMLoca",
                 "EMLSX1",
                 "EMLSX2",
@@ -32,7 +31,7 @@
                 "command": "python",
                 "args": [
                     "mt_rename_mei.py",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\MultiEffectInfos",
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\MultiEffectInfos",
                 ],
                 "group": {
                     "kind": "build",
@@ -53,7 +52,7 @@
                 "command": "python",
                 "args": [
                     "mt_lsfx_filler.py",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks"  // Use VS Code input variable for directory path
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks"  // Use VS Code input variable for directory path
                 ],
                 "group": {
                     "kind": "build",
@@ -74,29 +73,7 @@
                 "command": "python",
                 "args": [
                     "mt_delete_lsf.py",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public"
-                ],
-                "group": {
-                    "kind": "build",
-                    "isDefault": true
-                },
-                "presentation": {
-                    "reveal": "always",
-                    "panel": "new"
-                },                
-                "options": {
-                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
-                },
-                "problemMatcher": []
-        },
-        {
-                "label": "DeleteLSFX",
-                "type": "shell",
-                "command": "python",
-                "dependsOn":["LSFDelete"],
-                "args": [
-                    "mt_delete_lsfx.py",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks"
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem"
                 ],
                 "group": {
                     "kind": "build",
@@ -121,7 +98,7 @@
                 "args": [
                     "convert_loca.py",
                     "-f",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English",
+                    "${workspaceFolder}\\Localization\\English",
                     "-b",
                     "--ext",
                     ".xml",
@@ -145,7 +122,7 @@
                 "args": [
                     "convert_lsf.py",
                     "-f",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Content",
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\Content",
                     "-b",
                     "--ext",
                     ".lsx",
@@ -169,7 +146,7 @@
                 "args": [
                     "convert_lsf.py",
                     "-f",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\RootTemplates",
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\RootTemplates",
                     "-b",
                     "--ext",
                     ".lsx",
@@ -193,7 +170,7 @@
                 "args": [
                     "convert_lsf.py",
                     "-f",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\MultiEffectInfos",
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\MultiEffectInfos",
                     "-b",
                     "--ext",
                     ".lsx",
@@ -217,7 +194,7 @@
                 "args": [
                     "convert_lsf.py",
                     "-f",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks",
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks",
                     "-b",
                     "--ext",
                     ".lsx",
@@ -237,8 +214,9 @@
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
                 "type": "shell",
-                "command": "python ht_move_files.py",
+                "command": "python",
                 "args": [
+                    "relocate_mei_lsf.py",
                     "${workspaceFolder}\\Public\\Elemental_Mayhem\\MultiEffectInfos",
                     "${workspaceFolder}\\Public\\Elemental_Mayhem\\MultiEffectInfos"  // Replace this with your destination folder path
                 ],
@@ -251,10 +229,10 @@
                 "label": "LSFXRename",
                 "type": "shell",
                 "command": "python",
-                "dependsOn":["EMLSX1","EMLSX2","EMLSX3","EMLSX4"],
+                "dependsOn":["EMLSX1","EMLSX2","EMLSX3","EMLSX4","MEIRelocate",],
                 "args": [
                     "ht_rename_lsfx.py",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks"
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks"
                 ],
                 "group": {
                     "kind": "build",

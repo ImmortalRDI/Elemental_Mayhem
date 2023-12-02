@@ -110,9 +110,9 @@
 					<attribute id="Level7" type="LSString" value="4d12" />
 					<attribute id="Level8" type="LSString" value="4d12" />
 					<attribute id="Level9" type="LSString" value="5d12" />
-					<attribute id="Level10" type="LSString" value="6d12" />
-					<attribute id="Level11" type="LSString" value="7d12" />
-					<attribute id="Level12" type="LSString" value="8d12" />
+					<attribute id="Level10" type="LSString" value="5d12" />
+					<attribute id="Level11" type="LSString" value="6d12" />
+					<attribute id="Level12" type="LSString" value="6d12" />
 					<attribute id="Name" type="FixedString" value="Elemental_Mayhem_Bolt" />
 					<attribute id="UUID" type="guid" value="7bb2d5d2-e6ce-410e-bb60-9d377965381d" />
 				</node>
@@ -147,6 +147,22 @@
 					<attribute id="Level12" type="LSString" value="6d6" />
 					<attribute id="Name" type="FixedString" value="Elemental_Mayhem_Blast" />
 					<attribute id="UUID" type="guid" value="42ebfc52-9238-4c69-bc86-de7cd663387b" />
+				</node>
+				<node id="LevelMapSeries">
+					<attribute id="Level1" type="LSString" value="1d12" />
+					<attribute id="Level2" type="LSString" value="1d14" />
+					<attribute id="Level3" type="LSString" value="2d12" />
+					<attribute id="Level4" type="LSString" value="2d14" />
+					<attribute id="Level5" type="LSString" value="3d12" />
+					<attribute id="Level6" type="LSString" value="3d14" />
+					<attribute id="Level7" type="LSString" value="4d12" />
+					<attribute id="Level8" type="LSString" value="4d14" />
+					<attribute id="Level9" type="LSString" value="5d12" />
+					<attribute id="Level10" type="LSString" value="5d14" />
+					<attribute id="Level11" type="LSString" value="6d12" />
+					<attribute id="Level12" type="LSString" value="6d14" />
+					<attribute id="Name" type="FixedString" value="Elemental_Mayhem_Leap" />
+					<attribute id="UUID" type="guid" value="3da47080-427b-4215-b755-c55d972c525c" />
 				</node>
 			</children>
 		</node>

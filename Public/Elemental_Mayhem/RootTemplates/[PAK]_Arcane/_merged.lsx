@@ -5,8 +5,8 @@
 		<node id="Templates">
 			<children>     <!-- Scrolls -->
 				<node id="GameObjects">		<!-- Element -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hfc6a0f48g73f3g4631g8025g866ca11a6bda" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="hf0f37e74gd318g41b2gaad3g078726073198" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2053fd20gcf3ag4ac1gb7eeg6bb3a920bc80" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h9f7fe760g88d6g40beg91f3ge5d78c6a1bc6" version="1" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="ab3b3f90-5c4e-482c-9bce-18deaee9e11e" />
@@ -15,7 +15,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
 					<attribute id="Stats" type="FixedString" value="ARCANE_EM_UNLOCK" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="VisualTemplate" type="FixedString" value="916f78a4-779b-3e43-28eb-eefc26d9683d" />
+					<attribute id="VisualTemplate" type="FixedString" value="75709ca9-3d6a-7a5f-6a57-1197d08a3965" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
 					<children>
 						<node id="Bounds">
@@ -74,17 +74,17 @@
 					</children>
 				</node>
 				<node id="GameObjects">     <!-- Ultimate -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h6de9f2e8geef5g4d7ag9124gdeb0191db73f" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="hcbed70c2gf425g4f39ga7a3g8b9f43f6013b" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h870aa881gd3fdg4e90gb221gbdfdf840ade7" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h766e490cg0e48g42f7gbf14g31a11891d9d5" version="1" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="2dcad2b5-b7d0-497f-9066-953032224e92" />
 					<attribute id="Name" type="LSString" value="OBJ_Scroll_Arcane_EM_Ultimate_Unlock" />
 					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
-					<attribute id="Stats" type="FixedString" value="OBJ_Scroll_Arcane_EM_Ultimate_Unlock" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll_Ultimate_EM_Arcane_Unlock" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="VisualTemplate" type="FixedString" value="916f78a4-779b-3e43-28eb-eefc26d9683d" />
+					<attribute id="VisualTemplate" type="FixedString" value="ac1284cd-92f7-9b0f-d320-26d40ba2c775" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
 					<children>
 						<node id="Bounds">
@@ -124,7 +124,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SkillID" type="FixedString" value="Arcane_EM_Ultimate_Unlock" />
+											<attribute id="SkillID" type="FixedString" value="Scroll_Ultimate_EM_Arcane_Unlock" />
 										</node>
 									</children>
 								</node>
@@ -134,7 +134,7 @@
 										<node id="Attributes">
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SpellId" type="FixedString" value="Arcane_EM_Ultimate_Unlock" />
+											<attribute id="SpellId" type="FixedString" value="Scroll_Ultimate_EM_Arcane_Unlock" />
 										</node>
 									</children>
 								</node>
