@@ -7,6 +7,7 @@
 				<node id="GameObjects">		<!-- Element -->
 					<attribute id="DisplayName" type="TranslatedString" handle="h2053fd20gcf3ag4ac1gb7eeg6bb3a920bc80" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="h9f7fe760g88d6g40beg91f3ge5d78c6a1bc6" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_Tome_Thayan_Necromancy_A_Gem_A" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="ab3b3f90-5c4e-482c-9bce-18deaee9e11e" />
@@ -79,7 +80,7 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="2dcad2b5-b7d0-497f-9066-953032224e92" />
-					<attribute id="Name" type="LSString" value="OBJ_Scroll_Arcane_EM_Ultimate_Unlock" />
+					<attribute id="Name" type="LSString" value="OBJ_Scroll_Ultimate_EM_Arcane_Unlock" />
 					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
 					<attribute id="Stats" type="FixedString" value="OBJ_Scroll_Ultimate_EM_Arcane_Unlock" />
@@ -137,6 +138,187 @@
 											<attribute id="SpellId" type="FixedString" value="Scroll_Ultimate_EM_Arcane_Unlock" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+			<children>		<!-- Affliction -->
+				<node id="GameObjects">		<!-- Contagion Spread -->
+					<attribute id="MapKey" type="FixedString" value="255b6219-f06e-49a7-8139-b98746e620fd" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Contagion_Spread_Effect" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Contagion_Spread_BodyFX" />
+					<attribute id="DestroyTrailFXOnImpact" type="bool" value="True" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="IgnoreRoof" type="bool" value="True" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 1" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="20" />
+					<attribute id="Acceleration" type="float" value="40" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">		<!-- Endemic Spread -->
+					<attribute id="MapKey" type="FixedString" value="5914061f-4142-4b1e-9e6b-2eed075aa886" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Endemic_Spread_Effect" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Endemic_Spread_BodyFX" />
+					<attribute id="DestroyTrailFXOnImpact" type="bool" value="True" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="IgnoreRoof" type="bool" value="True" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 1" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="20" />
+					<attribute id="Acceleration" type="float" value="40" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">		<!-- Epidenic Spread -->
+					<attribute id="MapKey" type="FixedString" value="513863df-af4b-4553-9767-1d05574b5cca" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_Spread_Effect" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_Spread_BodyFX" />
+					<attribute id="DestroyTrailFXOnImpact" type="bool" value="True" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="IgnoreRoof" type="bool" value="True" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 1" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="20" />
+					<attribute id="Acceleration" type="float" value="40" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">		<!-- Pandemic Spread -->
+					<attribute id="MapKey" type="FixedString" value="ab04c266-7cc8-42a4-ac9b-46eb4e2a5df3" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Pandemic_Spread_Effect" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Pandemic_Spread_BodyFX" />
+					<attribute id="DestroyTrailFXOnImpact" type="bool" value="True" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="IgnoreRoof" type="bool" value="True" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 1" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="20" />
+					<attribute id="Acceleration" type="float" value="40" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+			</children>
+			<children>		<!-- Barrage -->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="86debca8-63c0-459f-8035-737276e5d2c3" />
+					<attribute id="Name" type="LSString" value="VFX_Projectile_Spell_GuidingBolt_01" />					
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="TrailFX" type="FixedString" value="VFX_Projectiles_Turret_Arcane_01" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Projectiles_Turret_Arcane_Impact_01" />
+					<attribute id="GroundImpactFX" type="LSString" value="VFX_Combat_GroundImpact_Round_Medium_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="20" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<attribute id="LevelName" type="FixedString" value="" />					
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209011" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0" />
+									<attribute id="Max" type="fvec3" value="0 0 0" />
+									<attribute id="Min" type="fvec3" value="0 0 0" />
+									<attribute id="Radius" type="float" value="0" />
+									<attribute id="Shape" type="uint8" value="0" />
+									<attribute id="Type" type="uint8" value="0" />
 								</node>
 							</children>
 						</node>

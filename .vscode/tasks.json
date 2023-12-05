@@ -17,7 +17,10 @@
                 "EMLSX3",
                 "EMLSX4",
                 "MEIRelocate",
-                "LSFXRename",
+                "EMLSX4HT",
+                "LSFDeleteHT",
+                "VFXRecolor",
+                "ColorFinder",
                 "CheckStats"
             ],
             "presentation": {
@@ -91,27 +94,19 @@
         {
                 "label": "EMLoca",
                 "type": "shell",
-                "command": "python ",
-                "options":{
-                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts\\"
-                },
+                "command": "python 'C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts\\convert_loca.py'",
                 "args": [
-                    "convert_loca.py",
                     "-f",
-                    "${workspaceFolder}\\Localization\\English",
-                    "-b",
-                    "--ext",
-                    ".xml",
-                    "--outputext",
-                    ".loca"
-
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English\\Elemental_Mayhem.xml",
+                    "-o",
+                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English\\Elemental_Mayhem.loca"
                 ],
                 "group": "build",
                 "presentation": {
                     "reveal": "silent"
                 },
                 "problemMatcher": []
-        },
+    },
         {
                 "label": "EMLSX1",
                 "type": "shell",
@@ -192,7 +187,7 @@
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
                 "args": [
-                    "convert_lsf.py",
+                    "convert_lsfx.py",
                     "-f",
                     "${workspaceFolder}\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks",
                     "-b",
@@ -226,27 +221,92 @@
                 }
         },
         {
-                "label": "LSFXRename",
+                "label": "EMLSX4HT",
                 "type": "shell",
                 "command": "python",
-                "dependsOn":["EMLSX1","EMLSX2","EMLSX3","EMLSX4","MEIRelocate",],
-                "args": [
-                    "ht_rename_lsfx.py",
-                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks"
-                ],
-                "group": {
-                    "kind": "build",
-                    "isDefault": true
-                },
-                "presentation": {
-                    "reveal": "always",
-                    "panel": "new"
-                },
+                "dependsOn":["LSFDeleteHT"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
+                "args": [
+                    "convert_lsfx.py",
+                    "-f",
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks",
+                    "-b",
+                    "--ext",
+                    ".lsx",
+                    "--outputext",
+                    ".lsfx"
+                ],
+                "group": "build",
+                "presentation": {
+                    "reveal": "silent"
+                },
                 "problemMatcher": []
         },
+        {
+            "label": "LSFDeleteHT",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "mt_delete_lsf.py",
+                "${workspaceFolder}\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },                
+            "options": {
+                "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "VFXRecolor",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "color_change_arcane.py",
+                "${workspaceFolder}Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks\\VFXTest.lsx"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },                
+            "options": {
+                "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "ColorFinder",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "find_color_properties.py",
+                "${workspaceFolder}Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks\\VFX_Prepare_Affliction_EM_Arcane_R_HandFX.lsx"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },                
+            "options": {
+                "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+            },
+            "problemMatcher": []
+        },        
         {
                 "label": "CheckStats",
                 "type": "process",

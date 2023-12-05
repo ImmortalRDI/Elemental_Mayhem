@@ -7,7 +7,7 @@
 			<attribute id="Name" type="LSString" value="Affliction_EM_Arcane_CastEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="17a127a8-3a94-4013-9ba1-52c815be5078" />
+					<attribute id="UUID" type="guid" value="b47d052a-b772-42e2-a9b4-6ed7ef8646b0" />
 					<attribute id="EffectResourceGuid" type="guid" value="92234374-7ebe-411d-bd8f-a8c8eb086d64" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
@@ -33,8 +33,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="35d7aed8-3afc-4dbb-80e7-e8f84bac025a" />
-					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="UUID" type="guid" value="071aedde-63f8-4e4a-b392-74e7df2bd28d" />
+					<attribute id="EffectResourceGuid" type="guid" value="ecc94b63-f37e-4489-a6b6-b298d3238b12" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />

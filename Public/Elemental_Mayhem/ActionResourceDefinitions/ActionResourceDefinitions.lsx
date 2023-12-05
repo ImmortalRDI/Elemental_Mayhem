@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="326"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha90b35c1ga280g4549g8bbdgdde886481ee6" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h77332a99ga0d8g4e87gb833g9312fe46a3af" version="1"/>                    
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="EM_Elemental_Essence"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="e8abbce7-77c2-4a5f-882d-43594ca32f85"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8a2a2e6dgc642g44a7g865cga3215a967c9f" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h830df561g66e5g4027gb042g9cd4736b26e3" version="1"/>                    
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="3"/>
+                    <attribute id="Name" type="FixedString" value="EM_Elemental_Power"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="7596751f-e31c-4cb5-8161-6ef6bbc35da6"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

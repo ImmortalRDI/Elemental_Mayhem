@@ -3,12 +3,12 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="704f6a84-0cc8-4b3a-a27f-1a481b5b4092" />
+			<attribute id="UUID" type="guid" value="7783ec4b-d816-4f3b-8aea-0b0cfab0a876" />
 			<attribute id="Name" type="LSString" value="Affliction_EM_Arcane_TargetEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="a8826c1e-0c92-4dd2-870d-6c3fa62eeeaf" />
-					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="UUID" type="guid" value="a1537dec-92f5-4067-9ea7-ddd941431fab" />
+					<attribute id="EffectResourceGuid" type="guid" value="3694d29b-520c-4a21-83d6-53517aefa01e" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />
@@ -33,8 +33,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="2b010394-7a6e-4f88-ab9e-20910beca517" />
-					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="UUID" type="guid" value="ab9479a3-d2fd-431f-a9af-754fe90be974" />
+					<attribute id="EffectResourceGuid" type="guid" value="2e7d4d7c-dfbe-49ae-a950-abc5cdf27df5" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />

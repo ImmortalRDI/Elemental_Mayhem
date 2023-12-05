@@ -3,11 +3,11 @@
 	<version major="4" minor="0" revision="9" build="324" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="74da7c08-b0b0-43a3-a053-86d099326c98" />
+			<attribute id="UUID" type="guid" value="77c9ebb6-a788-4d27-935a-615ba46897d4" />
 			<attribute id="Name" type="LSString" value="Status_Affliction_EM_Arcane_ApplyEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="b8226db0-1d81-4be3-adf6-079e4893c312" />
+					<attribute id="UUID" type="guid" value="aa6a1e9c-82d9-493c-9229-b499a19a23d5" />
 					<attribute id="EffectResourceGuid" type="guid" value="6cbbf109-0514-440c-b25a-d6195f29b716" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
@@ -51,7 +51,7 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="73f832b3-950e-450e-86be-eb047b3ee5ad" />
+					<attribute id="UUID" type="guid" value="d219cae6-f038-4990-bb90-5a0ef123e3c7" />
 					<attribute id="EffectResourceGuid" type="guid" value="6cbbf109-0514-440c-b25a-d6195f29b716" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
@@ -92,7 +92,7 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="4eb3634b-d166-49e9-af61-f1d7915491da" />
+					<attribute id="UUID" type="guid" value="e56a3f13-82cc-4343-a5e1-7f1f0e8b51d2" />
 					<attribute id="EffectResourceGuid" type="guid" value="6cbbf109-0514-440c-b25a-d6195f29b716" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
@@ -130,7 +130,7 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="0d82ff28-498e-46b0-ba05-898f1dfc6495" />
+					<attribute id="UUID" type="guid" value="004b8b22-e816-4e66-925f-2a5137ddc128" />
 					<attribute id="EffectResourceGuid" type="guid" value="f3fbecc0-c224-4e0b-873e-a1b3216c456c" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
@@ -165,7 +165,7 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="10a2e281-ab67-4ffa-8a46-5613fe02b271" />
+					<attribute id="UUID" type="guid" value="afb3c2df-daff-4b4f-b710-761d539f3319" />
 					<attribute id="EffectResourceGuid" type="guid" value="f3fbecc0-c224-4e0b-873e-a1b3216c456c" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
@@ -197,7 +197,7 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="95c5e3d0-7f12-4296-82a5-64c6ad62dd03" />
+					<attribute id="UUID" type="guid" value="823a6eaa-7f3d-4bfe-b099-07367d4ee859" />
 					<attribute id="EffectResourceGuid" type="guid" value="f3fbecc0-c224-4e0b-873e-a1b3216c456c" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />

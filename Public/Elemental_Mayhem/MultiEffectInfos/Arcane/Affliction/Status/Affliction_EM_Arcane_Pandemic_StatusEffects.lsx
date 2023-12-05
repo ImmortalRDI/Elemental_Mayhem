@@ -3,12 +3,12 @@
 	<version major="4" minor="0" revision="4" build="602" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="c3678a63-87da-4c94-824d-b9d837d7ab69" />
-			<attribute id="Name" type="LSString" value="Affliction_EM_Arcane_Suppressed_StatusEffects" />
+			<attribute id="UUID" type="guid" value="a40a8c21-376b-48c1-8de3-1524d42ae58f" />
+			<attribute id="Name" type="LSString" value="Affliction_EM_Arcane_Pandemic_StatusEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="b14e7e79-9ef2-4bd8-bf9f-73ea10e40e33" />
-					<attribute id="EffectResourceGuid" type="guid" value="c7789b83-2494-5103-f892-14e77bb06faf" />
+					<attribute id="UUID" type="guid" value="e4932d9b-4bed-49b9-aec1-b7ee89b87fac" />
+					<attribute id="EffectResourceGuid" type="guid" value="e8ba5028-bcc4-4c01-97c0-fa954c60b2d0" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
