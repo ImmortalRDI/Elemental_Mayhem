@@ -60,7 +60,7 @@
 				</node>
 				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="3f25faa0-9ba7-4d19-adb0-74f03c63f0de" />
-					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="EffectResourceGuid" type="guid" value="b3556681-ecb5-4356-aa86-4d03036e32df" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />
@@ -80,7 +80,7 @@
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
 						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="Dummy_R_HandFX" />
+							<attribute id="Value" type="LSString" value="Dummy_L_HandFX" />
 						</node>
 					</children>
 				</node>

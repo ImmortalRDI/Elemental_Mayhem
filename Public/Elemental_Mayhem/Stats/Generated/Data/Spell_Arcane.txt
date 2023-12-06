@@ -159,7 +159,7 @@
                     data "VerbalIntent" "Debuff"
                     data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful;NoCameraMove"
                     data "PrepareEffect" "62c1b1da-35c7-49af-8eda-b45e0aa72a11"
-                    data "CastEffect" "5fff55ff-1e43-4c7a-9d06-fa8bfbb6d958"
+                    data "CastEffect" "1073e881-3500-4e22-9e26-07dd7870ca75"
                     data "TargetEffect" "7783ec4b-d816-4f3b-8aea-0b0cfab0a876"
                     data "SpellSoundMagnitude" "Big"
                     data "Sheathing" "Somatic"

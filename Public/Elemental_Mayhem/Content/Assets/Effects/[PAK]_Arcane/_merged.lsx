@@ -9,19 +9,31 @@
 					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="5" />
+					<attribute id="Duration" type="float" value="2" />
 					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Affliction_EM_Arcane_R_HandFX" />
 					<attribute id="ID" type="FixedString" value="209254b6-b8d6-e7ea-c453-b49e682dba37" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
 					<attribute id="Name" type="LSString" value="VFX_Prepare_Affliction_EM_Arcane_R_HandFX" />
-					<attribute id="Radius" type="float" value="1.732051" />
+					<attribute id="Radius" type="float" value="2" />
 					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Prepare_Affliction_EM_Arcane_R_HandFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725660" />
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="88ab1c5e-5bcd-e4a5-7249-9c6a439a18d6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="183a9f56-814d-a677-b7b9-8f818428708c" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -31,7 +43,7 @@
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.306429" />
+					<attribute id="Duration" type="float" value="2" />
 					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Affliction_EM_Arcane_L_HandFX" />
 					<attribute id="ID" type="FixedString" value="154ea82f-6ce8-d3ae-7e54-6398487ecc42" />
 					<attribute id="Initialized" type="bool" value="True" />
@@ -39,12 +51,24 @@
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
 					<attribute id="Name" type="LSString" value="VFX_Prepare_Affliction_EM_Arcane_L_HandFX" />
-					<attribute id="Radius" type="float" value="5.196152" />
+					<attribute id="Radius" type="float" value="2" />
 					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Prepare_Affliction_EM_Arcane_L_HandFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758065" />
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="88ab1c5e-5bcd-e4a5-7249-9c6a439a18d6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="183a9f56-814d-a677-b7b9-8f818428708c" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -54,18 +78,33 @@
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value=" " />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Affliction_EM_Arcane_Root" />
 					<attribute id="ID" type="FixedString" value="a7d920de-a1dd-3a9d-2cd0-f75aa82cb730" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
 					<attribute id="Name" type="LSString" value="VFX_Prepare_Affliction_EM_Arcane_Root" />
-					<attribute id="Radius" type="float" value="5.196152" />
+					<attribute id="Radius" type="float" value="2" />
 					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Prepare_Affliction_EM_Arcane_Root.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e7b55705-01cd-edbd-7a8d-25321c31904d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2a6d9561-2424-2e57-6603-bfef60321a19" />
+								</node>
 							</children>
 						</node>
 					</children>
@@ -125,7 +164,7 @@
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
 					<attribute id="EffectName" type="FixedString" value="VFX_Cast_Affliction_EM_Arcane_L_HandFX" />
-					<attribute id="ID" type="FixedString" value="3e7a8d73-2733-43b5-b844-b866d889af46" />
+					<attribute id="ID" type="FixedString" value="b3556681-ecb5-4356-aa86-4d03036e32df" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
@@ -625,7 +664,101 @@
 			
 			</children>
             <children>      <!-- Blast -->
-            
+				<node id="Resource">		<!-- Prepare | R. Hand -->
+					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Blast_EM_Arcane_R_HandFX" />
+					<attribute id="ID" type="FixedString" value="2abd68fb-6160-43d6-9c19-fc23a12102fe" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Blast_EM_Arcane_R_HandFX" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Prepare_Blast_EM_Arcane_R_HandFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725660" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c857d19b-25be-a746-1134-1fcf2107ac38" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4ef97cf9-3c27-06b2-20d8-2e7c4bf2009b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">		<!-- Prepare | R. Hand -->
+					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Blast_EM_Arcane_L_HandFX" />
+					<attribute id="ID" type="FixedString" value="65d291f2-3cdc-4065-827f-be293253fc5e" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Blast_EM_Arcane_L_HandFX" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Prepare_Blast_EM_Arcane_L_HandFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725660" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c857d19b-25be-a746-1134-1fcf2107ac38" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4ef97cf9-3c27-06b2-20d8-2e7c4bf2009b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">		<!-- Prepare | Root -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Blast_EM_Arcane_Root" />
+					<attribute id="ID" type="FixedString" value="7f7d4294-4287-4eef-b22a-f49025d0ea12" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Blast_EM_Arcane_Root" />
+					<attribute id="Radius" type="float" value="5.196152" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Prepare_Blast_EM_Arcane_Root.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							</children>
+						</node>
+					</children>
+				</node>
             </children>
 			<children>		<!-- Blitz -->
 				<node id="Resource">        <!-- Cast -->
@@ -695,7 +828,7 @@
 					</children>
 				</node>
             </children>
-			<children>		<!-- Burst -->
+			<children>		<!-- Explosion -->
 			
 			</children>
             <children>      <!-- Imbue -->

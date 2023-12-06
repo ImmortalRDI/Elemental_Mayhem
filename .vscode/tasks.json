@@ -222,12 +222,11 @@
                 "label": "EMLSX4HT",
                 "type": "shell",
                 "command": "python",
-                "dependsOn":["LSFDeleteHT"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
                 "args": [
-                    "convert_lsfx.py",
+                    "ht_convert_lsfx.py",
                     "-f",
                     "${workspaceFolder}\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks",
                     "-b",
@@ -236,9 +235,13 @@
                     "--outputext",
                     ".lsfx"
                 ],
-                "group": "build",
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
                 "presentation": {
-                    "reveal": "silent"
+                    "reveal": "always",
+                    "panel": "new"
                 },
                 "problemMatcher": []
         },
