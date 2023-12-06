@@ -1,0 +1,12 @@
+[
+    {
+        "key": "ctrl+shift+-",
+        "command": "workbench.action.tasks.runTask",
+        "args": "VFXRecolor"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "workbench.action.tasks.runTask",
+        "args": "EMLSX4HT"
+    }
+]

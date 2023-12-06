@@ -1,5 +1,4 @@
-{
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
+{    // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
@@ -20,7 +19,6 @@
                 "EMLSX4HT",
                 "LSFDeleteHT",
                 "VFXRecolor",
-                "ColorFinder",
                 "CheckStats"
             ],
             "presentation": {
@@ -271,7 +269,7 @@
             "command": "python",
             "args": [
                 "color_change_arcane.py",
-                "${workspaceFolder}Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks\\VFXTest.lsx"
+                "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks\\VFXTest.lsx"
             ],
             "group": {
                 "kind": "build",
@@ -286,27 +284,6 @@
             },
             "problemMatcher": []
         },
-        {
-            "label": "ColorFinder",
-            "type": "shell",
-            "command": "python",
-            "args": [
-                "find_color_properties.py",
-                "${workspaceFolder}Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks\\VFX_Prepare_Affliction_EM_Arcane_R_HandFX.lsx"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            },                
-            "options": {
-                "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
-            },
-            "problemMatcher": []
-        },        
         {
                 "label": "CheckStats",
                 "type": "process",
