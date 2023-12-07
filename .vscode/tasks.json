@@ -93,6 +93,7 @@
                 "label": "EMLoca",
                 "type": "shell",
                 "command": "python 'C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts\\convert_loca.py'",
+                "dependsOn":["LSFDelete"],
                 "args": [
                     "-f",
                     "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English\\Elemental_Mayhem.xml",
@@ -109,6 +110,7 @@
                 "label": "EMLSX1",
                 "type": "shell",
                 "command": "python",
+                "dependsOn":["LSFDelete","EMLoca"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
@@ -132,7 +134,7 @@
                 "label": "EMLSX2",
                 "type": "shell",
                 "command": "python",
-                "dependsOn":["EMLSX1"],
+                "dependsOn":["LSFDelete","EMLoca","EMLSX1"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
@@ -156,7 +158,7 @@
                 "label": "EMLSX3",
                 "type": "shell",
                 "command": "python",
-                "dependsOn":["EMLSX1","EMLSX2"],
+                "dependsOn":["LSFDelete","EMLoca","EMLSX2"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
@@ -180,7 +182,7 @@
                 "label": "EMLSX4",
                 "type": "shell",
                 "command": "python",
-                "dependsOn":["EMLSX1","EMLSX2","EMLSX3"],
+                "dependsOn":["LSFDelete","EMLoca","EMLSX1","EMLSX2","EMLSX3"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
@@ -202,7 +204,7 @@
         },
         {
                 "label": "MEIRelocate",
-                "dependsOn": ["EMLSX1","EMLSX2","EMLSX3","EMLSX4"],
+                "dependsOn": ["LSFDelete","EMLoca","EMLSX1","EMLSX2","EMLSX3","EMLSX4"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
@@ -222,13 +224,14 @@
                 "label": "EMLSX4HT",
                 "type": "shell",
                 "command": "python",
+                "dependsOn":["LSFDeleteHT"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
                 "args": [
-                    "ht_convert_lsfx.py",
+                    "convert_lsfx.py",
                     "-f",
-                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks",
+                    "${workspaceFolder}\\Public\\Elemental_Mayhem\\Assets\\Effects\\Effects_Banks\\Arcane\\Affliction",
                     "-b",
                     "--ext",
                     ".lsx",

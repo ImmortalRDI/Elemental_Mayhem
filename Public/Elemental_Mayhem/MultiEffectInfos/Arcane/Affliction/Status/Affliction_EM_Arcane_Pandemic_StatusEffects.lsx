@@ -3,11 +3,11 @@
 	<version major="4" minor="0" revision="4" build="602" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="a40a8c21-376b-48c1-8de3-1524d42ae58f" />
+			<attribute id="UUID" type="guid" value="fb01ca5b-f5f1-4d04-b53d-a9587ed576fd" />
 			<attribute id="Name" type="LSString" value="Affliction_EM_Arcane_Pandemic_StatusEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="e4932d9b-4bed-49b9-aec1-b7ee89b87fac" />
+					<attribute id="UUID" type="guid" value="91308fe5-5ad2-4c08-8d07-50a404f66712" />
 					<attribute id="EffectResourceGuid" type="guid" value="e8ba5028-bcc4-4c01-97c0-fa954c60b2d0" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />

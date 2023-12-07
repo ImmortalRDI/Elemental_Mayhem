@@ -3,12 +3,12 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="7783ec4b-d816-4f3b-8aea-0b0cfab0a876" />
+			<attribute id="UUID" type="guid" value="50a7b189-5dfe-4c7b-8477-02332530ba5d" />
 			<attribute id="Name" type="LSString" value="Affliction_EM_Arcane_TargetEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="a1537dec-92f5-4067-9ea7-ddd941431fab" />
-					<attribute id="EffectResourceGuid" type="guid" value="3694d29b-520c-4a21-83d6-53517aefa01e" />
+					<attribute id="UUID" type="guid" value="5227ccd4-825f-4406-949c-df708279ae98" />
+					<attribute id="EffectResourceGuid" type="guid" value="6e2c2804-4ecc-44fc-a6c9-9d6c443b2e13" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />
@@ -25,36 +25,11 @@
 					<attribute id="Pivot" type="FixedString" value="Target" />
 					<attribute id="DamageType" type="uint32" value="0" />
 					<attribute id="VerbalIntent" type="uint32" value="0" />
+					<attribute id="StartTextKey" type="LSString" value="Cast" />
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
 						<node id="TargetBone">
 							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
-						</node>
-					</children>
-				</node>
-				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="ab9479a3-d2fd-431f-a9af-754fe90be974" />
-					<attribute id="EffectResourceGuid" type="guid" value="2e7d4d7c-dfbe-49ae-a950-abc5cdf27df5" />
-					<attribute id="DetachSource" type="bool" value="False" />
-					<attribute id="DetachTarget" type="bool" value="False" />
-					<attribute id="KeepRotation" type="bool" value="True" />
-					<attribute id="UseOrientDirection" type="bool" value="False" />
-					<attribute id="UseDistance" type="bool" value="False" />
-					<attribute id="UseScaleOverride" type="bool" value="False" />
-					<attribute id="KeepScale" type="bool" value="True" />
-					<attribute id="MainHand" type="bool" value="False" />
-					<attribute id="OffHand" type="bool" value="False" />
-					<attribute id="MinDistance" type="float" value="0" />
-					<attribute id="MaxDistance" type="float" value="0" />
-					<attribute id="BindSourceTo" type="FixedString" value="SourceEntity" />
-					<attribute id="BindTargetTo" type="FixedString" value="TargetEntity" />
-					<attribute id="Pivot" type="FixedString" value="Target" />
-					<attribute id="DamageType" type="uint32" value="0" />
-					<attribute id="VerbalIntent" type="uint32" value="0" />
-					<attribute id="Enabled" type="bool" value="True" />
-					<children>
-						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="Dummy_Root" />
 						</node>
 					</children>
 				</node>

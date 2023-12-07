@@ -3,12 +3,12 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="8556bdf9-583f-4750-929b-710b95410786" />
+			<attribute id="UUID" type="guid" value="16ee4041-029c-4498-9ddb-cf81829fc24b" />
 			<attribute id="Name" type="LSString" value="Affliction_EM_Arcane_Contagion_StatusEffect" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="42b28048-bd0a-42fb-a495-937579d26281" />
-					<attribute id="EffectResourceGuid" type="guid" value="a46967cc-6ea5-451b-be5f-0170db257ef4" />
+					<attribute id="UUID" type="guid" value="7c29a04d-8820-43ef-91d8-9cfed1a3b5b2" />
+					<attribute id="EffectResourceGuid" type="guid" value="dc84aa86-39e0-429f-8aae-3e734ac45bda" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -51,8 +51,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="76846bf7-f24a-4537-9340-2890970d1d0e" />
-					<attribute id="EffectResourceGuid" type="guid" value="a46967cc-6ea5-451b-be5f-0170db257ef4" />
+					<attribute id="UUID" type="guid" value="ddb8bd9b-b826-4f8c-8905-6160abf85dcb" />
+					<attribute id="EffectResourceGuid" type="guid" value="dc84aa86-39e0-429f-8aae-3e734ac45bda" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -92,8 +92,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="1340573c-a934-4c61-9e05-9f9bb71280fc" />
-					<attribute id="EffectResourceGuid" type="guid" value="a46967cc-6ea5-451b-be5f-0170db257ef4" />
+					<attribute id="UUID" type="guid" value="3b1b493c-5605-4160-a905-eea6a4b94248" />
+					<attribute id="EffectResourceGuid" type="guid" value="dc84aa86-39e0-429f-8aae-3e734ac45bda" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -130,8 +130,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="28ce0f35-c7a9-47a0-a427-704d08b475a0" />
-					<attribute id="EffectResourceGuid" type="guid" value="6f22ea85-2c9a-4e82-a886-e19df3e80bbf" />
+					<attribute id="UUID" type="guid" value="9094c1b6-994f-4929-bd14-500e68ebfaa1" />
+					<attribute id="EffectResourceGuid" type="guid" value="3ee67e3d-c2ee-4309-a0b9-38020f451820" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -165,8 +165,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="a21a2da9-322b-48db-b4ce-2d88b6c39a51" />
-					<attribute id="EffectResourceGuid" type="guid" value="6f22ea85-2c9a-4e82-a886-e19df3e80bbf" />
+					<attribute id="UUID" type="guid" value="a3186b74-17e1-4159-a6b5-c0b44f0e4ef6" />
+					<attribute id="EffectResourceGuid" type="guid" value="3ee67e3d-c2ee-4309-a0b9-38020f451820" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -197,8 +197,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="700f3951-adca-47de-9058-63825e2efb5d" />
-					<attribute id="EffectResourceGuid" type="guid" value="6f22ea85-2c9a-4e82-a886-e19df3e80bbf" />
+					<attribute id="UUID" type="guid" value="8d1b580b-3edf-4e83-90cd-db9cf321b2ea" />
+					<attribute id="EffectResourceGuid" type="guid" value="3ee67e3d-c2ee-4309-a0b9-38020f451820" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -226,8 +226,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="3dd7a1b6-8c0d-456c-8b03-e2b0b4db3a85" />
-					<attribute id="EffectResourceGuid" type="guid" value="4f6c4ff2-7754-4803-832d-866603557580" />
+					<attribute id="UUID" type="guid" value="761b727e-4030-4c2c-85e2-cfdc7ad96f83" />
+					<attribute id="EffectResourceGuid" type="guid" value="559bdf90-b9f8-4c8e-89ba-dde1d9e4b590" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -270,8 +270,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="7f7006e9-7bb2-4914-91e7-60303ef2b683" />
-					<attribute id="EffectResourceGuid" type="guid" value="4f6c4ff2-7754-4803-832d-866603557580" />
+					<attribute id="UUID" type="guid" value="aff49318-2510-411d-9f09-1bdb6c2bc142" />
+					<attribute id="EffectResourceGuid" type="guid" value="559bdf90-b9f8-4c8e-89ba-dde1d9e4b590" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -311,8 +311,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="01e56e92-76ab-4e08-b75e-79370cb2f2ee" />
-					<attribute id="EffectResourceGuid" type="guid" value="4f6c4ff2-7754-4803-832d-866603557580" />
+					<attribute id="UUID" type="guid" value="a2cf3aaf-beee-461a-892d-96ef3583f57f" />
+					<attribute id="EffectResourceGuid" type="guid" value="559bdf90-b9f8-4c8e-89ba-dde1d9e4b590" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -349,8 +349,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="0fcb32dd-40fe-4b42-9d5f-4e61b0cdb570" />
-					<attribute id="EffectResourceGuid" type="guid" value="9a7711a6-d453-4057-b94b-88fa67a90f63" />
+					<attribute id="UUID" type="guid" value="4cbdc54a-810c-441e-9a7d-c539bda49610" />
+					<attribute id="EffectResourceGuid" type="guid" value="bc78cfc3-e118-4b50-8908-7f7aa115a411" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -384,8 +384,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="2f9a24aa-f02e-480b-ac8b-3a4c07ab384c" />
-					<attribute id="EffectResourceGuid" type="guid" value="9a7711a6-d453-4057-b94b-88fa67a90f63" />
+					<attribute id="UUID" type="guid" value="422cd64b-2c2b-45a7-96f2-a22d4aca5472" />
+					<attribute id="EffectResourceGuid" type="guid" value="bc78cfc3-e118-4b50-8908-7f7aa115a411" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -416,8 +416,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="667158b7-1193-466e-a25e-a10f142fb059" />
-					<attribute id="EffectResourceGuid" type="guid" value="9a7711a6-d453-4057-b94b-88fa67a90f63" />
+					<attribute id="UUID" type="guid" value="031726bb-99bc-4cb8-8d62-0e569821ac9f" />
+					<attribute id="EffectResourceGuid" type="guid" value="bc78cfc3-e118-4b50-8908-7f7aa115a411" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />

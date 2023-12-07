@@ -3,12 +3,12 @@
 	<version major="4" minor="0" revision="4" build="602" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="d6578c3e-8cc2-43ea-975e-161927c37d82" />
-			<attribute id="Name" type="LSString" value="Siphon_EM_Arcane_Pandemic_ApplyEffects" />
+			<attribute id="UUID" type="guid" value="eb28fdca-debb-4768-9824-b4876126ed5d" />
+			<attribute id="Name" type="LSString" value="Siphon_EM_Arcane_ApplyEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="de0c44b0-370e-486a-9a97-88da807a8659" />
-					<attribute id="EffectResourceGuid" type="guid" value="c88ab422-3bc9-404d-9aae-974594b47dd7" />
+					<attribute id="UUID" type="guid" value="f92ad6f2-cb54-4b5c-a1fd-eb3ceab949c6" />
+					<attribute id="EffectResourceGuid" type="guid" value="b1713a29-4e24-4452-b7f1-f5a8fbf21f82" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
