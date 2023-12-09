@@ -47,8 +47,18 @@
 					<attribute id="Level7" type="LSString" value="4d12" />
 					<attribute id="Level9" type="LSString" value="5d12" />
 					<attribute id="Level11" type="LSString" value="6d12" />
-					<attribute id="Name" type="FixedString" value="Barrage_EM_Arcane_Damage" />
+					<attribute id="Name" type="FixedString" value="Barrage_EM_Damage" />
 					<attribute id="UUID" type="guid" value="aa86af58-933e-4cde-af92-5e19421c9498" />
+				</node>
+				<node id="LevelMapSeries">
+					<attribute id="Level1" type="LSString" value="1d8" />
+					<attribute id="Level3" type="LSString" value="2d8" />
+					<attribute id="Level5" type="LSString" value="3d8" />
+					<attribute id="Level7" type="LSString" value="4d8" />
+					<attribute id="Level9" type="LSString" value="5d8" />
+					<attribute id="Level11" type="LSString" value="6d8" />
+					<attribute id="Name" type="FixedString" value="Blast_EM_Damage" />
+					<attribute id="UUID" type="guid" value="e1ebb33a-1339-4a27-b729-40cd8fc841bd" />
 				</node>
 				<node id="LevelMapSeries">
 					<attribute id="Level1" type="LSString" value="1d10" />
@@ -57,7 +67,7 @@
 					<attribute id="Level7" type="LSString" value="4d10" />
 					<attribute id="Level9" type="LSString" value="5d10" />
 					<attribute id="Level11" type="LSString" value="6d10" />
-					<attribute id="Name" type="FixedString" value="Elemental_Mayhem_Bolt" />
+					<attribute id="Name" type="FixedString" value="Blitz_EM_Damage" />
 					<attribute id="UUID" type="guid" value="65be45b5-d91c-4c66-8862-afbc4dd5f66c" />
 				</node>
 				<node id="LevelMapSeries">
@@ -67,34 +77,48 @@
 					<attribute id="Level7" type="LSString" value="4" />
 					<attribute id="Level9" type="LSString" value="5" />
 					<attribute id="Level11" type="LSString" value="6" />
-					<attribute id="Name" type="FixedString" value="Elemental_Mayhem_Bolt_Targets" />
+					<attribute id="Name" type="FixedString" value="Bolt_EM_Targets" />
+					<attribute id="UUID" type="guid" value="05d7fc49-e2ca-4d4a-8955-739a2b212785" />
+				</node>
+				<node id="LevelMapSeries">
+					<attribute id="Level1" type="LSString" value="1d12" />
+					<attribute id="Level4" type="LSString" value="2d12" />
+					<attribute id="Level8" type="LSString" value="3d12" />
+					<attribute id="Level12" type="LSString" value="4d12" />
+					<attribute id="Name" type="FixedString" value="Bolt_EM_Damage" />
 					<attribute id="UUID" type="guid" value="05d7fc49-e2ca-4d4a-8955-739a2b212785" />
 				</node>
 				<node id="LevelMapSeries">
 					<attribute id="Level1" type="LSString" value="1d6" />
-					<attribute id="Level3" type="LSString" value="2d6" />
-					<attribute id="Level5" type="LSString" value="3d6" />
-					<attribute id="Level7" type="LSString" value="4d6" />
-					<attribute id="Level9" type="LSString" value="5d6" />
-					<attribute id="Level11" type="LSString" value="6d6" />
-					<attribute id="Name" type="FixedString" value="Elemental_Mayhem_Blast" />
-					<attribute id="UUID" type="guid" value="e1ebb33a-1339-4a27-b729-40cd8fc841bd" />
+					<attribute id="Level4" type="LSString" value="1d8" />
+					<attribute id="Level8" type="LSString" value="1d10" />
+					<attribute id="Level12" type="LSString" value="1d12" />
+					<attribute id="Name" type="FixedString" value="Imbue_EM_MainHand" />
+					<attribute id="UUID" type="guid" value="bbbad194-3f74-43a4-a371-75e0308f3fe5" />
 				</node>
 				<node id="LevelMapSeries">
-					<attribute id="Level1" type="LSString" value="1d12" />
-					<attribute id="Level2" type="LSString" value="1d14" />
-					<attribute id="Level3" type="LSString" value="2d12" />
-					<attribute id="Level4" type="LSString" value="2d14" />
-					<attribute id="Level5" type="LSString" value="3d12" />
-					<attribute id="Level6" type="LSString" value="3d14" />
-					<attribute id="Level7" type="LSString" value="4d12" />
-					<attribute id="Level8" type="LSString" value="4d14" />
-					<attribute id="Level9" type="LSString" value="5d12" />
-					<attribute id="Level10" type="LSString" value="5d14" />
-					<attribute id="Level11" type="LSString" value="6d12" />
-					<attribute id="Level12" type="LSString" value="6d14" />
-					<attribute id="Name" type="FixedString" value="Elemental_Mayhem_Leap" />
+					<attribute id="Level1" type="LSString" value="1d4" />
+					<attribute id="Level4" type="LSString" value="1d6" />
+					<attribute id="Level8" type="LSString" value="1d8" />
+					<attribute id="Level12" type="LSString" value="1d10" />
+					<attribute id="Name" type="FixedString" value="Imbue_EM_OffHand" />
+					<attribute id="UUID" type="guid" value="bbbad194-3f74-43a4-a371-75e0308f3fe5" />
+				</node>
+				<node id="LevelMapSeries">
+					<attribute id="Level1" type="LSString" value="3d6" />
+					<attribute id="Level4" type="LSString" value="4d8" />
+					<attribute id="Level8" type="LSString" value="5d10" />
+					<attribute id="Level12" type="LSString" value="6d12" />
+					<attribute id="Name" type="FixedString" value="Leap_EM_Damage" />
 					<attribute id="UUID" type="guid" value="09c22d09-57c0-4c74-8c17-bc651002b6a9" />
+				</node>
+				<node id="LevelMapSeries">
+					<attribute id="Level1" type="LSString" value="8d4" />
+					<attribute id="Level4" type="LSString" value="8d6" />
+					<attribute id="Level8" type="LSString" value="8d8" />
+					<attribute id="Level12" type="LSString" value="8d10" />
+					<attribute id="Name" type="FixedString" value="Ultimate_EM_Damage" />
+					<attribute id="UUID" type="guid" value="323d678a-12a5-45ff-96e2-31d8b03a7be7" />
 				</node>
 			</children>
 		</node>

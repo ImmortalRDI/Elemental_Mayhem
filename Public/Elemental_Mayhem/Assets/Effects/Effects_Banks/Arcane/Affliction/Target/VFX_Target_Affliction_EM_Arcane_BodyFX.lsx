@@ -16,6 +16,9 @@
 				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
 				</node>
+				<node id="DependentResource">
+					<attribute id="Object" type="FixedString" value="03810546-cf02-6abc-32e6-ba6f2512c0c2" />
+				</node>
 			</children>
 		</node>
 	</region>
@@ -27,7 +30,7 @@
 					<children>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="4.032687" />
-							<attribute id="ID" type="guid" value="16f33af8-8fd6-4986-bdaa-79cf37fb70fd" />
+							<attribute id="ID" type="guid" value="005bbaa1-72bf-4696-8aba-2794ccdccb6b" />
 							<attribute id="Name" type="LSString" value="BoundingSphere" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="0" />
@@ -65,7 +68,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.3" />
-							<attribute id="ID" type="guid" value="6c55474e-a537-4565-9df0-e70d147be135" />
+							<attribute id="ID" type="guid" value="11767a4a-edda-4139-a233-62d8038919a3" />
 							<attribute id="Name" type="LSString" value="Light" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="0" />
@@ -551,7 +554,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.2" />
-							<attribute id="ID" type="guid" value="33e13490-87a8-429a-a3b9-c5d674059f5c" />
+							<attribute id="ID" type="guid" value="f6b3bee1-20e4-4bc7-a559-a12701d72b06" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="1" />
@@ -2688,7 +2691,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.1" />
-							<attribute id="ID" type="guid" value="7a4b3182-5d52-482b-b8fe-29225ed52fb4" />
+							<attribute id="ID" type="guid" value="e1998491-2a16-4755-8fd0-a90e94e4605a" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="1" />
@@ -4857,7 +4860,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.1" />
-							<attribute id="ID" type="guid" value="3bfdbe50-8399-457d-a433-95b0e6719ea9" />
+							<attribute id="ID" type="guid" value="5c277068-8ec3-4c10-96a3-e029a4572c0c" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="2" />
@@ -6917,7 +6920,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.188776" />
-							<attribute id="ID" type="guid" value="58013c32-96f1-46e2-9d41-122364bfd364" />
+							<attribute id="ID" type="guid" value="0d0cb9f8-b714-4f56-a184-459755edb4ca" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="2" />
@@ -7035,7 +7038,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.1" />
-							<attribute id="ID" type="guid" value="d28f30be-5d87-499e-afc1-6af3aa32d854" />
+							<attribute id="ID" type="guid" value="0bd1757d-9348-460b-8d0c-e7e71d746f2c" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="3" />
@@ -9091,7 +9094,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.188776" />
-							<attribute id="ID" type="guid" value="41b93d01-27cb-4c7d-9a1b-49e7d5746b9f" />
+							<attribute id="ID" type="guid" value="94167cd2-a320-48b4-aadc-159b20a56930" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="3" />
@@ -9209,7 +9212,7 @@
 						</node>
                         <node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.3" />
-							<attribute id="ID" type="guid" value="a26770db-3584-40a5-85e0-d3a97c897e6b" />
+							<attribute id="ID" type="guid" value="d7ec434c-e0e0-4230-a3df-cb741459fcda" />
 							<attribute id="Name" type="LSString" value="Light" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="0" />
@@ -9695,7 +9698,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.2" />
-							<attribute id="ID" type="guid" value="f09a0661-0ae2-4e83-9625-9f31ba506f28" />
+							<attribute id="ID" type="guid" value="fbf5ecdd-d222-41cc-a592-a7b887d7c2b9" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="1" />
@@ -11832,7 +11835,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.1" />
-							<attribute id="ID" type="guid" value="fbfb28aa-7ea9-4ad7-b4f7-e0451ebf3691" />
+							<attribute id="ID" type="guid" value="20190b0e-573e-4da3-913d-c534dc062a7e" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="1" />
@@ -14001,7 +14004,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.1" />
-							<attribute id="ID" type="guid" value="80126fba-30b6-4515-bb83-93ae67a333b0" />
+							<attribute id="ID" type="guid" value="49ff0c86-806b-4f46-bccc-66ac6ee80c1d" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="2" />
@@ -16061,7 +16064,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.188776" />
-							<attribute id="ID" type="guid" value="7fb70c51-7654-4c4c-81a7-87d647abb648" />
+							<attribute id="ID" type="guid" value="9a856adc-11f8-4ca7-b1ab-a71546a3a0d0" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="2" />
@@ -16179,7 +16182,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.1" />
-							<attribute id="ID" type="guid" value="d3f500e0-b2bf-49e8-959d-51dfcd5a6e77" />
+							<attribute id="ID" type="guid" value="a146467c-1d53-4125-b92e-43384ea2ee65" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="3" />
@@ -18235,7 +18238,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.188776" />
-							<attribute id="ID" type="guid" value="eda38820-df49-4020-859d-566ef537ad19" />
+							<attribute id="ID" type="guid" value="7b0dd7c1-45a1-401d-a574-a2957b347e80" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="3" />
@@ -18353,7 +18356,7 @@
 						</node>
                         <node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.3" />
-							<attribute id="ID" type="guid" value="719adddb-0673-4dad-8fa7-230b4f786a1f" />
+							<attribute id="ID" type="guid" value="8163718d-3c52-4384-b456-b97f402d0575" />
 							<attribute id="Name" type="LSString" value="Light" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="0" />
@@ -18839,7 +18842,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.2" />
-							<attribute id="ID" type="guid" value="5c919231-d63c-452e-ae08-a0c6decbd4e1" />
+							<attribute id="ID" type="guid" value="15791434-0b9f-4883-8eab-88882f89e0b0" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="1" />
@@ -20976,7 +20979,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.1" />
-							<attribute id="ID" type="guid" value="6207813c-4e21-4204-a670-ea2e54a33924" />
+							<attribute id="ID" type="guid" value="d0f40976-9d0d-4e09-ac59-934ea6d789dc" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="1" />
@@ -23145,7 +23148,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.1" />
-							<attribute id="ID" type="guid" value="b8f4e56a-4476-4bdd-89f5-2e03917406ff" />
+							<attribute id="ID" type="guid" value="937a822c-e406-46e2-ba63-5dbe5913dd4c" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="2" />
@@ -25205,7 +25208,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.188776" />
-							<attribute id="ID" type="guid" value="717b685c-d5d6-4326-8db5-56cb52ef6dc2" />
+							<attribute id="ID" type="guid" value="d8e4cb20-5207-459d-aa61-0c0762d2d37b" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="2" />
@@ -25323,7 +25326,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="0.1" />
-							<attribute id="ID" type="guid" value="0a6956de-9b6e-44b2-b0d2-5bcd8fb8209d" />
+							<attribute id="ID" type="guid" value="81e9b1ba-2d4d-40c6-a0d0-d6450462d57d" />
 							<attribute id="Name" type="LSString" value="ParticleSystem" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="3" />
@@ -27379,7 +27382,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="1.188776" />
-							<attribute id="ID" type="guid" value="b0e9808e-5452-447f-9050-1db5eefbba70" />
+							<attribute id="ID" type="guid" value="2f392e05-a011-4e2b-b1f8-72c8c175dcc1" />
 							<attribute id="Name" type="LSString" value="TurbulenceForce" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="3" />
@@ -27497,7 +27500,7 @@
 						</node>
 						<node id="EffectComponent">
 							<attribute id="EndTime" type="float" value="4.032688" />
-							<attribute id="ID" type="guid" value="5e939664-8684-4b8e-9666-97da021c13cd" />
+							<attribute id="ID" type="guid" value="4b16e4c0-1527-4461-85ca-3f7e111860a3" />
 							<attribute id="Name" type="LSString" value="Sound" />
 							<attribute id="StartTime" type="float" value="0" />
 							<attribute id="Track" type="uint32" value="0" />

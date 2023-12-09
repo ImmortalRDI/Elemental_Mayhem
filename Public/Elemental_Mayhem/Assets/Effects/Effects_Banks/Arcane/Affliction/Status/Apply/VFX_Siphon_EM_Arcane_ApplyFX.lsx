@@ -19,6 +19,9 @@
 				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
 				</node>
+				<node id="DependentResource">
+					<attribute id="Object" type="FixedString" value="ffec59b4-909a-275d-47e7-b925bc5d30b6" />
+				</node>
 			</children>
 		</node>
 	</region>

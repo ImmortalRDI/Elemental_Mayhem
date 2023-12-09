@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>		<!-- ARCANE -->
+<contentList>		
+<!-- Action Resource -->
+	<content contentuid="ha90b35c1ga280g4549g8bbdgdde886481ee6" version="1">Elemental Essence</content>
+	<content contentuid="h77332a99ga0d8g4e87gb833g9312fe46a3af" version="1">The gem you found seems to have imbued you with a mysterious power.</content>
+	<content contentuid="h8a2a2e6dgc642g44a7g865cga3215a967c9f" version="1">Elemental Power</content>
+	<content contentuid="h830df561g66e5g4027gb042g9cd4736b26e3" version="1">This mysterious gem seems to have infused you with an overwhelming power.</content>
+<!-- Object -->
+	<content contentuid="h2053fd20gcf3ag4ac1gb7eeg6bb3a920bc80" version="1">Spark of Mystra</content>
+	<content contentuid="h9f7fe760g88d6g40beg91f3ge5d78c6a1bc6" version="1">This gen seems to be infused with the power of the weave.</content>
+	<content contentuid="h870aa881gd3fdg4e90gb221gbdfdf840ade7" version="1">Soul Fragment of Mystra</content>
+	<content contentuid="h766e490cg0e48g42f7gbf14g31a11891d9d5" version="1">This gem is overflowing with the power of the weave.</content>
+<!-- Core Status -->
+	<content contentuid="hf5dc02bfg60ddg41c2g86a7gc17f051e1f5d" version="1">Arcane Essence</content>
+	<content contentuid="h12232002gf11ag4696g8fc8g16e8be93446a" version="1">Upon touching the gem, your mind is flooded with a plethora of knowledge and spells focused on channeling the Weave itself.</content>
+	<content contentuid="h0b35eceag765cg4d85g9127gaf5fe104ef15" version="1">Arcane Power</content>
+	<content contentuid="hac29f94ag908bg4e8ag81bfgc165fd2123c6" version="1">Upon touching this mysterious, pulsating gem, you feel a sudden clarity, learning a devastating spell.</content>
+<!-- Core Passives -->
+	<content contentuid="h529fd31egb9cfg4f00g922dga4195222be42" version="1">Spark of the Weave</content>
+	<content contentuid="hafede3f0gf457g4f19g840cg2f848f8244b9" version="1">The gem seems to have also imbued your body with the a small spark of the weave, slightly empowering your spells and defense against them.</content>
+	<content contentuid="h5d78c5ffg6134g41dcgaaaeg5364450e56fe" version="1">Soul of the Weave</content>
+	<content contentuid="h00102069ge644g41bcg8256ga1ad69008aa9" version="1">The enimatic gem also seems to have imbued your body, dramatically improving your spells and the defense against them. </content>
+<!-- Container -->
+	<content contentuid="h530aacc5g0421g4a27g887fgd65c6ad00775" version="1">Grimiore of Mystra</content>
+	<content contentuid="h2a2fc686g3f3dg4a76g8e02g341fdc0efdde" version="1">The collection of spells that flooded your mind upon touching the Spark of Mystra.</content>
+	<content contentuid="habcc47bdg5502g405dg9927g937a51b1b25d" version="1">Siphoning Weave</content>
+	<content contentuid="hb6f65ec8g5ad2g4278gba87g0b3322bb45df" version="1">When one of your Arcane spells lands a killing blow, you restore some spent Elemental Essence.</content>
+<!-- Affliction -->
+	<content contentuid="hc3a611aag4803g4f1fgb617g20dfb7810f10" version="1">Arcane Curse</content>
+	<content contentuid="h98648fc2gc7e9g4ab8gbb13gf95eeb7c111f" version="1">Infect your target with a curse infectinmg their connection to the Weave. This causes harsh reactions when attempting to cast spells, and will eventually leave them unable to access the weave at all. Failure to cure it in time will eventually lead to Weave Rot, which can be fatal. </content>
+	<content contentuid="h36b7726ag93f6g49d9gb3f6gba8095f9a544" version="1">Cursed Weave Fever</content>
+	<content contentuid="h242f5defgbca9g414cgabc3g3d905e637ae5" version="1">The first stage of Weave Rot, which leaves you vulnerabute to Force damage from magical sources. This curse can be dispelled.</content>
+	<content contentuid="hd2d9925bg054bg4afdgaceeg7b0ecdabdfce" version="1">Cursed Weave Anathema</content>
+	<content contentuid="ha322f43dg426bg4d97g8d2fg1f4151b77f35" version="1">The second stage of Weave Rot, increasing your vulnerability, leaving you vulnerable to all Force damage. This curse can be dispelled.</content>
+	<content contentuid="h882626a5g1fccg4727gb905gfcd5836ac15a" version="1">Cursed Weave Plague</content>
+	<content contentuid="hb780b2ecg9338g4e28ga129g63f601ec302a" version="1">The third stage of Weave Rot, further increasing your vulnerabilities to all magical sources, as well as vulnerability to all Force damage. This curse can be dispelled.</content>
+	<content contentuid="h30c85052gb82bg421eg9ecfg98d62d8187e2" version="1">Weave Rot</content>
+	<content contentuid="h1652185agd25fg4ebbgb095g335a78e3561f" version="1">The final stage of the curse. Your connection to the weave has been completely severed. Your body weak with vulnerabilities to all magic sources and Force damage, you can feel your life force slowly slipping away. This curse cannot be dispelled.</content>
+	<content contentuid="hd7164530g4a44g49e2gbe05g66893d4033ed" version="1">Cursed Weave Side Effect</content>
+	<content contentuid="h78392c06g6ae1g4aa7gbb82g3f692719a69e" version="1">When attempting to cast spells, the curse worsens and inflicts pain on the caster.</content>
+<!-- Barrage -->
+	<content contentuid="h64965689g9f01g4063ga4c5gba8f7a357bc7" version="1">Arcane Barrage</content>
+	<content contentuid="hfdfaee46g7415g4089ga6f4gd287578b7e13" version="1">Channel the weave to send a destructive burst towards your target, causing serious damage and temporarily afflicting them with Weave Rot</content>
+	<content contentuid="h79e40abeg78b6g480fg9aebg2565ed8cb2c4" version="1">Surging Weave Rot</content>
+	<content contentuid="hbb47f6afg835fg4be2ga0e3g37ea47ec2c65" version="1">The channeled surge leaves a brief after affect on the target, similar to Weave Rot.</content>
+<!-- Blast -->
+	<content contentuid="hc18872a1ge2b2g4d5fga564g2ffdc011f4d1" version="1">Arcane Blast</content>
+	<content contentuid="h8a608b49g11a3g48c3g8952ge74513e5ef2e" version="1">Channel the Weave into a single point, then unlease a powerful wave of destruction towards everything in front of you.</content>
+<!-- Blitz -->
+	<content contentuid="h21452969g8f9fg4931ga212g298675b0f24a" version="1">Arcane Blitz</content>
+	<content contentuid="h26da6c5fgfbc8g49a8g90c7g3c40c886d46f" version="1">Empowered by the Weave, you rush your target with blinding speed.</content>
+<!-- Bolt -->
+	<content contentuid="hf20284c2gaf3cg4951g9ff6g8b26225bcd45" version="1">Arcane Arrow</content>
+	<content contentuid="hfce63dcegbcb6g437eg9d32g193c93e99078" version="1">Channel the Weave into your hands to deliver a quick bolt of arcane energy at your target(s).</content>
+<!-- Explosion -->
+	<content contentuid="he2d2a111gad76g4519g9b50ge7d567c3761f" version="1">Arcane Explosion</content>
+	<content contentuid="h0c34ec72gd5b1g4dd1ga8f3g7df24945809a" version="1">Blast an area with the raw arcane force of the Weave, crippling the magic use of anyone who gets too close.</content>
+<!-- Imbue -->
+	<content contentuid="h796e7f15g37c0g48c7gad3eg98db761d720c" version="1">Arcane Enchanting</content>
+	<content contentuid="h493aa394gce1fg4791g8629gd16d93a241a7" version="1">You can utilize the Weave to temporarily enchant your weapons and armor.</content>
+<!-- Leap -->
+	<content contentuid="ha19658d3g322eg4fa3g893aga9536ca0046f" version="1">Arcane Ambush</content>
+	<content contentuid="h38025343gcea2g4248ga915gb6a33de1ec9c" version="1">Manipulate the Weave to leap into the air, and come crashing down on your target(s) with tremendous impact.</content>
+<!-- Rush -->
+	<content contentuid="h0a4a82ffgefdeg4db4g947bg7fe0ddcc85d0" version="1">Arcane Onslaught</content>
+	<content contentuid="hce6180d0gbef1g4f61g8214gd130934ebd19" version="1">Instilled with the Weave, charge your target with demolishing force.</content>
+<!-- Shift -->
+	<content contentuid="h6ae867d8gf3a8g4f45g8536gd5e667cd9efd" version="1">Arcane Shift</content>
+	<content contentuid="hd5e373a9ge047g482fg83c3g9e720c4fda6b" version="1">Saturated in the Weave, teleport yourself across great distances, blasting your targets as you arrive.</content>
+<!-- Stealth -->
+	<content contentuid="h4c9a7fbcg236eg498dga8bbg4f09e69606fa" version="1">Arcane Stealth</content>
+	<content contentuid="h8d93a2acgffcfg4606gac42ga2b7dd0d422d" version="1">With the power of the Weave, slink into the shadows, rendering yourself invisible.</content>
+	<content contentuid="h68f31cfbgb43dg463fg93c0gf3486e186b4d" version="1">Arcane Stealth Dismiss</content>
+	<content contentuid="h9cb5b299g9d59g44b4ga629g4c8fe298e32c" version="1">Dismiss the arcane power of the weave to reveal yourself from hiding.</content>
+	<content contentuid="hd2d8a7f2g54c8g41c2gaaa3gacba7e3a72a7" version="1">Arcane Obscured</content>
+	<content contentuid="h24887bd8gc171g4d55g9ef9gb27412f8ff93" version="1">Aided by the Weave, you find it easier to remain in the shadows.</content>
+	<content contentuid="hcf7df139g60a0g4ef5gac52g0d37dd78881f" version="1">Arcane Concealed</content>
+	<content contentuid="h3a6df47dg1769g4d39gbe89g7a74fcf87d1c" version="1">While obscured by the Weave, you become imperceptable, near completely invisible.</content>
+	<content contentuid="ha00a0e4dg96d9g40baga4b2g8352eee1f110" version="1">Arcane Sight</content>
+	<content contentuid="hf3eec842gbcf0g4e5ag8576g14f5ab2e3990" version="1">The same power that shields you from detection also grants you an enhanced sight, allowing you to detect the invisible.</content>
+<!-- Ultimate -->
+	<content contentuid="hd855f4e5g1ea0g4142ga6dege9883deb543c" version="1">Tear of Mystra</content>
+	<content contentuid="hf3ae64bcg6cd4g4322g8c66g8d3b658caa7c" version="1">Focus your mind, commanding the power of the Goddess of the Weave herself. Call forth an immense comet made up of Pure Weave energy, to wreak utter destruction on your targets.</content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+</contentList>

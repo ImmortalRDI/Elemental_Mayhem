@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>     <!-- Arcane -->
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-	<version major="4" minor="0" revision="9" build="328" />
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="EffectBank">
 		<node id="EffectBank">
-            <children>      <!-- Affliction -->				
-				<node id="Resource">		<!-- Prepare | R. Hand -->
+			<children>		<!-- Affliction -->
+				<node id="Resource">	<!-- Prepare | R Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
 					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -38,7 +38,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Prepare | L. Hand -->
+				<node id="Resource">	<!-- Prepare | L Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -61,19 +61,19 @@
 									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
 								</node>
 								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="88ab1c5e-5bcd-e4a5-7249-9c6a439a18d6" />
-								</node>
-								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
 								</node>
 								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="183a9f56-814d-a677-b7b9-8f818428708c" />
 								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0332c6d3-1b90-2793-7e1e-9ebd83bb2f80" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Prepare | Root -->
+				<node id="Resource">	<!-- Prepare | Root -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -91,25 +91,19 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
 								</node>
 								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
 								</node>
 								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="35478d57-bb26-1c91-adc3-7ee5c86c1602" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="e7b55705-01cd-edbd-7a8d-25321c31904d" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="2a6d9561-2424-2e57-6603-bfef60321a19" />
+									<attribute id="Object" type="FixedString" value="183a9f56-814d-a677-b7b9-8f818428708c" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Cast | CastFX -->
+				<node id="Resource">	<!-- Cast | CastFX -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -140,11 +134,167 @@
 								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
 								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ffff088e-3cbf-6328-321a-9dd8bc529845" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Status | Apply -->
+				<node id="Resource">	<!-- Status | Contagion Spread Body -->
+					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
+					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Contagion_Spread_BodyFX" />
+					<attribute id="ID" type="FixedString" value="0112959c-ba7c-4f62-ba68-80af1c5adc04" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Contagion_Spread_BodyFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Spread/VFX_Status_Affliction_EM_Arcane_Contagion_Spread_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725658" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Status | Endemic Spread Body -->
+					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
+					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Endemic_Spread_BodyFX" />
+					<attribute id="ID" type="FixedString" value="a9e5021e-5aa7-4273-97ac-cf64ee0a6b37" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Endemic_Spread_BodyFX" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Spread/VFX_Status_Affliction_EM_Arcane_Endemic_Spread_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725658" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Status | Epidemic Spread Body -->
+					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
+					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_Spread_BodyFX" />
+					<attribute id="ID" type="FixedString" value="44029dac-5901-4743-b973-efceaf284108" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_Spread_BodyFX" />
+					<attribute id="Radius" type="float" value="7" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Spread/VFX_Status_Affliction_EM_Arcane_Epidemic_Spread_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725658" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Status | Pandemic Spread Body -->
+					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
+					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Pandemic_Spread_BodyFX" />
+					<attribute id="ID" type="FixedString" value="bdd71d19-3096-497e-a645-89f2168f4029" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Pandemic_Spread_BodyFX" />
+					<attribute id="Radius" type="float" value="9" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Spread/VFX_Status_Affliction_EM_Arcane_Pandemic_Spread_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725658" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Siphon | Apply -->
+					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
+					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Siphon_EM_Arcane_ApplyFX" />
+					<attribute id="ID" type="FixedString" value="b1713a29-4e24-4452-b7f1-f5a8fbf21f82" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Siphon_EM_Arcane_ApplyFX" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Status/Apply/VFX_Siphon_EM_Arcane_ApplyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="10cdca0d-5fbc-1793-d1f9-ecd7b4897bab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ffec59b4-909a-275d-47e7-b925bc5d30b6" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Status | Apply -->
 					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
 					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -173,7 +323,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Status | Apply Large -->
+				<node id="Resource">	<!-- Status | Apply Large -->
 					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
 					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -217,31 +367,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Siphon | Apply -->
-					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
-					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Siphon_EM_Arcane_ApplyFX" />
-					<attribute id="ID" type="FixedString" value="b1713a29-4e24-4452-b7f1-f5a8fbf21f82" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Siphon_EM_Arcane_ApplyFX" />
-					<attribute id="Radius" type="float" value="4" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Status/Apply/VFX_Siphon_EM_Arcane_ApplyFX.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">		<!-- Status Contagion | Chest -->
+				<node id="Resource">	<!-- Status | Contagion Chest -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -260,11 +386,17 @@
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1c163e43-327f-d8cb-3a09-f03ee81e263b" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Status Contagion | Chest Large -->
+				<node id="Resource">	<!-- Status | Contagion Chest Large -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -283,34 +415,17 @@
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1c163e43-327f-d8cb-3a09-f03ee81e263b" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Status Contagion | Root -->
-					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
-					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Contagion_RootFX" />
-					<attribute id="ID" type="FixedString" value="559bdf90-b9f8-4c8e-89ba-dde1d9e4b590" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Contagion_RootFX" />
-					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Status/Contagion/VFX_Status_Affliction_EM_Arcane_Contagion_RootFX.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
-					<children>
-						<node id="Dependencies">
-							<children>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">		<!-- Status Contagion | Root Large -->
+				<node id="Resource">	<!-- Status | Contagion Root Large -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -329,34 +444,52 @@
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="df21c320-cbd0-40f9-b67f-f9afab9e4ed3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="50068c14-5352-ef35-8b03-0c142582a705" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Status Endemic | Root -->
+				<node id="Resource">	<!-- Status | Contagion Root -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Endemic_RootFX" />
-					<attribute id="ID" type="FixedString" value="60d6586d-3f3a-4bab-b5af-a131b5359cf7" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Contagion_RootFX" />
+					<attribute id="ID" type="FixedString" value="559bdf90-b9f8-4c8e-89ba-dde1d9e4b590" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Endemic_RootFX" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Contagion_RootFX" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Status/Endemic/VFX_Status_Affliction_EM_Arcane_Endemic_RootFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Status/Contagion/VFX_Status_Affliction_EM_Arcane_Contagion_RootFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="df21c320-cbd0-40f9-b67f-f9afab9e4ed3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="50068c14-5352-ef35-8b03-0c142582a705" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Status Endemic | Root Large -->
+				<node id="Resource">	<!-- Status | Endemic Root Large -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -375,57 +508,52 @@
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="08c7d7ee-3c7f-4d19-a918-fac4e38f6bc7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="50068c14-5352-ef35-8b03-0c142582a705" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Status Epidemic | Root -->
+				<node id="Resource">	<!-- Status | Endemic Root -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_RootFX" />
-					<attribute id="ID" type="FixedString" value="3a8e176c-ee2b-4aa2-9227-f9685cee686c" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Endemic_RootFX" />
+					<attribute id="ID" type="FixedString" value="60d6586d-3f3a-4bab-b5af-a131b5359cf7" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_RootFX" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Endemic_RootFX" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Status/Epidemic/VFX_Status_Affliction_EM_Arcane_Epidemic_RootFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Status/Endemic/VFX_Status_Affliction_EM_Arcane_Endemic_RootFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="08c7d7ee-3c7f-4d19-a918-fac4e38f6bc7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="50068c14-5352-ef35-8b03-0c142582a705" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Status Epidemic | Root Large -->
-					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
-					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_Large_RootFX" />
-					<attribute id="ID" type="FixedString" value="dc7ab81e-f173-49b2-957a-ea8c68122f3b" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_Large_RootFX" />
-					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Status/Epidemic/VFX_Status_Affliction_EM_Arcane_Epidemic_Large_RootFX.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
-					<children>
-						<node id="Dependencies">
-							<children>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">		<!-- Status Epidemic | Chest -->
+				<node id="Resource">	<!-- Status | Epidemic Chest -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -444,11 +572,32 @@
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d1b959e1-4a69-5fb9-3711-9d39bc5edce0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e96f46e3-3998-e4b2-9dc1-18249a90c8b6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f60bc7b0-6a4b-862d-4940-ea4dafaa7317" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fb21ca3c-3b37-b5b8-86cd-c7feaead109d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Status Epidemic | Chest Large -->
+				<node id="Resource">	<!-- Status | Epidemic Chest Large -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -467,11 +616,102 @@
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d1b959e1-4a69-5fb9-3711-9d39bc5edce0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e96f46e3-3998-e4b2-9dc1-18249a90c8b6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f60bc7b0-6a4b-862d-4940-ea4dafaa7317" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fb21ca3c-3b37-b5b8-86cd-c7feaead109d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Status Pandemic | Body -->
+				<node id="Resource">	<!-- Status | Epidemic Root Large -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_Large_RootFX" />
+					<attribute id="ID" type="FixedString" value="dc7ab81e-f173-49b2-957a-ea8c68122f3b" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_Large_RootFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Status/Epidemic/VFX_Status_Affliction_EM_Arcane_Epidemic_Large_RootFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="39ebdf88-f6a4-4175-b57e-ca3650730ae4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="50068c14-5352-ef35-8b03-0c142582a705" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>	
+				<node id="Resource">	<!-- Status | Epidemic Root -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_RootFX" />
+					<attribute id="ID" type="FixedString" value="3a8e176c-ee2b-4aa2-9227-f9685cee686c" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_RootFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Status/Epidemic/VFX_Status_Affliction_EM_Arcane_Epidemic_RootFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="39ebdf88-f6a4-4175-b57e-ca3650730ae4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="50068c14-5352-ef35-8b03-0c142582a705" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>							
+				<node id="Resource">	<!-- Status | Pandemic Body -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -488,11 +728,20 @@
 					<children>
 						<node id="Dependencies">
 							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="dbc09d95-7095-4c66-9f1c-8bacc3096deb" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="50068c14-5352-ef35-8b03-0c142582a705" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Target | Body -->
+				<node id="Resource">	<!-- Target | Body -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -509,117 +758,180 @@
 					<children>
 						<node id="Dependencies">
 							<children>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">		<!-- Contagion Spread | Body -->
-					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
-					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Contagion_Spread_BodyFX" />
-					<attribute id="ID" type="FixedString" value="0112959c-ba7c-4f62-ba68-80af1c5adc04" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="2" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Contagion_Spread_BodyFX" />
-					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Spread/VFX_Status_Affliction_EM_Arcane_Contagion_Spread_BodyFX.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725658" />
-					<children>
-						<node id="Dependencies">
-							<children>								
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">		<!-- Endemic Spread | Body -->
-					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
-					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Endemic_Spread_BodyFX" />
-					<attribute id="ID" type="FixedString" value="a9e5021e-5aa7-4273-97ac-cf64ee0a6b37" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="2" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Endemic_Spread_BodyFX" />
-					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Spread/VFX_Status_Affliction_EM_Arcane_Endemic_Spread_BodyFX.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725658" />
-					<children>
-						<node id="Dependencies">
-							<children>								
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">		<!-- Epidemic Spread | Body -->
-					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
-					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_Spread_BodyFX" />
-					<attribute id="ID" type="FixedString" value="44029dac-5901-4743-b973-efceaf284108" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="2" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Epidemic_Spread_BodyFX" />
-					<attribute id="Radius" type="float" value="7" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Spread/VFX_Status_Affliction_EM_Arcane_Epidemic_Spread_BodyFX.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725658" />
-					<children>
-						<node id="Dependencies">
-							<children>								
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">		<!-- Pandemic Spread | Body -->
-					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
-					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
-					<attribute id="Center" type="fvec3" value="0 0 0" />
-					<attribute id="CullingDistance" type="float" value="0" />
-					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Status_Affliction_EM_Arcane_Pandemic_Spread_BodyFX" />
-					<attribute id="ID" type="FixedString" value="bdd71d19-3096-497e-a645-89f2168f4029" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="2" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Pandemic_Spread_BodyFX" />
-					<attribute id="Radius" type="float" value="9" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Spread/VFX_Status_Affliction_EM_Arcane_Pandemic_Spread_BodyFX.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725658" />
-					<children>
-						<node id="Dependencies">
-							<children>								
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="783ce98e-8afb-54ac-6c6e-4c985d5f011b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f31385c9-20dc-61bb-a980-fa9739cc61c5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="03810546-cf02-6abc-32e6-ba6f2512c0c2" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Barrage -->
-			
+			<children>	<!-- Barrage -->
+				<node id="Resource">	<!-- Prepare | R Hand -->
+					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Barrage_EM_Arcane_R_HandFX" />
+					<attribute id="ID" type="FixedString" value="b9e17969-6f8a-497f-8b6e-71671fef10e8" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Barrage_EM_Arcane_R_HandFX" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Barrage/Prepare/VFX_Prepare_Barrage_EM_Arcane_R_HandFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725660" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="88ab1c5e-5bcd-e4a5-7249-9c6a439a18d6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="183a9f56-814d-a677-b7b9-8f818428708c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Prepare | L Hand -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Barrage_EM_Arcane_L_HandFX" />
+					<attribute id="ID" type="FixedString" value="561ecdb3-3555-41de-8959-aba05ad768dd" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Barrage_EM_Arcane_L_HandFX" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Barrage/Prepare/VFX_Prepare_Barrage_EM_Arcane_L_HandFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758065" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="88ab1c5e-5bcd-e4a5-7249-9c6a439a18d6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="183a9f56-814d-a677-b7b9-8f818428708c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Prepare | Root -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Barrage_EM_Arcane_Root" />
+					<attribute id="ID" type="FixedString" value="c1605bfa-ada8-4daf-b571-e922a737aba3" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Barrage_EM_Arcane_Root" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Barrage/Prepare/VFX_Prepare_Barrage_EM_Arcane_Root.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="183a9f56-814d-a677-b7b9-8f818428708c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Cast | CastFX -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cast_Barrage_EM_Arcane_CastFX" />
+					<attribute id="ID" type="FixedString" value="8f8f1f92-26cb-451a-9f21-866b965fe6fd" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Cast_Barrage_EM_Arcane_CastFX" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Barrage/Cast/VFX_Cast_Barrage_EM_Arcane_CastFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="783ce98e-8afb-54ac-6c6e-4c985d5f011b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f31385c9-20dc-61bb-a980-fa9739cc61c5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ffff088e-3cbf-6328-321a-9dd8bc529845" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 			</children>
-            <children>      <!-- Blast -->
-				<node id="Resource">		<!-- Prepare | R. Hand -->
+			<children>	<!-- Blast -->
+				<node id="Resource">	<!-- Prepare | R Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
 					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
 					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Blast_EM_Arcane_R_HandFX" />
-					<attribute id="ID" type="FixedString" value="2abd68fb-6160-43d6-9c19-fc23a12102fe" />
+					<attribute id="ID" type="FixedString" value="b522dc39-20ac-4806-9bdd-053640a73bff" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
 					<attribute id="Name" type="LSString" value="VFX_Prepare_Blast_EM_Arcane_R_HandFX" />
 					<attribute id="Radius" type="float" value="2" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Prepare_Blast_EM_Arcane_R_HandFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blast/Prepare/VFX_Prepare_Blast_EM_Arcane_R_HandFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725660" />
 					<children>
 						<node id="Dependencies">
@@ -643,20 +955,20 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Prepare | R. Hand -->
+				<node id="Resource">	<!-- Prepare | L Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
 					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
 					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Blast_EM_Arcane_L_HandFX" />
-					<attribute id="ID" type="FixedString" value="65d291f2-3cdc-4065-827f-be293253fc5e" />
+					<attribute id="ID" type="FixedString" value="edc5a5f1-7155-4c9a-a34a-c8ef0a2a283e" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
 					<attribute id="Name" type="LSString" value="VFX_Prepare_Blast_EM_Arcane_L_HandFX" />
 					<attribute id="Radius" type="float" value="2" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Prepare_Blast_EM_Arcane_L_HandFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blast/Prepare/VFX_Prepare_Blast_EM_Arcane_L_HandFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725660" />
 					<children>
 						<node id="Dependencies">
@@ -680,44 +992,65 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Prepare | Root -->
+				<node id="Resource">	<!-- Prepare | Root -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
 					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Blast_EM_Arcane_Root" />
-					<attribute id="ID" type="FixedString" value="7f7d4294-4287-4eef-b22a-f49025d0ea12" />
+					<attribute id="ID" type="FixedString" value="15de6b05-29fe-41e5-a797-b2f8f2a5ae7e" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
 					<attribute id="Name" type="LSString" value="VFX_Prepare_Blast_EM_Arcane_Root" />
 					<attribute id="Radius" type="float" value="5.196152" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/VFX_Prepare_Blast_EM_Arcane_Root.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blast/Prepare/VFX_Prepare_Blast_EM_Arcane_Root.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies" />
+					</children>
+				</node>
+				<node id="Resource">	<!-- Cast | CastFX -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cast_Blast_EM_Arcane_CastFX" />
+					<attribute id="ID" type="FixedString" value="e3b2d14c-aaf6-49be-b5b3-bff5c029d60d" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Cast_Blast_EM_Arcane_CastFX" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blast/Cast/VFX_Cast_Blast_EM_Arcane_CastFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
 							<children>
+								
 							</children>
 						</node>
 					</children>
 				</node>
-            </children>
-			<children>		<!-- Blitz -->
-				<node id="Resource">        <!-- Cast -->
+			</children>
+			<children>	<!-- Blitz -->
+				<node id="Resource">	<!-- Cast -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Rush_EM_Arcane_CastFX" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blitz_EM_Arcane_CastFX" />
 					<attribute id="ID" type="FixedString" value="8aa42360-d0a6-4549-8e77-8869064830bf" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Rush_EM_Arcane_CastFX" />
+					<attribute id="Name" type="LSString" value="VFX_Blitz_EM_Arcane_CastFX" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blitz/VFX_Rush_EM_Arcane_CastFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blitz/VFX_Blitz_EM_Arcane_CastFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -735,9 +1068,84 @@
 						</node>
 					</children>
 				</node>
+				<node id="Resource">	<!-- Beam -->
+					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
+					<attribute id="CullingDistance" type="float" value="60" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Rush_EM_Arcane_BeamFX" />
+					<attribute id="ID" type="FixedString" value="4fafb9b4-edad-4a1f-b27f-9ca4e0e746cc" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Rush_EM_Arcane_BeamFX" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Rush/VFX_Rush_EM_Arcane_BeamFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a2c28457-ae76-4cf4-e256-bb2494f8261b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9b5b5750-78dd-c823-a50d-c64b0c1b12c8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="70148014-3c4e-8afa-af1e-9bc00dda86bf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a2c28457-ae76-4cf4-e256-bb2494f8261b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9b5b5750-78dd-c823-a50d-c64b0c1b12c8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Target -->
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blitz_EM_Arcane_TargetFX" />
+					<attribute id="ID" type="FixedString" value="f3f8b8d7-edb8-486a-995a-217fbd710c94" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Blitz_EM_Arcane_TargetFX" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Rush/VFX_Blitz_EM_Arcane_TargetFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 			</children>
-            <children>      <!-- Bolt -->
-				<node id="Resource">        <!-- Cast -->
+			<children>	<!-- Bolt -->
+				<node id="Resource">	<!-- Cast | CastFX -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -769,15 +1177,9 @@
 						</node>
 					</children>
 				</node>
-            </children>
-			<children>		<!-- Explosion -->
-			
 			</children>
-            <children>      <!-- Imbue -->
-            
-            </children>
-            <children>      <!-- Leap -->
-				<node id="Resource">        <!-- Trail -->
+			<children>	<!-- Leap -->
+				<node id="Resource">	<!-- Trail -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -823,7 +1225,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Impact -->
+				<node id="Resource">	<!-- Impact -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -953,7 +1355,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Ground Impact -->
+				<node id="Resource">	<!-- Ground Impact -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1019,8 +1421,8 @@
 					</children>
 				</node>
 			</children>
-            <children>      <!-- Rush -->
-                <node id="Resource">        <!-- Cast -->
+			<children>	<!-- Rush -->
+				<node id="Resource">	<!-- Cast | CastFX -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1052,53 +1454,7 @@
 						</node>
 					</children>
 				</node>
-                <node id="Resource">        <!-- Beam -->
-                     <attribute id="BoundsMax" type="fvec3" value="6 6 6" />
-					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
-                    <attribute id="CullingDistance" type="float" value="60" />
-                    <attribute id="Duration" type="float" value="3" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Rush_EM_Arcane_BeamFX" />
-                    <attribute id="ID" type="FixedString" value="4fafb9b4-edad-4a1f-b27f-9ca4e0e746cc" />
-                    <attribute id="InterruptionMode" type="uint32" value="2" />
-                    <attribute id="Looping" type="bool" value="False" />
-                    <attribute id="Name" type="LSString" value="VFX_Rush_EM_Arcane_BeamFX" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Rush/VFX_Rush_EM_Arcane_BeamFX.lsfx" />
-                    <attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
-                    <children>
-                        <node id="Dependencies">
-                            <children>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="a2c28457-ae76-4cf4-e256-bb2494f8261b" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="9b5b5750-78dd-c823-a50d-c64b0c1b12c8" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="70148014-3c4e-8afa-af1e-9bc00dda86bf" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="a2c28457-ae76-4cf4-e256-bb2494f8261b" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="9b5b5750-78dd-c823-a50d-c64b0c1b12c8" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
-                                </node>
-                            </children>
-                        </node>
-                    </children>
-                </node>
-                <node id="Resource">		<!-- Target -->
+				<node id="Resource">	<!-- Target -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
@@ -1114,20 +1470,20 @@
 					<attribute id="Radius" type="float" value="5" />
 					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Rush/VFX_Rush_EM_Arcane_TargetFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
-					<node id="Dependencies">
-						<children>
-							<node id="DependentResource">
-								<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
-							</node>
-							<node id="DependentResource">
-								<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
-							</node>
-						</children>
-					</node>
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
+								</node>
+							</children>
+						</node>
+					</children>
 				</node>
-            </children>
-			<children>		<!-- Rush 2 -->				
-                <node id="Resource">        <!-- Position -->
+				<node id="Resource">	<!-- Position -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1163,8 +1519,8 @@
 					</children>
 				</node>
 			</children>
-            <children>      <!-- Shift -->
-                <node id="Resource">        <!-- Cast -->
+			<children>	<!-- Shift -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1211,7 +1567,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">        <!-- Position -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1252,9 +1608,9 @@
 						</node>
 					</children>
 				</node>
-            </children>
-            <children>		<!-- Stealth -->
-				<node id="Resource">		<!-- Disappear -->
+			</children>
+			<children>	<!-- Stealth -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1297,7 +1653,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Reappear -->
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1350,47 +1706,47 @@
 					</children>
 				</node>
 			</children>
-            <children>      <!-- Ultimate -->
-				<node id="Resource">        <!-- Prepare | Area -->
-                    <attribute id="BoundsMax" type="fvec3" value="25 25 25" />
-                    <attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
-                    <attribute id="Center" type="fvec3" value="0 0 0" />
-                    <attribute id="CullingDistance" type="float" value="0" />
-                    <attribute id="Duration" type="float" value="5" />
-                    <attribute id="EffectName" type="FixedString" value="VFX_Prepare_Ultimate_EM_Arcane_AreaFX" />
-                    <attribute id="ID" type="FixedString" value="5e7f3e82-bfe0-4f9d-aeec-163fc4497743" />
-                    <attribute id="InterruptionMode" type="uint32" value="0" />
-                    <attribute id="Looping" type="bool" value="True" />
-                    <attribute id="Name" type="LSString" value="VFX_Prepare_Ultimate_EM_Arcane_AreaFX" />
-                    <attribute id="Radius" type="float" value="25" />
-                    <attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/VFX_Prepare_Ultimate_EM_Arcane_AreaFX.lsfx" />
-                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
-                    <children>
-                        <node id="Dependencies">
-                            <children>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="e9271a15-5da1-d044-ee3a-cb4ee23e9513" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="bd835458-6cca-c0c8-c2ff-0d19a5241a0d" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="0cdb8dfc-60ec-5b38-3a93-a6103553a55b" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="0cbd02bb-a8f2-90fe-3d5d-a8055efb7218" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="e7b55705-01cd-edbd-7a8d-25321c31904d" />
-                                </node>
-                            </children>
-                        </node>
-                    </children>
-                </node>
-				<node id="Resource">        <!-- Prepare | BodyFX -->
+			<children>	<!-- Ultimate -->
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="25 25 25" />
+					<attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Ultimate_EM_Arcane_AreaFX" />
+					<attribute id="ID" type="FixedString" value="5e7f3e82-bfe0-4f9d-aeec-163fc4497743" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Ultimate_EM_Arcane_AreaFX" />
+					<attribute id="Radius" type="float" value="25" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/VFX_Prepare_Ultimate_EM_Arcane_AreaFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e9271a15-5da1-d044-ee3a-cb4ee23e9513" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bd835458-6cca-c0c8-c2ff-0d19a5241a0d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0cdb8dfc-60ec-5b38-3a93-a6103553a55b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0cbd02bb-a8f2-90fe-3d5d-a8055efb7218" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e7b55705-01cd-edbd-7a8d-25321c31904d" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
@@ -1410,80 +1766,32 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="10cdca0d-5fbc-1793-d1f9-ecd7b4897bab" />
-                                </node>
-                                <node id="DependentResource">
-                                    <attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
-                                </node>
+									<attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="10cdca0d-5fbc-1793-d1f9-ecd7b4897bab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
 							</children>
 						</node>
 					</children>
 				</node>
-            </children>
+			</children>
 		</node>
 	</region>
 	<region id="MaterialBank">
 		<node id="MaterialBank">
-			<children>		<!-- Overlay Material -->
-				<node id="Resource">		<!-- Contagion -->
+			<children>	<!-- Overlay Material -->
+				<node id="Resource">	<!-- Contagion -->
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
-					<attribute id="ID" type="FixedString" value="1ad01ed9-d0cc-4822-905a-7e4a38308409" />
+					<attribute id="ID" type="FixedString" value="df21c320-cbd0-40f9-b67f-f9afab9e4ed3" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="VFX_Affliction_EM_Arcane_Contagion_OverlayMaterial" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Effects/OverlayMaterial/VFX_OverlayMaterial_AlphaBlend_DefaultLit_Emissive_TriPlanar_AlphaErosion_TargetHeight_01.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="1" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="WPO" />
-							<attribute id="ParameterName" type="FixedString" value="WPO_Mult" />
-							<attribute id="Value" type="float" value="1" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="WPO" />
-							<attribute id="ParameterName" type="FixedString" value="_Use_DynWForWPOMult" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="1" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="WPO" />
-							<attribute id="ParameterName" type="FixedString" value="WPO_Value" />
-							<attribute id="Value" type="float" value="1" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="2" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Pulse_Speed" />
-							<attribute id="Value" type="float" value="2" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="WPO" />
-							<attribute id="ParameterName" type="FixedString" value="_Use_WPOPulsing" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="WPO" />
-							<attribute id="ParameterName" type="FixedString" value="_Use_WPO" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0" />
 							<attribute id="Enabled" type="bool" value="False" />
@@ -1493,19 +1801,99 @@
 							<attribute id="Value" type="float" value="0" />
 						</node>
 						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="GroundGradient" />
+							<attribute id="ParameterName" type="FixedString" value="_Use_GroundGradient" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="GroundGradient" />
+							<attribute id="ParameterName" type="FixedString" value="GroundGradientTimingU" />
+							<attribute id="Value" type="float" value="0.02" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="GroundGradient" />
+							<attribute id="ParameterName" type="FixedString" value="GroundGradientTimingV" />
+							<attribute id="Value" type="float" value="0.02" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="GroundGradient" />
+							<attribute id="ParameterName" type="FixedString" value="_Use_ScreenOrUV" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="5" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ParameterName" type="FixedString" value="Erosion_PowerWithGradient" />
+							<attribute id="Value" type="float" value="30" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.2" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ParameterName" type="FixedString" value="OpacityPlus_OpacityOfTheMiddlePart" />
+							<attribute id="Value" type="float" value="0.2" />
+						</node>
+						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="1" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Fresnel_Pow_Pulse_Sharp" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ParameterName" type="FixedString" value="OpacityPlus_Fresnel_FresnelPowerGeneral" />
 							<attribute id="Value" type="float" value="1" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ParameterName" type="FixedString" value="Use_OpacityPlus_FresnelGeneral" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ParameterName" type="FixedString" value="Texture_Triplannar_BlendContrast" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.4" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ParameterName" type="FixedString" value="Alpha_Texture_Tiling" />
+							<attribute id="Value" type="float" value="0.4" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ParameterName" type="FixedString" value="AlphaContrast" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Fresnel_Pow_Pulse" />
+							<attribute id="ParameterName" type="FixedString" value="MinNew" />
 							<attribute id="Value" type="float" value="0" />
 						</node>
 						<node id="ScalarParameters">
@@ -1513,192 +1901,160 @@
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Fresnel_Power" />
+							<attribute id="ParameterName" type="FixedString" value="MaxNew" />
 							<attribute id="Value" type="float" value="1" />
 						</node>
 						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="BaseValue" type="float" value="0.0001" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="OneMinus_Fresnel" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="1" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="SmoothStep_Max" />
-							<attribute id="Value" type="float" value="1" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Opacity_Pulse_Invert" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Opacity_Pulse" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0.1" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Basemap_Step" />
-							<attribute id="Value" type="float" value="0.1" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="_Use_BasemapStep" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0.25" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="SphereMask" />
-							<attribute id="ParameterName" type="FixedString" value="SphereMask_Radius" />
-							<attribute id="Value" type="float" value="0.25" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="1.5" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="SphereMask" />
-							<attribute id="ParameterName" type="FixedString" value="SphereMask_ClampMax" />
-							<attribute id="Value" type="float" value="1.5" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="1" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="SphereMask" />
-							<attribute id="ParameterName" type="FixedString" value="SphereMask_Intensity" />
-							<attribute id="Value" type="float" value="1" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="SphereMask" />
-							<attribute id="ParameterName" type="FixedString" value="_Use_OpacitySphereMask" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0.001" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
 							<attribute id="ParameterName" type="FixedString" value="ClipTest" />
-							<attribute id="Value" type="float" value="0.001" />
+							<attribute id="Value" type="float" value="0.0001" />
 						</node>
 						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="0.4" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ParameterName" type="FixedString" value="Texture_Tiling" />
+							<attribute id="Value" type="float" value="0.3" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ParameterName" type="FixedString" value="Texture_NormalMapIntensity" />
+							<attribute id="Value" type="float" value="0.5" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.2" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_Fresnel" />
-							<attribute id="ParameterName" type="FixedString" value="Fresnel_Power_Emissive" />
-							<attribute id="Value" type="float" value="1" />
+							<attribute id="GroupName" type="FixedString" value="Emissive" />
+							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_MinMidFresnelPower" />
+							<attribute id="Value" type="float" value="0.2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="3" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Emissive" />
+							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_BorderFresnelColorMult" />
+							<attribute id="Value" type="float" value="3" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="3" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Emissive" />
+							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_BorderFresnel_FresnelPower" />
+							<attribute id="Value" type="float" value="100" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_Fresnel" />
-							<attribute id="ParameterName" type="FixedString" value="OneMinus_Fresnel_Emissive" />
+							<attribute id="GroupName" type="FixedString" value="Emissive" />
+							<attribute id="ParameterName" type="FixedString" value="Use_AddEmissiveInsideToMaterial" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="10" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Emissive" />
+							<attribute id="ParameterName" type="FixedString" value="EmissiveErosion_Mult" />
+							<attribute id="Value" type="float" value="10" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Emissive" />
+							<attribute id="ParameterName" type="FixedString" value="_Use_DynYForEmissiveMult" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="2" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ParameterName" type="FixedString" value="DarkerColor_FresnelGeneral" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ParameterName" type="FixedString" value="Use_AddDarkerColorOnTopBaseColor" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Tint" />
+							<attribute id="ParameterName" type="FixedString" value="Tint_Desaturation" />
+							<attribute id="Value" type="float" value="2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Tint" />
+							<attribute id="ParameterName" type="FixedString" value="Tint_Power" />
+							<attribute id="Value" type="float" value="2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Tint" />
+							<attribute id="ParameterName" type="FixedString" value="Tint_Add" />
 							<attribute id="Value" type="float" value="0" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_Fresnel" />
-							<attribute id="ParameterName" type="FixedString" value="_Use_DyP_Z" />
+							<attribute id="GroupName" type="FixedString" value="Tint" />
+							<attribute id="ParameterName" type="FixedString" value="Tint_Switch" />
 							<attribute id="Value" type="float" value="0" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Use_EmissiveMultByOpacityValues" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ParameterName" type="FixedString" value="ValueInsteadOfTexture_MetalMask" />
 							<attribute id="Value" type="float" value="0" />
 						</node>
 						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="0" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_ColorGradient" />
-							<attribute id="ParameterName" type="FixedString" value="Min_Mid_Exponent" />
-							<attribute id="Value" type="float" value="1" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ParameterName" type="FixedString" value="Use_ValueInsteadOfTextureForMetalMaskRoughness" />
+							<attribute id="Value" type="float" value="0" />
 						</node>
 						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="BaseValue" type="float" value="0" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_ColorGradient" />
-							<attribute id="ParameterName" type="FixedString" value="Mid_Max_Exponent" />
-							<attribute id="Value" type="float" value="1" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ParameterName" type="FixedString" value="Reflectance" />
+							<attribute id="Value" type="float" value="0" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0.5" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_ColorGradient" />
-							<attribute id="ParameterName" type="FixedString" value="Mid_Position" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ParameterName" type="FixedString" value="ValueInsteadOfTexture_Roughness" />
 							<attribute id="Value" type="float" value="0.5" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_ColorGradient" />
-							<attribute id="ParameterName" type="FixedString" value="_VertexColor_x_Fresnel" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_ColorGradient" />
-							<attribute id="ParameterName" type="FixedString" value="_Mult_by_VertexColor" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_ColorGradient" />
-							<attribute id="ParameterName" type="FixedString" value="_Use_ColorGradient" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_ColorGradient" />
-							<attribute id="ParameterName" type="FixedString" value="_Use_GradientMapInstead" />
-							<attribute id="Value" type="float" value="0" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="BaseValue" type="float" value="1" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="EmissiveMult" />
-							<attribute id="Value" type="float" value="1" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="False" />
@@ -1706,13 +2062,6 @@
 							<attribute id="GroupName" type="FixedString" value="" />
 							<attribute id="ID" type="FixedString" value="8f1f209a-dd37-4531-b1ee-5e81c1d169cc" />
 							<attribute id="ParameterName" type="FixedString" value="VertexColor_MSK" />
-						</node>
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ID" type="FixedString" value="8f3edbe9-e830-cd3a-4d72-8d31de4959a3" />
-							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="False" />
@@ -1729,90 +2078,157 @@
 							<attribute id="ParameterName" type="FixedString" value="basemap_A" />
 						</node>
 						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ID" type="FixedString" value="54fe55b3-f3c2-52ad-1a1b-716d1fe05529" />
+							<attribute id="ParameterName" type="FixedString" value="Erosion_Map" />
+						</node>
+						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_ColorGradient" />
-							<attribute id="ID" type="FixedString" value="97dfbecb-8f90-0c71-f2c5-de3519f59c9e" />
-							<attribute id="IgnoreTexelDensity" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="GradientMap" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ID" type="FixedString" value="67392dc5-6c5d-4d03-af6a-ec0df47e53c6" />
+							<attribute id="ParameterName" type="FixedString" value="Alpha_Texture_Map" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="fafa96ef-8e21-4860-b4aa-2703d4e570d5" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ID" type="FixedString" value="c0d0075d-4c1a-1292-33fc-88492a5f54c3" />
+							<attribute id="ParameterName" type="FixedString" value="Texture_Normal_Map" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ID" type="FixedString" value="7cee7341-59dd-147d-c04d-a82fffbe5ae3" />
+							<attribute id="ParameterName" type="FixedString" value="Texture_Map" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="ID" type="FixedString" value="68203a67-2a43-8ee8-fc8b-b1c02050dfea" />
+							<attribute id="ParameterName" type="FixedString" value="Texture_Physical_Map" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="BaseValue" type="fvec2" value="0 0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="GroundGradient" />
+							<attribute id="ParameterName" type="FixedString" value="_GroundGradientRemap" />
+							<attribute id="Value" type="fvec2" value="0 0.5" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="BaseValue" type="fvec2" value="0 -0.1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ParameterName" type="FixedString" value="Offset_MiddleGradientPosition" />
+							<attribute id="Value" type="fvec2" value="0 0" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="BaseValue" type="fvec2" value="1 1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ParameterName" type="FixedString" value="Erosion_TextureUV" />
+							<attribute id="Value" type="fvec2" value="1 1" />
 						</node>
 						<node id="Vector2Parameters">
 							<attribute id="BaseValue" type="fvec2" value="0 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="WPO" />
-							<attribute id="ParameterName" type="FixedString" value="WPO_PulseSineMinMax" />
-							<attribute id="Value" type="fvec2" value="0 1" />
+							<attribute id="GroupName" type="FixedString" value="GroundGradient" />
+							<attribute id="ParameterName" type="FixedString" value="_NoiseTiling" />
+							<attribute id="Value" type="fvec2" value="3 6" />
 						</node>
 						<node id="Vector2Parameters">
-							<attribute id="BaseValue" type="fvec2" value="0 1" />
+							<attribute id="BaseValue" type="fvec2" value="0.1 0.8" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Pulse_SineMinMax" />
-							<attribute id="Value" type="fvec2" value="0 1" />
+							<attribute id="GroupName" type="FixedString" value="Opacity" />
+							<attribute id="ParameterName" type="FixedString" value="Erosion_TextureSmoothStep" />
+							<attribute id="Value" type="fvec2" value="0.1 0.8" />
 						</node>
 						<node id="Vector2Parameters">
-							<attribute id="BaseValue" type="fvec2" value="0 1" />
+							<attribute id="BaseValue" type="fvec2" value="0.6 0.75" />
 							<attribute id="Enabled" type="bool" value="False" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ParameterName" type="FixedString" value="Fresnel_Pow_Pulse_MinMax" />
-							<attribute id="Value" type="fvec2" value="0 1" />
+							<attribute id="GroupName" type="FixedString" value="Emissive" />
+							<attribute id="ParameterName" type="FixedString" value="EmissiveErosion_BorderSmoothStep" />
+							<attribute id="Value" type="fvec2" value="0.6 0.75" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0 0 0" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="IsColor" type="bool" value="False" />
-							<attribute id="ParameterName" type="FixedString" value="BonePosition_Offset" />
-							<attribute id="Value" type="fvec3" value="0 0 0" />
-						</node>
-						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="-0.65 1.2 -0.04" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="IsColor" type="bool" value="False" />
-							<attribute id="ParameterName" type="FixedString" value="BonePosition" />
-							<attribute id="Value" type="fvec3" value="-0.65 1.2 -0.04" />
-						</node>
-						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="False" />
 							<attribute id="GroupName" type="FixedString" value="" />
 							<attribute id="IsColor" type="bool" value="False" />
 							<attribute id="ParameterName" type="FixedString" value="_WorldExtents" />
-							<attribute id="Value" type="fvec3" value="1 1 1" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0 0 0" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_ColorGradient" />
+							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="Color_Min" />
-							<attribute id="Value" type="fvec3" value="0 0 0" />
+							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_MinColor" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.5250965 0.5250965 0.5250965" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0.3281853 0.5564467 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_ColorGradient" />
+							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="Color_Mid" />
-							<attribute id="Value" type="fvec3" value="0.5250965 0.5250965 0.5250965" />
+							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_MidColor" />
+							<attribute id="Value" type="fvec3" value="0.3281853 0.5564467 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="Emissive_ColorGradient" />
+							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="Color_Max" />
-							<attribute id="Value" type="fvec3" value="1 1 1" />
+							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_BorderFresnelColor" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Emissive" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="EmissiveErosion_Color" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Texture" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="DarkerColor_AddedInFresnel" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="Tint" />
+							<attribute id="IsColor" type="bool" value="False" />
+							<attribute id="ParameterName" type="FixedString" value="Tint_Color" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
 						</node>
 						<node id="VectorParameters">
 							<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />
@@ -1822,15 +2238,6 @@
 							<attribute id="IsColor" type="bool" value="False" />
 							<attribute id="ParameterName" type="FixedString" value="DynamicParameter" />
 							<attribute id="Value" type="fvec4" value="0 0 0 0" />
-						</node>
-						<node id="VectorParameters">
-							<attribute id="BaseValue" type="fvec4" value="1 1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="IsColor" type="bool" value="False" />
-							<attribute id="ParameterName" type="FixedString" value="Color" />
-							<attribute id="Value" type="fvec4" value="1 1 1 1" />
 						</node>
 						<node id="VirtualTextureParameters">
 							<attribute id="Enabled" type="bool" value="False" />
@@ -1842,9 +2249,9 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Endemic -->
+				<node id="Resource">	<!-- Endemic -->
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
-					<attribute id="ID" type="FixedString" value="81104313-beda-4d28-8b16-7840b8e33358" />
+					<attribute id="ID" type="FixedString" value="08c7d7ee-3c7f-4d19-a918-fac4e38f6bc7" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="VFX_Affliction_EM_Arcane_Endemic_OverlayMaterial" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Effects/OverlayMaterial/VFX_OverlayMaterial_AlphaBlend_DefaultLit_Emissive_TriPlanar_AlphaErosion_TargetHeight_01.lsf" />
@@ -2052,19 +2459,19 @@
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Tint" />
 							<attribute id="ParameterName" type="FixedString" value="Tint_Desaturation" />
-							<attribute id="Value" type="float" value="1" />
+							<attribute id="Value" type="float" value="2" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Tint" />
 							<attribute id="ParameterName" type="FixedString" value="Tint_Power" />
-							<attribute id="Value" type="float" value="1" />
+							<attribute id="Value" type="float" value="2" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0" />
@@ -2226,67 +2633,67 @@
 							<attribute id="Value" type="fvec2" value="0.6 0.75" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0 1 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="False" />
 							<attribute id="GroupName" type="FixedString" value="" />
 							<attribute id="IsColor" type="bool" value="False" />
 							<attribute id="ParameterName" type="FixedString" value="_WorldExtents" />
-							<attribute id="Value" type="fvec3" value="1 1 1" />
+							<attribute id="Value" type="fvec3" value="0 1 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1406049 0.1831563 0.3552124" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0 1 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_MinColor" />
-							<attribute id="Value" type="fvec3" value="0.1406049 0.1831563 0.3552124" />
+							<attribute id="Value" type="fvec3" value="0 1 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.3281853 0.5564467 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0 1 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_MidColor" />
-							<attribute id="Value" type="fvec3" value="0.3281853 0.5564467 1" />
+							<attribute id="Value" type="fvec3" value="0 1 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.8455598 0.8980337 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0 1 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_BorderFresnelColor" />
-							<attribute id="Value" type="fvec3" value="0.8455598 0.8980337 1" />
+							<attribute id="Value" type="fvec3" value="0 1 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="1 0.6724707 0.3320463" />
+							<attribute id="BaseValue" type="fvec3" value="0 1 1" />
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveErosion_Color" />
-							<attribute id="Value" type="fvec3" value="1 0.004116177 0.004116177" />
+							<attribute id="Value" type="fvec3" value="0 1 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1737452 0.151587 0.1341662" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0 1 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Texture" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="DarkerColor_AddedInFresnel" />
-							<attribute id="Value" type="fvec3" value="0.1737452 0.151587 0.1341662" />
+							<attribute id="Value" type="fvec3" value="0 1 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0 1 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Tint" />
 							<attribute id="IsColor" type="bool" value="False" />
 							<attribute id="ParameterName" type="FixedString" value="Tint_Color" />
-							<attribute id="Value" type="fvec3" value="1 1 1" />
+							<attribute id="Value" type="fvec3" value="0 1 1" />
 						</node>
 						<node id="VectorParameters">
 							<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />
@@ -2307,9 +2714,9 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Epidemic -->
+				<node id="Resource">	<!-- Epidemic -->
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
-					<attribute id="ID" type="FixedString" value="5e10c08e-8f4e-40b9-afc5-91ec51b0ee38" />
+					<attribute id="ID" type="FixedString" value="39ebdf88-f6a4-4175-b57e-ca3650730ae4" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="VFX_Affliction_EM_Arcane_Epidemic_OverlayMaterial" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Effects/OverlayMaterial/VFX_OverlayMaterial_AlphaBlend_DefaultLit_Emissive_TriPlanar_AlphaErosion_TargetHeight_01.lsf" />
@@ -2517,19 +2924,19 @@
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Tint" />
 							<attribute id="ParameterName" type="FixedString" value="Tint_Desaturation" />
-							<attribute id="Value" type="float" value="1" />
+							<attribute id="Value" type="float" value="2" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Tint" />
 							<attribute id="ParameterName" type="FixedString" value="Tint_Power" />
-							<attribute id="Value" type="float" value="1" />
+							<attribute id="Value" type="float" value="2" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0" />
@@ -2691,67 +3098,67 @@
 							<attribute id="Value" type="fvec2" value="0.6 0.75" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0.3185468 0.01599629 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="False" />
 							<attribute id="GroupName" type="FixedString" value="" />
 							<attribute id="IsColor" type="bool" value="False" />
 							<attribute id="ParameterName" type="FixedString" value="_WorldExtents" />
-							<attribute id="Value" type="fvec3" value="1 1 1" />
+							<attribute id="Value" type="fvec3" value="0.3185468 0.01599629 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1406049 0.1831563 0.3552124" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0.3185468 0.01599629 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_MinColor" />
-							<attribute id="Value" type="fvec3" value="0.1406049 0.1831563 0.3552124" />
+							<attribute id="Value" type="fvec3" value="0.3185468 0.01599629 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.3281853 0.5564467 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0.3185468 0.01599629 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_MidColor" />
-							<attribute id="Value" type="fvec3" value="0.3281853 0.5564467 1" />
+							<attribute id="Value" type="fvec3" value="0.3185468 0.01599629 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.8455598 0.8980337 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0.3185468 0.01599629 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_BorderFresnelColor" />
-							<attribute id="Value" type="fvec3" value="0.8455598 0.8980337 1" />
+							<attribute id="Value" type="fvec3" value="0.3185468 0.01599629 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="1 0.6724707 0.3320463" />
+							<attribute id="BaseValue" type="fvec3" value="0.3185468 0.01599629 1" />
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveErosion_Color" />
-							<attribute id="Value" type="fvec3" value="1 0.004116177 0.004116177" />
+							<attribute id="Value" type="fvec3" value="0.3185468 0.01599629 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1737452 0.151587 0.1341662" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0.3185468 0.01599629 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Texture" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="DarkerColor_AddedInFresnel" />
-							<attribute id="Value" type="fvec3" value="0.1737452 0.151587 0.1341662" />
+							<attribute id="Value" type="fvec3" value="0.3185468 0.01599629 1" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="0.3185468 0.01599629 1" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Tint" />
 							<attribute id="IsColor" type="bool" value="False" />
 							<attribute id="ParameterName" type="FixedString" value="Tint_Color" />
-							<attribute id="Value" type="fvec3" value="1 1 1" />
+							<attribute id="Value" type="fvec3" value="0.3185468 0.01599629 1" />
 						</node>
 						<node id="VectorParameters">
 							<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />
@@ -2772,11 +3179,11 @@
 						</node>
 					</children>
 				</node>
-				<node id="Resource">		<!-- Pandemic -->
+				<node id="Resource">	<!-- Pandemic -->
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
-					<attribute id="ID" type="FixedString" value="2383de61-795e-42d9-8207-f9fb223df427" />
+					<attribute id="ID" type="FixedString" value="dbc09d95-7095-4c66-9f1c-8bacc3096deb" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="VFX_Affliction_EM_Arcane_Epidemic_OverlayMaterial" />
+					<attribute id="Name" type="LSString" value="VFX_Affliction_EM_Arcane_Pandemic_OverlayMaterial" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Effects/OverlayMaterial/VFX_OverlayMaterial_AlphaBlend_DefaultLit_Emissive_TriPlanar_AlphaErosion_TargetHeight_01.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
@@ -2982,19 +3389,19 @@
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Tint" />
 							<attribute id="ParameterName" type="FixedString" value="Tint_Desaturation" />
-							<attribute id="Value" type="float" value="1" />
+							<attribute id="Value" type="float" value="2" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Tint" />
 							<attribute id="ParameterName" type="FixedString" value="Tint_Power" />
-							<attribute id="Value" type="float" value="1" />
+							<attribute id="Value" type="float" value="2" />
 						</node>
 						<node id="ScalarParameters">
 							<attribute id="BaseValue" type="float" value="0" />
@@ -3156,67 +3563,67 @@
 							<attribute id="Value" type="fvec2" value="0.6 0.75" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="False" />
 							<attribute id="GroupName" type="FixedString" value="" />
 							<attribute id="IsColor" type="bool" value="False" />
 							<attribute id="ParameterName" type="FixedString" value="_WorldExtents" />
-							<attribute id="Value" type="fvec3" value="1 1 1" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1406049 0.1831563 0.3552124" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_MinColor" />
-							<attribute id="Value" type="fvec3" value="0.1406049 0.1831563 0.3552124" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.3281853 0.5564467 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_MidColor" />
-							<attribute id="Value" type="fvec3" value="0.3281853 0.5564467 1" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.8455598 0.8980337 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveInside_BorderFresnelColor" />
-							<attribute id="Value" type="fvec3" value="0.8455598 0.8980337 1" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="1 0.6724707 0.3320463" />
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Emissive" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="EmissiveErosion_Color" />
-							<attribute id="Value" type="fvec3" value="1 0.004116177 0.004116177" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="0.1737452 0.151587 0.1341662" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Texture" />
 							<attribute id="IsColor" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="DarkerColor_AddedInFresnel" />
-							<attribute id="Value" type="fvec3" value="0.1737452 0.151587 0.1341662" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
 						</node>
 						<node id="Vector3Parameters">
-							<attribute id="BaseValue" type="fvec3" value="1 1 1" />
-							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="BaseValue" type="fvec3" value="1 0 0.5" />
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="Tint" />
 							<attribute id="IsColor" type="bool" value="False" />
 							<attribute id="ParameterName" type="FixedString" value="Tint_Color" />
-							<attribute id="Value" type="fvec3" value="1 1 1" />
+							<attribute id="Value" type="fvec3" value="1 0 0.5" />
 						</node>
 						<node id="VectorParameters">
 							<attribute id="BaseValue" type="fvec4" value="0 0 0 0" />

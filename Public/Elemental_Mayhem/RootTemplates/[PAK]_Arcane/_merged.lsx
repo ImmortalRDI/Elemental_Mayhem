@@ -3,7 +3,7 @@
 	<version major="4" minor="0" revision="9" build="0"/>
 	<region id="Templates">
 		<node id="Templates">
-			<children>     <!-- Scrolls -->
+			<children>     <!-- Gems -->
 				<node id="GameObjects">		<!-- Element -->
 					<attribute id="DisplayName" type="TranslatedString" handle="h2053fd20gcf3ag4ac1gb7eeg6bb3a920bc80" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="h9f7fe760g88d6g40beg91f3ge5d78c6a1bc6" version="1" />
@@ -11,10 +11,10 @@
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="ab3b3f90-5c4e-482c-9bce-18deaee9e11e" />
-					<attribute id="Name" type="LSString" value="OBJ_Scroll_Arcane_EM_Unlock" />
+					<attribute id="Name" type="LSString" value="OBJ_Gem_Arcane_EM_Unlock" />
 					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
-					<attribute id="Stats" type="FixedString" value="ARCANE_EM_UNLOCK" />
+					<attribute id="Stats" type="FixedString" value="ESSENCE_EM_ARCANE" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="VisualTemplate" type="FixedString" value="75709ca9-3d6a-7a5f-6a57-1197d08a3965" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
@@ -56,7 +56,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SkillID" type="FixedString" value="Scroll_Spells_EM_Arcane_Unlock" />
+											<attribute id="SkillID" type="FixedString" value="Gem_Spells_EM_Arcane_Unlock" />
 										</node>
 									</children>
 								</node>
@@ -66,7 +66,7 @@
 										<node id="Attributes">
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SpellId" type="FixedString" value="Scroll_Spells_EM_Arcane_Unlock" />
+											<attribute id="SpellId" type="FixedString" value="Gem_Spells_EM_Arcane_Unlock" />
 										</node>
 									</children>
 								</node>
@@ -79,11 +79,11 @@
 					<attribute id="Description" type="TranslatedString" handle="h766e490cg0e48g42f7gbf14g31a11891d9d5" version="1" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="2dcad2b5-b7d0-497f-9066-953032224e92" />
-					<attribute id="Name" type="LSString" value="OBJ_Scroll_Ultimate_EM_Arcane_Unlock" />
+					<attribute id="MapKey" type="FixedString" value="c4709af5-bac5-43cf-bd3c-4652a47e9f85" />
+					<attribute id="Name" type="LSString" value="OBJ_Gem_Ultimate_EM_Arcane_Unlock" />
 					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
-					<attribute id="Stats" type="FixedString" value="OBJ_Scroll_Ultimate_EM_Arcane_Unlock" />
+					<attribute id="Stats" type="FixedString" value="POWER_EM_ARCANE" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="VisualTemplate" type="FixedString" value="ac1284cd-92f7-9b0f-d320-26d40ba2c775" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
@@ -125,7 +125,7 @@
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="ClassId" type="guid" value="00000000-0000-0000-0000-000000000000" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SkillID" type="FixedString" value="Scroll_Ultimate_EM_Arcane_Unlock" />
+											<attribute id="SkillID" type="FixedString" value="Gem_Ultimate_EM_Arcane_Unlock" />
 										</node>
 									</children>
 								</node>
@@ -135,7 +135,7 @@
 										<node id="Attributes">
 											<attribute id="Animation" type="FixedString" value="" />
 											<attribute id="Consume" type="bool" value="False" />
-											<attribute id="SpellId" type="FixedString" value="Scroll_Ultimate_EM_Arcane_Unlock" />
+											<attribute id="SpellId" type="FixedString" value="Gem_Ultimate_EM_Arcane_Unlock" />
 										</node>
 									</children>
 								</node>
@@ -268,16 +268,16 @@
 			</children>
 			<children>		<!-- Barrage -->
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="86debca8-63c0-459f-8035-737276e5d2c3" />
-					<attribute id="Name" type="LSString" value="VFX_Projectile_Spell_GuidingBolt_01" />					
+					<attribute id="MapKey" type="FixedString" value="44c43b3c-bf20-4b17-93c5-afc85c54a6aa" />
+					<attribute id="Name" type="LSString" value="VFX_Barrage_EM_Arcane_Trajectory_Effects" />					
 					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="GroupID" type="uint32" value="0" />
 					<attribute id="HasGameplayValue" type="bool" value="False" />
 					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
-					<attribute id="TrailFX" type="FixedString" value="VFX_Projectiles_Turret_Arcane_01" />
-					<attribute id="ImpactFX" type="FixedString" value="VFX_Projectiles_Turret_Arcane_Impact_01" />
-					<attribute id="GroundImpactFX" type="LSString" value="VFX_Combat_GroundImpact_Round_Medium_01" />
+					<attribute id="TrailFX" type="FixedString" value="VFX_Barrage_EM_Arcane_TrailFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Barrage_EM_Arcane_ImpactFX" />
+					<attribute id="GroundImpactFX" type="LSString" value="VFX_Barrage_EM_Arcane_GroundImpactFX" />
 					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
 					<attribute id="Acceleration" type="float" value="20" />
 					<attribute id="InitialSpeed" type="float" value="30" />

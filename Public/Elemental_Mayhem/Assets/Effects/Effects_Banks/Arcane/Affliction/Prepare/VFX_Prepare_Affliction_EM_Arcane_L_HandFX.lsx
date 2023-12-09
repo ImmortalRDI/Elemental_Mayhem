@@ -8,13 +8,13 @@
 					<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
 				</node>
 				<node id="DependentResource">
-					<attribute id="Object" type="FixedString" value="88ab1c5e-5bcd-e4a5-7249-9c6a439a18d6" />
-				</node>
-				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
 				</node>
 				<node id="DependentResource">
 					<attribute id="Object" type="FixedString" value="183a9f56-814d-a677-b7b9-8f818428708c" />
+				</node>
+				<node id="DependentResource">
+					<attribute id="Object" type="FixedString" value="0332c6d3-1b90-2793-7e1e-9ebd83bb2f80" />
 				</node>
 			</children>
 		</node>
