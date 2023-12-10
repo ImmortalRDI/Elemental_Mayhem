@@ -91,18 +91,26 @@
 				<node id="LevelMapSeries">
 					<attribute id="Level1" type="LSString" value="1d6" />
 					<attribute id="Level4" type="LSString" value="1d8" />
-					<attribute id="Level8" type="LSString" value="1d10" />
-					<attribute id="Level12" type="LSString" value="1d12" />
+					<attribute id="Level8" type="LSString" value="2d6" />
+					<attribute id="Level12" type="LSString" value="2d8" />
 					<attribute id="Name" type="FixedString" value="Imbue_EM_MainHand" />
 					<attribute id="UUID" type="guid" value="bbbad194-3f74-43a4-a371-75e0308f3fe5" />
 				</node>
 				<node id="LevelMapSeries">
 					<attribute id="Level1" type="LSString" value="1d4" />
 					<attribute id="Level4" type="LSString" value="1d6" />
-					<attribute id="Level8" type="LSString" value="1d8" />
-					<attribute id="Level12" type="LSString" value="1d10" />
+					<attribute id="Level8" type="LSString" value="2d4" />
+					<attribute id="Level12" type="LSString" value="2d6" />
 					<attribute id="Name" type="FixedString" value="Imbue_EM_OffHand" />
 					<attribute id="UUID" type="guid" value="bbbad194-3f74-43a4-a371-75e0308f3fe5" />
+				</node>
+				<node id="LevelMapSeries">
+					<attribute id="Level1" type="LSString" value="1d4" />
+					<attribute id="Level4" type="LSString" value="2d4" />
+					<attribute id="Level8" type="LSString" value="3d4" />
+					<attribute id="Level12" type="LSString" value="4d4" />
+					<attribute id="Name" type="FixedString" value="Imbue_EM_Ranged" />
+					<attribute id="UUID" type="guid" value="073d75b6-e866-4626-9519-73c7f3e42a93" />
 				</node>
 				<node id="LevelMapSeries">
 					<attribute id="Level1" type="LSString" value="3d6" />

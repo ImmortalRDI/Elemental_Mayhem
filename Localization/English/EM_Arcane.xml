@@ -25,6 +25,8 @@
 	<content contentuid="h2a2fc686g3f3dg4a76g8e02g341fdc0efdde" version="1">The collection of spells that flooded your mind upon touching the Spark of Mystra.</content>
 	<content contentuid="habcc47bdg5502g405dg9927g937a51b1b25d" version="1">Siphoning Weave</content>
 	<content contentuid="hb6f65ec8g5ad2g4278gba87g0b3322bb45df" version="1">When one of your Arcane spells lands a killing blow, you restore some spent Elemental Essence.</content>
+	<content contentuid="h3e6b7094g8b21g40e3g8a1egb7551b128ae8" version="1">Essence Burn</content>
+	<content contentuid="hd1d19828gc541g400agab77g53696ae135be" version="1">Your natural ability to siphon access to the Weave from your target is temporarily blocked as you focus your connection to it to enchant your weapons and armor.</content>
 <!-- Affliction -->
 	<content contentuid="hc3a611aag4803g4f1fgb617g20dfb7810f10" version="1">Arcane Curse</content>
 	<content contentuid="h98648fc2gc7e9g4ab8gbb13gf95eeb7c111f" version="1">Infect your target with a curse infectinmg their connection to the Weave. This causes harsh reactions when attempting to cast spells, and will eventually leave them unable to access the weave at all. Failure to cure it in time will eventually lead to Weave Rot, which can be fatal. </content>
@@ -52,12 +54,39 @@
 <!-- Bolt -->
 	<content contentuid="hf20284c2gaf3cg4951g9ff6g8b26225bcd45" version="1">Arcane Arrow</content>
 	<content contentuid="hfce63dcegbcb6g437eg9d32g193c93e99078" version="1">Channel the Weave into your hands to deliver a quick bolt of arcane energy at your target(s).</content>
+<!-- Enchant -->
+	<!-- Enchanting Spells -->
+		<content contentuid="h796e7f15g37c0g48c7gad3eg98db761d720c" version="1">Arcane Enchantment</content>
+		<content contentuid="h493aa394gce1fg4791g8629gd16d93a241a7" version="1">You can utilize the Weave to temporarily enchant your weapons and armor.</content>
+		<content contentuid="hdd0329f8gd9ddg43fdg84cdg5ba393a96516" version="1">Arcane Enchant: Main-Hand Weapon</content>
+		<content contentuid="ha5083b72gaea1g444bga174g87ef4f706ea8" version="1">Enchant your main-hand weapon with arcane power, unlocking new, temporary skills.</content>
+		<content contentuid="he08264d5g19a4g45b5g976eg51d13d698824" version="1">Arcane Enchant: Off-Hand Weapon</content>
+		<content contentuid="hb438a18ag1fd7g4a6dg8a04g3872c44b1ad3" version="1">Enchant your off-hand weapon with arcane power, temporary skills.</content>
+		<content contentuid="h62a0b4acg69cdg44bdgbc73gb87087fa3195" version="1">Arcane Enchant: Ranged Weapon</content>
+		<content contentuid="h47b75228g2f8eg4768gaf75gc482034a718e" version="1">Enchant your ranged weapon with arcane power, temporary skills.</content>
+		<content contentuid="h3bd6d281g8abcg435fg93f1g8e0cc9967791" version="1">Arcane Enchant: Armor</content>
+		<content contentuid="hb723cb02g4e89g430agb6d7gb6bb332d8cba" version="1">Enchant your armor with arcane power, improving your spell casting abilities.</content>
+	<!-- Disenchanting Spells -->
+		<content contentuid="h0b34079cge08bg443ag8609ga8b34b42097b" version="1">Arcane Disenchanting</content>
+		<content contentuid="h44a47455gef78g4624g82b0g5d4e0049c1bf" version="1">Dispell all of your active enchantments.</content>
+		<content contentuid="hdaa2b252gd59fg4cd6g87c2gd08baaa5d6fc" version="1">Arcane Disenchant: Main-Hand Weapon</content>
+		<content contentuid="h3fc4d5e0gd97bg40a2gaa5bgf1dba9df77bf" version="1">Dispel the enchantment on your main-hand weapon.</content>
+		<content contentuid="h2a498b3fga632g48cfg91c0g2f17e2ca9cac" version="1">Arcane Disenchant: Off-Hand Weapon</content>
+		<content contentuid="h3ce9b511g1a42g4fa1g858cga1a821b19c53" version="1">Dispel the enchantment on your off-hand weapon.</content>
+		<content contentuid="h2ba8d549g0d00g46afg8881g049c96e8ac3f" version="1">Arcane Disenchant: Ranged Weapon</content>
+		<content contentuid="h82a5adcegf497g4672gafe1g05244f83de53" version="1">Dispel the enchantment on your ranged weapon.</content>
+		<content contentuid="h7b0e5327g135cg439fgbb86g7317ddea0a4c" version="1">Arcane Disenchant: Armor</content>
+		<content contentuid="h1b205cbag0049g4cceg924bgd89b22246161" version="1">Dispel the enchantment on your armor.</content>
+	<!-- Attack Spells -->
+		<content contentuid="bg3handle" version="1"></content>
+		<content contentuid="bg3handle" version="1"></content>
+		<content contentuid="bg3handle" version="1"></content>
+		<content contentuid="bg3handle" version="1"></content>
+		<content contentuid="bg3handle" version="1"></content>
+		<content contentuid="bg3handle" version="1"></content>
 <!-- Explosion -->
 	<content contentuid="he2d2a111gad76g4519g9b50ge7d567c3761f" version="1">Arcane Explosion</content>
 	<content contentuid="h0c34ec72gd5b1g4dd1ga8f3g7df24945809a" version="1">Blast an area with the raw arcane force of the Weave, crippling the magic use of anyone who gets too close.</content>
-<!-- Imbue -->
-	<content contentuid="h796e7f15g37c0g48c7gad3eg98db761d720c" version="1">Arcane Enchanting</content>
-	<content contentuid="h493aa394gce1fg4791g8629gd16d93a241a7" version="1">You can utilize the Weave to temporarily enchant your weapons and armor.</content>
 <!-- Leap -->
 	<content contentuid="ha19658d3g322eg4fa3g893aga9536ca0046f" version="1">Arcane Ambush</content>
 	<content contentuid="h38025343gcea2g4248ga915gb6a33de1ec9c" version="1">Manipulate the Weave to leap into the air, and come crashing down on your target(s) with tremendous impact.</content>

@@ -7,6 +7,7 @@
                     "type": "shell",
                     "command": "",
                     "dependsOn": [
+                        "ListUpdate",
                         "Dependencies",
                         "MEIRename",                
                         "LSFXFiller",
@@ -26,6 +27,28 @@
                         "reveal": "silent"
                     },
                     "problemMatcher": []
+        },
+        {
+                "label": "ListUpdate",
+                "type": "shell",
+                "command": "python",
+                "args": [
+                    "tags_list_updated.py",
+                    "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\LsLib-&-MultiTool\\Multitool\\UnpackedData\\Shared\\Public\\Shared\\Tags"
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "presentation": {
+                    "reveal": "always",
+                    "panel": "new"
+                },
+                "options": {
+                    "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                },
+                "problemMatcher": []
+        
         },
         {
                 "label": "Dependencies",
