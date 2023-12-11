@@ -3,7 +3,7 @@
 	<version major="4" minor="0" revision="9" build="0"/>
 	<region id="Templates">
 		<node id="Templates">
-			<children>     <!-- Gems -->
+			<children>	<!-- Gems -->
 				<node id="GameObjects">		<!-- Element -->
 					<attribute id="DisplayName" type="TranslatedString" handle="h2053fd20gcf3ag4ac1gb7eeg6bb3a920bc80" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="h9f7fe760g88d6g40beg91f3ge5d78c6a1bc6" version="1" />
@@ -144,7 +144,7 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Affliction -->
+			<children>	<!-- Affliction -->
 				<node id="GameObjects">		<!-- Contagion Spread -->
 					<attribute id="MapKey" type="FixedString" value="255b6219-f06e-49a7-8139-b98746e620fd" />
 					<attribute id="Name" type="LSString" value="VFX_Status_Affliction_EM_Arcane_Contagion_Spread_Effect" />
@@ -266,7 +266,7 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Barrage -->
+			<children>	<!-- Barrage -->
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="44c43b3c-bf20-4b17-93c5-afc85c54a6aa" />
 					<attribute id="Name" type="LSString" value="VFX_Barrage_EM_Arcane_Trajectory_Effects" />					
@@ -325,20 +325,7 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Blast -->
-				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="d65ab317-d258-46cd-9a4c-31e3b3e15e6c" />
-					<attribute id="Name" type="LSString" value="Helper_Spell_Burst_EM_Arcane" />
-					<attribute id="Description" type="TranslatedString" handle="$" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="$" version="2" />
-					<attribute id="LevelName" type="FixedString" value="" />					
-					<attribute id="ParentTemplateId" type="FixedString" value="06f96d65-0ee5-4ed5-a30a-92a3bfe3f708" />
-					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="VisualTemplate" type="FixedString" value="be7c3454-5643-9f97-8f81-fafff958e23f" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725658" />
-				</node>			
-			</children>
-			<children>		<!-- Bolt -->
+			<children>	<!-- Bolt -->
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="dee40408-84e1-4598-8b6d-4fe811d9c030" />
 					<attribute id="Name" type="LSString" value="VFX_Bolt_EM_Arcane_MultiEffects" />
@@ -402,7 +389,20 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Leap -->
+			<children>	<!-- Explosion -->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d65ab317-d258-46cd-9a4c-31e3b3e15e6c" />
+					<attribute id="Name" type="LSString" value="Helper_Spell_Burst_EM_Arcane" />
+					<attribute id="Description" type="TranslatedString" handle="$" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="$" version="2" />
+					<attribute id="LevelName" type="FixedString" value="" />					
+					<attribute id="ParentTemplateId" type="FixedString" value="06f96d65-0ee5-4ed5-a30a-92a3bfe3f708" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="be7c3454-5643-9f97-8f81-fafff958e23f" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725658" />
+				</node>			
+			</children>
+			<children>	<!-- Leap -->
 				<node id="GameObjects">
                     <attribute id="MapKey" type="FixedString" value="a67f194d-2ce9-4c96-955d-61a88d7179dd" />
                     <attribute id="Name" type="LSString" value="VFX_Leap_EM_Arcane_MultiEffects" />
@@ -480,7 +480,7 @@
 					</children>
 				</node>
 			</children>
-			<children>		<!-- Stealth -->
+			<children>	<!-- Stealth -->
 				<node id="GameObjects">		<!-- Disappear -->
 					<attribute id="MapKey" type="FixedString" value="0769d350-8035-489e-b7e0-f530bbffef3f" />
 					<attribute id="Name" type="LSString" value="VFX_Stealth_EM_Arcane_DisappearEFfects" />

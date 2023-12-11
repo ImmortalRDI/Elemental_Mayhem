@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="MultiEffectInfos">
+		<node id="MultiEffectInfos">
+			<attribute id="UUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+			<attribute id="Name" type="LSString" value="MultiEffectInfo_Template" />
+			<children>
+				<node id="EffectInfo">
+					<attribute id="UUID" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="DetachSource" type="bool" value="True/False" />
+					<attribute id="DetachTarget" type="bool" value="True/False" />
+					<attribute id="KeepRotation" type="bool" value="True/False" />
+					<attribute id="UseOrientDirection" type="bool" value="True/False" />
+					<attribute id="UseDistance" type="bool" value="True/False" />
+					<attribute id="UseScaleOverride" type="bool" value="True/False" />
+					<attribute id="KeepScale" type="bool" value="True/False" />
+					<attribute id="MainHand" type="bool" value="True/False" />
+					<attribute id="OffHand" type="bool" value="True/False" />
+					<attribute id="MinDistance" type="float" value="0" />
+					<attribute id="MaxDistance" type="float" value="0" />
+					<attribute id="BindSourceTo" type="FixedString" value="SourceEntity" />
+					<attribute id="BindTargetTo" type="FixedString" value="TargetEntity" />
+					<attribute id="Pivot" type="FixedString" value="Target" />
+					<attribute id="DamageType" type="uint32" value="0" />
+					<attribute id="VerbalIntent" type="uint32" value="0" />
+					<attribute id="Enabled" type="bool" value="True/False" />
+					<children>
+						<node id="$">
+							<attribute id="Value" type="LSString" value="$" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

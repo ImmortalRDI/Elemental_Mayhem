@@ -1,0 +1,84 @@
+// 		Regex
+(?<=type="fvec4" value=")[\d\. ]+
+(?<=Time" type="float" value=")[\d\.]+
+(?<=type="fvec4" value=")([\d\.]+ [\d\.]+ [\d\.]+)
+
+<attribute\s+id="Type"\s+type="uint8"\s+value="3"\s*\/>\s*<children>\s*<node\s+id="Frames">\s*((?:.|[\r\n])*?)\s*<\/children>
+
+(?<=attribute id="MapKey" type="FixedString" value="[\s\S\s\S\s]" />
+<FixedString([^>]|\n)+?value=([^>]|\n)+?>
+(?<="ID" type="guid" value=")([a-fA-F0-9-]+)
+(?<=attribute id="EffectResourceGuid" type="guid" value=")([a-fA-F0-9-]+)
+(?<="MapKey" type="FixedString" value=")[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}
+(?<="UUID" type="guid" value=")([a-fA-F0-9-]+)
+(?<="StartTime" type="float" value=")[\d\. ]+
+(?<="EndTime" type="float" value=")[\d\. ]+
+		<!-- .* -->
+
+(?<=Name" type="LSString" value=")([^"]+)
+
+
+(?<=value="Scale Modifier [\s\S\s\S\s]" />
+											<attribute id="FullName" type="FixedString" value="Particle.Appearance.Scale Modifier [\s\S\s\S\s]" />
+											<attribute id="Type" type="uint8" value="4" />
+											<attribute id="Value" type="float" value=")[\d\.]+
+
+(?<=value="Physical Material.Radius Scale" />
+											<attribute id="Type" type="uint8" value="4" />
+											<attribute id="Value" type="float" value=")[\d\.]+
+
+(?<=value="Emitter.Behavior.Maximum Particle Count" />
+											<attribute id="Type" type="uint8" value="1" />
+											<attribute id="Value" type="int32" value=")[\d\.]+
+
+(?<=value="Position" />
+											<attribute id="FullName" type="FixedString" value="Offset" />
+											<attribute id="Type" type="uint8" value="8" />
+											<attribute id="Value" type="fvec3" value=")([\d\.]+ [\d\.]+ [\d\.]+)
+
+(?<=attribute id="FullName" type="FixedString" value="Emitter.Type" />
+											<attribute id="Type" type="uint8" value="1" />
+											<attribute id="Value" type="int32" value=")[\d\.]+
+
+											(?<=attribute id="AttributeName" type="FixedString" value="[\s\S\s\S\s] GUID" />
+											<attribute id="FullName" type="FixedString" value="[\s\S\s\S\s] GUID" />
+
+											(?<=attribute id="Type" type="uint8" value="10" />
+											<attribute id="Value" type="FixedString" value=")([a-fA-F0-9-]+)
+
+                                            
+
+
+
+// 		Script Extender
+
+Osi.TemplateAddTo("ab3b3f90-5c4e-482c-9bce-18deaee9e11e", GetHostCharacter(), 1, 1)
+
+_P(Ext.Mod.IsModLoaded("9a25edac-17bb-46d6-af3a-ab35fae4b284"))
+_P(Ext.Mod.IsModLoaded("1b1a17ad-c8d7-4362-81f2-a90d128cfe57"))
+_P(Ext.Mod.IsModLoaded("891da884-0ee6-470b-ad65-21feff57de2d"))
+
+Ext.Stats.LoadStatsFile("Public/Elemental_Mayhem/Stats/Generated/Data/Spell_Arcane.txt")
+
+Ext.Events.DoConsoleCommand:Subscribe(function(e)
+    if e.Command == "LoadStats" then
+        for _, file in pairs{
+            "MyPassives",
+            "MySpells",
+            "MyStatus",
+        } do
+            Ext.Stats.LoadStatsFile("Public/MYMODDIRECTORY/Stats/Generated/Data/"..file..".txt")
+        end
+    end
+end)
+
+ Osi.CreateAt()
+
+
+(?<=type="fvec4" value=")([\d\.]+ [\d\.]+ [\d\.]+)
+
+0.3185468 0.01599629 1
+
+0 1 1
+
+1 0 0.5
