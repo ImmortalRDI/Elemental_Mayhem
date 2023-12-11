@@ -13,7 +13,7 @@
 (?<="UUID" type="guid" value=")([a-fA-F0-9-]+)
 (?<="StartTime" type="float" value=")[\d\. ]+
 (?<="EndTime" type="float" value=")[\d\. ]+
-		<!-- .* -->
+<!-- .* -->
 
 (?<=Name" type="LSString" value=")([^"]+)
 
