@@ -51,41 +51,85 @@
 	<!-- Blitz -->
 	<content contentuid="h21452969g8f9fg4931ga212g298675b0f24a" version="1">Arcane Blitz</content>
 	<content contentuid="h26da6c5fgfbc8g49a8g90c7g3c40c886d46f" version="1">Empowered by the Weave, you rush your target with blinding speed.</content>
-	<!-- Bolt -->
-	<content contentuid="hf20284c2gaf3cg4951g9ff6g8b26225bcd45" version="1">Arcane Arrow</content>
+	<!-- Burst -->
+	<content contentuid="hf20284c2gaf3cg4951g9ff6g8b26225bcd45" version="1">Arcane Beam</content>
 	<content contentuid="hfce63dcegbcb6g437eg9d32g193c93e99078" version="1">Channel the Weave into your hands to deliver a quick bolt of arcane energy at your target(s).</content>
 	<!-- Enchant -->
+		<!-- Spells -->
+			<!-- Enchanting Spells -->
 	<content contentuid="h796e7f15g37c0g48c7gad3eg98db761d720c" version="1">Arcane Enchantment</content>
 	<content contentuid="h493aa394gce1fg4791g8629gd16d93a241a7" version="1">You can utilize the Weave to temporarily enchant your weapons and armor.</content>
+	<content contentuid="h8348bf9cgc20eg43ddg86acg9d1b5c95029d" version="1">Arcane Enchant: Container</content>
+	<content contentuid="h753d3582g699bg4ac8g8d11g943ccf3c40a6" version="1">This contains the spells for enchanting.</content>
 	<content contentuid="hdd0329f8gd9ddg43fdg84cdg5ba393a96516" version="1">Arcane Enchant: Main-Hand Weapon</content>
-	<content contentuid="ha5083b72gaea1g444bga174g87ef4f706ea8" version="1">Enchant your main-hand weapon with arcane power, unlocking new, temporary skills.</content>
+	<content contentuid="ha5083b72gaea1g444bga174g87ef4f706ea8" version="1">Enchant your main-hand weapon with arcane power, unlocking new, granting temporary skills.</content>
 	<content contentuid="he08264d5g19a4g45b5g976eg51d13d698824" version="1">Arcane Enchant: Off-Hand Weapon</content>
-	<content contentuid="hb438a18ag1fd7g4a6dg8a04g3872c44b1ad3" version="1">Enchant your off-hand weapon with arcane power, temporary skills.</content>
+	<content contentuid="hb438a18ag1fd7g4a6dg8a04g3872c44b1ad3" version="1">Enchant your off-hand weapon with arcane power, granting temporary skills.</content>
+	<content contentuid="h15a16c4eg4c5bg4ab5g8c8ag29b05365e590" version="1">Arcane Enchant: Unarmed</content>
+	<content contentuid="h52f3a9e1g18e3g4f4bgad1fg4c2189fbe441" version="1">Enchant your fists with arcane power, granting temporary skills.</content>
 	<content contentuid="h62a0b4acg69cdg44bdgbc73gb87087fa3195" version="1">Arcane Enchant: Ranged Weapon</content>
-	<content contentuid="h47b75228g2f8eg4768gaf75gc482034a718e" version="1">Enchant your ranged weapon with arcane power, temporary skills.</content>
+	<content contentuid="h47b75228g2f8eg4768gaf75gc482034a718e" version="1">Enchant your ranged weapon with arcane power, granting temporary skills.</content>
 	<content contentuid="h3bd6d281g8abcg435fg93f1g8e0cc9967791" version="1">Arcane Enchant: Armor</content>
 	<content contentuid="hb723cb02g4e89g430agb6d7gb6bb332d8cba" version="1">Enchant your armor with arcane power, improving your spell casting abilities.</content>
-	<!-- Disenchanting Spells -->
+			<!-- Disenchanting Spells -->
+	<content contentuid="h7bc19ff8g6d3dg4fcega4aag5bad09ee8024" version="1">Arcane Disnchant: Container</content>
+	<content contentuid="h1b98c877g5006g4a4aga24cg5e51610d7291" version="1">This contains the spells for disnchanting.</content>
 	<content contentuid="h0b34079cge08bg443ag8609ga8b34b42097b" version="1">Arcane Disenchanting</content>
 	<content contentuid="h44a47455gef78g4624g82b0g5d4e0049c1bf" version="1">Dispell all of your active enchantments.</content>
 	<content contentuid="hdaa2b252gd59fg4cd6g87c2gd08baaa5d6fc" version="1">Arcane Disenchant: Main-Hand Weapon</content>
 	<content contentuid="h3fc4d5e0gd97bg40a2gaa5bgf1dba9df77bf" version="1">Dispel the enchantment on your main-hand weapon.</content>
 	<content contentuid="h2a498b3fga632g48cfg91c0g2f17e2ca9cac" version="1">Arcane Disenchant: Off-Hand Weapon</content>
 	<content contentuid="h3ce9b511g1a42g4fa1g858cga1a821b19c53" version="1">Dispel the enchantment on your off-hand weapon.</content>
+	<content contentuid="h4b9fcc4dg46aag4a75g890fga87b23e985a3" version="1">Arcane Disenchant: Unarmed</content>
+	<content contentuid="h29f0ed5agdd15g4f1cg801ag81e04220e329" version="1">Dispel the enchantment on your fists.</content>
 	<content contentuid="h2ba8d549g0d00g46afg8881g049c96e8ac3f" version="1">Arcane Disenchant: Ranged Weapon</content>
 	<content contentuid="h82a5adcegf497g4672gafe1g05244f83de53" version="1">Dispel the enchantment on your ranged weapon.</content>
 	<content contentuid="h7b0e5327g135cg439fgbb86g7317ddea0a4c" version="1">Arcane Disenchant: Armor</content>
 	<content contentuid="h1b205cbag0049g4cceg924bgd89b22246161" version="1">Dispel the enchantment on your armor.</content>
-<!-- Attack Spells -->
-	<content contentuid="bg3handle" version="1"></content>
-	<content contentuid="bg3handle" version="1"></content>
-	<content contentuid="bg3handle" version="1"></content>
-	<content contentuid="bg3handle" version="1"></content>
-	<content contentuid="bg3handle" version="1"></content>
-	<content contentuid="bg3handle" version="1"></content>
+			<!-- Attack Spells -->
+	<content contentuid="h2146db1ag5108g44cdg8aa6g0e60f5b4d7d4" version="1">Enchant Main-Hand Melee</content>
+	<content contentuid="h282068c3ga65cg41ecgbf46g24e95e395807" version="1">Description Text Here</content>
+	<content contentuid="h97babcd7gc596g452ega748gf66661f416d2" version="1">Enchant Main-HandMelee Ranged</content>
+	<content contentuid="h2d222241g9de7g4d8fg8965g583b7e793fd1" version="1">Description Text Here</content>
+	<content contentuid="h8a3a9559gaf5bg4602g9367gac295c498839" version="1">Enchant Off-Hand Melee</content>
+	<content contentuid="hf96db512gd4fcg45c5ga811gaca505505750" version="1">Description Text Here</content>
+	<content contentuid="h13118de7gb122g415fg8a20g3991a051efa1" version="1">Enchant Unarmed Melee</content>
+	<content contentuid="h7f90506fg61dfg4b6bgbe60g26a5fb25ac52" version="1">Description Text Here</content>
+	<content contentuid="h549ae44ega8c9g47acg99aag064305bb303c" version="1">Enchant Unarmed Ranged</content>
+	<content contentuid="h0ed70cd8ga1e0g45efg95e1g7afabf0c6e15" version="1">Description Text Here</content>	
+	<content contentuid="h661afecfgdf2cg4b57gac3cg855da8fd2ae5" version="1">Enchant Ranged</content>
+	<content contentuid="h0e485589g4f6fg41c1g928fg4c0dfeb460d8" version="1">Description Text Here</content>
+	<content contentuid="h320b46c0g3428g4ec9gb90bga7ca86347722" version="1">Enchant Ranged Explode</content>
+	<content contentuid="hb3a6f659gbc80g4a45ga8e9g1ba69e1a474b" version="1">Description Text Here</content>
+	<content contentuid="hce141732g28e7g46a3g8dddgdd95195bc759" version="1">Enchant Ranged Volley</content>
+	<content contentuid="h3c920631g26cag4663g9e3cg0016aab3e241" version="1">Description Text Here</content>
+		<!-- Status -->
+	<content contentuid="h21f39dbcg868ag4a25g9398g2450c1c5fbf2" version="1">Enchant: Activation</content>
+	<content contentuid="hc23f67e4g810bg4622g9402g743158b32ddc" version="1">Your weapons, armor and fists are now prepared to be enchanted with arcane power.</content>
+	<content contentuid="hfe9665c7g5e75g4df2ga600g4c80d71b1ff9" version="1">Arcane Enchantment: Main-Hand Weapon</content>
+	<content contentuid="h1d6c19c0g7beag4049gb36ag23ad0c05bf3a" version="1">Your main-hand weapon radiates with the arcane power of the Weave.</content>
+	<content contentuid="h64b54e4dg08d1g40cagbe47gc61d7b72cbff" version="1">Arcane Enchantment: Off-Hand Weapon</content>
+	<content contentuid="h7eec41a9g7583g429agaaf8gd9c0f4c967b5" version="1">Your off-hand weapon radiates with the arcane power of the Weave.</content>
+	<content contentuid="hdfdd38bcgaeb4g4ac6g944dg3fdf27d24602" version="1">Arcane Enchantment: Unarmed</content>
+	<content contentuid="hfd839f1cg47ccg4cb4ga0acgcd60c6ce0e68" version="1">Your your fists radiate with the arcane power of the Weave.</content>
+	<content contentuid="h9d1a4974g8afdg4cb4g8df2ga1105af4bf20" version="1">Arcane Enchantment: Ranged Weapon</content>
+	<content contentuid="h695fd246g2b19g4ae9g8cdeg41512fd4e330" version="1">Your ranged weapon(s) radiates with the arcane power of the Weave.</content>
+	<content contentuid="h7f81344cgcc4cg4e6cg98dcg0b86eeebfdb5" version="1">Arcane Enchantment: Armor</content>
+	<content contentuid="h4c4e6af7g5fb8g4a88g8478g8d85a626bce8" version="1">Your armor radiates with the arcane power of the Weave.</content>
 	<!-- Explosion -->
+		<!-- Spells -->
 	<content contentuid="he2d2a111gad76g4519g9b50ge7d567c3761f" version="1">Arcane Explosion</content>
 	<content contentuid="h0c34ec72gd5b1g4dd1ga8f3g7df24945809a" version="1">Blast an area with the raw arcane force of the Weave, crippling the magic use of anyone who gets too close.</content>
+		<!-- Status -->
+	<content contentuid="heaec9560g0d08g4db9g9cd1geb7184306f5c" version="1"> Aura</content>
+	<content contentuid="h9ef1a1fdgb31eg4f69g9424g88214ac55102" version="1">The area ebbs and flows with the power of the Weave, tearing apart the very essence of magic.</content>
+	<content contentuid="hd2c49b43g2edag4fbeg856eg8f78a2954e92" version="1">Aura Explosion Start</content>
+	<content contentuid="hb0984a5ag021bg49f5ga4e3g3d25c42a28d3" version="1"></content>
+	<content contentuid="h7482394agb9c5g4f8ag9051g9ac4d37084a1" version="1">Aura Explosion End</content>
+	<content contentuid="hcbed767fgf6fdg4800g998cgdd58395bb3fb" version="1"></content>
+	<content contentuid="h9f2e91efgc960g4f52g85acgb00d17e2f402" version="1">Aura Status</content>
+	<content contentuid="h494fa07dg39abg45bcga6aegd06f4371ac6e" version="1"></content>
+	<content contentuid="h765c2e5egf767g42fbgb529g137c90333181" version="1">Aura Explosion End Damage</content>
 	<!-- Leap -->
 	<content contentuid="ha19658d3g322eg4fa3g893aga9536ca0046f" version="1">Arcane Ambush</content>
 	<content contentuid="h38025343gcea2g4248ga915gb6a33de1ec9c" version="1">Manipulate the Weave to leap into the air, and come crashing down on your target(s) with tremendous impact.</content>

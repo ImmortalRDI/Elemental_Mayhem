@@ -4,7 +4,7 @@
 	<region id="LevelMapValues">
 		<node id="root">
 			<children>				
-				<node id="LevelMapSeries">
+				<node id="LevelMapSeries">	<!-- Affliciton: Contagion -->
 					<attribute id="Level1" type="LSString" value="1d4" />
 					<attribute id="Level3" type="LSString" value="1d6" />
 					<attribute id="Level6" type="LSString" value="1d8" />
@@ -13,7 +13,7 @@
 					<attribute id="Name" type="FixedString" value="Affliction_EM_Contagion_Damage" />
 					<attribute id="UUID" type="guid" value="9c313c68-492a-4cb4-b58e-7cb1910e38f2" />
 				</node>
-				<node id="LevelMapSeries">
+				<node id="LevelMapSeries">	<!-- Affliction: Endemic -->
 					<attribute id="Level1" type="LSString" value="2d4" />
 					<attribute id="Level3" type="LSString" value="2d6" />
 					<attribute id="Level6" type="LSString" value="2d8" />
@@ -22,7 +22,7 @@
 					<attribute id="Name" type="FixedString" value="Affliction_EM_Endemic_Damage" />
 					<attribute id="UUID" type="guid" value="9f9fa84b-d96e-45e3-b9b0-4bf025078856" />
 				</node>
-				<node id="LevelMapSeries">
+				<node id="LevelMapSeries">	<!-- Affliction: Epidemic -->
 					<attribute id="Level1" type="LSString" value="3d4" />
 					<attribute id="Level3" type="LSString" value="3d6" />
 					<attribute id="Level6" type="LSString" value="3d8" />
@@ -31,7 +31,7 @@
 					<attribute id="Name" type="FixedString" value="Affliction_EM_Epidemic_Damage" />
 					<attribute id="UUID" type="guid" value="603d4567-a31b-4b2d-b14d-72005aec69e8" />
 				</node>
-				<node id="LevelMapSeries">
+				<node id="LevelMapSeries">	<!-- Affliction: Pandemic -->
 					<attribute id="Level1" type="LSString" value="4d4" />
 					<attribute id="Level3" type="LSString" value="4d6" />
 					<attribute id="Level6" type="LSString" value="4d8" />
@@ -40,7 +40,7 @@
 					<attribute id="Name" type="FixedString" value="Affliction_EM_Pandemic_Damage" />
 					<attribute id="UUID" type="guid" value="752b3f61-da52-4224-8f27-01a9e9fa2444" />
 				</node>
-				<node id="LevelMapSeries">
+				<node id="LevelMapSeries">	<!-- Barrage: Damage -->
 					<attribute id="Level1" type="LSString" value="1d12" />
 					<attribute id="Level3" type="LSString" value="2d12" />
 					<attribute id="Level5" type="LSString" value="3d12" />
@@ -48,9 +48,9 @@
 					<attribute id="Level9" type="LSString" value="5d12" />
 					<attribute id="Level11" type="LSString" value="6d12" />
 					<attribute id="Name" type="FixedString" value="Barrage_EM_Damage" />
-					<attribute id="UUID" type="guid" value="aa86af58-933e-4cde-af92-5e19421c9498" />
+					<attribute id="UUID" type="guid" value="501c7c16-c036-46d3-a945-8cd19d853758" />
 				</node>
-				<node id="LevelMapSeries">
+				<node id="LevelMapSeries">	<!-- Blast: Damage -->
 					<attribute id="Level1" type="LSString" value="1d8" />
 					<attribute id="Level3" type="LSString" value="2d8" />
 					<attribute id="Level5" type="LSString" value="3d8" />
@@ -58,61 +58,57 @@
 					<attribute id="Level9" type="LSString" value="5d8" />
 					<attribute id="Level11" type="LSString" value="6d8" />
 					<attribute id="Name" type="FixedString" value="Blast_EM_Damage" />
-					<attribute id="UUID" type="guid" value="e1ebb33a-1339-4a27-b729-40cd8fc841bd" />
+					<attribute id="UUID" type="guid" value="7e5fe0a6-cdd3-4ceb-8c12-927691697158" />
 				</node>
-				<node id="LevelMapSeries">
-					<attribute id="Level1" type="LSString" value="1d10" />
-					<attribute id="Level3" type="LSString" value="2d10" />
-					<attribute id="Level5" type="LSString" value="3d10" />
-					<attribute id="Level7" type="LSString" value="4d10" />
-					<attribute id="Level9" type="LSString" value="5d10" />
-					<attribute id="Level11" type="LSString" value="6d10" />
-					<attribute id="Name" type="FixedString" value="Blitz_EM_Damage" />
-					<attribute id="UUID" type="guid" value="65be45b5-d91c-4c66-8862-afbc4dd5f66c" />
+				<node id="LevelMapSeries">	<!-- Burst: Damage -->
+					<attribute id="Level1" type="LSString" value="2d12" />
+					<attribute id="Level4" type="LSString" value="4d12" />
+					<attribute id="Level8" type="LSString" value="6d12" />
+					<attribute id="Level12" type="LSString" value="8d12" />
+					<attribute id="Name" type="FixedString" value="Burst_EM_Damage" />
+					<attribute id="UUID" type="guid" value="6c81206f-14dd-4e6c-9d31-d6b945530ac5" />
 				</node>
-				<node id="LevelMapSeries">
-					<attribute id="Level1" type="LSString" value="1" />
-					<attribute id="Level3" type="LSString" value="2" />
-					<attribute id="Level5" type="LSString" value="3" />
-					<attribute id="Level7" type="LSString" value="4" />
-					<attribute id="Level9" type="LSString" value="5" />
-					<attribute id="Level11" type="LSString" value="6" />
-					<attribute id="Name" type="FixedString" value="Bolt_EM_Targets" />
-					<attribute id="UUID" type="guid" value="05d7fc49-e2ca-4d4a-8955-739a2b212785" />
-				</node>
-				<node id="LevelMapSeries">
-					<attribute id="Level1" type="LSString" value="1d12" />
-					<attribute id="Level4" type="LSString" value="2d12" />
-					<attribute id="Level8" type="LSString" value="3d12" />
-					<attribute id="Level12" type="LSString" value="4d12" />
-					<attribute id="Name" type="FixedString" value="Bolt_EM_Damage" />
-					<attribute id="UUID" type="guid" value="05d7fc49-e2ca-4d4a-8955-739a2b212785" />
-				</node>
-				<node id="LevelMapSeries">
+				<node id="LevelMapSeries">	<!-- Explosion: Damage -->
+					<attribute id="Level1" type="LSString" value="2d6" />
+					<attribute id="Level4" type="LSString" value="3d6" />
+					<attribute id="Level8" type="LSString" value="4d6" />
+					<attribute id="Level12" type="LSString" value="5d6" />
+					<attribute id="Name" type="FixedString" value="Explosion_EM_Damage" />
+					<attribute id="UUID" type="guid" value="5f32301e-b255-43c8-9efe-e60233b3d393" />
+				</node>				
+				<node id="LevelMapSeries">	<!-- Enchant: Main-Hand -->
 					<attribute id="Level1" type="LSString" value="1d6" />
 					<attribute id="Level4" type="LSString" value="1d8" />
 					<attribute id="Level8" type="LSString" value="2d6" />
 					<attribute id="Level12" type="LSString" value="2d8" />
-					<attribute id="Name" type="FixedString" value="Imbue_EM_MainHand" />
+					<attribute id="Name" type="FixedString" value="Enchant_EM_MainHand" />
 					<attribute id="UUID" type="guid" value="bbbad194-3f74-43a4-a371-75e0308f3fe5" />
 				</node>
-				<node id="LevelMapSeries">
+				<node id="LevelMapSeries">	<!-- Enchant: Off-Hand -->
 					<attribute id="Level1" type="LSString" value="1d4" />
 					<attribute id="Level4" type="LSString" value="1d6" />
 					<attribute id="Level8" type="LSString" value="2d4" />
 					<attribute id="Level12" type="LSString" value="2d6" />
-					<attribute id="Name" type="FixedString" value="Imbue_EM_OffHand" />
+					<attribute id="Name" type="FixedString" value="Enchant_EM_OffHand" />
 					<attribute id="UUID" type="guid" value="bbbad194-3f74-43a4-a371-75e0308f3fe5" />
 				</node>
-				<node id="LevelMapSeries">
-					<attribute id="Level1" type="LSString" value="1d4" />
-					<attribute id="Level4" type="LSString" value="2d4" />
-					<attribute id="Level8" type="LSString" value="3d4" />
-					<attribute id="Level12" type="LSString" value="4d4" />
-					<attribute id="Name" type="FixedString" value="Imbue_EM_Ranged" />
+				<node id="LevelMapSeries">	<!-- Enchant: Unarmed -->
+					<attribute id="Level1" type="LSString" value="1d10" />
+					<attribute id="Level4" type="LSString" value="2d10" />
+					<attribute id="Level8" type="LSString" value="3d10" />
+					<attribute id="Level12" type="LSString" value="4d10" />
+					<attribute id="Name" type="FixedString" value="Enchant_EM_Arcane_Unarmed" />
+					<attribute id="UUID" type="guid" value="fba93d1a-f60b-489f-998e-cf3c07abbb0b" />
+				</node>
+				<node id="LevelMapSeries">	<!-- Enchant: Ranged -->
+					<attribute id="Level1" type="LSString" value="1d6" />
+					<attribute id="Level4" type="LSString" value="2d6" />
+					<attribute id="Level8" type="LSString" value="3d6" />
+					<attribute id="Level12" type="LSString" value="4d6" />
+					<attribute id="Name" type="FixedString" value="Enchant_EM_Ranged" />
 					<attribute id="UUID" type="guid" value="073d75b6-e866-4626-9519-73c7f3e42a93" />
 				</node>
-				<node id="LevelMapSeries">
+				<node id="LevelMapSeries">	<!-- Leap: Damage -->
 					<attribute id="Level1" type="LSString" value="3d6" />
 					<attribute id="Level4" type="LSString" value="4d8" />
 					<attribute id="Level8" type="LSString" value="5d10" />
@@ -120,12 +116,20 @@
 					<attribute id="Name" type="FixedString" value="Leap_EM_Damage" />
 					<attribute id="UUID" type="guid" value="09c22d09-57c0-4c74-8c17-bc651002b6a9" />
 				</node>
-				<node id="LevelMapSeries">
+				<node id="LevelMapSeries">	<!-- Shift: Damage -->
+					<attribute id="Level1" type="LSString" value="1d4" />
+					<attribute id="Level4" type="LSString" value="3d4" />
+					<attribute id="Level8" type="LSString" value="5d4" />
+					<attribute id="Level12" type="LSString" value="7d4" />
+					<attribute id="Name" type="FixedString" value="Shift_EM_Damage" />
+					<attribute id="UUID" type="guid" value="ed586724-a79d-43b3-9705-5485b7f64c14" />
+				</node>
+				<node id="LevelMapSeries">	<!-- Ultimate: Arcane -->
 					<attribute id="Level1" type="LSString" value="8d4" />
 					<attribute id="Level4" type="LSString" value="8d6" />
 					<attribute id="Level8" type="LSString" value="8d8" />
 					<attribute id="Level12" type="LSString" value="8d10" />
-					<attribute id="Name" type="FixedString" value="Ultimate_EM_Damage" />
+					<attribute id="Name" type="FixedString" value="Ultimate_EM_Arcane_Damage" />
 					<attribute id="UUID" type="guid" value="323d678a-12a5-45ff-96e2-31d8b03a7be7" />
 				</node>
 			</children>

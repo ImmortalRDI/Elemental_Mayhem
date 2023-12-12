@@ -3,11 +3,11 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="4030a84e-5162-465c-9b42-360458c03867" />
+			<attribute id="UUID" type="guid" value="b462f5d6-2e05-4a1d-9a18-99486f2c371e" />
 			<attribute id="Name" type="LSString" value="Blitz_EM_Arcane_CastEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="d160ee60-481b-471c-8d53-89e23c31302c" />
+					<attribute id="UUID" type="guid" value="b462f5d6-2e05-4a1d-9a18-99486f2c371e" />
 					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
