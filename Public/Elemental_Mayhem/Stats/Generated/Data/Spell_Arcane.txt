@@ -103,7 +103,7 @@ data "Properties" "Highlighted"
 data "Boosts" "ActionResource(Elemental_Power,1,0)"
 data "StatsFunctor" "IF(HasPassive('Elemental_Power_EM_Force')):Resistance(Force,Immune);Resistance(Force,Resistant);IF(IsSpell()):DamageBonus(1d12,Force,Magical)"
 
-//      SPELLS
+//  SPELLS
 // CONTAINER
 // Spell
 new entry "Arcane_Spells"
