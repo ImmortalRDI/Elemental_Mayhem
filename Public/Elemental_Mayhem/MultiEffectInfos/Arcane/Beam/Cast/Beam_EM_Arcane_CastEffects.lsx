@@ -3,12 +3,12 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="98ccafbe-e20f-411a-86bc-af39c4c4ea6e" />
-			<attribute id="Name" type="LSString" value="Bolt_EM_Arcane_CastEffects" />
+			<attribute id="UUID" type="guid" value="57ef4f7a-ba94-4e6a-991d-80ed8f795c47" />
+			<attribute id="Name" type="LSString" value="Beam_EM_Arcane_CastEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="b1044528-38ff-4f28-91be-bc9718c89fbf" />
-					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="UUID" type="guid" value="3663ee1f-46aa-404d-8fcf-f17473a2d3bf" />
+					<attribute id="EffectResourceGuid" type="guid" value="b78857b5-e9da-4f4e-b01e-21f8bf20919e" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />

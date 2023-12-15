@@ -3,17 +3,17 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="9c26b256-21cc-4c68-8ea4-9aadb68053bd" />
-			<attribute id="Name" type="LSString" value="Blast_EM_Arcane_PositionEffects" />
+			<attribute id="UUID" type="guid" value="2fc9af55-fc6f-436d-9dca-852f6bb91baa" />
+			<attribute id="Name" type="LSString" value="Beam_EM_Arcane_BeamEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="7726cc7a-e241-474d-a99f-93e2b72dca9e" />
-					<attribute id="EffectResourceGuid" type="guid" value="b05767d5-ab50-45b8-8332-4e4b14fba40d" />
+					<attribute id="UUID" type="guid" value="5e886c98-4f5b-438d-ae8a-712325455ef8" />
+					<attribute id="EffectResourceGuid" type="guid" value="75f0a160-c220-48a8-a9ac-6af143cfd589" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
 					<attribute id="UseOrientDirection" type="bool" value="False" />
-					<attribute id="UseDistance" type="bool" value="False" />
+					<attribute id="UseDistance" type="bool" value="True" />
 					<attribute id="UseScaleOverride" type="bool" value="False" />
 					<attribute id="KeepScale" type="bool" value="True" />
 					<attribute id="MainHand" type="bool" value="False" />
@@ -25,7 +25,16 @@
 					<attribute id="Pivot" type="FixedString" value="Target" />
 					<attribute id="DamageType" type="uint32" value="0" />
 					<attribute id="VerbalIntent" type="uint32" value="0" />
-					<attribute id="Enabled" type="bool" value="True" />
+					<attribute id="Enabled" type="bool" value="False" />
+					<children>
+						<node id="SourceBone">
+							<attribute id="Value" type="LSString" value="Dummy_L_HandFX" />
+						</node>
+						<node id="TargetBone">
+							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>

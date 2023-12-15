@@ -85,7 +85,7 @@
 					<attribute id="PhysicsTemplate" type="FixedString" value="94a7c400-b2df-c54c-1675-1937920b7714" />
 					<attribute id="Stats" type="FixedString" value="POWER_EM_ARCANE" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="VisualTemplate" type="FixedString" value="ac1284cd-92f7-9b0f-d320-26d40ba2c775" />
+					<attribute id="VisualTemplate" type="FixedString" value="75709ca9-3d6a-7a5f-6a57-1197d08a3965" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
 					<children>
 						<node id="Bounds">

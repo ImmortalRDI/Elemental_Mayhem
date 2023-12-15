@@ -3,30 +3,101 @@
     "version": "2.0.0",
     "tasks": [
         {
-                    "label": "ConvertEMFiles",
+            "label": "ConvertEMFiles",
+            "type": "shell",
+            "command": "",
+            "dependsOn": [
+                "RemoveHID",
+                "HandleID",
+                "Transfer",
+                "Dependencies",
+                "MEIRename",                
+                "LSFXFiller",
+                "LSFDelete",
+                "EMLoca",
+                "EMLSX1",
+                "EMLSX2",
+                "EMLSX3",
+                "EMLSX4",
+                "MEIRelocate",
+                "EMLSX4HT",
+                "LSFDeleteHT",
+                "VFXRecolor",
+                "CheckStats"
+            ],
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": []
+        },
+        {
+                    "label": "RemoveHID",
                     "type": "shell",
-                    "command": "",
-                    "dependsOn": [
-                        "Dependencies",
-                        "MEIRename",                
-                        "LSFXFiller",
-                        "LSFDelete",
-                        "EMLoca",
-                        "EMLSX1",
-                        "EMLSX2",
-                        "EMLSX3",
-                        "EMLSX4",
-                        "MEIRelocate",
-                        "EMLSX4HT",
-                        "LSFDeleteHT",
-                        "VFXRecolor",
-                        "CheckStats"
+                    "command": "python",
+                    "args": [
+                        "remove_HID.py",
+                        "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Stats\\Generated\\Data\\Spell_Blood.txt"
                     ],
+                    "group": {
+                        "kind": "build",
+                        "isDefault": true
+                    },
                     "presentation": {
-                        "reveal": "silent"
+                        "reveal": "always",
+                        "panel": "new"
+                    },
+                    "options": {
+                        "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                     },
                     "problemMatcher": []
-        },        
+
+        },
+        {
+                    "label": "HandleID",
+                    "type": "shell",
+                    "command": "python",
+                    "args": [
+                        "generate_handle_id.py",
+                        "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English\\EM_Blood.xml",
+                        "37"
+                    ],
+                    "group": {
+                        "kind": "build",
+                        "isDefault": true
+                    },
+                    "presentation": {
+                        "reveal": "always",
+                        "panel": "new"
+                    },
+                    "options": {
+                        "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                    },
+                    "problemMatcher": []
+        
+        },
+        {
+                    "label": "Transfer",
+                    "type": "shell",
+                    "command": "python",
+                    "args": [
+                        "update_files_with_hids.py",
+                        "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English\\EM_Blood.xml",
+                        "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Public\\Elemental_Mayhem\\Stats\\Generated\\Data\\Spell_Blood.txt",  // Add the path to your secondary file here
+                        "37"
+                    ],
+                    "group": {
+                        "kind": "build",
+                        "isDefault": true
+                    },
+                    "presentation": {
+                        "reveal": "always",
+                        "panel": "new"
+                    },
+                    "options": {
+                        "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
+                    },
+                    "problemMatcher": []
+        },
         {
                 "label": "Dependencies",
                 "type": "shell",

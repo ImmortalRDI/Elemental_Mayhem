@@ -3,7 +3,235 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="EffectBank">
 		<node id="EffectBank">
-			<children>		<!-- Affliction -->
+			<children>	<!-- GEM: UNLOCK SPELLS -->
+				<node id="Resource">	<!-- Prepare | R Hand -->
+					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Unlock_Spells_EM_Arcane_R_HandFX" />
+					<attribute id="ID" type="FixedString" value="87e6a373-dd6a-496b-9fb5-10e1e5c67b60" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Unlock_Spells_EM_Arcane_R_HandFX" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/-UnlockSpells/Prepare/VFX_Prepare_Unlock_Spells_EM_Arcane_R_HandFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725660" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Prepare | l Hand -->
+					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Unlock_Spells_EM_Arcane_L_HandFX" />
+					<attribute id="ID" type="FixedString" value="c3f1cbb5-8cf0-4ee3-a36f-ab17046a9052" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Unlock_Spells_EM_Arcane_L_HandFX" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/-UnlockSpells/Prepare/VFX_Prepare_Unlock_Spells_EM_Arcane_L_HandFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725660" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Prepare | Root -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Unlock_Spells_EM_Arcane_Root" />
+					<attribute id="ID" type="FixedString" value="c6e87c02-4308-4d3a-89d2-351eaca617dd" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Unlock_Spells_EM_Arcane_Root" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/-UnlockSpells/Prepare/VFX_Prepare_Unlock_Spells_EM_Arcane_Root.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Cast | CastFX -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cast_Unlock_Spells_EM_Arcane_CastFX" />
+					<attribute id="ID" type="FixedString" value="f4a7c77e-bd08-419f-a74f-66a1802f0109" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Cast_Unlock_Spells_EM_Arcane_CastFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/-UnlockSpells/Cast/VFX_Cast_Unlock_Spells_EM_Arcane_CastFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+			<chilren>	<!-- GEM: UNLOCK ULTIMATE -->
+				<node id="Resource">	<!-- Prepare | Area -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Unlock_Ultimate_EM_Arcane_AreaFX" />
+					<attribute id="ID" type="FixedString" value="4333467c-a5e1-409e-9e14-6d784a1f5f52" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Unlock_Ultimate_EM_Arcane_AreaFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/-UnlockUltimate/Prepare/VFX_Prepare_Unlock_Ultimate_EM_Arcane_AreaFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Prepare | R Hand -->
+					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Unlock_Ultimate_EM_Arcane_R_HandFX" />
+					<attribute id="ID" type="FixedString" value="40f5f498-fd51-49f3-b919-e260d38e1e52" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Unlock_Ultimate_EM_Arcane_R_HandFX" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/-UnlockUltimate/Prepare/VFX_Prepare_Unlock_Ultimate_EM_Arcane_R_HandFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725660" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Prepare | L Hand -->
+					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Unlock_Ultimate_EM_Arcane_L_HandFX" />
+					<attribute id="ID" type="FixedString" value="af46f00e-9326-447b-acc6-2a6650ee48d3" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Unlock_Ultimate_EM_Arcane_L_HandFX" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/-UnlockUltimate/Prepare/VFX_Prepare_Unlock_Ultimate_EM_Arcane_L_HandFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725660" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Prepare | Root -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Unlock_Ultimate_EM_Arcane_Root" />
+					<attribute id="ID" type="FixedString" value="22dfa3b7-acd3-46e9-b0de-7745d26e6843" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Unlock_Ultimate_EM_Arcane_Root" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/-UnlockUltimate/Prepare/VFX_Prepare_Unlock_Ultimate_EM_Arcane_Root.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Cast | Area -->
+					<attribute id="BoundsMax" type="fvec3" value="18 18 18" />
+					<attribute id="BoundsMin" type="fvec3" value="-18 -18 -18" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cast_Unlock_Ultimate_EM_Arcane_AreaFX" />
+					<attribute id="ID" type="FixedString" value="15bc1a7a-16ea-4b0a-812b-32befef5a810" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Cast_Unlock_Ultimate_EM_Arcane_AreaFX" />
+					<attribute id="Radius" type="float" value="18" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/-UnlockUltimate/Cast/VFX_Cast_Unlock_Ultimate_EM_Arcane_AreaFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Cast | CastFX -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cast_Unlock_Ultimate_EM_Arcane_CastFX" />
+					<attribute id="ID" type="FixedString" value="0622aba1-e1ba-4467-a0ff-19eed47977c1" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Cast_Unlock_Ultimate_EM_Arcane_CastFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/-UnlockUltimate/Cast/VFX_Cast_Unlock_Ultimate_EM_Arcane_CastFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+			<children>	<!-- AFFLICTION -->
 				<node id="Resource">	<!-- Prepare | R Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
 					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
@@ -750,7 +978,7 @@
 					<attribute id="EffectName" type="FixedString" value="VFX_Target_Affliction_EM_Arcane_BodyFX" />
 					<attribute id="ID" type="FixedString" value="6e2c2804-4ecc-44fc-a6c9-9d6c443b2e13" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Looping" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="VFX_Target_Affliction_EM_Arcane_BodyFX" />
 					<attribute id="Radius" type="float" value="5.196152" />
 					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Affliction/Target/VFX_Target_Affliction_EM_Arcane_BodyFX.lsfx" />
@@ -778,7 +1006,7 @@
 					</children>
 				</node>
 			</children>
-			<children>	<!-- Barrage -->
+			<children>	<!-- BARRAGE -->
 				<node id="Resource">	<!-- Prepare | R Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
 					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
@@ -989,7 +1217,177 @@
 					</children>
 				</node>
 			</children>
-			<children>	<!-- Blast -->
+			<children>	<!-- BEAM -->
+				<node id="Resource">	<!-- Prepare | R Hand -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Beam_EM_Arcane_R_HandFX" />
+					<attribute id="ID" type="FixedString" value="0d706d8a-5964-434d-b614-e98bf3b07578" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Beam_EM_Arcane_R_HandFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Element/Beam/Prepare/VFX_Prepare_Beam_EM_Arcane_R_HandFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Prepare | L Hand -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Beam_EM_Arcane_L_HandFX" />
+					<attribute id="ID" type="FixedString" value="235a2942-184d-4b88-bb39-94e48c35ee24" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Beam_EM_Arcane_L_HandFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Element/Beam/Prepare/VFX_Prepare_Beam_EM_Arcane_L_HandFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Prepare | Root -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Beam_EM_Arcane_Root" />
+					<attribute id="ID" type="FixedString" value="9e52088b-31be-4791-b6db-5b1530d9f553" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Beam_EM_Arcane_Root" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Element/Beam/Prepare/VFX_Prepare_Beam_EM_Arcane_Root.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+							
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Cast | CastFX -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cast_Beam_EM_Arcane_CastFX" />
+					<attribute id="ID" type="FixedString" value="b78857b5-e9da-4f4e-b01e-21f8bf20919e" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Cast_Beam_EM_Arcane_CastFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Beam/Cast/VFX_Cast_Beam_EM_Arcane_CastFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Beam -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Beam_EM_Arcane_BeamFX" />
+					<attribute id="ID" type="FixedString" value="75f0a160-c220-48a8-a9ac-6af143cfd589" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Beam_EM_Arcane_BeamFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Beam/Beam/VFX_Beam_EM_Arcane_BeamFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Target | Body -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Target_Beam_EM_Arcane_BodyFX" />
+					<attribute id="ID" type="FixedString" value="5b8dc01d-2738-431c-9bad-32c465c0e7ed" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Target_Beam_EM_Arcane_BodyFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Beam/Target/VFX_Target_Beam_EM_Arcane_BodyFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Target | Root -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Target_Beam_EM_Arcane_Root" />
+					<attribute id="ID" type="FixedString" value="24761351-c26e-467d-944e-bc18efc582f4" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Target_Beam_EM_Arcane_Root" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Beam/Target/VFX_Target_Beam_EM_Arcane_Root.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+			<children>	<!-- BLAST -->
 				<node id="Resource">	<!-- Prepare | R Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
 					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
@@ -1131,7 +1529,7 @@
 					</children>
 				</node>
 			</children>
-			<children>	<!-- Blitz -->
+			<children>	<!-- BLITZ -->
 				<node id="Resource">	<!-- Prepare | Weapon -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
@@ -1139,11 +1537,11 @@
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
 					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Blitz_EM_Arcane_WeaponFX" />
-					<attribute id="ID" type="FixedString" value="33a7f74a-d24e-4f22-8004-7493f18c70f0" />
+					<attribute id="ID" type="FixedString" value="9b5d516d-fe2a-43d9-bd07-1a977a8ead5a" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
 					<attribute id="Name" type="LSString" value="VFX_Prepare_Blitz_EM_Arcane_WeaponFX" />
 					<attribute id="Radius" type="float" value="3" />
 					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blitz/Prepare/VFX_Prepare_Blitz_EM_Arcane_WeaponFX.lsfx" />
@@ -1167,7 +1565,7 @@
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
 					<attribute id="Name" type="LSString" value="VFX_Prepare_Blitz_EM_Arcane_Root" />
 					<attribute id="Radius" type="float" value="3" />
 					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blitz/Prepare/VFX_Prepare_Blitz_EM_Arcane_Root.lsfx" />
@@ -1186,15 +1584,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Blitz_EM_Arcane_CastFX" />
-					<attribute id="ID" type="FixedString" value="8aa42360-d0a6-4549-8e77-8869064830bf" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cast_Blitz_EM_Arcane_Root" />
+					<attribute id="ID" type="FixedString" value="82602837-eba0-4d44-9e95-20dd1b3713b3" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Blitz_EM_Arcane_CastFX" />
+					<attribute id="Name" type="LSString" value="VFX_Cast_Blitz_EM_Arcane_Root" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blitz/VFX_Blitz_EM_Arcane_CastFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blitz/Cast/VFX_Cast_Blitz_EM_Arcane_Root.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
@@ -1209,8 +1607,8 @@
 					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
 					<attribute id="CullingDistance" type="float" value="60" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Rush_EM_Arcane_BeamFX" />
-					<attribute id="ID" type="FixedString" value="2c00b901-29b4-4312-b7d0-7956f77cc0fa" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Blitz_EM_Arcane_BeamFX" />
+					<attribute id="ID" type="FixedString" value="696cfb8a-bf97-42f3-ae5f-5903ae1cf865" />
 					<attribute id="InterruptionMode" type="uint32" value="2" />
 					<attribute id="Looping" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="VFX_Rush_EM_Arcane_BeamFX" />
@@ -1256,15 +1654,15 @@
 					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Blitz_EM_Arcane_TargetFX" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Target_Blitz_EM_Arcane_BodyFX" />
 					<attribute id="ID" type="FixedString" value="f3f8b8d7-edb8-486a-995a-217fbd710c94" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Blitz_EM_Arcane_TargetFX" />
+					<attribute id="Name" type="LSString" value="VFX_Target_Blitz_EM_Arcane_BodyFX" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Rush/VFX_Blitz_EM_Arcane_TargetFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Rush/VFX_Target_Blitz_EM_Arcane_BodyFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -1279,48 +1677,61 @@
 						</node>
 					</children>
 				</node>
-			</children>
-			<children>	<!-- Bolt -->
-				<node id="Resource">	<!-- Cast | CastFX -->
+			</children>			
+			<children>	<!-- ENCHANT -->
+				<node id="Resource">	<!-- Cast | Core R Hand -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="4" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Bolt_EM_Arcane_CastFX" />
-					<attribute id="ID" type="FixedString" value="03a7257d-4834-4934-a79b-393c811d054b" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cast_Enchant_Core_EM_Arcane_Core_R_HandFX" />
+					<attribute id="ID" type="FixedString" value="0a7b2666-16d7-4329-a2f3-7eb16b2ed403" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Bolt_EM_Arcane_CastFX" />
+					<attribute id="Name" type="LSString" value="VFX_Cast_Enchant_Core_EM_Arcane_Core_R_HandFX" />
 					<attribute id="Radius" type="float" value="3" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Bolt/VFX_Bolt_EM_Arcane_CastFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Enchant/Cast/VFX_Cast_Enchant_Core_EM_Arcane_Core_R_HandFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
 					<children>
 						<node id="Dependencies">
 							<children>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
-								</node>
+								
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">	<!-- Cast -->
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Cast_Enchant_Core_EM_Arcane_Core_R_HandFX" />
+					<attribute id="ID" type="FixedString" value="0a7b2666-16d7-4329-a2f3-7eb16b2ed403" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Cast_Enchant_Core_EM_Arcane_Core_R_HandFX" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Enchant/Cast/VFX_Cast_Enchant_Core_EM_Arcane_Core_R_HandFX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241812" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								
 							</children>
 						</node>
 					</children>
 				</node>
 			</children>
-			<children>	<!-- Enchant -->
+			<children> <!-- EXPLOSION -->
 			
 			</children>
-			<children> <!-- Explosion -->
-			
-			</children>
-			<children>	<!-- Leap -->
+			<children>	<!-- LEAP -->
 				<node id="Resource">	<!-- Trail -->
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
@@ -1563,7 +1974,7 @@
 					</children>
 				</node>
 			</children>
-			<children>	<!-- Rush -->
+			<children>	<!-- RUSH -->
 				<node id="Resource">	<!-- Cast | CastFX -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
@@ -1661,7 +2072,7 @@
 					</children>
 				</node>
 			</children>
-			<children>	<!-- Shift -->
+			<children>	<!-- SHIFT -->
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
@@ -1751,7 +2162,7 @@
 					</children>
 				</node>
 			</children>
-			<children>	<!-- Stealth -->
+			<children>	<!-- STEALTH -->
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
 					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
@@ -1848,7 +2259,7 @@
 					</children>
 				</node>
 			</children>
-			<children>	<!-- Ultimate -->
+			<children>	<!-- ULTIMATE -->
 				<node id="Resource">
 					<attribute id="BoundsMax" type="fvec3" value="25 25 25" />
 					<attribute id="BoundsMin" type="fvec3" value="-25 -25 -25" />
@@ -1925,7 +2336,7 @@
 	</region>
 	<region id="MaterialBank">
 		<node id="MaterialBank">
-			<children>	<!-- Overlay Material -->
+			<children>	<!-- AFFLICTION: OVERLAY MATERIAL -->
 				<node id="Resource">	<!-- Contagion -->
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="df21c320-cbd0-40f9-b67f-f9afab9e4ed3" />

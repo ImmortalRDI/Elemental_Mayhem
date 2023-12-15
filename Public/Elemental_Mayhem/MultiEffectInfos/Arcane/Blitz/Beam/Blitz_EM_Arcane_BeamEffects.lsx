@@ -3,12 +3,12 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="b462f5d6-2e05-4a1d-9a18-99486f2c371e" />
+			<attribute id="UUID" type="guid" value="aec9fd3e-1589-4fe2-bee6-61a5f4706ed2" />
 			<attribute id="Name" type="LSString" value="Blitz_EM_Arcane_BeamEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="64472236-136a-4dcc-8c22-596f60dac975" />
-					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="UUID" type="guid" value="4936fb95-b66f-4396-9aeb-8932f8fbfeb3" />
+					<attribute id="EffectResourceGuid" type="guid" value="VFX_Rush_EM_Arcane_BeamFX" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="True" />
 					<attribute id="KeepRotation" type="bool" value="True" />
@@ -28,16 +28,10 @@
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
 						<node id="SourceBone">
-							<attribute id="Value" type="LSString" value="" />
-						</node>
-						<node id="SourceSkeletonSlot">
-							<attribute id="Value" type="LSString" value="" />
+							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
 						</node>
 						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="" />
-						</node>
-						<node id="TargetSkeletonSlot">
-							<attribute id="Value" type="LSString" value="" />
+							<attribute id="Value" type="LSString" value="Root_M" />
 						</node>
 					</children>
 				</node>

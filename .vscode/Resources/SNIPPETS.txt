@@ -14,8 +14,9 @@
 (?<="StartTime" type="float" value=")[\d\. ]+
 (?<="EndTime" type="float" value=")[\d\. ]+
 <!-- .* -->
+(?<=contentuid=")[^"]+
 
-(?<=Name" type="LSString" value=")([^"]+)
+(?<=Name" type="LSString" value=")[\s\S\s\S\s]+
 
 
 (?<=value="Scale Modifier [\s\S\s\S\s]" />
@@ -53,6 +54,7 @@
 // 		Script Extender
 
 Osi.TemplateAddTo("ab3b3f90-5c4e-482c-9bce-18deaee9e11e", GetHostCharacter(), 1, 1)
+Osi.TemplateAddTo("c4709af5-bac5-43cf-bd3c-4652a47e9f85", GetHostCharacter(), 1, 1)
 
 _P(Ext.Mod.IsModLoaded("9a25edac-17bb-46d6-af3a-ab35fae4b284"))
 _P(Ext.Mod.IsModLoaded("1b1a17ad-c8d7-4362-81f2-a90d128cfe57"))

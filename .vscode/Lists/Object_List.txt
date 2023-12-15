@@ -1028,7 +1028,6 @@ Gustav\Public\Gustav\Stats\Generated\Data	Total Objects: 362
 	Name: BOOK_GLO_GeneralLoreBook_DragonbornButler
 	Root Template: 39d22054-44bd-4ff8-a58c-5f39a9ea94d3
 
-
 Gustav\Public\GustavDev\Stats\Generated\Data	Total Objects: 197
 	Name: SHA_FallingRubble
 	Root Template: 972ad5f3-4b26-4af9-b136-66f328c3c107
@@ -1555,12 +1554,10 @@ Gustav\Public\GustavDev\Stats\Generated\Data	Total Objects: 197
 
 	Name: LOW_OskarsBeloved_PlayerPortrait
 
-
 Gustav\Public\Honour\Stats\Generated\Data	Total Objects: 2
 	Name: END_Crown
 
 	Name: OBJ_PLT_SpiderWeb
-
 
 Shared\Public\Shared\Stats\Generated\Data	Total Objects: 926
 	Name: _BaseItem
@@ -4142,7 +4139,6 @@ Shared\Public\Shared\Stats\Generated\Data	Total Objects: 926
 
 	Name: OBJ_Sponge_Bucket
 	Root Template: 8e11fada-192f-4042-8c84-dc7b78f32541
-
 
 Shared\Public\SharedDev\Stats\Generated\Data	Total Objects: 261
 	Name: OBJ_Bomb_Orthon

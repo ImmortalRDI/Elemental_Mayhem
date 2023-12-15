@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <save>
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="951ae7df-75da-4ee0-880e-4aadd631fae2" />
-			<attribute id="Name" type="LSString" value="Affliction_EM_Arcane_CastEffects" />
+			<attribute id="UUID" type="guid" value="461b9481-b631-4ce5-acdc-e4cf0871ca02" />
+			<attribute id="Name" type="LSString" value="Unlock_Spells_EM_Arcane_CastEffect" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="cffa30be-edca-4869-bb22-31e40399ea11" />
-					<attribute id="EffectResourceGuid" type="guid" value="021cda9c-1c67-4482-bbe9-3f07f7fe295f" />
+					<attribute id="UUID" type="guid" value="8ac318a7-05af-4b6c-9bcf-1b6eb908961c" />
+					<attribute id="EffectResourceGuid" type="guid" value="f4a7c77e-bd08-419f-a74f-66a1802f0109" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />
@@ -25,10 +25,9 @@
 					<attribute id="Pivot" type="FixedString" value="Target" />
 					<attribute id="DamageType" type="uint32" value="0" />
 					<attribute id="VerbalIntent" type="uint32" value="0" />
-					<attribute id="StartTextKey" type="LSString" value="Cast" />
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
-						<node id="TargetBone">
+						<node id="$">
 							<attribute id="Value" type="LSString" value="Dummy_CastFX" />
 						</node>
 					</children>

@@ -3,12 +3,12 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="f53de257-80cc-4a3e-b394-e2cdf2c5e3ce" />
+			<attribute id="UUID" type="guid" value="97e4d6d4-f466-497c-914e-99be75ff0e63" />
 			<attribute id="Name" type="LSString" value="Blitz_EM_Arcane_TargetEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="a016ecff-3893-4249-8b0d-9d551f635cd2" />
-					<attribute id="EffectResourceGuid" type="guid" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="UUID" type="guid" value="70c1f78c-c6cf-4406-bb7a-2d61fec8ae33" />
+					<attribute id="EffectResourceGuid" type="guid" value="f3f8b8d7-edb8-486a-995a-217fbd710c94" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />

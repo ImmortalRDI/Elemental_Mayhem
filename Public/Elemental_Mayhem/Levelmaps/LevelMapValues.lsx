@@ -60,12 +60,12 @@
 					<attribute id="Name" type="FixedString" value="Blast_EM_Damage" />
 					<attribute id="UUID" type="guid" value="7e5fe0a6-cdd3-4ceb-8c12-927691697158" />
 				</node>
-				<node id="LevelMapSeries">	<!-- Burst: Damage -->
+				<node id="LevelMapSeries">	<!-- Beam: Damage -->
 					<attribute id="Level1" type="LSString" value="2d12" />
 					<attribute id="Level4" type="LSString" value="4d12" />
 					<attribute id="Level8" type="LSString" value="6d12" />
 					<attribute id="Level12" type="LSString" value="8d12" />
-					<attribute id="Name" type="FixedString" value="Burst_EM_Damage" />
+					<attribute id="Name" type="FixedString" value="Beam_EM_Damage" />
 					<attribute id="UUID" type="guid" value="6c81206f-14dd-4e6c-9d31-d6b945530ac5" />
 				</node>
 				<node id="LevelMapSeries">	<!-- Explosion: Damage -->
@@ -130,7 +130,7 @@
 					<attribute id="Level8" type="LSString" value="8d8" />
 					<attribute id="Level12" type="LSString" value="8d10" />
 					<attribute id="Name" type="FixedString" value="Ultimate_EM_Arcane_Damage" />
-					<attribute id="UUID" type="guid" value="323d678a-12a5-45ff-96e2-31d8b03a7be7" />
+					<attribute id="UUID" type="guid" value="a0dc98a3-0eb8-4305-9ae4-502b7e4f73f1" />
 				</node>
 			</children>
 		</node>
