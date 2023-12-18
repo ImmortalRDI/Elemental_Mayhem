@@ -199,7 +199,7 @@
                     "reveal": "silent"
                 },
                 "problemMatcher": []
-    },
+        },
         {
                 "label": "EMLSX1",
                 "type": "shell",

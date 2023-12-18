@@ -95,7 +95,7 @@
 					</children>
 				</node>
 			</children>
-			<chilren>	<!-- GEM: UNLOCK ULTIMATE -->
+			<children>	<!-- GEM: UNLOCK ULTIMATE -->
 				<node id="Resource">	<!-- Prepare | Area -->
 					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
 					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />

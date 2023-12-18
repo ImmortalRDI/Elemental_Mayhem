@@ -3,7 +3,7 @@
         "terminal.integrated.wordSeparators",
         "markdown.extension.toc.orderedList"
     ],
-    "editor.wordSeparators": "`~!@#$%^&*=+[{]}\\()|;:'\",<>/?._",
+    "editor.wordSeparators": "`~!@#$%^&*=+[{]}\\()|;:'\",<>/?.",
     "security.workspace.trust.untrustedFiles": "open",
     "editor.wordWrap": "on",
     "workbench.editor.tabSizing": "fixed",

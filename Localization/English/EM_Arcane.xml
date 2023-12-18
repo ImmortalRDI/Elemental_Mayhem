@@ -1,37 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>		
-<contentList>		
-	<!-- Action Resource -->
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
 	<content contentuid="ha90b35c1ga280g4549g8bbdgdde886481ee6" version="1">Elemental Essence</content>
 	<content contentuid="h77332a99ga0d8g4e87gb833g9312fe46a3af" version="1">The gem you found seems to have imbued you with a mysterious power.</content>
 	<content contentuid="h8a2a2e6dgc642g44a7g865cga3215a967c9f" version="1">Elemental Power</content>
 	<content contentuid="h830df561g66e5g4027gb042g9cd4736b26e3" version="1">This mysterious gem seems to have infused you with an overwhelming power.</content>
-	<!-- Object -->
 	<content contentuid="h2053fd20gcf3ag4ac1gb7eeg6bb3a920bc80" version="1">Spark of Mystra</content>
 	<content contentuid="h9f7fe760g88d6g40beg91f3ge5d78c6a1bc6" version="1">This gen seems to be infused with the power of the weave.</content>
 	<content contentuid="h870aa881gd3fdg4e90gb221gbdfdf840ade7" version="1">Soul Fragment of Mystra</content>
 	<content contentuid="h766e490cg0e48g42f7gbf14g31a11891d9d5" version="1">This gem is overflowing with the power of the weave.</content>
-	<!-- Core Status -->
 	<content contentuid="hf5dc02bfg60ddg41c2g86a7gc17f051e1f5d" version="1">Arcane Essence</content>
 	<content contentuid="h12232002gf11ag4696g8fc8g16e8be93446a" version="1">Upon touching the gem, your mind is flooded with a plethora of knowledge and spells focused on channeling the Weave itself.</content>
 	<content contentuid="h0b35eceag765cg4d85g9127gaf5fe104ef15" version="1">Arcane Power</content>
 	<content contentuid="hac29f94ag908bg4e8ag81bfgc165fd2123c6" version="1">Upon touching this mysterious, pulsating gem, you feel a sudden clarity, learning a devastating spell.</content>
-	<!-- Core Passives -->
 	<content contentuid="h529fd31egb9cfg4f00g922dga4195222be42" version="1">Spark of the Weave</content>
 	<content contentuid="hafede3f0gf457g4f19g840cg2f848f8244b9" version="1">The gem seems to have also imbued your body with the a small spark of the weave, slightly empowering your spells and defense against them.</content>
 	<content contentuid="h5d78c5ffg6134g41dcgaaaeg5364450e56fe" version="1">Soul of the Weave</content>
 	<content contentuid="h00102069ge644g41bcg8256ga1ad69008aa9" version="1">The enimatic gem also seems to have imbued your body, dramatically improving your spells and the defense against them. </content>
-	<!-- Container -->
 	<content contentuid="h530aacc5g0421g4a27g887fgd65c6ad00775" version="1">Grimiore of Mystra</content>
 	<content contentuid="h2a2fc686g3f3dg4a76g8e02g341fdc0efdde" version="1">The collection of spells that flooded your mind upon touching the Spark of Mystra.</content>
 	<content contentuid="habcc47bdg5502g405dg9927g937a51b1b25d" version="1">Siphoning Weave</content>
 	<content contentuid="hb6f65ec8g5ad2g4278gba87g0b3322bb45df" version="1">When one of your Arcane spells lands a killing blow, you restore some spent Elemental Essence.</content>
 	<content contentuid="h3e6b7094g8b21g40e3g8a1egb7551b128ae8" version="1">Essence Burn</content>
 	<content contentuid="hd1d19828gc541g400agab77g53696ae135be" version="1">Your natural ability to siphon access to the Weave from your target is temporarily blocked as you focus your connection to it to enchant your weapons and armor.</content>
-	<!-- Affliction -->
-		<!-- Spells -->
 	<content contentuid="hc3a611aag4803g4f1fgb617g20dfb7810f10" version="1">Arcane Curse</content>
 	<content contentuid="h98648fc2gc7e9g4ab8gbb13gf95eeb7c111f" version="1">Infect your target with a curse infectinmg their connection to the Weave. This causes harsh reactions when attempting to cast spells, and will eventually leave them unable to access the weave at all. Failure to cure it in time will eventually lead to Weave Rot, which can be fatal. </content>
-		<!-- Status -->
 	<content contentuid="h36b7726ag93f6g49d9gb3f6gba8095f9a544" version="1">Cursed Weave Fever</content>
 	<content contentuid="h242f5defgbca9g414cgabc3g3d905e637ae5" version="1">The first stage of Weave Rot, which leaves you vulnerabute to Force damage from magical sources. This curse can be dispelled.</content>
 	<content contentuid="hd2d9925bg054bg4afdgaceeg7b0ecdabdfce" version="1">Cursed Weave Anathema</content>
@@ -40,31 +32,18 @@
 	<content contentuid="hb780b2ecg9338g4e28ga129g63f601ec302a" version="1">The third stage of Weave Rot, further increasing your vulnerabilities to all magical sources, as well as vulnerability to all Force damage. This curse can be dispelled.</content>
 	<content contentuid="h30c85052gb82bg421eg9ecfg98d62d8187e2" version="1">Weave Rot</content>
 	<content contentuid="h1652185agd25fg4ebbgb095g335a78e3561f" version="1">The final stage of the curse. Your connection to the weave has been completely severed. Your body weak with vulnerabilities to all magic sources and Force damage, you can feel your life force slowly slipping away. This curse cannot be dispelled.</content>
-		<!-- Passive -->
 	<content contentuid="hd7164530g4a44g49e2gbe05g66893d4033ed" version="1">Cursed Weave Side Effect</content>
 	<content contentuid="h78392c06g6ae1g4aa7gbb82g3f692719a69e" version="1">When attempting to cast spells, the curse worsens and inflicts pain on the caster.</content>
-	<!-- Barrage -->
-		<!-- Spell -->
 	<content contentuid="h64965689g9f01g4063ga4c5gba8f7a357bc7" version="1">Arcane Barrage</content>
 	<content contentuid="hfdfaee46g7415g4089ga6f4gd287578b7e13" version="1">Channel the weave to send a destructive burst towards your target, causing serious damage and temporarily afflicting them with Weave Rot</content>
-		<!-- Status -->
 	<content contentuid="h79e40abeg78b6g480fg9aebg2565ed8cb2c4" version="1">Surging Weave Rot</content>
 	<content contentuid="hbb47f6afg835fg4be2ga0e3g37ea47ec2c65" version="1">The channeled surge leaves a brief after affect on the target, similar to Weave Rot.</content>
-	<!-- Blast -->
 	<content contentuid="hc18872a1ge2b2g4d5fga564g2ffdc011f4d1" version="1">Arcane Blast</content>
 	<content contentuid="h8a608b49g11a3g48c3g8952ge74513e5ef2e" version="1">Channel the Weave into a single point, then unlease a powerful wave of destruction towards everything in front of you.</content>
-	<!-- Blitz -->
 	<content contentuid="h21452969g8f9fg4931ga212g298675b0f24a" version="1">Arcane Blitz</content>
 	<content contentuid="h26da6c5fgfbc8g49a8g90c7g3c40c886d46f" version="1">Empowered by the Weave, you rush your target with blinding speed.</content>
-	<!-- Beam -->
 	<content contentuid="hf20284c2gaf3cg4951g9ff6g8b26225bcd45" version="1">Arcane Beam</content>
 	<content contentuid="hfce63dcegbcb6g437eg9d32g193c93e99078" version="1">Channel the Weave into your hands to deliver a quick bolt of arcane energy at your target(s).</content>
-	<content contentuid="hbd82447fgd2d0g4863ga99cgdfb538af4350" version="1">Can &lt;LSTag Type="Spell" Tooltip="Beam_EM_Arcane_Recreate"&gt;Recast Arcane Beam&lt;/LSTag&gt;.</content>
-	<content contentuid="h6b051971g8674g46bag922ag41a21898ca59" version="2">Recast Arcane Beam</content>
-	<content contentuid="h8af6f309gc82bg4290g9c6dg718f26c347cb" version="3">Call forth another beam of light that sears and knocks back all creatures in its path, without expending an &lt;LSTag Tooltip="Elemental_Essence"&gt;Elemental_Essence&lt;/LSTag&gt;.</content>
-	<!-- Enchant -->
-		<!-- Spells -->
-			<!-- Enchanting Spells -->
 	<content contentuid="h796e7f15g37c0g48c7gad3eg98db761d720c" version="1">Arcane Enchantment</content>
 	<content contentuid="h493aa394gce1fg4791g8629gd16d93a241a7" version="1">You can utilize the Weave to temporarily enchant your weapons and armor.</content>
 	<content contentuid="h8348bf9cgc20eg43ddg86acg9d1b5c95029d" version="1">Arcane Enchant: Container</content>
@@ -79,7 +58,6 @@
 	<content contentuid="h47b75228g2f8eg4768gaf75gc482034a718e" version="1">Enchant your ranged weapon with arcane power, granting temporary skills.</content>
 	<content contentuid="h3bd6d281g8abcg435fg93f1g8e0cc9967791" version="1">Arcane Enchant: Armor</content>
 	<content contentuid="hb723cb02g4e89g430agb6d7gb6bb332d8cba" version="1">Enchant your armor with arcane power, improving your spell casting abilities.</content>
-			<!-- Disenchanting Spells -->
 	<content contentuid="h7bc19ff8g6d3dg4fcega4aag5bad09ee8024" version="1">Arcane Disnchant: Container</content>
 	<content contentuid="h1b98c877g5006g4a4aga24cg5e51610d7291" version="1">This contains the spells for disnchanting.</content>
 	<content contentuid="h0b34079cge08bg443ag8609ga8b34b42097b" version="1">Arcane Disenchanting</content>
@@ -94,24 +72,22 @@
 	<content contentuid="h82a5adcegf497g4672gafe1g05244f83de53" version="1">Dispel the enchantment on your ranged weapon.</content>
 	<content contentuid="h7b0e5327g135cg439fgbb86g7317ddea0a4c" version="1">Arcane Disenchant: Armor</content>
 	<content contentuid="h1b205cbag0049g4cceg924bgd89b22246161" version="1">Dispel the enchantment on your armor.</content>
-			<!-- Attack Spells -->
-	<content contentuid="h2146db1ag5108g44cdg8aa6g0e60f5b4d7d4" version="1">Enchanted Main-Hand Melee Attack</content>
-	<content contentuid="h282068c3ga65cg41ecgbf46g24e95e395807" version="1">Strike at your target with extra force from your enchanted main-hand weapon.</content>
-	<content contentuid="h97babcd7gc596g452ega748gf66661f416d2" version="1">Enchanted Main-HandMelee Ranged Attack</content>
-	<content contentuid="h2d222241g9de7g4d8fg8965g583b7e793fd1" version="1">Strike your targets from a distance with the arcane forces enchanting your main-hand weapon.</content>
-	<content contentuid="h8a3a9559gaf5bg4602g9367gac295c498839" version="1">Enchanted Off-Hand Melee Attack</content>
-	<content contentuid="hf96db512gd4fcg45c5ga811gaca505505750" version="1">Strike at your targets with your arcane enchanted off-hand weapon.</content>
-	<content contentuid="h13118de7gb122g415fg8a20g3991a051efa1" version="1">Enchanted Unarmed Melee Attack</content>
-	<content contentuid="h7f90506fg61dfg4b6bgbe60g26a5fb25ac52" version="1">With your fists infused with arcane energy, pummel your targets into submission.</content>
-	<content contentuid="h549ae44ega8c9g47acg99aag064305bb303c" version="1">Enchanted Unarmed Ranged Attack</content>
-	<content contentuid="h0ed70cd8ga1e0g45efg95e1g7afabf0c6e15" version="1">Blast your foes from range with your arcane powered fists.</content>	
-	<content contentuid="h661afecfgdf2cg4b57gac3cg855da8fd2ae5" version="1">Enchanted Ranged Attack</content>
-	<content contentuid="h0e485589g4f6fg41c1g928fg4c0dfeb460d8" version="1">With your bow empowered by the weave, you can conjure enough arcane energy to fire at your targets.</content>
-	<content contentuid="h320b46c0g3428g4ec9gb90bga7ca86347722" version="1">Enchanted Ranged Explosive Shot</content>
-	<content contentuid="hb3a6f659gbc80g4a45ga8e9g1ba69e1a474b" version="1">Fire a blast of arcane energy from your enchanted ranged weapon that will explode on contact.</content>
-	<content contentuid="hce141732g28e7g46a3g8dddgdd95195bc759" version="1">Enchanted Ranged Volley</content>
-	<content contentuid="h3c920631g26cag4663g9e3cg0016aab3e241" version="1">Blanket the sky with a volley of arcane bolts, damaging everything within the area.</content>
-		<!-- Status -->
+	<content contentuid="h2146db1ag5108g44cdg8aa6g0e60f5b4d7d4" version="1">Enchant Main-Hand Melee</content>
+	<content contentuid="h282068c3ga65cg41ecgbf46g24e95e395807" version="1">Description Text Here</content>
+	<content contentuid="h97babcd7gc596g452ega748gf66661f416d2" version="1">Enchant Main-HandMelee Ranged</content>
+	<content contentuid="h2d222241g9de7g4d8fg8965g583b7e793fd1" version="1">Description Text Here</content>
+	<content contentuid="h8a3a9559gaf5bg4602g9367gac295c498839" version="1">Enchant Off-Hand Melee</content>
+	<content contentuid="hf96db512gd4fcg45c5ga811gaca505505750" version="1">Description Text Here</content>
+	<content contentuid="h13118de7gb122g415fg8a20g3991a051efa1" version="1">Enchant Unarmed Melee</content>
+	<content contentuid="h7f90506fg61dfg4b6bgbe60g26a5fb25ac52" version="1">Description Text Here</content>
+	<content contentuid="h549ae44ega8c9g47acg99aag064305bb303c" version="1">Enchant Unarmed Ranged</content>
+	<content contentuid="h0ed70cd8ga1e0g45efg95e1g7afabf0c6e15" version="1">Description Text Here</content>
+	<content contentuid="h661afecfgdf2cg4b57gac3cg855da8fd2ae5" version="1">Enchant Ranged</content>
+	<content contentuid="h0e485589g4f6fg41c1g928fg4c0dfeb460d8" version="1">Description Text Here</content>
+	<content contentuid="h320b46c0g3428g4ec9gb90bga7ca86347722" version="1">Enchant Ranged Explode</content>
+	<content contentuid="hb3a6f659gbc80g4a45ga8e9g1ba69e1a474b" version="1">Description Text Here</content>
+	<content contentuid="hce141732g28e7g46a3g8dddgdd95195bc759" version="1">Enchant Ranged Volley</content>
+	<content contentuid="h3c920631g26cag4663g9e3cg0016aab3e241" version="1">Description Text Here</content>
 	<content contentuid="h21f39dbcg868ag4a25g9398g2450c1c5fbf2" version="1">Enchant: Activation</content>
 	<content contentuid="hc23f67e4g810bg4622g9402g743158b32ddc" version="1">Your weapons, armor and fists are now prepared to be enchanted with arcane power.</content>
 	<content contentuid="hfe9665c7g5e75g4df2ga600g4c80d71b1ff9" version="1">Arcane Enchantment: Main-Hand Weapon</content>
@@ -124,43 +100,57 @@
 	<content contentuid="h695fd246g2b19g4ae9g8cdeg41512fd4e330" version="1">Your ranged weapon(s) radiates with the arcane power of the Weave.</content>
 	<content contentuid="h7f81344cgcc4cg4e6cg98dcg0b86eeebfdb5" version="1">Arcane Enchantment: Armor</content>
 	<content contentuid="h4c4e6af7g5fb8g4a88g8478g8d85a626bce8" version="1">Your armor radiates with the arcane power of the Weave.</content>
-	<!-- Explosion -->
-		<!-- Spells -->
 	<content contentuid="he2d2a111gad76g4519g9b50ge7d567c3761f" version="1">Arcane Explosion</content>
 	<content contentuid="h0c34ec72gd5b1g4dd1ga8f3g7df24945809a" version="1">Blast an area with the raw arcane force of the Weave, crippling the magic use of anyone who gets too close.</content>
-		<!-- Status -->
-	<content contentuid="heaec9560g0d08g4db9g9cd1geb7184306f5c" version="1">Chaotic Weave Aura</content>
+	<content contentuid="heaec9560g0d08g4db9g9cd1geb7184306f5c" version="1"> Aura</content>
 	<content contentuid="h9ef1a1fdgb31eg4f69g9424g88214ac55102" version="1">The area ebbs and flows with the power of the Weave, tearing apart the very essence of magic.</content>
-	<content contentuid="hd2c49b43g2edag4fbeg856eg8f78a2954e92" version="1">Chaotic Weave Aura: Start</content>
-	<content contentuid="hb0984a5ag021bg49f5ga4e3g3d25c42a28d3" version="1">The ebb of the aura ripples through the area, damaging everything in it's path.</content>
-	<content contentuid="h7482394agb9c5g4f8ag9051g9ac4d37084a1" version="1">Chaotic Weave Aura: End</content>
-	<content contentuid="hcbed767fgf6fdg4800g998cgdd58395bb3fb" version="1">The ebb of the aura ripples through the area, damaging everything in it's path.</content>
+	<content contentuid="hd2c49b43g2edag4fbeg856eg8f78a2954e92" version="1">Aura Explosion Start</content>
+	<content contentuid="hb0984a5ag021bg49f5ga4e3g3d25c42a28d3" version="1"></content>
+	<content contentuid="h7482394agb9c5g4f8ag9051g9ac4d37084a1" version="1">Aura Explosion End</content>
+	<content contentuid="hcbed767fgf6fdg4800g998cgdd58395bb3fb" version="1"></content>
 	<content contentuid="h9f2e91efgc960g4f52g85acgb00d17e2f402" version="1">Aura Status</content>
-	<content contentuid="h494fa07dg39abg45bcga6aegd06f4371ac6e" version="1">The chaotic nature of the Weave focused on a single point impairs anyone's ability to attack with and defend against spells, as well as inflicting pain on anyone who attempts to cast a spell within the aura.</content>
-	<content contentuid="h765c2e5egf767g42fbgb529g137c90333181" version="1">Chaotic Weave Aura: End Damage</content>
-	<!-- Leap -->
+	<content contentuid="h494fa07dg39abg45bcga6aegd06f4371ac6e" version="1"></content>
+	<content contentuid="h765c2e5egf767g42fbgb529g137c90333181" version="1">Aura Explosion End Damage</content>
 	<content contentuid="ha19658d3g322eg4fa3g893aga9536ca0046f" version="1">Arcane Ambush</content>
 	<content contentuid="h38025343gcea2g4248ga915gb6a33de1ec9c" version="1">Manipulate the Weave to leap into the air, and come crashing down on your target(s) with tremendous impact.</content>
-	<!-- Rush -->
 	<content contentuid="h0a4a82ffgefdeg4db4g947bg7fe0ddcc85d0" version="1">Arcane Onslaught</content>
 	<content contentuid="hce6180d0gbef1g4f61g8214gd130934ebd19" version="1">Instilled with the Weave, charge your target with demolishing force.</content>
-	<!-- Shift -->
 	<content contentuid="h6ae867d8gf3a8g4f45g8536gd5e667cd9efd" version="1">Arcane Shift</content>
 	<content contentuid="hd5e373a9ge047g482fg83c3g9e720c4fda6b" version="1">Saturated in the Weave, teleport yourself across great distances, blasting your targets as you arrive.</content>
-	<!-- Stealth -->
-		<!-- Spells -->
 	<content contentuid="h4c9a7fbcg236eg498dga8bbg4f09e69606fa" version="1">Arcane Stealth</content>
 	<content contentuid="h8d93a2acgffcfg4606gac42ga2b7dd0d422d" version="1">With the power of the Weave, slink into the shadows, rendering yourself invisible.</content>
 	<content contentuid="h68f31cfbgb43dg463fg93c0gf3486e186b4d" version="1">Arcane Stealth Dismiss</content>
 	<content contentuid="h9cb5b299g9d59g44b4ga629g4c8fe298e32c" version="1">Dismiss the arcane power of the weave to reveal yourself from hiding.</content>
-		<!-- Status -->
 	<content contentuid="hd2d8a7f2g54c8g41c2gaaa3gacba7e3a72a7" version="1">Arcane Obscured</content>
 	<content contentuid="h24887bd8gc171g4d55g9ef9gb27412f8ff93" version="1">Aided by the Weave, you find it easier to remain in the shadows.</content>
 	<content contentuid="hcf7df139g60a0g4ef5gac52g0d37dd78881f" version="1">Arcane Concealed</content>
 	<content contentuid="h3a6df47dg1769g4d39gbe89g7a74fcf87d1c" version="1">While obscured by the Weave, you become imperceptable, near completely invisible.</content>
 	<content contentuid="ha00a0e4dg96d9g40baga4b2g8352eee1f110" version="1">Arcane Sight</content>
 	<content contentuid="hf3eec842gbcf0g4e5ag8576g14f5ab2e3990" version="1">The same power that shields you from detection also grants you an enhanced sight, allowing you to detect the invisible.</content>
-	<!-- Ultimate -->
 	<content contentuid="hd855f4e5g1ea0g4142ga6dege9883deb543c" version="1">Tear of Mystra</content>
-	<content contentuid="hf3ae64bcg6cd4g4322g8c66g8d3b658caa7c" version="1">Focus your mind, commanding the power of the Goddess of the Weave herself. Call forth an immense comet made up of Pure Weave energy, to wreak utter destruction and devastation on your targets.</content>
+	<content contentuid="hf3ae64bcg6cd4g4322g8c66g8d3b658caa7c" version="1">Focus your mind, commanding the power of the Goddess of the Weave herself. Call forth an immense comet made up of Pure Weave energy, to wreak utter destruction on your targets.</content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
+	<content contentuid="bg3handle" version="1"></content>
 </contentList>

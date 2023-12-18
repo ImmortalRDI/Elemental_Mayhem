@@ -3,7 +3,7 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="62c1b1da-35c7-49af-8eda-b45e0aa72a11" />
+			<attribute id="UUID" type="guid" value="4f1d028a-cbd7-493a-8e89-85edfab4fc44" />
 			<attribute id="Name" type="LSString" value="Affliction_EM_Arcane_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">
