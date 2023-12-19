@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="MultiEffectInfos">
+		<node id="MultiEffectInfos">
+			<attribute id="UUID" type="guid" value="5d3bd2c1-2e8c-4857-a03c-9c17c8466234" />
+			<attribute id="Name" type="LSString" value="Explosion_EM_Arcane_StatusEffects" />
+			<children>
+				<node id="EffectInfo">
+					<attribute id="UUID" type="guid" value="de4d5df0-bee0-43da-aaf1-2098b8070973" />
+					<attribute id="EffectResourceGuid" type="guid" value="5ae37fd2-1c98-46c7-acc6-e2c604a17ee6" />
+					<attribute id="DetachSource" type="bool" value="True/False" />
+					<attribute id="DetachTarget" type="bool" value="True/False" />
+					<attribute id="KeepRotation" type="bool" value="True/False" />
+					<attribute id="UseOrientDirection" type="bool" value="True/False" />
+					<attribute id="UseDistance" type="bool" value="True/False" />
+					<attribute id="UseScaleOverride" type="bool" value="True/False" />
+					<attribute id="KeepScale" type="bool" value="True/False" />
+					<attribute id="MainHand" type="bool" value="True/False" />
+					<attribute id="OffHand" type="bool" value="True/False" />
+					<attribute id="MinDistance" type="float" value="0" />
+					<attribute id="MaxDistance" type="float" value="0" />
+					<attribute id="BindSourceTo" type="FixedString" value="SourceEntity" />
+					<attribute id="BindTargetTo" type="FixedString" value="TargetEntity" />
+					<attribute id="Pivot" type="FixedString" value="Target" />
+					<attribute id="DamageType" type="uint32" value="0" />
+					<attribute id="VerbalIntent" type="uint32" value="0" />
+					<attribute id="Enabled" type="bool" value="True/False" />
+					<children>
+						<node id="TargetBone">
+							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
+						</node>
+						<node id="TargetSkeletonSlot">
+							<attribute id="Value" type="LSString" value="" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

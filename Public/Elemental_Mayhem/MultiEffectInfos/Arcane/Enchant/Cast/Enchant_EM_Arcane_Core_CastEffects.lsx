@@ -3,12 +3,12 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="1ee9bbd4-15ac-41a1-ad59-d6766288d64c" />
-			<attribute id="Name" type="LSString" value="Enchant_EM_Arcane_Core_CastEffects" />
+			<attribute id="UUID" type="guid" value="3869c60e-480d-4064-82dc-389b397c14ba" />
+			<attribute id="Name" type="LSString" value="Enchant_EM_Arcane_CastEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="ea113777-e3b7-4225-8a4f-824165564478" />
-					<attribute id="EffectResourceGuid" type="guid" value="0a7b2666-16d7-4329-a2f3-7eb16b2ed403" />
+					<attribute id="UUID" type="guid" value="a2fa5d76-8377-444c-a1da-444434168e8b" />
+					<attribute id="EffectResourceGuid" type="guid" value="3ff46313-8440-45bc-a4b8-b3957021655b" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="True" />
@@ -29,7 +29,7 @@
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
 						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="Dummy_R_HandFX" />
+							<attribute id="Value" type="LSString" value="Dummy_CastFX" />
 						</node>
 					</children>
 				</node>

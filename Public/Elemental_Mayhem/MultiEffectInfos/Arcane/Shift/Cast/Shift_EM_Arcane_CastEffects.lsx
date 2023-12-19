@@ -3,12 +3,12 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="354fb181-e82a-4364-86d8-bdb6120d5092" />
+			<attribute id="UUID" type="guid" value="1138d0e6-d8ae-4ca1-ba0b-7a8eb8f8bd6e" />
 			<attribute id="Name" type="LSString" value="Shift_EM_Arcane_CastEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="8ae50805-d482-4e80-a327-c66fb553d1b4" />
-					<attribute id="EffectResourceGuid" type="guid" value="06e18e4d-7d91-4640-bfb8-377607e523dc" />
+					<attribute id="UUID" type="guid" value="9ca6019f-2a46-4c0c-90dc-2a5590f43bf3" />
+					<attribute id="EffectResourceGuid" type="guid" value="a5061625-eb05-4e5e-960a-68955431de9c" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />

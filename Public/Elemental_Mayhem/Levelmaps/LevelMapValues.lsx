@@ -77,36 +77,28 @@
 					<attribute id="UUID" type="guid" value="5f32301e-b255-43c8-9efe-e60233b3d393" />
 				</node>				
 				<node id="LevelMapSeries">	<!-- Enchant: Main-Hand -->
-					<attribute id="Level1" type="LSString" value="1d6" />
-					<attribute id="Level4" type="LSString" value="1d8" />
-					<attribute id="Level8" type="LSString" value="2d6" />
-					<attribute id="Level12" type="LSString" value="2d8" />
+					<attribute id="Level1" type="LSString" value="1d8" />
+					<attribute id="Level4" type="LSString" value="2d8" />
+					<attribute id="Level8" type="LSString" value="3d8" />
+					<attribute id="Level12" type="LSString" value="4d8" />
 					<attribute id="Name" type="FixedString" value="Enchant_EM_MainHand" />
 					<attribute id="UUID" type="guid" value="bbbad194-3f74-43a4-a371-75e0308f3fe5" />
 				</node>
 				<node id="LevelMapSeries">	<!-- Enchant: Off-Hand -->
-					<attribute id="Level1" type="LSString" value="1d4" />
-					<attribute id="Level4" type="LSString" value="1d6" />
-					<attribute id="Level8" type="LSString" value="2d4" />
-					<attribute id="Level12" type="LSString" value="2d6" />
-					<attribute id="Name" type="FixedString" value="Enchant_EM_OffHand" />
-					<attribute id="UUID" type="guid" value="bbbad194-3f74-43a4-a371-75e0308f3fe5" />
-				</node>
-				<node id="LevelMapSeries">	<!-- Enchant: Unarmed -->
-					<attribute id="Level1" type="LSString" value="1d10" />
-					<attribute id="Level4" type="LSString" value="2d10" />
-					<attribute id="Level8" type="LSString" value="3d10" />
-					<attribute id="Level12" type="LSString" value="4d10" />
-					<attribute id="Name" type="FixedString" value="Enchant_EM_Arcane_Unarmed" />
-					<attribute id="UUID" type="guid" value="fba93d1a-f60b-489f-998e-cf3c07abbb0b" />
-				</node>
-				<node id="LevelMapSeries">	<!-- Enchant: Ranged -->
 					<attribute id="Level1" type="LSString" value="1d6" />
 					<attribute id="Level4" type="LSString" value="2d6" />
 					<attribute id="Level8" type="LSString" value="3d6" />
 					<attribute id="Level12" type="LSString" value="4d6" />
-					<attribute id="Name" type="FixedString" value="Enchant_EM_Ranged" />
-					<attribute id="UUID" type="guid" value="073d75b6-e866-4626-9519-73c7f3e42a93" />
+					<attribute id="Name" type="FixedString" value="Enchant_EM_OffHand" />
+					<attribute id="UUID" type="guid" value="bbbad194-3f74-43a4-a371-75e0308f3fe5" />
+				</node>
+				<node id="LevelMapSeries">	<!-- Enchant: Unarmed -->
+					<attribute id="Level1" type="LSString" value="2d4" />
+					<attribute id="Level4" type="LSString" value="4d4" />
+					<attribute id="Level8" type="LSString" value="3d6" />
+					<attribute id="Level12" type="LSString" value="4d6" />
+					<attribute id="Name" type="FixedString" value="Enchant_EM_Unarmed" />
+					<attribute id="UUID" type="guid" value="fba93d1a-f60b-489f-998e-cf3c07abbb0b" />
 				</node>
 				<node id="LevelMapSeries">	<!-- Leap: Damage -->
 					<attribute id="Level1" type="LSString" value="3d6" />

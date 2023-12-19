@@ -3,15 +3,15 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="ad618024-1b2c-456e-bf1b-e369e457383a" />
+			<attribute id="UUID" type="guid" value="6af0c474-5910-4cb0-be36-7af5d875f876" />
 			<attribute id="Name" type="LSString" value="Explosion_EM_Arcane_PrepareEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="e07cb44a-4c21-4d4c-b3f9-4598f1d23cdf" />
-					<attribute id="EffectResourceGuid" type="guid" value="1ea79692-24e7-4794-a34d-f5b32cdd91f9" />
+					<attribute id="UUID" type="guid" value="845ba1a4-d1a2-4c9f-bdac-146534867886" />
+					<attribute id="EffectResourceGuid" type="guid" value="f684252f-03e4-4a1d-829f-9726a40dc2a2" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
-					<attribute id="KeepRotation" type="bool" value="True" />
+					<attribute id="KeepRotation" type="bool" value="False" />
 					<attribute id="UseOrientDirection" type="bool" value="False" />
 					<attribute id="UseDistance" type="bool" value="False" />
 					<attribute id="UseScaleOverride" type="bool" value="False" />
@@ -26,12 +26,43 @@
 					<attribute id="DamageType" type="uint32" value="0" />
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
+					<children>
+						<node id="TargetBone">
+							<attribute id="Value" type="LSString" value="Dummy_R_HandFX" />
+						</node>
+					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="c414c978-2be3-449d-a2f8-c175c3623dd8" />
-					<attribute id="EffectResourceGuid" type="guid" value="360c747c-4dad-469d-8327-ed30c13baa0b" />
+					<attribute id="UUID" type="guid" value="d8d17d5c-5264-4ca5-976b-0b45743c7bf9" />
+					<attribute id="EffectResourceGuid" type="guid" value="cbc6935b-b728-4184-b2e5-dece465f1b95" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
+					<attribute id="KeepRotation" type="bool" value="False" />
+					<attribute id="UseOrientDirection" type="bool" value="False" />
+					<attribute id="UseDistance" type="bool" value="False" />
+					<attribute id="UseScaleOverride" type="bool" value="False" />
+					<attribute id="KeepScale" type="bool" value="True" />
+					<attribute id="MainHand" type="bool" value="False" />
+					<attribute id="OffHand" type="bool" value="False" />
+					<attribute id="MinDistance" type="float" value="0" />
+					<attribute id="MaxDistance" type="float" value="0" />
+					<attribute id="BindSourceTo" type="FixedString" value="SourceEntity" />
+					<attribute id="BindTargetTo" type="FixedString" value="TargetEntity" />
+					<attribute id="Pivot" type="FixedString" value="Target" />
+					<attribute id="DamageType" type="uint32" value="0" />
+					<attribute id="VerbalIntent" type="uint32" value="0" />
+					<attribute id="Enabled" type="bool" value="True" />
+					<children>
+						<node id="TargetBone">
+							<attribute id="Value" type="LSString" value="Dummy_L_HandFX" />
+						</node>
+					</children>
+				</node>
+				<node id="EffectInfo">
+					<attribute id="UUID" type="guid" value="23d655ef-9024-4d77-af46-fc64b8dbed04" />
+					<attribute id="EffectResourceGuid" type="guid" value="49b1540d-9a74-404c-9af8-272732728d4f" />
+					<attribute id="DetachSource" type="bool" value="False" />
+					<attribute id="DetachTarget" type="bool" value="True" />
 					<attribute id="KeepRotation" type="bool" value="True" />
 					<attribute id="UseOrientDirection" type="bool" value="False" />
 					<attribute id="UseDistance" type="bool" value="False" />
@@ -49,7 +80,7 @@
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
 						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
+							<attribute id="Value" type="LSString" value="Dummy_Root" />
 						</node>
 					</children>
 				</node>
