@@ -9,7 +9,7 @@
                     <attribute id="Width" type="int32" value="64" />
                 </node>
                 <node id="TextureAtlasPath">
-                    <attribute id="Path" type="LSString" value="Assets\Textures\Icons\Elemental_Mayhem_Icons.dds" />
+                    <attribute id="Path" type="LSString" value="Assets\Textures\Icons\Skills_EM_Icons.dds" />
                     <attribute id="UUID" type="FixedString" value="12a632f6-971c-47c3-91ff-2c52dd1970bd" />
                 </node>
                 <node id="TextureAtlasTextureSize">

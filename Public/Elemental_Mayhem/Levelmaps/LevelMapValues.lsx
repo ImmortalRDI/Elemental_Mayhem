@@ -74,7 +74,7 @@
 					<attribute id="Level8" type="LSString" value="4d6" />
 					<attribute id="Level12" type="LSString" value="5d6" />
 					<attribute id="Name" type="FixedString" value="Explosion_EM_Damage" />
-					<attribute id="UUID" type="guid" value="5f32301e-b255-43c8-9efe-e60233b3d393" />
+					<attribute id="UUID" type="guid" value="76ca7fa2-ee79-40a8-8844-5fb1ebc7a661" />
 				</node>				
 				<node id="LevelMapSeries">	<!-- Enchant: Main-Hand -->
 					<attribute id="Level1" type="LSString" value="1d8" />
