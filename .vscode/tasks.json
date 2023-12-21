@@ -14,7 +14,6 @@
                 "MEIRename",                
                 "LSFXFiller",
                 "LSFDelete",
-                "EMLoca",
                 "EMLSX1",
                 "EMLSX2",
                 "EMLSX3",
@@ -116,27 +115,10 @@
                 "problemMatcher": []
         },
         {
-                "label": "EMLoca",
-                "type": "shell",
-                "command": "python 'C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts\\convert_loca.py'",
-                "dependsOn":["LSFDelete"],
-                "args": [
-                    "-f",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English",
-                    "-o",
-                    "C:\\Users\\gmc51\\Documents\\GitHub\\Elemental_Mayhem\\Localization\\English"
-                ],
-                "group": "build",
-                "presentation": {
-                    "reveal": "silent"
-                },
-                "problemMatcher": []
-        },
-        {
                 "label": "EMLSX1",
                 "type": "shell",
                 "command": "python",
-                "dependsOn":["LSFDelete","EMLoca"],
+                "dependsOn":["LSFDelete"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
@@ -160,7 +142,7 @@
                 "label": "EMLSX2",
                 "type": "shell",
                 "command": "python",
-                "dependsOn":["LSFDelete","EMLoca","EMLSX1"],
+                "dependsOn":["LSFDelete","EMLSX1"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
@@ -184,7 +166,7 @@
                 "label": "EMLSX3",
                 "type": "shell",
                 "command": "python",
-                "dependsOn":["LSFDelete","EMLoca","EMLSX2"],
+                "dependsOn":["LSFDelete","EMLSX2"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
@@ -208,7 +190,7 @@
                 "label": "EMLSX4",
                 "type": "shell",
                 "command": "python",
-                "dependsOn":["LSFDelete","EMLoca","EMLSX1","EMLSX2","EMLSX3"],
+                "dependsOn":["LSFDelete","EMLSX1","EMLSX2","EMLSX3"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },
@@ -230,7 +212,7 @@
         },
         {
                 "label": "MEIRelocate",
-                "dependsOn": ["LSFDelete","EMLoca","EMLSX1","EMLSX2","EMLSX3","EMLSX4"],
+                "dependsOn": ["LSFDelete","EMLSX1","EMLSX2","EMLSX3","EMLSX4"],
                 "options": {
                     "cwd": "C:\\Users\\gmc51\\Documents\\GameMods\\BG3\\ModUtilities\\Scripts"
                 },

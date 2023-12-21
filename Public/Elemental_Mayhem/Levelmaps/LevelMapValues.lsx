@@ -50,6 +50,16 @@
 					<attribute id="Name" type="FixedString" value="Barrage_EM_Damage" />
 					<attribute id="UUID" type="guid" value="501c7c16-c036-46d3-a945-8cd19d853758" />
 				</node>
+				<node id="LevelMapSeries">	<!-- Blitz: Damage -->
+					<attribute id="Level1" type="LSString" value="1d4" />
+					<attribute id="Level3" type="LSString" value="2d4" />
+					<attribute id="Level5" type="LSString" value="3d4" />
+					<attribute id="Level7" type="LSString" value="4d4" />
+					<attribute id="Level9" type="LSString" value="5d4" />
+					<attribute id="Level11" type="LSString" value="6d4" />
+					<attribute id="Name" type="FixedString" value="Blitz_EM_Damage" />
+					<attribute id="UUID" type="guid" value="33944538-4a42-49fc-bb7c-b8afefd1170c" />
+				</node>
 				<node id="LevelMapSeries">	<!-- Blast: Damage -->
 					<attribute id="Level1" type="LSString" value="1d8" />
 					<attribute id="Level3" type="LSString" value="2d8" />
@@ -101,10 +111,10 @@
 					<attribute id="UUID" type="guid" value="fba93d1a-f60b-489f-998e-cf3c07abbb0b" />
 				</node>
 				<node id="LevelMapSeries">	<!-- Leap: Damage -->
-					<attribute id="Level1" type="LSString" value="3d6" />
-					<attribute id="Level4" type="LSString" value="4d8" />
-					<attribute id="Level8" type="LSString" value="5d10" />
-					<attribute id="Level12" type="LSString" value="6d12" />
+					<attribute id="Level1" type="LSString" value="1d8" />
+					<attribute id="Level4" type="LSString" value="2d8" />
+					<attribute id="Level8" type="LSString" value="3d8" />
+					<attribute id="Level12" type="LSString" value="4d8" />
 					<attribute id="Name" type="FixedString" value="Leap_EM_Damage" />
 					<attribute id="UUID" type="guid" value="09c22d09-57c0-4c74-8c17-bc651002b6a9" />
 				</node>
@@ -121,7 +131,7 @@
 					<attribute id="Level4" type="LSString" value="8d6" />
 					<attribute id="Level8" type="LSString" value="8d8" />
 					<attribute id="Level12" type="LSString" value="8d10" />
-					<attribute id="Name" type="FixedString" value="Ultimate_EM_Arcane_Damage" />
+					<attribute id="Name" type="FixedString" value="Legendary_EM_Arcane_Damage" />
 					<attribute id="UUID" type="guid" value="a0dc98a3-0eb8-4305-9ae4-502b7e4f73f1" />
 				</node>
 			</children>

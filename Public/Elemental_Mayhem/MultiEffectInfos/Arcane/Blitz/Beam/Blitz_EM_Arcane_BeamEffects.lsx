@@ -3,35 +3,35 @@
 	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="UUID" type="guid" value="aec9fd3e-1589-4fe2-bee6-61a5f4706ed2" />
+			<attribute id="UUID" type="guid" value="4bc7e1ac-ef71-4b77-9efe-218826bd8433" />
 			<attribute id="Name" type="LSString" value="Blitz_EM_Arcane_BeamEffects" />
 			<children>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="4936fb95-b66f-4396-9aeb-8932f8fbfeb3" />
-					<attribute id="EffectResourceGuid" type="guid" value="VFX_Rush_EM_Arcane_BeamFX" />
+					<attribute id="UUID" type="guid" value="f5a26887-882f-4ede-9427-8bdb34863d65" />
+					<attribute id="EffectResourceGuid" type="guid" value="a63b47a6-01fe-46de-8a63-d4452006cbf9" />
 					<attribute id="DetachSource" type="bool" value="False" />
-					<attribute id="DetachTarget" type="bool" value="True" />
-					<attribute id="KeepRotation" type="bool" value="True" />
-					<attribute id="UseOrientDirection" type="bool" value="True" />
+					<attribute id="DetachTarget" type="bool" value="False" />
+					<attribute id="KeepRotation" type="bool" value="False" />
+					<attribute id="UseOrientDirection" type="bool" value="False" />
 					<attribute id="UseDistance" type="bool" value="True" />
 					<attribute id="UseScaleOverride" type="bool" value="False" />
-					<attribute id="KeepScale" type="bool" value="True" />
+					<attribute id="KeepScale" type="bool" value="False" />
 					<attribute id="MainHand" type="bool" value="False" />
 					<attribute id="OffHand" type="bool" value="False" />
 					<attribute id="MinDistance" type="float" value="0" />
 					<attribute id="MaxDistance" type="float" value="0" />
 					<attribute id="BindSourceTo" type="FixedString" value="SourceEntity" />
 					<attribute id="BindTargetTo" type="FixedString" value="TargetEntity" />
-					<attribute id="Pivot" type="FixedString" value="Source" />
+					<attribute id="Pivot" type="FixedString" value="Target" />
 					<attribute id="DamageType" type="uint32" value="0" />
 					<attribute id="VerbalIntent" type="uint32" value="0" />
 					<attribute id="Enabled" type="bool" value="True" />
 					<children>
 						<node id="SourceBone">
-							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
+							<attribute id="Value" type="LSString" value="Dummy_Root" />
 						</node>
 						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="Root_M" />
+							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
 						</node>
 					</children>
 				</node>

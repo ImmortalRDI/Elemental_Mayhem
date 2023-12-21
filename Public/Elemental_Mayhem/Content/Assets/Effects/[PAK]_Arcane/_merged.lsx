@@ -1608,11 +1608,11 @@
 					<attribute id="CullingDistance" type="float" value="60" />
 					<attribute id="Duration" type="float" value="3" />
 					<attribute id="EffectName" type="FixedString" value="VFX_Blitz_EM_Arcane_BeamFX" />
-					<attribute id="ID" type="FixedString" value="696cfb8a-bf97-42f3-ae5f-5903ae1cf865" />
+					<attribute id="ID" type="FixedString" value="a63b47a6-01fe-46de-8a63-d4452006cbf9" />
 					<attribute id="InterruptionMode" type="uint32" value="2" />
 					<attribute id="Looping" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="VFX_Rush_EM_Arcane_BeamFX" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Beam/VFX_Rush_EM_Arcane_BeamFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blitz/Beam/VFX_Blitz_EM_Arcane_BeamFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
@@ -1663,35 +1663,6 @@
 					<attribute id="Name" type="LSString" value="VFX_Target_Blitz_EM_Arcane_BodyFX" />
 					<attribute id="Radius" type="float" value="5" />
 					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blitz/Target/VFX_Target_Blitz_EM_Arcane_BodyFX.lsfx" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
-					<children>
-						<node id="Dependencies">
-							<children>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="Resource">	<!-- Position -->
-					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
-					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
-					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
-					<attribute id="CullingDistance" type="float" value="30" />
-					<attribute id="Duration" type="float" value="5" />
-					<attribute id="EffectName" type="FixedString" value="VFX_Position_Blitz_EM_Arcane_PositionFX" />
-					<attribute id="ID" type="FixedString" value="8fbfb960-2e5e-4c3c-9ec7-34c9cd435a8b" />
-					<attribute id="Initialized" type="bool" value="True" />
-					<attribute id="InterruptionMode" type="uint32" value="0" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="VFX_Position_Blitz_EM_Arcane_PositionFX" />
-					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Blitz/Position/VFX_Position_Blitz_EM_Arcane_PositionFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
 					<children>
 						<node id="Dependencies">
@@ -2332,7 +2303,7 @@
 					<attribute id="Looping" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="VFX_Leap_EM_Arcane_TrailFX" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Leap/MultiEffects/VFX_Leap_EM_Arcane_TrailFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Leap/Trajectory/VFX_Leap_EM_Arcane_TrailFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="DependentResource">
@@ -2378,7 +2349,7 @@
 					<attribute id="Looping" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="VFX_Leap_EM_Arcane_ImpactFX" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Leap/MultiEffects/VFX_Leap_EM_Arcane_ImpactFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Leap/Trajectory/VFX_Leap_EM_Arcane_ImpactFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="DependentResource">
@@ -2508,7 +2479,7 @@
 					<attribute id="Looping" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="VFX_Leap_EM_Arcane_GroundImpactFX" />
 					<attribute id="Radius" type="float" value="5" />
-					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Leap/MultiEffects/VFX_Leap_EM_Arcane_GroundImpactFX.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/Elemental_Mayhem/Assets/Effects/Effects_Banks/Arcane/Leap/Trajectory/VFX_Leap_EM_Arcane_GroundImpactFX.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 					<children>
 						<node id="Dependencies">
